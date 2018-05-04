@@ -1,0 +1,97 @@
+\chapter{Planificación e costes}
+
+
+\section{Desenvolvemento}
+
+O desenvolvemento desta aplicación levouse a cabo en catro sprints ou iteracións Scrum. En cada unha delas se foron incrementando os casos de uso implementados, aumentando dese xeito o número de funcionalidades dispoñíbeis.
+
+Cada una destas iteracións foi dividida en catro fases distintas que se identifican coa planificación clásica dun proxecto: análise, deseño, implementación e probas.
+
+\subsection{Sprint 1: Aplicación Android localización dentro dun edificio}
+
+O obxectivo desta primeira iteración é a creación dos elementos básicos para a utilización dos sistemas de localización en interiores de Situm, permitindo aos usuarios ter un primeiro achegamento a esta tecnoloxía. Nesta primeira iteración só precisaremos construír unha aplicación para Android, deixando funcionalidades que requiran máis infraestrutura para seguintes sprints.
+
+\subssubection{Análise}
+
+Como se comentou na introdución, nesta iteración só se realizaron funcionalidades relacionadas coa localización en interiores de Situm, permitindo a navegación dentro dun edificio debidamente configurado para iso e visualizando os distintos niveis dun edificio no que se encontre o usuario.
+
+\subsubsubsection{Casos de uso} \todo[inline]{eu só listaría ou mellor referenciaría á sección de análise}
+
+A continuación tratamos os casos de uso individualmente:
+
+\begin{itemize}
+	\item Visualizar o mapa dun edificio: cando un usuario se atope dentro dun edificio cargado e configurado no sistema de Situm a aplicación debe mostrar o mapa dese edificio.
+	\item Localizar un usuario: a aplicación permitirá situar con gran exactitude a un usuario dentro dun mapa. O edificio no que se atopará ese usuario debe estar dentro do sistema de Situm, ter un mapa cargado e haber sido calibrado previamente. Unha vez que o sistema identifique a situación do usuario, mostrarase o mapa do piso do edificio no que se atope, mostrando un pequeno icono no lugar onde se sitúe o usuario dentro do edificio.
+	\item Navegar ata un punto: permitirase a navegación dentro do edificio utilizando as rutas previamente configuradas no sistema de Situm. Coma no primeiro caso de uso, o edificio ten que estar cargado e calibrado. Pulsando sobre un punto dentro do edificio permitirase a opción de ser levado ata el, podendo cancelar a navegación en calquera momento.
+	\item Visualizar outro piso: o usuario disporá da opción de cambiar o mapa visíbel na pantalla por calquera outro dos niveis do edificio, grazas a un selector situado na marxe dereita que mostrará tantos botóns coma pisos (con mapas) hai dentro edificio. Poderá alternar entre os distintos pisos aínda que non se atope neles. Se o usuario cambia a outro nivel no que non se atopa nese momento desaparecerá a marca de localización.
+	\item Centrar vista no usuario: ao poder mover o mapa, en ocasións deixará de mostrarse a posición do usuario na pantalla, polo que se fai necesario unha opción para centrar a vista e volver atoparse no mapa.
+\end{itemize}
+
+
+\subsubsection{Deseño}
+
+Na fase de deseño da primeira iteración faise o deseño básico para toda \todo{falso en SCRUM} a aplicación, polo que se debe realizar os diagramas de casos de uso, de clases e o diagrama entidade-relación.
+
+\paragraph{Hito}
+Ao final deste sprint teremos ...
+
+\paragraph{Proba}
+As probas para validar as tarefas implementadas serán ...
+
+
+
+\subsection{Sprint 2: visualización de POIs e percorridos}
+
+Tarefas:
+\begin{itemize}
+	\item V
+\end{itemize}
+
+\paragraph{Hito}
+Ao final deste sprint teremos ...
+
+\paragraph{Proba}
+As probas para validar as tarefas implementadas serán ...
+
+
+\subsection{Sprint 3: creación de POIs e percorridos}
+
+Tarefas:
+\begin{itemize}
+	\item V
+\end{itemize}
+
+\paragraph{Hito}
+Ao final deste sprint teremos ...
+
+\paragraph{Proba}
+As probas para validar as tarefas implementadas serán ...
+
+
+
+
+\subsection{Sprint 4: imaxes para POIs}
+
+Tarefas:
+\begin{itemize}
+	\item V
+\end{itemize}
+
+\paragraph{Hito}
+Ao final deste sprint teremos ...
+
+\paragraph{Proba}
+As probas para validar as tarefas implementadas serán ...
+
+
+\section{Planificación e coste iniciais}
+\subsection{Planificación inicial}
+\subsection{Coste inicial}
+\subsection{Análise de riesgos e planes de coningencia}
+
+
+\section{Planificación e costes finais}
+\subsection{Planificaicón final}
+\subsection{Incidencias e resolución}
+\subsection{Coste final}
+

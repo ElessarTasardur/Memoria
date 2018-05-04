@@ -1,0 +1,199 @@
+\documentclass[11pt, a4paper, twoside, titlepage]{book}
+
+% Paquetes usados
+
+\usepackage[a4paper, top=4cm, bottom=4cm, left=3.3cm, right=3.2cm]{geometry}
+%\usepackage[dvips]{graphicx} %%latex -> Usamos  .eps
+\usepackage{graphicx} %%pdflatex -> Usamos .jpg/.png
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{eurosym}
+\usepackage{colortbl}
+
+\usepackage[draft]{todonotes}  %% CVR  draft/disable (borrador/definitivo)
+%\todo[inline]{comment}  %% CVR, para poner un comentario, [inline] es opcional
+%\listoftodos %% CVR, para mostrar todos los comentarios
+%\missingfigure{Add my picture here.}
+
+
+%\usepackage[latin1]{inputenc} %% CV
+\usepackage[utf8]{inputenc}  %% CVR
+%\usepackage[spanish]{babel} %% CVR
+\usepackage[spanish,activeacute]{babel} %% CVR
+
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+}
+
+\newlist{cu}{enumerate}{1}
+\setlist[cu,1]{
+	label={\textbf{CU-\arabic*~}},
+	leftmargin=*
+	%align=left,
+	%labelsep=10mm,
+	%itemindent=4em
+}
+
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+\lstset{
+	language=Java,
+	showspaces=false,
+	showtabs=false,
+	breaklines=true,
+	showstringspaces=false,
+	breakatwhitespace=true,
+	frame=single,
+	tabsize=2,
+	commentstyle=\color{pgreen},
+	keywordstyle=\color{pblue},
+	stringstyle=\color{pred},
+	basicstyle=\ttfamily,
+	moredelim=[is][\color{pgrey}]{$$}{$$},
+	basicstyle=\footnotesize
+}
+
+
+% Aumentar la separación entre líneas
+\renewcommand{\baselinestretch}{1.5}
+
+
+% Para eliminar la cabecera de las páginas vacías al final de los
+% capítulos
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+  \hbox{}
+    \thispagestyle{empty}
+      \newpage
+        \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+%%
+
+
+\begin{document}
+
+
+\pagestyle{empty}
+
+\include{portada}
+\cleardoublepage
+
+% Numeración romana de páginas
+\pagenumbering{roman}
+
+
+% Especificación del pfc
+\include{especificacion}
+
+% Dedicatoria y agradecimientos
+\include{agradecimientos}
+
+
+
+% Resumen y palabras clave
+\include{resumen}
+
+
+% Definimos el encabezado y pie de página
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{%
+\markright{\thesection.\ #1}{}}
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO,ER]{\rightmark}
+\fancyfoot{}
+
+
+% Índice de capítulos, secciones y subsecciones
+\cleardoublepage
+\pdfbookmark[0]{\contentsname}{toc}%
+\tableofcontents
+
+% Índice de figuras
+\cleardoublepage
+\phantomsection \label{listoffigures}
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+
+% Redefinición del nombre que encabeza las tablas. Por defecto es cuadro.
+\renewcommand\tablename{Tabla}
+\renewcommand\listtablename{Índice de tablas}
+
+% Índice de tablas 
+\cleardoublepage
+\phantomsection \label{listoftables}
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\cleardoublepage
+
+
+% Numeración normal de páginas
+\pagenumbering{arabic}
+
+
+% Definimos el encabezado y pie de página
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[ER]{\leftmark}
+
+
+% Capítulos
+
+\include{introduccion}
+\include{estado_del_arte}
+\include{fundamentos}
+\include{fund_tecnologicos}
+\include{analisis}
+\include{metodologia}
+\include{gestion}
+\include{arquitectura}
+\include{pruebas}
+\include{conclusiones}
+
+
+% Apéndices
+\appendix
+
+\include{apen1}
+
+
+\include{apen_situm}
+
+\include{apen_contenidoDVD}
+
+
+
+% Definimos el encabezado y pie de página
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO,ER]{\rightmark}
+
+% Glosario de términos
+%\printglossary
+
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliografía}
+\cleardoublepage
+
+% Bibliografía
+\bibliographystyle{pfc-fic}
+\bibliography{biblio}
+
+\end{document}

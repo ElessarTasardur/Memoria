@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Instalación do sistema}
+
+Neste apéndice detallaranse as principais fase para a instalación e posta a punto do noso sistema Caronte.
+En primeiro lugar, indicaránse os requisitos do sistema. A continuación, os pasos para a súa instalación e despliegue,
+tanto do servidor como da aplicación Android.
+Por último, remataremos co manual do usuario e unha guía rápida de funcionamento.
+
+\section{Requisitos}
+
+\subsection{Servidor}
+\subsection{Aplicación Android: Caronte}
+
+
+\section{Instalación}
+
+\subsection{Servidor}
+\subsection{Aplicación Android: Caronte}
+
+
+\section{Guía rápida}
+
+\section{Manual de usuario}
+\todo[inline]{podes xunta a guía rápida co manual do usuario, é unha suxerencia}
+\subsection{Servidor}
+administración, roles, etc.
+
+\subsection{Aplicación Android: Caronte}
+vistas e guía rápida de funcionamento
+
+usuario anónimo
+
+usuario autenticado
+
+usuario con permisos de edición: POI, recorridos, etc.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Localización en interiores de Situm}
+\section{Nova conta en Situm}
+\section{Dashboard de Situm}
+\section{Editar edificios en Situm}
+\section{Calibración de cada planta}
+\section{Punto de interese Situm}
+\section{Definición de rutas}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Contido do DVD adxunto}
+

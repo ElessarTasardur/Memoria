@@ -1,0 +1,685 @@
+\chapter{Casos de uso}
+
+Neste apéndice incluiremos as táboas que describen os casos de uso da aplicación:
+
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Autenticarse} \\ 
+		\hline 
+		\textbf{Nome} & Autenticarse \\ 
+		\hline 
+		\textbf{Descrición} & Accede á aplicación introducindo as credenciais de usuario \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Non debe estar autenticado. Non é preciso estar rexistrado xa que se accede coas credenciais de Google (necesarias para Android) \\ 
+		\hline 
+		\textbf{Poscondicións} & Estará autenticado na aplicación e terá acceso as súas funcións \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla inicial terá a posibilidade de pulsar un botón para autenticarse cunha conta de Google \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Autenticarse}
+	\label{tab:cuAutenticar}
+\end{table}
+
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Logout} \\ 
+		\hline 
+		\textbf{Nome} & Logout \\ 
+		\hline 
+		\textbf{Descrición} & Deixa de utilizar as credencias dunha conta de Google \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & O usuario debe estar autenticado \\ 
+		\hline 
+		\textbf{Poscondicións} & O usuario xa non estará autenticado \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla inicial terá a posibilidade de pulsar un botón para facer Logout se xa estaba autenticado \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Logout}
+	\label{tab:cuLogout}
+\end{table}
+
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Recuperar contas Situm} \\ 
+		\hline 
+		\textbf{Nome} & Recuperar contas Situm \\ 
+		\hline 
+		\textbf{Descrición} & Recupera as contas utilizadas en Situm dun usuario \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Accede á pantalla inicial da aplicación. Pode estar autenticado ou non \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosará as distintas contas ás que teña acceso \\ 
+		\hline 
+		\textbf{Escenario} & Ao abrir a pantalla de inicio e ao autenticarse \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Recuperar contas Situm}
+	\label{tab:cuRecuperarContasSitum}
+\end{table}
+
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Acceder mapa} \\ 
+		\hline 
+		\textbf{Nome} & Acceder mapa \\ 
+		\hline 
+		\textbf{Descrición} & Amosa o mapa de Google Maps \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Estar na pantalla inicial da aplicación. Pode estar autenticado ou non \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosará o mapa de Google Maps \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla inicial, pulsar sobre o botón de Acceder \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Acceder mapa}
+	\label{tab:cuAccederMapa}
+\end{table}
+
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar mapa edificio} \\ 
+		\hline 
+		\textbf{Nome} & Amosar mapa edificio \\ 
+		\hline 
+		\textbf{Descrición} & Amosa o mapa dun edificio superposto a Google Maps na pantalla principal \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Estar na pantalla principal e ter permiso para ver ese edificio \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosará o mapa. Permite realizar accións sobre o edificio \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, pinchar sobre a situación dun edificio no mapa ou atoparse fisicamente nel \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar mapa edificio}
+	\label{tab:cuAmosarMapaEdificio}
+\end{table}
+
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Cambiar piso} \\ 
+		\hline 
+		\textbf{Nome} & Cambiar piso \\ 
+		\hline 
+		\textbf{Descrición} & Amosa o mapa dun piso diferente ao amosado dentro dun edificio \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Amosar o mapa dun edificio e que teña máis dun nivel \\ 
+		\hline 
+		\textbf{Poscondicións} & Cambiará a imaxe do edificio e porá o novo nivel \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, pulsar sobre o botón do edificio que se desexa amosar na zona dereita da pantalla ou cambiar fisicamente de piso \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Cambiar piso}
+	\label{tab:cuCambiarPiso}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Localización no interior dun edificio} \\ 
+		\hline 
+		\textbf{Nome} & Localización no interior dun edificio \\ 
+		\hline 
+		\textbf{Descrición} & Identifica a localización dun usuario dentro dun edificio \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos para amosar o mapa edificio e atoparse fisicamente dentro del \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosará un icono no mapa representando a localización do dispositivo móbil \\ 
+		\hline 
+		\textbf{Escenario} & Debemos ter aberta a pantalla principal e atoparnos dentro do edificio en cuestión \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Localización no interior dun edificio}
+	\label{tab:cuLocalizacion}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar lista de POIs dun edificio} \\ 
+		\hline 
+		\textbf{Nome} & Amosar lista de POIs dun edificio \\ 
+		\hline 
+		\textbf{Descrición} & Amosa un spinner con todos os POIs dun edificio \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter cargados os POIs dun edificio \\ 
+		\hline 
+		\textbf{Poscondicións} & Poderá amosar un spinner con todos os POIs dun edificio \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, pinchar sobre o botón de amosar POIs \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar lista de POIs dun edificio}
+	\label{tab:cuAmosarListaPOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar POI no mapa} \\ 
+		\hline 
+		\textbf{Nome} & Amosar POI no mapa \\ 
+		\hline 
+		\textbf{Descrición} & Amosa a localización dun POI do edificio no mapa \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter cargados os POIs dun edificio \\ 
+		\hline 
+		\textbf{Poscondicións} & Amósase unha marca dentro do mapa na súa localización \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, seleccionar un POI no spinner coa lista de POIs \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar POI no mapa}
+	\label{tab:cuAmosarPOIMapa}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar información dun POI} \\ 
+		\hline 
+		\textbf{Nome} & Amosar información dun POI \\ 
+		\hline 
+		\textbf{Descrición} & Amosa toda a información dun POI \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter seleccionado un POI dentro do spinner de POIs dun edificio \\ 
+		\hline 
+		\textbf{Poscondicións} & Poderá amosar toda a información do POI en cuestión: nome, descrición, tempo de visita... \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, seleccionar un POI concreto no spinner de POIs ou dentro do mapa e premer o botón de detalles \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar información dun POI}
+	\label{tab:cuAmosarPOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Guiar a POI} \\ 
+		\hline 
+		\textbf{Nome} & Guiar a POI \\ 
+		\hline 
+		\textbf{Descrición} & Amosa a ruta que ten que realizar o usuario para chegar ao POI debuxado no mapa do edificio \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Seleccionar un POI dun edificio amosado no mapa \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosará a localización actual, o POI ao que desexa ir e unha ruta que una ambos \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, pinchar sobre o marcador dun POI e despois sobre a información que amosa \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Guiar a POI}
+	\label{tab:cuGuiarPOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar lista de percorridos dun edificio} \\ 
+		\hline 
+		\textbf{Nome} & Amosar lista de percorridos dun edificio \\ 
+		\hline 
+		\textbf{Descrición} & Amosa un spinner con todos os percorridos dun edificio \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter cargados os percorridos dun edificio \\ 
+		\hline 
+		\textbf{Poscondicións} & Poderá amosar un spinner con todos os percorridos dun edificio \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, pinchar sobre o botón de amosar percorridos \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar lista de percorridos dun edificio}
+	\label{tab:cuAmosarListaPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar percorrido no mapa} \\ 
+		\hline 
+		\textbf{Nome} & Amosar percorrido no mapa \\ 
+		\hline 
+		\textbf{Descrición} & Amosa todos os POIs dentro dun percorrido e indica a orde mediante liñas sinalizadas \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter cargados os percorridos dun edificio \\ 
+		\hline 
+		\textbf{Poscondicións} & Amósanse as marcas dos POIs e unha frecha entre cada un deles indicando a dirección de visita \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, seleccionar un percorrido no spinner coa lista de percorridos \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar percorrido no mapa}
+	\label{tab:cuAmosarPercorridoMapa}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar información dun percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Amosar información dun percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Amosa toda a información dun percorrido \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter seleccionado un percorrido no spinner de percorridos \\ 
+		\hline 
+		\textbf{Poscondicións} & Poderá amosar toda a información do percorrido en cuestión: nome, descrición, tempo de visita... \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, seleccionar un percorrido concreto no spinner de percorridos e pinchar no botón de detalles \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar información dun percorrido}
+	\label{tab:cuAmosarPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar lista de imaxes dun POI} \\ 
+		\hline 
+		\textbf{Nome} & Amosar lista de imaxes dun POI \\ 
+		\hline 
+		\textbf{Descrición} & Amosa a lista de imaxes dun POI \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter seleccionado un POI que teña imaxes \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosarase unha lista con todas as imaxes dispoñíbeis do POI \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla de detalle dun POI, premer no botón de visualizar lista de imaxes \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar lista de imaxes dun POI}
+	\label{tab:cuAmosarListaImaxePOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Amosar imaxe dun POI} \\ 
+		\hline 
+		\textbf{Nome} & Amosar imaxe dun POI \\ 
+		\hline 
+		\textbf{Descrición} & Amosa unha imaxe dun POI \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter seleccionado un POI que teña imaxes \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosarase unha pantalla coa imaxe escollida \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla de detalle dun POI, premer no botón de visualizar imaxe e escoller unha entre as dispoñíbeis \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Amosar imaxe dun POI}
+	\label{tab:cuAmosarImaxePOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Crear POI} \\ 
+		\hline 
+		\textbf{Nome} & Crear POI \\ 
+		\hline 
+		\textbf{Descrición} & Crea un POI dentro dun edificio, asignándolle unha posición concreta e outros datos de interese \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe seleccionarse un edificio e ter permisos de administración sobre el \\ 
+		\hline 
+		\textbf{Poscondicións} & Haberá un novo POI asociado a ese edificio \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Seleccionar o botón de engadir POI e pulsar sobre a localización desexada no mapa. Inserir a información sobre o POI e pulsar no botón Gardar. \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Crear POI}
+	\label{tab:cuCrearPOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Modificar POI} \\ 
+		\hline 
+		\textbf{Nome} & Modificar POI \\ 
+		\hline 
+		\textbf{Descrición} & Modifica a información dun POI \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} &  Debe ter permisos de administración sobre o edificio. Debe seleccionarse un POI e visualizar a súa información \\ 
+		\hline 
+		\textbf{Poscondicións} & O POI terá nova información \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Visualizar a información dun POI e modificar os datos desexados. Pulsar no botón Gardar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Modificar POI}
+	\label{tab:cuModificarPOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Eliminar POI} \\ 
+		\hline 
+		\textbf{Nome} & Eliminar POI \\ 
+		\hline 
+		\textbf{Descrición} & Eliminar un POI dun edificio \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio. Debe seleccionarse un POI e visualizar a súa información \\ 
+		\hline 
+		\textbf{Poscondicións} & O POI desaparecerá do edificio \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Visualizar a información e pulsar no botón Eliminar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Eliminar POI}
+	\label{tab:cuEliminarPOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Engadir imaxe} \\ 
+		\hline 
+		\textbf{Nome} & Engadir imaxe a POI \\ 
+		\hline 
+		\textbf{Descrición} & Engade una nova imaxe a un POI \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio. Debe seleccionarse un POI e visualizar a súa información \\ 
+		\hline 
+		\textbf{Poscondicións} & Haberá unha nova imaxe asociada a ese POI \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Visualizar a información dun POI e pulsar sobre o botón de engadir Imaxe. Inserir os datos da imaxe e seleccionala. Pulsar sobre Gardar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Engadir imaxe}
+	\label{tab:cuEngadirImaxe}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Modificar datos imaxe} \\ 
+		\hline 
+		\textbf{Nome} & Modificar datos imaxe \\ 
+		\hline 
+		\textbf{Descrición} & Modifica a información da imaxe dun POI \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio. Debe seleccionarse un POI e visualizar a súa información. Posteriormente, seleccionar unha imaxe \\ 
+		\hline 
+		\textbf{Poscondicións} & A imaxe terá nova información \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Visualizar a información dun POI e acceder a unha imaxe. Modificar os seus datos desexados e pulsar no botón Gardar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Modificar datos imaxe}
+	\label{tab:cuModificarImaxe}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Eliminar imaxe} \\ 
+		\hline 
+		\textbf{Nome} & Eliminar imaxe \\ 
+		\hline 
+		\textbf{Descrición} & Eliminar imaxe \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio. Debe seleccionarse un POI e visualizar a súa información. Posteriormente, seleccionar unha imaxe \\ 
+		\hline 
+		\textbf{Poscondicións} & A imaxe desaparecerá do edificio \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Visualizar a información dun POI e acceder a unha imaxe. Posteriormente, pulsar no botón Eliminar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Eliminar imaxe}
+	\label{tab:cuEliminarImaxe}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Crear percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Crear percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Seleccionar unha lista de POIs dentro dun edificio e ordenalos para crear un percorrido. Tamén se debe proporcionar información referente ao percorrido \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio en cuestión e que existan máis de dous POIs \\ 
+		\hline 
+		\textbf{Poscondicións} & Ordenará unha serie de POIs dun edificio que poderá seguir un usuario \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Pulsar sobre o botón de crear percorrido. A continuación, seleccionar os POIs na orde desexada. Pulsar sobre o botón de aceptar ao finalizar. Inserir os datos do percorrido. Pulsar sobre Gardar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Crear percorrido}
+	\label{tab:cuCrearPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Modificar información percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Modificar información percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Modifica a información referente a un percorrido \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio en cuestión e recuperar a información dun percorrido \\ 
+		\hline 
+		\textbf{Poscondicións} & O percorrido gardará as novas condicións \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Seleccionar un percorrido e visualizar os seus datos. Modificar os datos desexados e pulsar sobre Gardar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Modificar información percorrido}
+	\label{tab:cuModificarPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Eliminar percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Eliminar percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Elimina un percorrido do sistema \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio en cuestión e recuperar a información dun percorrido \\ 
+		\hline 
+		\textbf{Poscondicións} & O percorrido deixará de existir \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Seleccionar un percorrido e visualizar os seus datos. Pulsar sobre Eliminar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Eliminar percorrido}
+	\label{tab:cuEliminarPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Engadir POI a percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Engadir POI a percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Engade un POI a un percorrido xa existente \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio en cuestión e que o POI que se quere engadir non estea no percorrido seleccionado \\ 
+		\hline 
+		\textbf{Poscondicións} & Introducirá o POI ao inicio do percorrido, ao final ou entre dous POIs concretos \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio e seleccionar un percorrido. Se desexamos inserir o novo POI ao inicio ou ao final do percorrido, debemos seleccionalo directamente. Se desexamos introducilo entre dous POIs, debemos seleccionar a liña que os une primeiro. A continuación, pulsar sobre o botón de aceptar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Engadir POI a percorrido}
+	\label{tab:cuEngadirPOIPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Eliminar POI de percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Eliminar POI de percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Elimina un POI de dentro dun percorrido \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio en cuestión e seleccionar un percorrido. Deben existir máis de tres POIs \\ 
+		\hline 
+		\textbf{Poscondicións} & O POI deixará de existir dentro do percorrido \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Seleccionar un percorrido e pulsar sobre o POI en cuestión. Pulsar sobre o botón de aceptar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Eliminar POI de percorrido}
+	\label{tab:cuEliminarPOIPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Dar de alta un edificio} \\ 
+		\hline 
+		\textbf{Nome} & Dar de alta un edificio \\ 
+		\hline 
+		\textbf{Descrición} & Engade un novo edificio á nosa plataforma \\ 
+		\hline 
+		\textbf{Actor} & Administrador do sistema \\ 
+		\hline 
+		\textbf{Precondicións} & O edificio a engadir non debe existir na nosa plataforma e si debe estar incluído en Situm \\ 
+		\hline 
+		\textbf{Poscondicións} & O edificio estará dispoñíbel na nosa plataforma \\ 
+		\hline 
+		\textbf{Escenario} & Débese coñecer o identificador en Situm do edificio e inserir os seus datos a través dun Sistema Xestor de Base de Datos \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Dar de alta un edificio}
+	\label{tab:cuAltaEdificio}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Dar permiso a un usuario sobre un edificio} \\ 
+		\hline 
+		\textbf{Nome} & Dar permiso a un usuario sobre un edificio \\ 
+		\hline 
+		\textbf{Descrición} & Proporciona a un usuario a posibilidade de creación, modificación e eliminación de contido sobre un edificio concreto \\ 
+		\hline 
+		\textbf{Actor} & Administrador do sistema \\ 
+		\hline 
+		\textbf{Precondicións} & O edificio debe existir na nosa base de datos e o usuario ao que se lle quere dar o permiso debeu autenticarse algunha vez na aplicación \\ 
+		\hline 
+		\textbf{Poscondicións} & O usuario poderá modificar o contido dese edificio \\ 
+		\hline 
+		\textbf{Escenario} & Débense coñecer os identificadores do edificio e do usuario para asocialos a través dun Sistema Xestor de Base de Datos \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Dar permiso a un usuario sobre un edificio}
+	\label{tab:cuDarPermisoUsuarioEdificio}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Dar de alta unha conta Situm} \\ 
+		\hline 
+		\textbf{Nome} & Dar de alta unha conta Situm \\ 
+		\hline 
+		\textbf{Descrición} & Engade unha nova conta de Situm ao noso sistema \\ 
+		\hline 
+		\textbf{Actor} & Administrador do sistema \\ 
+		\hline 
+		\textbf{Precondicións} & A conta non debe existir na nosa base de datos e si no sistema de Situm \\ 
+		\hline 
+		\textbf{Poscondicións} & A conta estará accesíbel no noso sistema \\ 
+		\hline 
+		\textbf{Escenario} & Débense coñecer os datos da conta de Situm e inserir os seus datos a través dun Sistema Xestor de Base de Datos \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Dar de alta unha conta Situm}
+	\label{tab:cuDarAltaContaSitum}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Asignar conta Situm a Usuario} \\ 
+		\hline 
+		\textbf{Nome} & Asignar conta Situm a Usuario \\ 
+		\hline 
+		\textbf{Descrición} & Proporciona a un usuario a posibilidade de utilización dunha conta de Situm para acceder ao sistema, podendo visualizar os edificios asociados a esa conta \\ 
+		\hline 
+		\textbf{Actor} & Administrador do sistema \\ 
+		\hline 
+		\textbf{Precondicións} & A conta de Situm debe existir na nosa base de datos e o usuario ao que se lle quere asignar debeu autenticarse algunha vez na aplicación \\ 
+		\hline 
+		\textbf{Poscondicións} & O usuario poderá acceder ao sistema con esa conta \\ 
+		\hline 
+		\textbf{Escenario} & Débense coñecer os identificadores da conta e do usuario para asocialos a través dun Sistema Xestor de Base de Datos \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Dar permiso a un usuario sobre un edificio}
+	\label{tab:cuAsignarContaSitumUsuario}
+\end{table}

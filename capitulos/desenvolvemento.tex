@@ -1,0 +1,166 @@
+\chapter{Planificación e custos}
+
+\section{Desenvolvemento}
+O desenvolvemento desta aplicación levouse a cabo en varios sprints ou iteracións Scrum, creando para cada un deles o Sprint backlog, é dicir, o conxunto de funcionalidades a implementar. Os casos de uso desenvolvidos fóronse incrementando, aumentando dese xeito o número de funcionalidades dispoñíbeis.
+
+Cada una destas iteracións foi dividida en catro fases distintas que se identifican coa planificación clásica dun proxecto: análise, deseño, implementación e probas.
+
+No inicio do desenvolvemento decidiuse que a duración de cada sprint sería de 30 días.
+
+Antes de comezar o primeiro sprint adicouse tempo á formación na programación para Android, así coma no uso de Android Studio e a realización de probas nun terminal físico e emulado pois era a primeira vez que se utilizaban estas tecnoloxías.
+
+\subsection{Sprint 1: Aplicación Android: localización dentro dun edificio}
+O obxectivo desta primeira iteración é a creación dos elementos básicos para a utilización dos sistemas de localización en interiores de Situm, permitindo aos usuarios ter un primeiro achegamento a esta tecnoloxía. Nesta primeira iteración só precisaremos construír unha aplicación para Android, deixando funcionalidades que requiran máis infraestrutura para seguintes sprints.
+
+Para este sprint non se implementará a selección de contas de Situm nin a autenticación, polo que o rol dos usuarios que a utilicen será de Usuario Android anónimo cunha conta de Situm fixa. Só existirá unha actividade cun fragmento onde se mostrará o mapa.
+
+A continuación veremos unha lista cos casos de uso implementados nesta iteración:
+
+\begin{itemize}
+	\item Visualizar o mapa dun edificio. Ver caso de uso \ref{tab:cuAmosarMapaEdificio}.
+	\item Localizar un usuario dentro dun edificio. Ver caso de uso \ref{tab:cuLocalizacion}.
+	\item Cambiar de piso dentro dun edificio. Ver caso de uso \ref{tab:cuCambiarPiso}.
+	\item Guiar ata un punto do edificio. Primeira parte do caso de uso \ref{tab:cuGuiarPOI}.
+\end{itemize}
+
+\paragraph{Fito}
+Ao final deste sprint teremos unha aplicación simple pero funcional, na que se poderá localizar usuarios dentro de edificios configurados para a súa utilización con Situm. Permitirá ao cliente observar as posibilidades de localización de Situm dentro dun edificio e comprobará a súa exactitude.
+
+\paragraph{Proba}
+A proba para validar as tarefas implementadas será a utilización da aplicación dentro dun edificio con varios niveis, movéndose en toda a súa extensión. Desta maneira observaranse as posibilidades de localización da nosa plataforma e o bo funcionamento do cambio de niveis, tanto fisicamente como seleccionándoo no mapa.
+
+
+\subsection{Sprint 2: Servidor inicial: POIs e percorridos}
+O obxectivo desta segunda iteración é a creación das funcións básicas do servidor e o seu despregue para poder ser utilizado nun entorno de produción. Neste punto aínda non se traballará na integración coa aplicación Android senón que nos centraremos unicamente no servidor.
+
+Traballarase na arquitectura xeral do servidor e nas súas diferentes capas, polo que ao final deste sprint teremos uns servizos web ampliábeis de xeito doado. Crearanse servizos para a recuperación de información sobre os puntos de interese e os percorridos almacenados nunha base de datos.
+
+O administrador do sistema será o encargado de inserir a través dun programa xestor os datos recuperados pola aplicación. Estes datos serán novos edificios, puntos de interese e percorridos.
+
+A continuación veremos os casos de uso da parte servidora nos que se traballou neste sprint:
+
+\begin{itemize}
+	\item Dar de alta edificio. Ver caso de uso \ref{tab:cuAltaEdificio}.
+	\item Amosar lista de POIs. Ver caso de uso \ref{tab:cuAmosarListaPOI}.
+	\item Amosar información dun POI. Ver caso de uso \ref{tab:cuAmosarPOI}.
+	\item Amosar lista de percorridos. Ver caso de uso \ref{tab:cuAmosarListaPercorrido}.
+	\item Amosar información dun percorridos. Ver caso de uso \ref{tab:cuAmosarPercorrido}.
+\end{itemize}
+
+\paragraph{Fito}
+Ao final deste sprint obteremos un servidor utilizábel dende calquera lugar e cuns casos de uso básicos para comprobar o seu funcionamento.
+
+\paragraph{Proba}
+As probas realizadas serán levadas a cabo nun entorno local e noutro de produción, co despregue do servidor a través dos servizos de Amazon (AWS). Realizaranse chamadas para recuperar a información a través dos servizos publicados.
+
+\subsection{Sprint 3: Lectura datos dende aplicación Android}
+Na terceira iteración do noso proxecto búscase a ligazón entre a aplicación Android e o servidor, que ata este punto levaron camiños paralelos. Modificarase a aplicación Android para recibir a información fornecida polo servidor, procesaraa e mostraraa por pantalla. Neste sprint tampouco se traballará con outro rol que non sexa o de Usuario Android anónimo.
+
+En canto aos casos de uso tratados nesta iteración, aparte de completar coa parte de vista os comezados no sprint anterior, implementáronse os seguintes:
+
+\begin{itemize}
+	\item Amosar POI no mapa. Ver caso de uso \ref{tab:cuAmosarPOIMapa}.
+	\item Amosar percorrido no mapa. Ver caso de uso \ref{tab:cuAmosarPercorridoMapa}.
+\end{itemize}
+
+\paragraph{Fito}
+Ao final deste sprint teremos por primeira vez unha visión xeral do que proporcionará a nosa plataforma, unindo a potencia de Situm cos nosos propios datos, permitindo amosar puntos de interese e percorridos. Poderase visualizar no mapa da aplicación os POIs e percorridos almacenados na nosa base de datos e acceder á súa información.
+
+\paragraph{Proba}
+A proba para validar as tarefas implementadas consistirá na utilización da aplicación nun edificio configurado en Situm con información sobre puntos de interese e percorridos no noso sistema.
+
+\subsection{Sprint 4: Autenticación de usuarios}
+Neste sprint tratarase a autenticación dos usuarios a través dos servizos de Google. Almacenaremos estes usuarios autenticados para establecer permisos nos distintos edificios. Tamén se permitirá a selección de contas de Situm, polo que debemos proporcionar unha lista coas contas dispoñíbeis sexan públicas ou estean asociadas ao usuario autenticado.
+
+A continuación veremos unha relación cos casos de uso nos que se traballou neste sprint:
+
+\begin{itemize}
+	\item Autenticarse a través de Google. Ver caso de uso \ref{tab:cuAutenticar}.
+	\item Facer logout. Ver caso de uso \ref{tab:cuLogout}.
+	\item Dar de alta unha conta de Situm. Ver caso de uso \ref{tab:cuDarAltaContaSitum}.
+	\item Recuperar as contas de Situm dispoñíbeis. Ver caso de uso \ref{tab:cuRecuperarContasSitum}.
+\end{itemize}
+
+\paragraph{Fito}
+Ao final deste sprint teremos unha actividade inicial onde o usuario poderá autenticarse a través dunha conta de Google para acceder á aplicación. Esta autenticación tamén lle proporcionará a posibilidade de ter acceso a máis contas de Situm, o que provocará que poida ver novos edificios asociados a esas contas.
+
+\paragraph{Proba}
+A proba para validas este sprint consistirá na utilización da aplicación con varias contas de Google que teñan distintos permisos sobre contas de Situm, para comprobar desta maneira que non están todas dispoñíbeis para usuarios anónimos ou con distintas contas de Google.
+
+\subsection{Sprint 5: Edición de POIs e percorridos dende a aplicación Android}
+Ata este sprint a creación dos datos para a nosa aplicación tiña que ser directamente sobre a base de datos cun xestor. Neste sprint cubriranse os casos de uso que permitan realizar estas modificacións directamente dende a aplicación Android, incorrendo nun menor esforzo. Neste sprint fai a súa aparición o rol Xestor de contido, que será o encargado da xestión dos puntos de interese e percorridos.
+
+A continuación veremos unha relación cos casos de uso nos que se traballou neste sprint:
+
+\begin{itemize}
+	\item Xestión de POIs: Creación. Ver caso de uso \ref{tab:cuCrearPOI}.
+	\item Xestión de POIs: Modificación. Ver caso de uso \ref{tab:cuModificarPOI}.
+	\item Xestión de POIs: Borrado. Ver caso de uso \ref{tab:cuEliminarPOI}.
+	\item Xestión de percorridos: Creación. Ver caso de uso \ref{tab:cuCrearPercorrido}.
+	\item Xestión de percorridos: Modificación. Ver caso de uso \ref{tab:cuModificarPercorrido}.
+	\item Xestión de percorridos: Borrado. Ver caso de uso \ref{tab:cuEliminarPercorrido}.
+	\item Engadir POI a percorrido. Ver caso de uso \ref{tab:cuEngadirPOIPercorrido}.
+	\item Eliminar POI de percorrido. Ver caso de uso \ref{tab:cuEliminarPOIPercorrido}.
+	\item Dar permisos a usuario sobre un edificio. Ver caso de uso \ref{tab:cuDarPermisoUsuarioEdificio}.
+\end{itemize}
+
+\paragraph{Fito}
+Ao final deste sprint teremos unha aplicación completamente funcional, coa posibilidade da edición dentro da mesma sen ter que recorrer a elementos externos.
+
+\paragraph{Proba}
+O primeiro paso para as probas deste sprint consistirá na creación, modificación e borrado de POIs ao longo dun edificio, en distintas plantas e con diferentes usuarios. Posteriormente utilizaremos eses puntos de interese para a creación de diversos percorridos, que tamén serán editados (tanto a súa información coma a inserción de POIs despois de ter creado o percorrido) e borrados. Tamén se deberá comprobar as opcións dispoñíbeis para os usuarios en base aos roles asignados.
+
+
+\subsection{Sprint 6: Imaxes para POIs}
+O obxectivo do sexto sprint é a xestión de imaxes para os puntos de interese. Os xestores de contido poderán engadir as imaxes que consideren oportunas a calquera POI dentro dun edificio para que visualicen os usuarios da aplicación. Non se precisará ningún permiso a maiores, chega con ser xestro de contido dun edificio. Non haberá límite de imaxes para os puntos.
+
+A continuación veremos unha relación cos casos de uso nos que se traballou neste sprint:
+
+\begin{itemize}
+	\item Amosar lista de imaxes dun POI. Ver caso de uso \ref{tab:cuCrearPOI}.
+	\item Amosar imaxe dun POI. Ver caso de uso \ref{tab:cuModificarPOI}.
+	\item Xestión de imaxes: Engadir. Ver caso de uso \ref{tab:cuCrearPercorrido}.
+	\item Xestión de imaxes: Modificar datos. Ver caso de uso \ref{tab:cuModificarPercorrido}.
+	\item Xestión de imaxes: Eliminar. Ver caso de uso \ref{tab:cuEliminarPercorrido}.
+\end{itemize} 
+
+\paragraph{Fito}
+Ao final deste sprint teremos a opción de administrar imaxes sobre os puntos de interese e visualizalas para permitir dar maior información sobre cada un deles.
+
+\paragraph{Proba}
+As probas para validar este sprint consistirán no engadido e eliminación de imaxes dentro dos POIs dun edificio por parte dun xestor de contido. Débese comprobar que a un usuario Android normal non se lle permita o engadido ou eliminación de imaxes. Ambos roles (xestor de contido e usuario Android) deben poder ver as imaxes dos POIs.
+
+
+\section{Planificación e custos iniciais}
+
+\subsection{Planificación inicial}
+Nesta sección describirase a planificación completa e detallada do proxecto. O primeiro paso para realizala foi establecer o alcance do proxecto e os requisitos precisos para poder levalo a cabo. Na primeira planificación fíxose un bosquexo xeral dos pasos a seguir no proxecto, estimando unha duración do desenvolvemento contando con sete sprints dunhas tres semanas cada un.
+
+Pódese observar o diagrama de Gantt coa planificación detallada na figura. \todo[inline]{incluír figura} Diferéncianse todos os pasos realizados no proxecto, así como o tempo adicado a cada sprint.
+
+\subsection{Custo inicial}
+Unha vez realizada a planificación das tarefas nas que se divide o proxecto pódese comezar coa análise económica dos custos asociados. Como é evidente, o custo máis alto recae sobre os recursos humanos, xa que os materiais utilizados non demandaron moita inversión.
+
+\paragraph{Recursos humanos}
+Ao ser un proxecto elaborado por un único traballador, tivo que realizar todas as funcións que normalmente recaerían sobre distintas persoas, polo que asignamos distintos valores ao seu traballo dependendo da función que realizase en cada momento.
+
+\todo[inline]{táboa coa estimación de gastos en persoal}
+
+\paragraph{Recursos materiais}
+Podemos dividir os recursos materiais en hardware e software. Non houbo gastos referidos ao software posto que se utilizou software gratuíto na realización do proxecto, mais si que houbo gastos en canto aos recursos hardware. Houbo que realizar un desembolso polo ordenador utilizado para a programación do proxecto posto que a emulación dun terminal Android é bastante custosa e unha computadora antiga non era capaz de executalo. Tamén se inclúen nos gastos un móbil de gama media para a proba da aplicación en entornos reais. Mención aparte require a suscrición a Amazon Web Services, posto que se desfrutou dun período de proba que, non obstante, non estaría dispoñíbel unha vez a aplicación requira un maior uso de recursos por parte do servidor. Este tipo de servizos supoñen un maior custo canta máis demanda procesan, polo que en entornos reais de produción o custo aumentaría. Debido a isto fíxose unha estimación do gasto mensual.
+
+\todo[inline]{táboa coa estimación de gastos en materiais}
+
+\paragraph{Total}
+Despois de analizar os custos en recursos humanos e materiais podemos establecer o custo total inicial. Obsérvanse todas as entradas na seguinte táboa:
+
+\todo[inline]{táboa coa estimación de gastos totais}
+
+\subsection{Análise de riscos e plans de continxencia}
+
+
+\section{Planificación e custos finais}
+\subsection{Planificación final}
+\subsection{Incidencias e resolución}
+\subsection{Custo final}
+

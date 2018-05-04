@@ -1,0 +1,106 @@
+\BOOKMARK [0][-]{section*.6}{\315ndice de figuras}{}% 1
+\BOOKMARK [0][-]{section*.8}{\315ndice de t\341boas}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduci\363n}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Contexto}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Soluci\363ns actuais}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Obxectivos}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Estrutura da memoria}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Conceptos te\363ricos}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Android}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{GPS}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Posicionamento en interiores}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Servizos web}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.4.1}{Servizos web REST}{section.2.4}% 13
+\BOOKMARK [0][-]{chapter.3}{Fundamentos tecnol\363xicos}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Recursos hardware}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.1.1}{Dispositivos \(tel\351fonos\) m\363biles intelixentes}{section.3.1}% 16
+\BOOKMARK [1][-]{section.3.2}{Recursos software}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.2.1}{SDK Situm}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{Apache Tomcat}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.3}{Amazon Web Services}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.4}{Eclipse}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.5}{Java}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.6}{Android Studio}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.7}{Git}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.8}{TeXstudio}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.9}{SQuirreL}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.10}{Inkscape}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.11}{StarUML}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.12}{Postman}{section.3.2}% 29
+\BOOKMARK [0][-]{chapter.4}{Metodolox\355a de desenvolvemento}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Que \351 Scrum?}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Roles}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{Roles centrais}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.2}{Roles non centrais}{section.4.2}% 34
+\BOOKMARK [1][-]{section.4.3}{Ciclo de proceso}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.3.1}{Inicio de ciclo}{section.4.3}% 36
+\BOOKMARK [2][-]{subsection.4.3.2}{Sprint planning meeting}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.3}{Daily standup}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.4}{Sprint review meeting}{section.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.3.5}{Sprint retrospective}{section.4.3}% 40
+\BOOKMARK [1][-]{section.4.4}{Vantaxes e desvantaxes de Scrum}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.1}{Vantaxes}{section.4.4}% 42
+\BOOKMARK [2][-]{subsection.4.4.2}{Desvantaxes}{section.4.4}% 43
+\BOOKMARK [1][-]{section.4.5}{Adaptaci\363n da metodolox\355a}{chapter.4}% 44
+\BOOKMARK [0][-]{chapter.5}{An\341lise}{}% 45
+\BOOKMARK [1][-]{section.5.1}{Actores}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.2}{Casos de uso}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.5.2.1}{Usuario Android}{section.5.2}% 48
+\BOOKMARK [2][-]{subsection.5.2.2}{Xestor de contido}{section.5.2}% 49
+\BOOKMARK [2][-]{subsection.5.2.3}{Administrador do sistema}{section.5.2}% 50
+\BOOKMARK [2][-]{subsection.5.2.4}{Usuario Situm}{section.5.2}% 51
+\BOOKMARK [0][-]{chapter.6}{Planificaci\363n e custos}{}% 52
+\BOOKMARK [1][-]{section.6.1}{Desenvolvemento}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.1.1}{Sprint 1: Aplicaci\363n Android: localizaci\363n dentro dun edificio}{section.6.1}% 54
+\BOOKMARK [2][-]{subsection.6.1.2}{Sprint 2: Servidor inicial: POIs e percorridos}{section.6.1}% 55
+\BOOKMARK [2][-]{subsection.6.1.3}{Sprint 3: Lectura datos dende aplicaci\363n Android}{section.6.1}% 56
+\BOOKMARK [2][-]{subsection.6.1.4}{Sprint 4: Autenticaci\363n de usuarios}{section.6.1}% 57
+\BOOKMARK [2][-]{subsection.6.1.5}{Sprint 5: Edici\363n de POIs e percorridos dende a aplicaci\363n Android}{section.6.1}% 58
+\BOOKMARK [2][-]{subsection.6.1.6}{Sprint 6: Imaxes para POIs}{section.6.1}% 59
+\BOOKMARK [1][-]{section.6.2}{Planificaci\363n e custos iniciais}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.2.1}{Planificaci\363n inicial}{section.6.2}% 61
+\BOOKMARK [2][-]{subsection.6.2.2}{Custo inicial}{section.6.2}% 62
+\BOOKMARK [2][-]{subsection.6.2.3}{An\341lise de riscos e plans de continxencia}{section.6.2}% 63
+\BOOKMARK [1][-]{section.6.3}{Planificaci\363n e custos finais}{chapter.6}% 64
+\BOOKMARK [2][-]{subsection.6.3.1}{Planificaci\363n final}{section.6.3}% 65
+\BOOKMARK [2][-]{subsection.6.3.2}{Incidencias e resoluci\363n}{section.6.3}% 66
+\BOOKMARK [2][-]{subsection.6.3.3}{Custo final}{section.6.3}% 67
+\BOOKMARK [0][-]{chapter.7}{Dese\361o}{}% 68
+\BOOKMARK [1][-]{section.7.1}{Arquitectura xeral}{chapter.7}% 69
+\BOOKMARK [1][-]{section.7.2}{Modelo de datos}{chapter.7}% 70
+\BOOKMARK [1][-]{section.7.3}{Servidor base de datos}{chapter.7}% 71
+\BOOKMARK [1][-]{section.7.4}{API rest}{chapter.7}% 72
+\BOOKMARK [1][-]{section.7.5}{Aplicaci\363n Android}{chapter.7}% 73
+\BOOKMARK [0][-]{chapter.8}{Implementaci\363n}{}% 74
+\BOOKMARK [1][-]{section.8.1}{Servidor}{chapter.8}% 75
+\BOOKMARK [1][-]{section.8.2}{Autenticaci\363n}{chapter.8}% 76
+\BOOKMARK [1][-]{section.8.3}{Aplicaci\363n Android}{chapter.8}% 77
+\BOOKMARK [0][-]{chapter.9}{Probas}{}% 78
+\BOOKMARK [1][-]{section.9.1}{Probas de validaci\363n de cada sprint}{chapter.9}% 79
+\BOOKMARK [1][-]{section.9.2}{Probas de caixa negra}{chapter.9}% 80
+\BOOKMARK [1][-]{section.9.3}{Consola de Google}{chapter.9}% 81
+\BOOKMARK [1][-]{section.9.4}{Probas de rendemento}{chapter.9}% 82
+\BOOKMARK [1][-]{section.9.5}{Encuesta usuarios}{chapter.9}% 83
+\BOOKMARK [0][-]{chapter.10}{Conclusi\363ns e traballo futuro}{}% 84
+\BOOKMARK [1][-]{section.10.1}{Conclusi\363ns}{chapter.10}% 85
+\BOOKMARK [1][-]{section.10.2}{Traballo futuro}{chapter.10}% 86
+\BOOKMARK [0][-]{appendix.Alph1}{Casos de uso}{}% 87
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n do sistema Caronte}{}% 88
+\BOOKMARK [1][-]{section.Alph2.1}{Requisitos}{appendix.Alph2}% 89
+\BOOKMARK [2][-]{subsection.Alph2.1.1}{Servidor Caronte}{section.Alph2.1}% 90
+\BOOKMARK [2][-]{subsection.Alph2.1.2}{Aplicaci\363n Android: Caronte}{section.Alph2.1}% 91
+\BOOKMARK [1][-]{section.Alph2.2}{Instalaci\363n}{appendix.Alph2}% 92
+\BOOKMARK [2][-]{subsection.Alph2.2.1}{Servidor Caronte}{section.Alph2.2}% 93
+\BOOKMARK [2][-]{subsection.Alph2.2.2}{Aplicaci\363n Android: Caronte}{section.Alph2.2}% 94
+\BOOKMARK [1][-]{section.Alph2.3}{Manuales de usuario}{appendix.Alph2}% 95
+\BOOKMARK [2][-]{subsection.Alph2.3.1}{Administrador do servidor Caronte}{section.Alph2.3}% 96
+\BOOKMARK [2][-]{subsection.Alph2.3.2}{Aplicaci\363n Caronte para usuarios an\363nimos}{section.Alph2.3}% 97
+\BOOKMARK [2][-]{subsection.Alph2.3.3}{Apicaci\363n Caronte para xestores de contidos}{section.Alph2.3}% 98
+\BOOKMARK [0][-]{appendix.Alph3}{Localizaci\363n en interiores de Situm}{}% 99
+\BOOKMARK [1][-]{section.Alph3.1}{Nova conta en Situm}{appendix.Alph3}% 100
+\BOOKMARK [1][-]{section.Alph3.2}{Dashboard de Situm}{appendix.Alph3}% 101
+\BOOKMARK [1][-]{section.Alph3.3}{Editar edificios en Situm}{appendix.Alph3}% 102
+\BOOKMARK [1][-]{section.Alph3.4}{Calibraci\363n de cada planta}{appendix.Alph3}% 103
+\BOOKMARK [1][-]{section.Alph3.5}{Punto de interese Situm}{appendix.Alph3}% 104
+\BOOKMARK [1][-]{section.Alph3.6}{Definici\363n de rutas}{appendix.Alph3}% 105
+\BOOKMARK [0][-]{appendix.Alph4}{Contido do DVD adxunto}{}% 106

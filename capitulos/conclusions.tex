@@ -1,0 +1,41 @@
+\chapter{Conclusións e traballo futuro}
+
+Este capítulo está adicado a resumir as principais conclusión deste traballo asi como o traballo futuro.
+
+
+
+\section{Conclusións}
+
+Neste traballo proponse unha plataforma para a guía de museos que consta de dúas partes: un servidor e unha aplicación Android.
+Ademáis, empregamos o SDK e os servidores de Situm Technologies S.L. para determinar a posición dentro de un edificio.
+
+As principais características da nos plataforma son:
+\begin{itemize}
+ \item Modelo de datos flexible: puntos de interese (POI) e rutas de visita (lista de POI). Tempo estimado e outros datos de interese (imaxes, urls, valoracións, etc.)
+ Diferentes categorías para adaptar a información mostrada ao tipo de usuario.
+ \item Autenticación de usuarios para realizar tareas de mantemento e edición de contidos
+ \item Usuarios anónimos para facilitar o uso da aplicación.
+ \item Servidor na nube: procura escalabilidad, facilita o mantemento, permite axuste automático dos recursos empregados ao uso que se fai deles, ...
+ \item Aplicación Android intuitiva e fácial de empregar para mostrar información do museo: mapas de cada planta, POIs, rutas de visita, etc.
+ \item Localización Situm para calcular a posición dentro dos museos 
+ (implica unha calibración previa de cada planta de cada edificio, por parte do administrador da plataforma ou do xestor de contidos do museo)
+ \item Autenticación vía GoogleAuth para identificación dos usuarios privilegiados do noso sistema.
+ \item Edición de datos (POI e rutas de visita) dentro da propia aplicación Android.
+\end{itemize}
+
+
+
+
+\section{Traballo futuro}
+
+Este proyecto resolve os requisitos plantexados inicialmente, pero tamén abre novas vías e retos para o futuro:
+
+\begin{itemize}
+ \item Determinar automáticamente onde están máis tempo os visitantes no museo. Desta maneira se poderían axustar mellor os modelos: o tempo para ir dun POI a outro, 
+ o tempo adicado a un POI, as rutas máis empregadas, os POIs máis visitas, o orde en que se visitan, etc.
+ \item Outro punto interesante sería determinar, gracias ao seus movementos, qué tipos de usuarios visitan o usuarios.
+   Con esta información, se podería ``adaptar'' a información que se mostra a cada usuario.
+\end{itemize}
+
+
+

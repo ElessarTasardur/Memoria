@@ -68,39 +68,48 @@
 \BOOKMARK [0][-]{chapter.7}{Dese\361o}{}% 68
 \BOOKMARK [1][-]{section.7.1}{Arquitectura xeral}{chapter.7}% 69
 \BOOKMARK [1][-]{section.7.2}{Modelo de datos}{chapter.7}% 70
-\BOOKMARK [1][-]{section.7.3}{Servidor base de datos}{chapter.7}% 71
-\BOOKMARK [1][-]{section.7.4}{API rest}{chapter.7}% 72
-\BOOKMARK [1][-]{section.7.5}{Aplicaci\363n Android}{chapter.7}% 73
-\BOOKMARK [0][-]{chapter.8}{Implementaci\363n}{}% 74
-\BOOKMARK [1][-]{section.8.1}{Servidor}{chapter.8}% 75
-\BOOKMARK [1][-]{section.8.2}{Autenticaci\363n}{chapter.8}% 76
-\BOOKMARK [1][-]{section.8.3}{Aplicaci\363n Android}{chapter.8}% 77
-\BOOKMARK [0][-]{chapter.9}{Probas}{}% 78
-\BOOKMARK [1][-]{section.9.1}{Probas de validaci\363n de cada sprint}{chapter.9}% 79
-\BOOKMARK [1][-]{section.9.2}{Probas de caixa negra}{chapter.9}% 80
-\BOOKMARK [1][-]{section.9.3}{Consola de Google}{chapter.9}% 81
-\BOOKMARK [1][-]{section.9.4}{Probas de rendemento}{chapter.9}% 82
-\BOOKMARK [1][-]{section.9.5}{Encuesta usuarios}{chapter.9}% 83
-\BOOKMARK [0][-]{chapter.10}{Conclusi\363ns e traballo futuro}{}% 84
-\BOOKMARK [1][-]{section.10.1}{Conclusi\363ns}{chapter.10}% 85
-\BOOKMARK [1][-]{section.10.2}{Traballo futuro}{chapter.10}% 86
-\BOOKMARK [0][-]{appendix.Alph1}{Casos de uso}{}% 87
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n do sistema Caronte}{}% 88
-\BOOKMARK [1][-]{section.Alph2.1}{Requisitos}{appendix.Alph2}% 89
-\BOOKMARK [2][-]{subsection.Alph2.1.1}{Servidor Caronte}{section.Alph2.1}% 90
-\BOOKMARK [2][-]{subsection.Alph2.1.2}{Aplicaci\363n Android: Caronte}{section.Alph2.1}% 91
-\BOOKMARK [1][-]{section.Alph2.2}{Instalaci\363n}{appendix.Alph2}% 92
-\BOOKMARK [2][-]{subsection.Alph2.2.1}{Servidor Caronte}{section.Alph2.2}% 93
-\BOOKMARK [2][-]{subsection.Alph2.2.2}{Aplicaci\363n Android: Caronte}{section.Alph2.2}% 94
-\BOOKMARK [1][-]{section.Alph2.3}{Manuales de usuario}{appendix.Alph2}% 95
-\BOOKMARK [2][-]{subsection.Alph2.3.1}{Administrador do servidor Caronte}{section.Alph2.3}% 96
-\BOOKMARK [2][-]{subsection.Alph2.3.2}{Aplicaci\363n Caronte para usuarios an\363nimos}{section.Alph2.3}% 97
-\BOOKMARK [2][-]{subsection.Alph2.3.3}{Apicaci\363n Caronte para xestores de contidos}{section.Alph2.3}% 98
-\BOOKMARK [0][-]{appendix.Alph3}{Localizaci\363n en interiores de Situm}{}% 99
-\BOOKMARK [1][-]{section.Alph3.1}{Nova conta en Situm}{appendix.Alph3}% 100
-\BOOKMARK [1][-]{section.Alph3.2}{Dashboard de Situm}{appendix.Alph3}% 101
-\BOOKMARK [1][-]{section.Alph3.3}{Editar edificios en Situm}{appendix.Alph3}% 102
-\BOOKMARK [1][-]{section.Alph3.4}{Calibraci\363n de cada planta}{appendix.Alph3}% 103
-\BOOKMARK [1][-]{section.Alph3.5}{Punto de interese Situm}{appendix.Alph3}% 104
-\BOOKMARK [1][-]{section.Alph3.6}{Definici\363n de rutas}{appendix.Alph3}% 105
-\BOOKMARK [0][-]{appendix.Alph4}{Contido do DVD adxunto}{}% 106
+\BOOKMARK [2][-]{subsection.7.2.1}{EDIFICIO}{section.7.2}% 71
+\BOOKMARK [2][-]{subsection.7.2.2}{USUARIO}{section.7.2}% 72
+\BOOKMARK [2][-]{subsection.7.2.3}{USUARIO\137EDIFICIO}{section.7.2}% 73
+\BOOKMARK [2][-]{subsection.7.2.4}{PUNTO\137INTERESE}{section.7.2}% 74
+\BOOKMARK [2][-]{subsection.7.2.5}{PERCORRIDO}{section.7.2}% 75
+\BOOKMARK [2][-]{subsection.7.2.6}{PERCORRIDO\137PUNTO\137INTERESE}{section.7.2}% 76
+\BOOKMARK [2][-]{subsection.7.2.7}{CONTA\137SITUM}{section.7.2}% 77
+\BOOKMARK [2][-]{subsection.7.2.8}{CONTA\137SITUM\137USUARIO}{section.7.2}% 78
+\BOOKMARK [2][-]{subsection.7.2.9}{IMAXE}{section.7.2}% 79
+\BOOKMARK [1][-]{section.7.3}{Servidor base de datos}{chapter.7}% 80
+\BOOKMARK [1][-]{section.7.4}{API rest}{chapter.7}% 81
+\BOOKMARK [1][-]{section.7.5}{Aplicaci\363n Android}{chapter.7}% 82
+\BOOKMARK [0][-]{chapter.8}{Implementaci\363n}{}% 83
+\BOOKMARK [1][-]{section.8.1}{Servidor}{chapter.8}% 84
+\BOOKMARK [1][-]{section.8.2}{Autenticaci\363n}{chapter.8}% 85
+\BOOKMARK [1][-]{section.8.3}{Aplicaci\363n Android}{chapter.8}% 86
+\BOOKMARK [0][-]{chapter.9}{Probas}{}% 87
+\BOOKMARK [1][-]{section.9.1}{Probas de validaci\363n de cada sprint}{chapter.9}% 88
+\BOOKMARK [1][-]{section.9.2}{Probas de caixa negra}{chapter.9}% 89
+\BOOKMARK [1][-]{section.9.3}{Consola de Google}{chapter.9}% 90
+\BOOKMARK [1][-]{section.9.4}{Probas de rendemento}{chapter.9}% 91
+\BOOKMARK [1][-]{section.9.5}{Encuesta usuarios}{chapter.9}% 92
+\BOOKMARK [0][-]{chapter.10}{Conclusi\363ns e traballo futuro}{}% 93
+\BOOKMARK [1][-]{section.10.1}{Conclusi\363ns}{chapter.10}% 94
+\BOOKMARK [1][-]{section.10.2}{Traballo futuro}{chapter.10}% 95
+\BOOKMARK [0][-]{appendix.Alph1}{Casos de uso}{}% 96
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n do sistema Caronte}{}% 97
+\BOOKMARK [1][-]{section.Alph2.1}{Requisitos}{appendix.Alph2}% 98
+\BOOKMARK [2][-]{subsection.Alph2.1.1}{Servidor Caronte}{section.Alph2.1}% 99
+\BOOKMARK [2][-]{subsection.Alph2.1.2}{Aplicaci\363n Android: Caronte}{section.Alph2.1}% 100
+\BOOKMARK [1][-]{section.Alph2.2}{Instalaci\363n}{appendix.Alph2}% 101
+\BOOKMARK [2][-]{subsection.Alph2.2.1}{Servidor Caronte}{section.Alph2.2}% 102
+\BOOKMARK [2][-]{subsection.Alph2.2.2}{Aplicaci\363n Android: Caronte}{section.Alph2.2}% 103
+\BOOKMARK [1][-]{section.Alph2.3}{Manuales de usuario}{appendix.Alph2}% 104
+\BOOKMARK [2][-]{subsection.Alph2.3.1}{Administrador do servidor Caronte}{section.Alph2.3}% 105
+\BOOKMARK [2][-]{subsection.Alph2.3.2}{Aplicaci\363n Caronte para usuarios an\363nimos}{section.Alph2.3}% 106
+\BOOKMARK [2][-]{subsection.Alph2.3.3}{Apicaci\363n Caronte para xestores de contidos}{section.Alph2.3}% 107
+\BOOKMARK [0][-]{appendix.Alph3}{Localizaci\363n en interiores de Situm}{}% 108
+\BOOKMARK [1][-]{section.Alph3.1}{Nova conta en Situm}{appendix.Alph3}% 109
+\BOOKMARK [1][-]{section.Alph3.2}{Dashboard de Situm}{appendix.Alph3}% 110
+\BOOKMARK [1][-]{section.Alph3.3}{Editar edificios en Situm}{appendix.Alph3}% 111
+\BOOKMARK [1][-]{section.Alph3.4}{Calibraci\363n de cada planta}{appendix.Alph3}% 112
+\BOOKMARK [1][-]{section.Alph3.5}{Punto de interese Situm}{appendix.Alph3}% 113
+\BOOKMARK [1][-]{section.Alph3.6}{Definici\363n de rutas}{appendix.Alph3}% 114
+\BOOKMARK [0][-]{appendix.Alph4}{Contido do DVD adxunto}{}% 115

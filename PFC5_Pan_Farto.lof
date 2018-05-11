@@ -4,16 +4,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Casos de uso do Usuario Android dentro da pantalla inicial\relax }}{18}{figure.caption.18}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Casos de uso referentes \IeC {\'a} localizaci\IeC {\'o}n do Usuario Android\relax }}{19}{figure.caption.20}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Casos de uso referentes \IeC {\'a} visualizaci\IeC {\'o}n de POIs e percorridos\relax }}{20}{figure.caption.22}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Casos de uso do Xestor de contido referentes aos POIs\relax }}{22}{figure.caption.24}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos\relax }}{24}{figure.caption.26}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos\relax }}{25}{figure.caption.27}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Casos de uso do Usuario Android dentro da pantalla inicial\relax }}{18}{figure.caption.30}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Casos de uso referentes \IeC {\'a} localizaci\IeC {\'o}n do Usuario Android\relax }}{19}{figure.caption.32}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Casos de uso referentes \IeC {\'a} visualizaci\IeC {\'o}n de POIs e percorridos\relax }}{20}{figure.caption.34}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Casos de uso do Xestor de contido referentes aos POIs\relax }}{22}{figure.caption.36}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos\relax }}{24}{figure.caption.38}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos\relax }}{25}{figure.caption.39}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Arquitectura xeral da plataforma Caronte para a gu\IeC {\'\i }a de museos.\relax }}{35}{figure.caption.47}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Modelo de datos da plataforma Caronte.\relax }}{36}{figure.caption.48}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Arquitectura xeral da plataforma Caronte para a gu\IeC {\'\i }a de museos.\relax }}{35}{figure.caption.59}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Modelo de datos da plataforma Caronte.\relax }}{37}{figure.caption.60}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagrama de clases coas entidades.\relax }}{42}{figure.caption.61}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Diagrama de clases cos DAOs.\relax }}{42}{figure.caption.62}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

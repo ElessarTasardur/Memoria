@@ -1,17 +1,18 @@
 \chapter{Deseño}
-
-Neste capítulo explicaremos a arquitectura da plataforma empezando por unha visión xeral da mesma e despois comentando máis en detalle o deseño do servidor e da aplicación Android.
+Neste capítulo explícase a arquitectura da plataforma comezando por unha visión xeral da mesma para despois comentar máis en detalle o modelo de datos, o deseño do servidor e a aplicación Android.
 
 
 \section{Arquitectura xeral}
 
-A nosa plataforma consta dos seguintes elementos (ver figura~\ref{fig:arq_xeral}):
+A nosa plataforma consta dos seguintes elementos conectados entre si:
 \begin{itemize}
-	\item Servidor base de datos (POIs e percorridos).
+	\item Servidor de base de datos (POIs e percorridos).
 	\item Aplicación Android para visualización e edición de datos.
 	\item Sistema de autenticación (GoogleAuth).
 	\item Sistema de localización en interiores (Situm).
 \end{itemize}
+
+A aplicación Android precisa o servidor para a recuperación dos datos propios da plataforma e o sistema de localización en interiores para poder funcionar. O sistema de autenticación de Google está relacionado coa aplicación Android, onde comeza ese proceso, e co servidor, que realiza o último paso. Pódense observar estas conexións entre os elementos na figura~\ref{fig:arq_xeral}):
 
 
 \begin{figure}[tb] 
@@ -22,11 +23,15 @@ A nosa plataforma consta dos seguintes elementos (ver figura~\ref{fig:arq_xeral}
 	\end{center}
 \end{figure}
 
+O servidor encárgase de recuperar e procesar a información que precisa a aplicación para o seu funcionamento. Esta información é almacenada nunha base de datos PostgreSQL. Aparte de recuperar esta información, tamén se encarga de inserir os datos indicados polo usuario dentro da aplicación. Para permitir a comunicación coa aplicación Android e que o usuario poida recibir e modificar esa información, publícanse uns servizos web a través dunha API REST.
+
+A aplicación Android é o punto de interacción do usuario coa nosa plataforma. Presenta a información recuperada do servidor ao usuario e permite a súa modificación, enviando de novo os datos para a súa persistencia. Tamén é a encargada de tratar cos servizos de Situm que permiten a localización e o guiado en interiores, recuperando a información necesaria e presentándolla ao usuario.
+
+O sistema de autenticacion de Google permite a recuperación de información propia do usuario a través dunha conta de Google. Ao utilizar este sistema, pódese dispoñer da información dunha conta de usuario e gardala no noso servidor, polo que se pode utilizar para asociar permisos ou gardar outra información relacionada.
 
 
-%%%%%%%%
 \section{Modelo de datos}
-Neste punto exporase o modelo de datos da plataforma que se seguiu á hora da creación da base de datos. Na figura ~\ref{fig:modelo_datos} pódese observar o diagrama entidade relación. A continuación describirase cada táboa por separado:
+Neste punto exporase o modelo de datos da plataforma que se seguiu á hora da creación da base de datos. Na figura ~\ref{fig:modelo_datos} pódese observar o diagrama entidade relación. Dividirase a explicación
 
 \begin{figure}[tb] 
 	\begin{center}
@@ -48,7 +53,7 @@ As columnas das que se compón este entidade son:
 \end{itemize}
 
 \subsection{USUARIO}
-Nesta entidade gardarase a conta de usuario coa que alguén se autentica na aplicación. Só se gardará o nome desa conta.
+Nesta entidade gardarase a conta de usuario de Google coa que alguén se autentica na aplicación. Só se gardará o nome desa conta.
 
 As columnas das que se compón este entidade son:
 \begin{itemize}
@@ -68,7 +73,7 @@ As columnas das que se compón este entidade son:
 
 
 \subsection{PUNTO\_INTERESE}
-Nesta entidade gardarase información sobre os puntos de interese creados sobre un edificio e a súa localización exacta no planeta.
+Nesta entidade gardarase información sobre os puntos de interese creados sobre un edificio e a súa localización exacta no planeta. Un punto de interese só pode pertencer a un único edificio e estará localizado nunha das súas plantas.
 
 As columnas das que se compón este entidade son:
 \begin{itemize}
@@ -85,7 +90,7 @@ As columnas das que se compón este entidade son:
 
 
 \subsection{PERCORRIDO}
-Nesta entidade gardarase información sobre os percorridos dispoñíbeis nos edificios.
+Nesta entidade gardarase información sobre os percorridos dispoñíbeis nos edificios. Un percorrido só pode pertencer a un único edificio e non está limitado a unha única planta. Está composto por varios puntos de interese que se almacenan na táboa do seguinte punto.
 
 As columnas das que se compón este entidade son:
 \begin{itemize}
@@ -99,7 +104,7 @@ As columnas das que se compón este entidade son:
 
 
 \subsection{PERCORRIDO\_PUNTO\_INTERESE}
-Nesta entidade gardarase información sobre os percorridos dispoñíbeis nos edificios.
+Nesta entidade gardarase a relación entre os percorridos e os puntos de interese que os compoñen. É obrigatorio indicar a posición de cada un deses puntos xa que os percorridos están ordenados. Un punto de interese só pode aparecer unha única vez nun percorrido, non se permite a súa repetición. Non hai limitación no numero de percorridos aos que pode pertencer un punto de interese.
 
 As columnas das que se compón este entidade son:
 \begin{itemize}
@@ -110,7 +115,7 @@ As columnas das que se compón este entidade son:
 
 
 \subsection{CONTA\_SITUM}
-Nesta entidade almacénanse as distintas contas de usuario dispoñíbeis na aplicación para o acceso á plataforma de Situm. Con elas permítese o tratamento de distintos edificios.
+Nesta entidade almacénanse as distintas contas de usuario dispoñíbeis na aplicación para o acceso á plataforma de Situm. Con elas permítese o tratamento de distintos edificios. As contas poden ser públicas ou privadas, precisando certo permiso o usuario para poder visualizar estas últimas.
 
 As columnas das que se compón este entidade son:
 \begin{itemize}
@@ -123,7 +128,7 @@ As columnas das que se compón este entidade son:
 
 
 \subsection{CONTA\_SITUM\_USUARIO}
-Nesta entidade almacénanse as relacións entre os usuarios e as distintas contas de acceso a Situm sobre as que teñen permiso. Non almacena máis que esa relación.
+Nesta entidade almacénanse as relacións entre os usuarios e as distintas contas de acceso a Situm sobre as que teñen permiso. Non almacena máis que esa relación. Se o usuario ten algunha conta asociada poderá utilizala para acceder ao sistema.
 
 As columnas das que se compón este entidade son:
 \begin{itemize}
@@ -143,21 +148,48 @@ As columnas das que se compón este entidade son:
 	\item DESCRICION: De tipo VARCHAR (string) con límite de 300 caracteres. Un breve texto explicativo sobre a imaxe. Pode ter valor nulo.
 \end{itemize}
 
-%%%%%%%%
-\section{Servidor}
 
-Capas:
+\section{Servidor}
+Nesta sección describiremos as decisións tomadas no deseño do servidor. O primeiro é a súa división en capas, que son as seguintes:
+
 \begin{itemize}
-	\item DAO: Capa de acceso a datos
-	\item Manager: Xestión dos datos. Transaccionalidade.
-	\item Controladores: Reciben as peticións.
+	\item Entidade: A representación da información recuperada da base de datos faise mediante certas clases denominadas entidades. Non teñen lóxica, só se utilizan para o almacenamento de datos. Poden utilizarse en todas as capas do servidor. Pódense observar na figura ~\ref{fig:entidades}.
+	\item DAO: Capa de acceso a datos. Nesta capa prodúcese a recuperación da información de base de datos, así como a súa inserción, borrado e modificación a través das entidades. Esta capa está ausente de toda lóxica de tratamento destes datos, limítase á realización das accións comentadas, deixando os trámites ás capas superiores. Pódense observar na figura  ~\ref{fig:daos}.
+	\item Manager: Encárgase da xestión dos datos. Se no tratamento da información se precisa unha combinación entre os datos recuperados de distintos puntos é aquí onde se realiza. Nesta capa é onde se implementa a transaccionalidade, polo que se ocorre un erro durante a execución dun método dentro do manager que realiza cambios en base de datos, desfai as modificacións previas realizadas en BD para que a información quede consistente.
+	\item Controlador: Encárgase da comunicación a través dos servizos web. Implementa a API REST que permite o acceso aos servizos.
 \end{itemize}
 
+\begin{figure}[tb] 
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{figures/BD/diagramaEntidades}
+		\caption{Diagrama de clases coas entidades.}
+		\label{fig:entidades}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tb] 
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{figures/BD/diagramaDaos}
+		\caption{Diagrama de clases cos DAOs.}
+		\label{fig:daos}
+	\end{center}
+\end{figure}
 
 
+\subsection{Transaccionalidade}
+Ningunha aplicación está libre de que se produza algún erro na súa execución, ben sexa por culpa de erros na implementación ou por elementos externos (caídas de conexións, erros na base de datos, etc...), polo que é preciso ter en conta estas situacións á hora de realizar modificacións sobre a base de datos para evitar a existencia de información errónea. Cando se realizan modificacións en serie sobre a base de datos que requiren da intervención de varias táboas pode ocorrer un erro xusto no medio, provocando que algunhas táboas fosen modificadas e outras non. Neste caso romperíase a integridade dos datos. Para evitar isto, búscase un sistema que permita que se realicen esas modificacións como se fosen unha soa, e no caso de que se produza un erro, que se desfagan os cambios.
+Impleméntase esta transaccionalidade na capa Manager. Non todos os métodos provocan escrituras en base de datos, polo que non será necesario indicar este tipo de transaccionalidade que provoca desfacer cambios en todos eles. O resto marcaranse como de só lectura para non sobrecargar innecesariamente o sistema.
 
-%%%%%%%%
-\section{API rest}
+\todo{exemplo de etiqueta}
+
+\subsection{API REST}
+A API utilizada para os servizos web é REST, polo que o formato dos datos enviados e recibidos son, na súa maioría JSON. A única excepción prodúcese no envío de imaxes (multipart?).
+
+Estrutura das chamadas: /sw/museo/resto_da_chamada
+						/sw/imaxe/resto_da_chamada
+
+Seguridade básica: hai que enviala en cada chamada porque REST é stateless.
+
 
 /sw/museo/edificios
 Recupera todos os edificios dispoñíbeis na plataforma.
@@ -240,23 +272,34 @@ GET
 /eliminar/{idImaxe}
 
 
+\subsubsection{JSON}
 
-%%%%%%%%
+
 \section{Aplicación Android}
+Unha das primeiras decisións á hora de crear unha aplicación Android débese tomar sobre a utilización ou non de fragmentos. Apostouse por unha aplicación que utilizase varias actividades cunha única excepción, o fragmento onde se mostra o mapa de Google Maps. Esta decisión adoptouse debido á maior complexidade que adquire o código co tratamento de fragmentos e o pouco proveito que se lles sacaría nesta aplicación.
+
+A aplicación non ten un gran número de actividades debido a que case toda a lóxica recae sobre a actividade que contén o mapa. A continuación describimos cada unha das actividades incluídas na aplicación.
+
+A actividade inicial permite a autenticación a través de Google e a selección da conta de Situm utilizada que permitirá o acceso a certos edificios. As contas dispoñíbeis estarán restrinxidas en base á conta coa que se autentique o usuario, polo que non sempre se verán as mesmas. Hai algunhas que son públicas polo que estarán dispoñíbeis para todos os usuarios da aplicación.
+
+A principal actividade é MapaActivity, onde se mostra o mapa e se realizan a maioría das accións. É a actividade na que o usuario pasará máis tempo e onde se require amosar maior información, polo que tamén é a máis complexa. Nesta actidade incluíse o fragmento de Google Maps.
+
+Creáronse unha serie de actividades dirixidas a amosar certa información dos puntos de interese e percorridos dos edificios cunha estrutura semellante: DetallePoiActivity e DetallePercorridoActivity. Nelas obsérvanse os datos propios deses elementos, permitindo a súa modificación e borrado nos xa existentes, e tamén a súa creación no caso de non existir previamente se o usuario ten permisos para realizar esas accións.
 
 
-Poucas actividades. O peso recae sobre todo en MapaActivity onde se amosa o mapa. (fragmento)
 
 
-InicioActivity: Actividade de inicio onde se permite a autenticación en Google e a selección da conta de Situm.
 
-DetallePoiActivity, DetallePercorridoActivity amosan a informacion dun POI ou percorrido concreto, permitindo a súa edición se o usuario ten permiso.
+Clases propias da aplicación que non teñen unha equivalencia exacta co modelo da base de datos, senón que se rexen pola estrutura recibida no JSON.
+
 
 
 Un diagrama coa navegación entre pantallas
 
 
+\subsection{Comunicación co servidor}
 
+\subsection{Comunicación con Situm}
 No paquete servizo están as clases que realizan as chamadas tanto ao noso servidor como aos servidores de Situm (paquete interno chamado situm). Unha clase por cada chamada para non mesturar lóxica distinta.
 
 A comunicación con Situm só se realiza dende a aplicación Android.
@@ -266,3 +309,5 @@ Escolleuse unha única aplicación tanto para a consulta como para a edición pa
 
 Lista de permisos necesarios para a execución.
 
+
+\section{Sistema de autenticación (GoogleAuth)}

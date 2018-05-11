@@ -17,28 +17,30 @@
 \contentsline {subsection}{\numberline {3.1.1}Dispositivos (tel\IeC {\'e}fonos) m\IeC {\'o}biles intelixentes}{7}{subsection.3.1.1}
 \contentsline {subsubsection}{One Plus 3T}{7}{subsubsection*.10}
 \contentsline {section}{\numberline {3.2}Recursos software}{8}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SDK Situm}{8}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Apache Tomcat}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Amazon Web Services}{8}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Eclipse}{9}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Java}{9}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Android Studio}{9}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Git}{9}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}TeXstudio}{9}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}SQuirreL}{10}{subsection.3.2.9}
-\contentsline {subsection}{\numberline {3.2.10}Inkscape}{10}{subsection.3.2.10}
-\contentsline {subsection}{\numberline {3.2.11}StarUML}{10}{subsection.3.2.11}
-\contentsline {subsection}{\numberline {3.2.12}Postman}{10}{subsection.3.2.12}
+\contentsline {subsection}{\numberline {3.2.1}Recursos para a elaboraci\IeC {\'o}n do proxecto}{8}{subsection.3.2.1}
+\contentsline {subsubsection}{SDK Situm}{8}{subsubsection*.12}
+\contentsline {subsubsection}{Apache Tomcat}{8}{subsubsection*.13}
+\contentsline {subsubsection}{Amazon Web Services}{9}{subsubsection*.14}
+\contentsline {subsubsection}{Eclipse}{9}{subsubsection*.15}
+\contentsline {subsubsection}{Java}{9}{subsubsection*.16}
+\contentsline {subsubsection}{Android Studio}{9}{subsubsection*.17}
+\contentsline {subsubsection}{Postman}{9}{subsubsection*.18}
+\contentsline {subsection}{\numberline {3.2.2}Recursos de xesti\IeC {\'o}n e elaboraci\IeC {\'o}n da memoria}{10}{subsection.3.2.2}
+\contentsline {subsubsection}{Git}{10}{subsubsection*.19}
+\contentsline {subsubsection}{LaTeX e TeXstudio}{10}{subsubsection*.20}
+\contentsline {subsubsection}{SQuirreL}{10}{subsubsection*.21}
+\contentsline {subsubsection}{Inkscape}{10}{subsubsection*.22}
+\contentsline {subsubsection}{StarUML}{10}{subsubsection*.23}
 \contentsline {chapter}{\numberline {4}Metodolox\IeC {\'\i }a de desenvolvemento}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}Que \IeC {\'e} Scrum?}{11}{section.4.1}
 \contentsline {section}{\numberline {4.2}Roles}{11}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Roles centrais}{11}{subsection.4.2.1}
-\contentsline {subsubsection}{Product owner}{12}{subsubsection*.12}
-\contentsline {subsubsection}{Scrum master}{12}{subsubsection*.13}
-\contentsline {subsubsection}{Equipo Scrum}{12}{subsubsection*.14}
+\contentsline {subsubsection}{Product owner}{12}{subsubsection*.24}
+\contentsline {subsubsection}{Scrum master}{12}{subsubsection*.25}
+\contentsline {subsubsection}{Equipo Scrum}{12}{subsubsection*.26}
 \contentsline {subsection}{\numberline {4.2.2}Roles non centrais}{12}{subsection.4.2.2}
-\contentsline {subsubsection}{Usuario}{12}{subsubsection*.15}
-\contentsline {subsubsection}{Cliente}{12}{subsubsection*.16}
+\contentsline {subsubsection}{Usuario}{12}{subsubsection*.27}
+\contentsline {subsubsection}{Cliente}{12}{subsubsection*.28}
 \contentsline {section}{\numberline {4.3}Ciclo de proceso}{13}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Inicio de ciclo}{13}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Sprint planning meeting}{13}{subsection.4.3.2}
@@ -53,40 +55,40 @@
 \contentsline {section}{\numberline {5.1}Actores}{17}{section.5.1}
 \contentsline {section}{\numberline {5.2}Casos de uso}{18}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Usuario Android}{18}{subsection.5.2.1}
-\contentsline {subsubsection}{Pantalla inicial}{18}{subsubsection*.17}
-\contentsline {subsubsection}{Localizaci\IeC {\'o}n}{19}{subsubsection*.19}
-\contentsline {subsubsection}{POIs e percorridos}{20}{subsubsection*.21}
+\contentsline {subsubsection}{Pantalla inicial}{18}{subsubsection*.29}
+\contentsline {subsubsection}{Localizaci\IeC {\'o}n}{19}{subsubsection*.31}
+\contentsline {subsubsection}{POIs e percorridos}{20}{subsubsection*.33}
 \contentsline {subsection}{\numberline {5.2.2}Xestor de contido}{21}{subsection.5.2.2}
-\contentsline {subsubsection}{Puntos de interese}{21}{subsubsection*.23}
-\contentsline {subsubsection}{Percorridos}{23}{subsubsection*.25}
+\contentsline {subsubsection}{Puntos de interese}{21}{subsubsection*.35}
+\contentsline {subsubsection}{Percorridos}{23}{subsubsection*.37}
 \contentsline {subsection}{\numberline {5.2.3}Administrador do sistema}{24}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Usuario Situm}{25}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Planificaci\IeC {\'o}n e custos}{27}{chapter.6}
 \contentsline {section}{\numberline {6.1}Desenvolvemento}{27}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Sprint 1: Aplicaci\IeC {\'o}n Android: localizaci\IeC {\'o}n dentro dun edificio}{27}{subsection.6.1.1}
-\contentsline {paragraph}{Fito}{28}{paragraph*.28}
-\contentsline {paragraph}{Proba}{28}{paragraph*.29}
+\contentsline {paragraph}{Fito}{28}{paragraph*.40}
+\contentsline {paragraph}{Proba}{28}{paragraph*.41}
 \contentsline {subsection}{\numberline {6.1.2}Sprint 2: Servidor inicial: POIs e percorridos}{28}{subsection.6.1.2}
-\contentsline {paragraph}{Fito}{29}{paragraph*.30}
-\contentsline {paragraph}{Proba}{29}{paragraph*.31}
+\contentsline {paragraph}{Fito}{29}{paragraph*.42}
+\contentsline {paragraph}{Proba}{29}{paragraph*.43}
 \contentsline {subsection}{\numberline {6.1.3}Sprint 3: Lectura datos dende aplicaci\IeC {\'o}n Android}{29}{subsection.6.1.3}
-\contentsline {paragraph}{Fito}{29}{paragraph*.32}
-\contentsline {paragraph}{Proba}{29}{paragraph*.33}
+\contentsline {paragraph}{Fito}{29}{paragraph*.44}
+\contentsline {paragraph}{Proba}{29}{paragraph*.45}
 \contentsline {subsection}{\numberline {6.1.4}Sprint 4: Autenticaci\IeC {\'o}n de usuarios}{29}{subsection.6.1.4}
-\contentsline {paragraph}{Fito}{30}{paragraph*.34}
-\contentsline {paragraph}{Proba}{30}{paragraph*.35}
+\contentsline {paragraph}{Fito}{30}{paragraph*.46}
+\contentsline {paragraph}{Proba}{30}{paragraph*.47}
 \contentsline {subsection}{\numberline {6.1.5}Sprint 5: Edici\IeC {\'o}n de POIs e percorridos dende a aplicaci\IeC {\'o}n Android}{30}{subsection.6.1.5}
-\contentsline {paragraph}{Fito}{31}{paragraph*.36}
-\contentsline {paragraph}{Proba}{31}{paragraph*.37}
+\contentsline {paragraph}{Fito}{31}{paragraph*.48}
+\contentsline {paragraph}{Proba}{31}{paragraph*.49}
 \contentsline {subsection}{\numberline {6.1.6}Sprint 6: Imaxes para POIs}{31}{subsection.6.1.6}
-\contentsline {paragraph}{Fito}{31}{paragraph*.38}
-\contentsline {paragraph}{Proba}{31}{paragraph*.39}
+\contentsline {paragraph}{Fito}{31}{paragraph*.50}
+\contentsline {paragraph}{Proba}{31}{paragraph*.51}
 \contentsline {section}{\numberline {6.2}Planificaci\IeC {\'o}n e custos iniciais}{32}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Planificaci\IeC {\'o}n inicial}{32}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Custo inicial}{32}{subsection.6.2.2}
-\contentsline {paragraph}{Recursos humanos}{32}{paragraph*.41}
-\contentsline {paragraph}{Recursos materiais}{32}{paragraph*.43}
-\contentsline {paragraph}{Total}{33}{paragraph*.45}
+\contentsline {paragraph}{Recursos humanos}{32}{paragraph*.53}
+\contentsline {paragraph}{Recursos materiais}{32}{paragraph*.55}
+\contentsline {paragraph}{Total}{33}{paragraph*.57}
 \contentsline {subsection}{\numberline {6.2.3}An\IeC {\'a}lise de riscos e plans de continxencia}{33}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Planificaci\IeC {\'o}n e custos finais}{33}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Planificaci\IeC {\'o}n final}{33}{subsection.6.3.1}
@@ -94,49 +96,54 @@
 \contentsline {subsection}{\numberline {6.3.3}Custo final}{33}{subsection.6.3.3}
 \contentsline {chapter}{\numberline {7}Dese\IeC {\~n}o}{35}{chapter.7}
 \contentsline {section}{\numberline {7.1}Arquitectura xeral}{35}{section.7.1}
-\contentsline {section}{\numberline {7.2}Modelo de datos}{35}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}EDIFICIO}{35}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.2}Modelo de datos}{36}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}EDIFICIO}{36}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}USUARIO}{37}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}USUARIO\_EDIFICIO}{37}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}PUNTO\_INTERESE}{37}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}PERCORRIDO}{38}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}PERCORRIDO\_PUNTO\_INTERESE}{39}{subsection.7.2.6}
-\contentsline {subsection}{\numberline {7.2.7}CONTA\_SITUM}{39}{subsection.7.2.7}
-\contentsline {subsection}{\numberline {7.2.8}CONTA\_SITUM\_USUARIO}{40}{subsection.7.2.8}
-\contentsline {subsection}{\numberline {7.2.9}IMAXE}{40}{subsection.7.2.9}
-\contentsline {section}{\numberline {7.3}Servidor base de datos}{41}{section.7.3}
-\contentsline {section}{\numberline {7.4}API rest}{41}{section.7.4}
-\contentsline {section}{\numberline {7.5}Aplicaci\IeC {\'o}n Android}{41}{section.7.5}
-\contentsline {chapter}{\numberline {8}Implementaci\IeC {\'o}n}{43}{chapter.8}
-\contentsline {section}{\numberline {8.1}Servidor}{43}{section.8.1}
-\contentsline {section}{\numberline {8.2}Autenticaci\IeC {\'o}n}{43}{section.8.2}
-\contentsline {section}{\numberline {8.3}Aplicaci\IeC {\'o}n Android}{43}{section.8.3}
-\contentsline {chapter}{\numberline {9}Probas}{45}{chapter.9}
-\contentsline {section}{\numberline {9.1}Probas de validaci\IeC {\'o}n de cada sprint}{45}{section.9.1}
-\contentsline {section}{\numberline {9.2}Probas de caixa negra}{45}{section.9.2}
-\contentsline {section}{\numberline {9.3}Consola de Google}{45}{section.9.3}
-\contentsline {section}{\numberline {9.4}Probas de rendemento}{45}{section.9.4}
-\contentsline {section}{\numberline {9.5}Encuesta usuarios}{45}{section.9.5}
-\contentsline {chapter}{\numberline {10}Conclusi\IeC {\'o}ns e traballo futuro}{47}{chapter.10}
-\contentsline {section}{\numberline {10.1}Conclusi\IeC {\'o}ns}{47}{section.10.1}
-\contentsline {section}{\numberline {10.2}Traballo futuro}{48}{section.10.2}
-\contentsline {chapter}{\numberline {A}Casos de uso}{49}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n do sistema Caronte}{59}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Requisitos}{59}{section.Alph2.1}
-\contentsline {subsection}{\numberline {B.1.1}Servidor Caronte}{59}{subsection.Alph2.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Aplicaci\IeC {\'o}n Android: Caronte}{59}{subsection.Alph2.1.2}
-\contentsline {section}{\numberline {B.2}Instalaci\IeC {\'o}n}{59}{section.Alph2.2}
-\contentsline {subsection}{\numberline {B.2.1}Servidor Caronte}{59}{subsection.Alph2.2.1}
-\contentsline {subsection}{\numberline {B.2.2}Aplicaci\IeC {\'o}n Android: Caronte}{59}{subsection.Alph2.2.2}
-\contentsline {section}{\numberline {B.3}Manuales de usuario}{59}{section.Alph2.3}
-\contentsline {subsection}{\numberline {B.3.1}Administrador do servidor Caronte}{59}{subsection.Alph2.3.1}
-\contentsline {subsection}{\numberline {B.3.2}Aplicaci\IeC {\'o}n Caronte para usuarios an\IeC {\'o}nimos}{60}{subsection.Alph2.3.2}
-\contentsline {subsection}{\numberline {B.3.3}Apicaci\IeC {\'o}n Caronte para xestores de contidos}{60}{subsection.Alph2.3.3}
-\contentsline {chapter}{\numberline {C}Localizaci\IeC {\'o}n en interiores de Situm}{61}{appendix.Alph3}
-\contentsline {section}{\numberline {C.1}Nova conta en Situm}{61}{section.Alph3.1}
-\contentsline {section}{\numberline {C.2}Dashboard de Situm}{61}{section.Alph3.2}
-\contentsline {section}{\numberline {C.3}Editar edificios en Situm}{61}{section.Alph3.3}
-\contentsline {section}{\numberline {C.4}Calibraci\IeC {\'o}n de cada planta}{61}{section.Alph3.4}
-\contentsline {section}{\numberline {C.5}Punto de interese Situm}{61}{section.Alph3.5}
-\contentsline {section}{\numberline {C.6}Definici\IeC {\'o}n de rutas}{61}{section.Alph3.6}
-\contentsline {chapter}{\numberline {D}Contido do DVD adxunto}{63}{appendix.Alph4}
+\contentsline {subsection}{\numberline {7.2.3}USUARIO\_EDIFICIO}{38}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}PUNTO\_INTERESE}{38}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}PERCORRIDO}{39}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}PERCORRIDO\_PUNTO\_INTERESE}{40}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {7.2.7}CONTA\_SITUM}{40}{subsection.7.2.7}
+\contentsline {subsection}{\numberline {7.2.8}CONTA\_SITUM\_USUARIO}{41}{subsection.7.2.8}
+\contentsline {subsection}{\numberline {7.2.9}IMAXE}{41}{subsection.7.2.9}
+\contentsline {section}{\numberline {7.3}Servidor}{42}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Transaccionalidade}{42}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}API REST}{43}{subsection.7.3.2}
+\contentsline {subsubsection}{JSON}{44}{subsubsection*.64}
+\contentsline {section}{\numberline {7.4}Aplicaci\IeC {\'o}n Android}{44}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Comunicaci\IeC {\'o}n co servidor}{45}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Comunicaci\IeC {\'o}n con Situm}{45}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Sistema de autenticaci\IeC {\'o}n (GoogleAuth)}{45}{section.7.5}
+\contentsline {chapter}{\numberline {8}Implementaci\IeC {\'o}n}{47}{chapter.8}
+\contentsline {section}{\numberline {8.1}Servidor}{47}{section.8.1}
+\contentsline {section}{\numberline {8.2}Aplicaci\IeC {\'o}n Android}{47}{section.8.2}
+\contentsline {section}{\numberline {8.3}Autenticaci\IeC {\'o}n}{47}{section.8.3}
+\contentsline {chapter}{\numberline {9}Probas}{49}{chapter.9}
+\contentsline {section}{\numberline {9.1}Probas de validaci\IeC {\'o}n de cada sprint}{49}{section.9.1}
+\contentsline {section}{\numberline {9.2}Probas de caixa negra}{49}{section.9.2}
+\contentsline {section}{\numberline {9.3}Consola de Google}{49}{section.9.3}
+\contentsline {section}{\numberline {9.4}Probas de rendemento}{49}{section.9.4}
+\contentsline {section}{\numberline {9.5}Encuesta usuarios}{49}{section.9.5}
+\contentsline {chapter}{\numberline {10}Conclusi\IeC {\'o}ns e traballo futuro}{51}{chapter.10}
+\contentsline {section}{\numberline {10.1}Conclusi\IeC {\'o}ns}{51}{section.10.1}
+\contentsline {section}{\numberline {10.2}Traballo futuro}{52}{section.10.2}
+\contentsline {chapter}{\numberline {A}Casos de uso}{53}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n do sistema Caronte}{63}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Requisitos}{63}{section.Alph2.1}
+\contentsline {subsection}{\numberline {B.1.1}Servidor Caronte}{63}{subsection.Alph2.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Aplicaci\IeC {\'o}n Android: Caronte}{63}{subsection.Alph2.1.2}
+\contentsline {section}{\numberline {B.2}Instalaci\IeC {\'o}n}{63}{section.Alph2.2}
+\contentsline {subsection}{\numberline {B.2.1}Servidor Caronte}{63}{subsection.Alph2.2.1}
+\contentsline {subsection}{\numberline {B.2.2}Aplicaci\IeC {\'o}n Android: Caronte}{63}{subsection.Alph2.2.2}
+\contentsline {section}{\numberline {B.3}Manuales de usuario}{63}{section.Alph2.3}
+\contentsline {subsection}{\numberline {B.3.1}Administrador do servidor Caronte}{63}{subsection.Alph2.3.1}
+\contentsline {subsection}{\numberline {B.3.2}Aplicaci\IeC {\'o}n Caronte para usuarios an\IeC {\'o}nimos}{64}{subsection.Alph2.3.2}
+\contentsline {subsection}{\numberline {B.3.3}Apicaci\IeC {\'o}n Caronte para xestores de contidos}{64}{subsection.Alph2.3.3}
+\contentsline {chapter}{\numberline {C}Localizaci\IeC {\'o}n en interiores de Situm}{65}{appendix.Alph3}
+\contentsline {section}{\numberline {C.1}Nova conta en Situm}{65}{section.Alph3.1}
+\contentsline {section}{\numberline {C.2}Dashboard de Situm}{65}{section.Alph3.2}
+\contentsline {section}{\numberline {C.3}Editar edificios en Situm}{65}{section.Alph3.3}
+\contentsline {section}{\numberline {C.4}Calibraci\IeC {\'o}n de cada planta}{65}{section.Alph3.4}
+\contentsline {section}{\numberline {C.5}Punto de interese Situm}{65}{section.Alph3.5}
+\contentsline {section}{\numberline {C.6}Definici\IeC {\'o}n de rutas}{65}{section.Alph3.6}
+\contentsline {chapter}{\numberline {D}Contido do DVD adxunto}{67}{appendix.Alph4}

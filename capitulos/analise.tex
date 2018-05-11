@@ -5,10 +5,9 @@ Neste apartado levaremos a cabo a análise dos requisitos. Explicaremos os disti
 
 \section{Actores}
 
-No modelo de casos de uso os actores representan aos distintos usuarios que usarán o sistema e a maneira na que o farán. Dentro do noso sistema diferenciaremos catro actores distintos:
+No modelo de casos de uso os actores representan aos distintos usuarios que usarán o sistema e a maneira na que o farán. Dentro do noso sistema diferenciaremos tres actores distintos:
 
 \begin{itemize}
-	\item Usuario Situm: Encárgase da creación e configuración de edificios dentro da plataforma de Situm. Tamén levará a cabo a calibración do sistema dentro do edificio que permitirá o seu funcionamento.
 	\item Administrador do sistema: É o encargado de crear os edificios dentro da nosa base de datos, permitindo desa maneira que os xestores de contido dos edificios poidan realizar accións sobre el.
 	\item Xestor do contido: Neles recae a obriga de crear o contido para os edificios. Deben incluír os POIs e percorridos que crean útiles para os usuarios da aplicación.
 	\item Usuario Android: É o usuario final da aplicación. Poderá situarse, localizar POIs, utilizar rutas, entre outras funcionalidades proporcionadas pola aplicación.
@@ -143,6 +142,3 @@ A continuación exporemos os casos de uso do Administrador do sistema. As acció
 	\item Dar permisos a un usuario sobre algún edificio: Para permitir a creación de contido sobre os edificios débense dar permisos de xestor a algún usuario. Estes usuarios deben existir na base de datos, é dicir, debéronse autenticar nalgún momento na aplicación para poder ter os seus datos. Os permisos serán outorgados individualmente sobre cada edificio, para que un usuario non poida modificar todos os edificios dunha conta. Ver \ref{tab:cuDarPermisoUsuarioEdificio}.
 	\item Asignar contas Situm a usuarios: Como non todos as contas de acceso ao sistema de Situm van estar visíbeis para calquera usuario que entre na aplicación, debemos asignar esas contas privadas a certos usuarios. Desta maneira, cando algún usuario acceda á aplicación, poderá ver tanto as contas de Situm públicas coma as privadas que estean asociadas ao seu usuario. Ver \ref{tab:cuAsignarContaSitumUsuario}.
 \end{itemize}
-
-
-\subsection{Usuario Situm}

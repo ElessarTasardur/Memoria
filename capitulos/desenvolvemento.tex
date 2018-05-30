@@ -20,7 +20,6 @@ A continuación veremos unha lista cos casos de uso implementados nesta iteraci�
 	\item Visualizar o mapa dun edificio. Ver caso de uso \ref{tab:cuAmosarMapaEdificio}.
 	\item Localizar un usuario dentro dun edificio. Ver caso de uso \ref{tab:cuLocalizacion}.
 	\item Cambiar de piso dentro dun edificio. Ver caso de uso \ref{tab:cuCambiarPiso}.
-	\item Guiar ata un punto do edificio. Primeira parte do caso de uso \ref{tab:cuGuiarPOI}.
 \end{itemize}
 
 \paragraph{Fito}
@@ -111,8 +110,26 @@ Ao final deste sprint teremos unha aplicación completamente funcional, coa posi
 O primeiro paso para as probas deste sprint consistirá na creación, modificación e borrado de POIs ao longo dun edificio, en distintas plantas e con diferentes usuarios. Posteriormente utilizaremos eses puntos de interese para a creación de diversos percorridos, que tamén serán editados (tanto a súa información coma a inserción de POIs despois de ter creado o percorrido) e borrados. Tamén se deberá comprobar as opcións dispoñíbeis para os usuarios en base aos roles asignados.
 
 
-\subsection{Sprint 6: Imaxes para POIs}
-O obxectivo do sexto sprint é a xestión de imaxes para os puntos de interese. Os xestores de contido poderán engadir as imaxes que consideren oportunas a calquera POI dentro dun edificio para que visualicen os usuarios da aplicación. Non se precisará ningún permiso a maiores, chega con ser xestro de contido dun edificio. Non haberá límite de imaxes para os puntos.
+\subsection{Sprint 6: Valor engadido da localización Situm}
+O obxectivo do sexto sprint é a utilización da localización en Situm para proporcionarlle máis servizos ao usuario. Non se precisará ningún permiso especial para utilizar esta capacidade, que permitirá guiar aos usuarios a un punto de interese ou seguir todo un percorrido. A ruta de guiado será actualizada automaticamente pola aplicación mentres o usuario non o cancele. Tamén se lle permitirá aos xestores de contido estimar o tempo adicado a cada POI e percorrido.
+
+A continuación veremos unha relación cos casos de uso nos que se traballou neste sprint:
+
+\begin{itemize}
+	\item Guiar ata un punto de interese. Ver caso de uso \ref{tab:cuGuiarPOI}.
+	\item Guiar a través dun percorrido. Ver caso de uso \ref{tab:cuGuiarPercorrido}.
+	\item Estimar tempo adicado a POI. Ver caso de uso \ref{tab:cuEstimarTempoPOI}.
+	\item Estimar tempo adicado a percorrido. Ver caso de uso \ref{tab:cuEstimarTempoPercorrido}.
+\end{itemize} 
+
+\paragraph{Fito}
+Ao final deste sprint o usuario poderá ser guiado aos puntos de interese do edificio, así como poder utilizar esta capacidade en edificios, sabendo canto tempo estimado lle levará cada visita grazas aos novos valores de cada POI e percorrido.
+
+\paragraph{Proba}
+As probas para validar este sprint consistirán no guiado dentro dun edificio configurado a través de Situm mediante as rutas creadas no seu dashboard.
+
+\subsection{Sprint 7: Imaxes para POIs}
+O obxectivo do sétimo sprint é a xestión de imaxes para os puntos de interese. Os xestores de contido poderán engadir as imaxes que consideren oportunas a calquera POI dentro dun edificio para que visualicen os usuarios da aplicación. Non se precisará ningún permiso a maiores, chega con ser xestor de contido dun edificio. Non haberá límite de imaxes para os puntos.
 
 A continuación veremos unha relación cos casos de uso nos que se traballou neste sprint:
 

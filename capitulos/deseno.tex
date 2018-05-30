@@ -180,96 +180,90 @@ Nesta sección describiremos as decisións tomadas no deseño do servidor. O pri
 Ningunha aplicación está libre de que se produza algún erro na súa execución, ben sexa por culpa de erros na implementación ou por elementos externos (caídas de conexións, erros na base de datos, etc...), polo que é preciso ter en conta estas situacións á hora de realizar modificacións sobre a base de datos para evitar a existencia de información errónea. Cando se realizan modificacións en serie sobre a base de datos que requiren da intervención de varias táboas pode ocorrer un erro xusto no medio, provocando que algunhas táboas fosen modificadas e outras non. Neste caso romperíase a integridade dos datos. Para evitar isto, búscase un sistema que permita que se realicen esas modificacións como se fosen unha soa, e no caso de que se produza un erro, que se desfagan os cambios.
 Impleméntase esta transaccionalidade na capa Manager. Non todos os métodos provocan escrituras en base de datos, polo que non será necesario indicar este tipo de transaccionalidade que provoca desfacer cambios en todos eles. O resto marcaranse como de só lectura para non sobrecargar innecesariamente o sistema.
 
-\todo{exemplo de etiqueta}
+Exemplo de método transaccional:
+\begin{lstlisting}
+@Transactional
+public Short gardarPercorrido(Percorrido percorrido, List<PuntoInterese> listaPuntoInterese)
+\end{lstlisting}
+
+Exemplo de método non transaccional:
+\begin{lstlisting}
+@Transactional(readOnly = true)
+public Edificio getEdificio(Short idEdificio)
+\end{lstlisting}
+
 
 \subsection{API REST}
-A API utilizada para os servizos web é REST, polo que o formato dos datos enviados e recibidos son, na súa maioría JSON. A única excepción prodúcese no envío de imaxes (multipart?).
+A API utilizada para os servizos web é REST, polo que o formato dos datos enviados e recibidos son, na súa maioría JSON. A única excepción prodúcese no envío de imaxes. As respostas producidas polos servizos tamén serán devoltas no mesmo formato.
+A API foi dividida en dúas seccións, por unha parte a relacionada coas imaxes (envío, recepción e modificación de datos) e por outra a relacionada co resto de elementos do sistemas (POIs, edificios, percorridos).
+Todas as URLs comezan por /sw/ mais a continuación dependen da sección á cal pertenzan: se son da información xeral levarán a continuación "museo", mentres que as de tratamento de imaxes levarán "imaxe". Un exemplo de URL de cada sección:
 
-Estrutura das chamadas: /sw/museo/resto_da_chamada
-						/sw/imaxe/resto_da_chamada
+\begin{itemize}
+	\item http://direccionSW:porto/sw/museo/contas/(idUsuario)
+	\item http://direccionSW:porto/sw/imaxe/recuperar/(idEdificio)/(idPoi)/(idImaxe)
+\end{itemize}
 
-Seguridade básica: hai que enviala en cada chamada porque REST é stateless.
+Os parénteses fan referencia a variábeis dentro das chamadas, texto que non é fixo senón que varía dependendo dos datos que queira solicitar o usuario.
 
+Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos web e as súas características, tanto para as imaxes (táboa \ref{tab:APIImaxes}) coma para o resto de información (táboa \ref{tab:APIXeral}).
 
-/sw/museo/edificios
-Recupera todos os edificios dispoñíbeis na plataforma.
-GET
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{6cm}|p{6cm}|}
+		\hline 
+		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
+		\hline 
+		GET & /recuperar/(idEd)/(idPoi)/(idIm) & Recupera a imaxe indicada polo id=(idIm) do poi con id=(idPoi) do edificio=(idEd) \\ 
+		\hline 
+		POST & /subir/(idEd)/(idPoi)/(nome)/(desc) & Envía unha imaxe con nome=(nome), descrición=(desc) para o poi con id=(idPoi) do edificio (idEd) \\ 
+		\hline 
+		POST & /actualizar/(idIm)/(nome)/(desc) & Actualiza a información, nome e descrición, da imaxe indicada polo id=(idIm) \\ 
+		\hline 
+		DELETE & /eliminar/(idIm) & Elimina a imaxe indicada polo id=(idIm) \\ 
+		\hline 
+	\end{tabular}
+	\caption{Descricións da API Rest para o tratamento de imaxes}
+	\label{tab:APIImaxes}
+\end{table}
 
+\begin{table} [tbp]
+	\begin{tabular}{|l|p{6cm}|p{6cm}|}
+		\hline 
+		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
+		\hline 
+		GET & /edificios & Recupera todos os edificios \\ 
+		\hline 
+		GET & /pois/(idEdificioExterno) & Recupera todos os POIs do edificio con id externo=(idEdificioExterno) \\ 
+		\hline 
+		GET & /contas & Recupera todas as contas de Situm públicas \\ 
+		\hline 
+		GET & /contas/(idUsuario) & Recupera todas as contas de Situm ás que ten acceso o usuario con id=(idUsuario) \\ 
+		\hline 
+		GET & /percorridos/(idEd) & Recupera todos os percorridos do edificio con id=(idEdificio) \\ 
+		\hline 
+		GET & /percorridosidexterno/(idEdEx) & Recupera todos os percorridos do edificio con id externo=(idEdEx) \\ 
+		\hline 
+		GET & /ppi/(idPercorrido) & Recupera os puntos de interese do percorrido con id=(idPercorrido) \\ 
+		\hline 
+		POST & /percorrido/gardar & Garda os datos dun percorrido en BD \\ 
+		\hline 
+		POST & /comprobarUsuarioGoogle & Comproba que a autenticación a través da conta de Google do usuario é correcta \\ 
+		\hline 
+		POST & /poi/gardar & Garda os datos dun POI en BD \\ 
+		\hline 
+		DELETE & /percorrido/eliminar/(idPercorrido) & Elimina un percorrido con id=(idPercorrido). Devolve un valor indicando o éxito \\ 
+		\hline 
+		DELETE & /poi/eliminar/(idPoi) & Elimina un POI con id=(idPoi). Devolve un valor indicando o éxito \\ 
+		\hline 
+		GET & /imaxe/recuperar/(listaIdImaxeCSV) & Recupera a información dunha lista de imaxes en CSV \\ 
+		\hline 
+	\end{tabular}
+	\caption{Descricións da API Rest para o tratamento da información xeral}
+	\label{tab:APIXeral}
+\end{table}
 
-/pois/{idEdificioExterno}
-Recupera todos os POIs a partir do identificador dun edificio. O identificador é o de Situm
-GET
-
-
-/contas
-Recupera todas as contas de Situm públicas, é dicir, as dispoñíbeis para os usuarios anónimos.
-GET
-
-
-/contas/{idUsuario}
-Recupera as contas de Situm dispoñíbeis para un usuario, tanto as públicas como as privadas.
-GET
-
-
-/percorridos/{idEdificio}
-Recupera os percorridos dun edificio.
-GET
-
-
-/percorridosidexterno/{idEdificioExterno}
-Recupera os percorridos dun edificio a partir do seu identificador de Situm.
-GET
-
-
-/ppi/{idPercorrido}
-Recupera os POIs (coas súas posicións) dun percorrido a partir do seu identificador.
-GET
-
-
-/percorrido/gardar
-Crea ou modifica un percorrido
-POST - PUT?
-
-
-/comprobarUsuarioGoogle
-Comproba a validez da autenticación de Google dun usuario. Se é a primeira vez que se autentica, crea o usuario en BD. Devolve información.
-POST - PUT?
-
-
-/poi/gardar
-Crea ou modifica un POI
-POST - PUT?
-
-
-/percorrido/eliminar
-Elimina un percorrido
-POST
-
-
-/poi/eliminar
-Elimina un POI
-POST
-
-
-/imaxe/recuperar/{listaIdImaxeCSV}
-Recupera unha lista de imaxes. A entrada está separada por comas.
-GET
-
-
-/recuperar/{idEdificio}/{idPoi}/{idImaxe}
-
-
-
-
-/subir/{idEdificio}/{idPoi}/{nome}/{descricion}
-
-
-
-/actualizar/{idImaxe}/{nome}/{descricion}
-
-
-
-/eliminar/{idImaxe}
+\subsubsection{Securización da API}
+Tal e como se indicou no capítulo de conceptos teóricos, os servizos REST non teñen estado, polo que non se garda información ningunha entre peticións. É por isto que en cada petición se debe enviar toda a información para que se poida procesar, o que inclúe a información de securización.
+Para a autenticación dos servizos utilizouse o sistema Basic, que consiste no envío dun usuario e contrasinal codificados en Base64. Na cabeceira da chamada REST aparecerá algo semellante a "Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l"
 
 
 \subsubsection{JSON}
@@ -284,7 +278,7 @@ A aplicación non ten un gran número de actividades debido a que case toda a l�
 
 A actividade inicial permite a autenticación a través de Google e a selección da conta de Situm utilizada que permitirá o acceso a certos edificios. As contas dispoñíbeis estarán restrinxidas en base á conta coa que se autentique o usuario, polo que non sempre se verán as mesmas. Hai algunhas que son públicas polo que estarán dispoñíbeis para todos os usuarios da aplicación.
 
-A principal actividade é MapaActivity, onde se mostra o mapa e se realizan a maioría das accións. É a actividade na que o usuario pasará máis tempo e onde se require amosar maior información, polo que tamén é a máis complexa. Nesta actidade incluíse o fragmento de Google Maps.
+A principal actividade é MapaActivity, onde se mostra o mapa e se realizan a maioría das accións. É a actividade na que o usuario pasará máis tempo e onde se require amosar maior información, polo que tamén é a máis complexa. Nesta actividade incluíse o fragmento de Google Maps.
 
 Creáronse unha serie de actividades dirixidas a amosar certa información dos puntos de interese e percorridos dos edificios cunha estrutura semellante: DetallePoiActivity e DetallePercorridoActivity. Nelas obsérvanse os datos propios deses elementos, permitindo a súa modificación e borrado nos xa existentes, e tamén a súa creación no caso de non existir previamente se o usuario ten permisos para realizar esas accións.
 

@@ -68,7 +68,7 @@
 \contentsline {paragraph}{Fito}{28}{paragraph*.40}
 \contentsline {paragraph}{Proba}{28}{paragraph*.41}
 \contentsline {subsection}{\numberline {6.1.2}Sprint 2: Servidor inicial: POIs e percorridos}{28}{subsection.6.1.2}
-\contentsline {paragraph}{Fito}{29}{paragraph*.42}
+\contentsline {paragraph}{Fito}{28}{paragraph*.42}
 \contentsline {paragraph}{Proba}{29}{paragraph*.43}
 \contentsline {subsection}{\numberline {6.1.3}Sprint 3: Lectura datos dende aplicaci\IeC {\'o}n Android}{29}{subsection.6.1.3}
 \contentsline {paragraph}{Fito}{29}{paragraph*.44}
@@ -79,15 +79,18 @@
 \contentsline {subsection}{\numberline {6.1.5}Sprint 5: Edici\IeC {\'o}n de POIs e percorridos dende a aplicaci\IeC {\'o}n Android}{30}{subsection.6.1.5}
 \contentsline {paragraph}{Fito}{31}{paragraph*.48}
 \contentsline {paragraph}{Proba}{31}{paragraph*.49}
-\contentsline {subsection}{\numberline {6.1.6}Sprint 6: Imaxes para POIs}{31}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.6}Sprint 6: Valor engadido da localizaci\IeC {\'o}n Situm}{31}{subsection.6.1.6}
 \contentsline {paragraph}{Fito}{31}{paragraph*.50}
 \contentsline {paragraph}{Proba}{31}{paragraph*.51}
+\contentsline {subsection}{\numberline {6.1.7}Sprint 7: Imaxes para POIs}{31}{subsection.6.1.7}
+\contentsline {paragraph}{Fito}{32}{paragraph*.52}
+\contentsline {paragraph}{Proba}{32}{paragraph*.53}
 \contentsline {section}{\numberline {6.2}Planificaci\IeC {\'o}n e custos iniciais}{32}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Planificaci\IeC {\'o}n inicial}{32}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Custo inicial}{32}{subsection.6.2.2}
-\contentsline {paragraph}{Recursos humanos}{32}{paragraph*.53}
-\contentsline {paragraph}{Recursos materiais}{32}{paragraph*.55}
-\contentsline {paragraph}{Total}{33}{paragraph*.57}
+\contentsline {paragraph}{Recursos humanos}{33}{paragraph*.55}
+\contentsline {paragraph}{Recursos materiais}{33}{paragraph*.57}
+\contentsline {paragraph}{Total}{33}{paragraph*.59}
 \contentsline {subsection}{\numberline {6.2.3}An\IeC {\'a}lise de riscos e plans de continxencia}{33}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Planificaci\IeC {\'o}n e custos finais}{33}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Planificaci\IeC {\'o}n final}{33}{subsection.6.3.1}
@@ -108,11 +111,12 @@
 \contentsline {section}{\numberline {7.3}Servidor}{42}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Transaccionalidade}{42}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}API REST}{43}{subsection.7.3.2}
-\contentsline {subsubsection}{JSON}{44}{subsubsection*.64}
+\contentsline {subsubsection}{Securizaci\IeC {\'o}n da API}{44}{subsubsection*.67}
+\contentsline {subsubsection}{JSON}{44}{subsubsection*.68}
 \contentsline {section}{\numberline {7.4}Aplicaci\IeC {\'o}n Android}{44}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Comunicaci\IeC {\'o}n co servidor}{45}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Comunicaci\IeC {\'o}n con Situm}{45}{subsection.7.4.2}
-\contentsline {section}{\numberline {7.5}Sistema de autenticaci\IeC {\'o}n (GoogleAuth)}{45}{section.7.5}
+\contentsline {subsection}{\numberline {7.4.1}Comunicaci\IeC {\'o}n co servidor}{46}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Comunicaci\IeC {\'o}n con Situm}{46}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Sistema de autenticaci\IeC {\'o}n (GoogleAuth)}{46}{section.7.5}
 \contentsline {chapter}{\numberline {8}Implementaci\IeC {\'o}n}{47}{chapter.8}
 \contentsline {section}{\numberline {8.1}Servidor}{47}{section.8.1}
 \contentsline {section}{\numberline {8.2}Aplicaci\IeC {\'o}n Android}{47}{section.8.2}

@@ -291,6 +291,28 @@ Neste apéndice incluiremos as táboas que describen os casos de uso da aplicaci
 \begin{table}[tbp]
 	\begin{tabular}{|l|p{10cm}|}
 		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Guiar a través de percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Guiar a través de percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Amosa as rutas que ten que realizar o usuario para viaxar entre os POIs dun percorrido no mapa do edificio \\ 
+		\hline 
+		\textbf{Actor} & Usuario Android \\ 
+		\hline 
+		\textbf{Precondicións} & Seleccionar un percorrido dun edificio amosado no mapa \\ 
+		\hline 
+		\textbf{Poscondicións} & Amosará a localización actual, os POIs do percorrido polos que xa se pasou e os que faltan por pasar. Os POIs estarán unidos por liñas de distintas cores indicando o seu estado \\ 
+		\hline 
+		\textbf{Escenario} & Na pantalla principal, pinchar sobre o marcador dun POI e despois sobre a información que amosa \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Guiar a través de percorrido}
+	\label{tab:cuGuiarPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
 		\textbf{IDENTIFICADOR}	& \textbf{Amosar información dun percorrido} \\ 
 		\hline 
 		\textbf{Nome} & Amosar información dun percorrido \\ 
@@ -423,6 +445,28 @@ Neste apéndice incluiremos as táboas que describen os casos de uso da aplicaci
 \begin{table}[tbp]
 	\begin{tabular}{|l|p{10cm}|}
 		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Estimar tempo POI} \\ 
+		\hline 
+		\textbf{Nome} & Estimar tempo POI \\ 
+		\hline 
+		\textbf{Descrición} & Estima e asocia o tempo adicado a un POI \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio. Debe seleccionarse un POI e visualizar a súa información \\ 
+		\hline 
+		\textbf{Poscondicións} & O POI verá actualizada a súa información \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Visualizar a información, engadir a estimación e pulsar no botón Gardar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Estimar tempo POI}
+	\label{tab:cuEstimarTempoPOI}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
 		\textbf{IDENTIFICADOR}	& \textbf{Engadir imaxe} \\ 
 		\hline 
 		\textbf{Nome} & Engadir imaxe a POI \\ 
@@ -550,6 +594,28 @@ Neste apéndice incluiremos as táboas que describen os casos de uso da aplicaci
 	\end{tabular}
 	\caption{Caso de uso Eliminar percorrido}
 	\label{tab:cuEliminarPercorrido}
+\end{table}
+
+\begin{table}[tbp]
+	\begin{tabular}{|l|p{10cm}|}
+		\hline 
+		\textbf{IDENTIFICADOR}	& \textbf{Estimar tempo percorrido} \\ 
+		\hline 
+		\textbf{Nome} & Estimar tempo percorrido \\ 
+		\hline 
+		\textbf{Descrición} & Estima e asocia o tempo adicado a un percorrido \\ 
+		\hline 
+		\textbf{Actor} & Xestor de contido \\ 
+		\hline 
+		\textbf{Precondicións} & Debe ter permisos de administración sobre o edificio. Debe seleccionarse un percorrido e visualizar a súa información \\ 
+		\hline 
+		\textbf{Poscondicións} & O percorrido verá actualizada a súa información \\ 
+		\hline 
+		\textbf{Escenario} & Debemos entrar no modo de edición sobre un edificio. Visualizar a información, engadir a estimación e pulsar no botón Gardar \\ 
+		\hline 
+	\end{tabular}
+	\caption{Caso de uso Estimar tempo percorrido}
+	\label{tab:cuEstimarTempoPercorrido}
 \end{table}
 
 \begin{table}[tbp]

@@ -285,6 +285,19 @@ Creáronse unha serie de actividades dirixidas a amosar certa información dos p
 
 
 
+Preciso varias capturas e realizar unha navegación entre elas
+
+Escribir todo como ideas xerais, non indicar que se crearon senón facer como se aínda non estivesen feitas.
+
+
+
+Para engadir lóxica ao mapa optouse por externalizar certos compoñentes coma o selector de piso e os combos de selección para os puntos de interese e os percorridos e non sobrecargar a actividade.
+
+A continuación describimos cada unha das actividades incluídas na aplicación.
+
+Separación por un lado das actividades, das clases utilizadas para a tradución do JSON, outras de utilidades, outras de compoñentes utilizadas nas actividades.
+
+
 
 Clases propias da aplicación que non teñen unha equivalencia exacta co modelo da base de datos, senón que se rexen pola estrutura recibida no JSON.
 
@@ -294,6 +307,8 @@ Un diagrama coa navegación entre pantallas
 
 
 \subsection{Comunicación co servidor}
+Distinguimos as clases de acceso ao noso servidor e posíbeis traducións que hai que realizar para poder chamar.
+
 
 \subsection{Comunicación con Situm}
 No paquete servizo están as clases que realizan as chamadas tanto ao noso servidor como aos servidores de Situm (paquete interno chamado situm). Unha clase por cada chamada para non mesturar lóxica distinta.

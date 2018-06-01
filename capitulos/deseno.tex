@@ -31,7 +31,7 @@ O sistema de autenticacion de Google permite a recuperación de información pro
 
 
 \section{Modelo de datos}
-Neste punto exporase o modelo de datos da plataforma que se seguiu á hora da creación da base de datos. Na figura ~\ref{fig:modelo_datos} pódese observar o diagrama entidade relación. Dividirase a explicación
+Neste punto exporase o modelo de datos da plataforma que se seguiu á hora da creación da base de datos. Na figura~\ref{fig:modelo_datos} pódese observar o diagrama entidade relación. Dividirase a explicación en base ás entidades.
 
 \begin{figure}[tb] 
 	\begin{center}
@@ -178,19 +178,6 @@ Nesta sección describiremos as decisións tomadas no deseño do servidor. O pri
 
 \subsection{Transaccionalidade}
 Ningunha aplicación está libre de que se produza algún erro na súa execución, ben sexa por culpa de erros na implementación ou por elementos externos (caídas de conexións, erros na base de datos, etc...), polo que é preciso ter en conta estas situacións á hora de realizar modificacións sobre a base de datos para evitar a existencia de información errónea. Cando se realizan modificacións en serie sobre a base de datos que requiren da intervención de varias táboas pode ocorrer un erro xusto no medio, provocando que algunhas táboas fosen modificadas e outras non. Neste caso romperíase a integridade dos datos. Para evitar isto, búscase un sistema que permita que se realicen esas modificacións como se fosen unha soa, e no caso de que se produza un erro, que se desfagan os cambios.
-Impleméntase esta transaccionalidade na capa Manager. Non todos os métodos provocan escrituras en base de datos, polo que non será necesario indicar este tipo de transaccionalidade que provoca desfacer cambios en todos eles. O resto marcaranse como de só lectura para non sobrecargar innecesariamente o sistema.
-
-Exemplo de método transaccional:
-\begin{lstlisting}
-@Transactional
-public Short gardarPercorrido(Percorrido percorrido, List<PuntoInterese> listaPuntoInterese)
-\end{lstlisting}
-
-Exemplo de método non transaccional:
-\begin{lstlisting}
-@Transactional(readOnly = true)
-public Edificio getEdificio(Short idEdificio)
-\end{lstlisting}
 
 
 \subsection{API REST}
@@ -263,8 +250,10 @@ Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos
 
 \subsubsection{Securización da API}
 Tal e como se indicou no capítulo de conceptos teóricos, os servizos REST non teñen estado, polo que non se garda información ningunha entre peticións. É por isto que en cada petición se debe enviar toda a información para que se poida procesar, o que inclúe a información de securización.
-Para a autenticación dos servizos utilizouse o sistema Basic, que consiste no envío dun usuario e contrasinal codificados en Base64. Na cabeceira da chamada REST aparecerá algo semellante a "Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l"
-
+Para a autenticación dos servizos utilizouse o sistema Basic, que consiste no envío dun usuario e contrasinal codificados en Base64. Na cabeceira da chamada REST aparecerá algo semellante ao seguinte texto:
+\begin{lstlisting}
+Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l
+\end{lstlisting}
 
 \subsubsection{JSON}
 

@@ -7,13 +7,46 @@ Neste capítulo se comentarán los aspectos máis relevantes da implementación 
 \section{Servidor}
 
 
-Aspectos
+Autenticación con Google: Só facer mención á sección posterior
+
+Spring en todo o proxecto
+
+Exemplo de construción dos servizos web: Spring MVC
+Exemplo de acceso a datos
+
+\subsection{Transaccionalidade}
+A xestión transaccionalidade impleméntase na capa Manager utilizando o framework Spring, grazas á súa librería spring-tx. A súa configuración e utilización é moi sinxela, tal e como se pode observar nos exemplos. Utilizaremos etiquetas para identificar o tipo de transacción que queremos que se aplique en cada método público do manager. Non todos os métodos provocan escrituras en base de datos, polo que non será necesario indicar o tipo de transaccionalidade que provoca desfacer cambios en todos eles. O resto marcaranse como de só lectura para non sobrecargar innecesariamente o sistema.
+
+Configuración nos ficheiros XML:
+\todo{exemplo das liñas do XML}
+
+Exemplo de método transaccional:
+\begin{lstlisting}
+@Transactional
+public Short gardarPercorrido(Percorrido percorrido, List<PuntoInterese> listaPuntoInterese)
+\end{lstlisting}
+
+Exemplo de método non transaccional:
+\begin{lstlisting}
+@Transactional(readOnly = true)
+public Edificio getEdificio(Short idEdificio)
+\end{lstlisting}
 
 
 \section{Aplicación Android}
 
+Permisos da aplicación
+
+Exemplo de acceso a Situm
+
+Exemplo de acceso ao servizo web
+
+Exemplo de chamada a actividade e devolución do fluxo
+
 Para publicar a aplicación na Play Store
 https://developer.android.com/studio/publish/app-signing
+
+
 
 
 \section{Autenticación}

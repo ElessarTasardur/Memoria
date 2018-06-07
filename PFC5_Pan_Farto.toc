@@ -92,10 +92,12 @@
 \contentsline {paragraph}{Recursos materiais}{33}{paragraph*.57}
 \contentsline {paragraph}{Total}{33}{paragraph*.59}
 \contentsline {subsection}{\numberline {6.2.3}An\IeC {\'a}lise de riscos e plans de continxencia}{33}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Planificaci\IeC {\'o}n e custos finais}{33}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Planificaci\IeC {\'o}n final}{33}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Incidencias e resoluci\IeC {\'o}n}{33}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Custo final}{33}{subsection.6.3.3}
+\contentsline {paragraph}{Riscos}{33}{paragraph*.61}
+\contentsline {paragraph}{Plans de continxencia}{34}{paragraph*.63}
+\contentsline {section}{\numberline {6.3}Planificaci\IeC {\'o}n e custos finais}{34}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Planificaci\IeC {\'o}n final}{34}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Incidencias e resoluci\IeC {\'o}n}{34}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Custo final}{34}{subsection.6.3.3}
 \contentsline {chapter}{\numberline {7}Dese\IeC {\~n}o}{35}{chapter.7}
 \contentsline {section}{\numberline {7.1}Arquitectura xeral}{35}{section.7.1}
 \contentsline {section}{\numberline {7.2}Modelo de datos}{36}{section.7.2}
@@ -112,8 +114,8 @@
 \contentsline {subsection}{\numberline {7.3.1}Divisi\IeC {\'o}n en capas}{42}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Transaccionalidade}{42}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}API REST}{43}{subsection.7.3.3}
-\contentsline {subsubsection}{Securizaci\IeC {\'o}n da API}{44}{subsubsection*.67}
-\contentsline {subsubsection}{JSON}{46}{subsubsection*.68}
+\contentsline {subsubsection}{Securizaci\IeC {\'o}n da API}{44}{subsubsection*.70}
+\contentsline {subsubsection}{JSON}{46}{subsubsection*.71}
 \contentsline {section}{\numberline {7.4}Aplicaci\IeC {\'o}n Android}{47}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Actividades}{47}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Comunicaci\IeC {\'o}n co servidor}{48}{subsection.7.4.2}
@@ -150,6 +152,6 @@
 \contentsline {section}{\numberline {C.2}Dashboard de Situm}{69}{section.Alph3.2}
 \contentsline {section}{\numberline {C.3}Editar edificios en Situm}{69}{section.Alph3.3}
 \contentsline {section}{\numberline {C.4}Calibraci\IeC {\'o}n de cada planta}{70}{section.Alph3.4}
-\contentsline {section}{\numberline {C.5}Punto de interese Situm}{70}{section.Alph3.5}
-\contentsline {section}{\numberline {C.6}Definici\IeC {\'o}n de rutas}{70}{section.Alph3.6}
-\contentsline {chapter}{\numberline {D}Contido do DVD adxunto}{73}{appendix.Alph4}
+\contentsline {section}{\numberline {C.5}Punto de interese Situm}{71}{section.Alph3.5}
+\contentsline {section}{\numberline {C.6}Definici\IeC {\'o}n de rutas}{71}{section.Alph3.6}
+\contentsline {chapter}{\numberline {D}Contido do DVD adxunto}{75}{appendix.Alph4}

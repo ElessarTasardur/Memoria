@@ -76,37 +76,42 @@
 \BOOKMARK [2][-]{subsection.7.4.2}{Comunicaci\363n co servidor}{section.7.4}% 76
 \BOOKMARK [2][-]{subsection.7.4.3}{Comunicaci\363n con Situm}{section.7.4}% 77
 \BOOKMARK [2][-]{subsection.7.4.4}{Permisos necesarios}{section.7.4}% 78
-\BOOKMARK [1][-]{section.7.5}{Sistema de autenticaci\363n \(GoogleAuth\)}{chapter.7}% 79
+\BOOKMARK [1][-]{section.7.5}{Sistema de autenticaci\363n a trav\351s de Google}{chapter.7}% 79
 \BOOKMARK [0][-]{chapter.8}{Implementaci\363n}{}% 80
 \BOOKMARK [1][-]{section.8.1}{Servidor}{chapter.8}% 81
-\BOOKMARK [2][-]{subsection.8.1.1}{Transaccionalidade}{section.8.1}% 82
-\BOOKMARK [1][-]{section.8.2}{Aplicaci\363n Android}{chapter.8}% 83
-\BOOKMARK [1][-]{section.8.3}{Autenticaci\363n}{chapter.8}% 84
-\BOOKMARK [0][-]{chapter.9}{Probas}{}% 85
-\BOOKMARK [1][-]{section.9.1}{Probas de validaci\363n de cada sprint}{chapter.9}% 86
-\BOOKMARK [1][-]{section.9.2}{Consola de Google}{chapter.9}% 87
-\BOOKMARK [1][-]{section.9.3}{Probas de rendemento}{chapter.9}% 88
-\BOOKMARK [1][-]{section.9.4}{Enquisa usuarios}{chapter.9}% 89
-\BOOKMARK [0][-]{chapter.10}{Conclusi\363ns e traballo futuro}{}% 90
-\BOOKMARK [1][-]{section.10.1}{Conclusi\363ns}{chapter.10}% 91
-\BOOKMARK [1][-]{section.10.2}{Traballo futuro}{chapter.10}% 92
-\BOOKMARK [0][-]{appendix.Alph1}{Casos de uso}{}% 93
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n do sistema Caronte}{}% 94
-\BOOKMARK [1][-]{section.Alph2.1}{Requisitos}{appendix.Alph2}% 95
-\BOOKMARK [2][-]{subsection.Alph2.1.1}{Servidor Caronte}{section.Alph2.1}% 96
-\BOOKMARK [2][-]{subsection.Alph2.1.2}{Aplicaci\363n Android: Caronte}{section.Alph2.1}% 97
-\BOOKMARK [1][-]{section.Alph2.2}{Instalaci\363n}{appendix.Alph2}% 98
-\BOOKMARK [2][-]{subsection.Alph2.2.1}{Servidor Caronte}{section.Alph2.2}% 99
-\BOOKMARK [2][-]{subsection.Alph2.2.2}{Aplicaci\363n Android: Caronte}{section.Alph2.2}% 100
-\BOOKMARK [1][-]{section.Alph2.3}{Manuales de usuario}{appendix.Alph2}% 101
-\BOOKMARK [2][-]{subsection.Alph2.3.1}{Administrador do servidor Caronte}{section.Alph2.3}% 102
-\BOOKMARK [2][-]{subsection.Alph2.3.2}{Aplicaci\363n Caronte para usuarios an\363nimos}{section.Alph2.3}% 103
-\BOOKMARK [2][-]{subsection.Alph2.3.3}{Apicaci\363n Caronte para xestores de contidos}{section.Alph2.3}% 104
-\BOOKMARK [0][-]{appendix.Alph3}{Localizaci\363n en interiores de Situm}{}% 105
-\BOOKMARK [1][-]{section.Alph3.1}{Nova conta en Situm}{appendix.Alph3}% 106
-\BOOKMARK [1][-]{section.Alph3.2}{Dashboard de Situm}{appendix.Alph3}% 107
-\BOOKMARK [1][-]{section.Alph3.3}{Editar edificios en Situm}{appendix.Alph3}% 108
-\BOOKMARK [1][-]{section.Alph3.4}{Calibraci\363n de cada planta}{appendix.Alph3}% 109
-\BOOKMARK [1][-]{section.Alph3.5}{Punto de interese Situm}{appendix.Alph3}% 110
-\BOOKMARK [1][-]{section.Alph3.6}{Definici\363n de rutas}{appendix.Alph3}% 111
-\BOOKMARK [0][-]{appendix.Alph4}{Contido do DVD adxunto}{}% 112
+\BOOKMARK [2][-]{subsection.8.1.1}{Acceso \341 base de datos}{section.8.1}% 82
+\BOOKMARK [2][-]{subsection.8.1.2}{Construci\363n dos servizos web}{section.8.1}% 83
+\BOOKMARK [2][-]{subsection.8.1.3}{Transaccionalidade}{section.8.1}% 84
+\BOOKMARK [1][-]{section.8.2}{Aplicaci\363n Android}{chapter.8}% 85
+\BOOKMARK [2][-]{subsection.8.2.1}{Solicitude de permisos}{section.8.2}% 86
+\BOOKMARK [2][-]{subsection.8.2.2}{Acceso a Situm}{section.8.2}% 87
+\BOOKMARK [2][-]{subsection.8.2.3}{Acceso ao servidor}{section.8.2}% 88
+\BOOKMARK [1][-]{section.8.3}{Autenticaci\363n}{chapter.8}% 89
+\BOOKMARK [0][-]{chapter.9}{Probas}{}% 90
+\BOOKMARK [1][-]{section.9.1}{Probas de validaci\363n de cada sprint}{chapter.9}% 91
+\BOOKMARK [1][-]{section.9.2}{Consola de Google}{chapter.9}% 92
+\BOOKMARK [1][-]{section.9.3}{Probas de rendemento}{chapter.9}% 93
+\BOOKMARK [1][-]{section.9.4}{Enquisa usuarios}{chapter.9}% 94
+\BOOKMARK [0][-]{chapter.10}{Conclusi\363ns e traballo futuro}{}% 95
+\BOOKMARK [1][-]{section.10.1}{Conclusi\363ns}{chapter.10}% 96
+\BOOKMARK [1][-]{section.10.2}{Traballo futuro}{chapter.10}% 97
+\BOOKMARK [0][-]{appendix.Alph1}{Casos de uso}{}% 98
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n do sistema Caronte}{}% 99
+\BOOKMARK [1][-]{section.Alph2.1}{Requisitos}{appendix.Alph2}% 100
+\BOOKMARK [2][-]{subsection.Alph2.1.1}{Servidor Caronte}{section.Alph2.1}% 101
+\BOOKMARK [2][-]{subsection.Alph2.1.2}{Aplicaci\363n Android: Caronte}{section.Alph2.1}% 102
+\BOOKMARK [1][-]{section.Alph2.2}{Instalaci\363n}{appendix.Alph2}% 103
+\BOOKMARK [2][-]{subsection.Alph2.2.1}{Servidor Caronte}{section.Alph2.2}% 104
+\BOOKMARK [2][-]{subsection.Alph2.2.2}{Aplicaci\363n Android: Caronte}{section.Alph2.2}% 105
+\BOOKMARK [1][-]{section.Alph2.3}{Manuales de usuario}{appendix.Alph2}% 106
+\BOOKMARK [2][-]{subsection.Alph2.3.1}{Administrador do servidor Caronte}{section.Alph2.3}% 107
+\BOOKMARK [2][-]{subsection.Alph2.3.2}{Aplicaci\363n Caronte para usuarios an\363nimos}{section.Alph2.3}% 108
+\BOOKMARK [2][-]{subsection.Alph2.3.3}{Apicaci\363n Caronte para xestores de contidos}{section.Alph2.3}% 109
+\BOOKMARK [0][-]{appendix.Alph3}{Localizaci\363n en interiores de Situm}{}% 110
+\BOOKMARK [1][-]{section.Alph3.1}{Nova conta en Situm}{appendix.Alph3}% 111
+\BOOKMARK [1][-]{section.Alph3.2}{Dashboard de Situm}{appendix.Alph3}% 112
+\BOOKMARK [1][-]{section.Alph3.3}{Editar edificios en Situm}{appendix.Alph3}% 113
+\BOOKMARK [1][-]{section.Alph3.4}{Calibraci\363n de cada planta}{appendix.Alph3}% 114
+\BOOKMARK [1][-]{section.Alph3.5}{Punto de interese Situm}{appendix.Alph3}% 115
+\BOOKMARK [1][-]{section.Alph3.6}{Definici\363n de rutas}{appendix.Alph3}% 116
+\BOOKMARK [0][-]{appendix.Alph4}{Contido do DVD adxunto}{}% 117

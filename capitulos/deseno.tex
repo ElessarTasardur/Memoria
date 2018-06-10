@@ -15,7 +15,7 @@ A nosa plataforma consta dos seguintes elementos conectados entre si:
 A aplicación Android precisa o servidor para a recuperación dos datos propios da plataforma e o sistema de localización en interiores para poder funcionar. O sistema de autenticación de Google está relacionado coa aplicación Android, onde comeza ese proceso, e co servidor, que realiza o último paso. Pódense observar estas conexións entre os elementos na figura~\ref{fig:arq_xeral}):
 
 
-\begin{figure}[tb] 
+\begin{figure}[tbh] 
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{figures/arqXeral}
 		\caption{Arquitectura xeral da plataforma Caronte para a guía de museos.}
@@ -23,19 +23,29 @@ A aplicación Android precisa o servidor para a recuperación dos datos propios 
 	\end{center}
 \end{figure}
 
-O servidor encárgase de recuperar e procesar a información que precisa a aplicación para o seu funcionamento. Esta información é almacenada nunha base de datos PostgreSQL. Aparte de recuperar esta información, tamén se encarga de inserir os datos indicados polo usuario dentro da aplicación. Para permitir a comunicación coa aplicación Android e que o usuario poida recibir e modificar esa información, publícanse uns servizos web a través dunha API REST.
+\paragraph{Servidor}
+O servidor encárgase de recuperar e procesar a información que precisa a aplicación para o seu funcionamento. Esta información é almacenada nunha base de datos PostgreSQL. Aparte de recuperar esta información, tamén se encarga de inserir os datos indicados polo usuario dentro da aplicación. Para permitir a comunicación coa aplicación Android e que o usuario poida recibir e modificar esa información, publícanse uns servizos web a través dunha API REST. Decidiuse despregalo en Amazon Web Services por varios motivos, entre os cales se encontran:
 
-A aplicación Android é o punto de interacción do usuario coa nosa plataforma. Presenta a información recuperada do servidor ao usuario e permite a súa modificación, enviando de novo os datos para a súa persistencia. Tamén é a encargada de tratar cos servizos de Situm que permiten a localización e o guiado en interiores, recuperando a información necesaria e presentándolla ao usuario.
+\begin{itemize}
+	\item Facilidade de configuración e uso, tanto para obter o propio servidor como para engadir novos elementos como pode ser a base de datos PostgreSQL.
+	\item Escalabilidade.
+	\item Rentabilidade.
+	\item Seguridade.
+\end{itemize}
 
+\paragraph{Aplicación Android}
+É o punto de interacción do usuario coa nosa plataforma. Presenta a información recuperada do servidor ao usuario e permite a súa modificación, enviando de novo os datos para a súa persistencia. Tamén é a encargada de tratar cos servizos de Situm que permiten a localización e o guiado en interiores, recuperando a información necesaria e presentándolla ao usuario.
+
+\paragraph{Autenticación con Google}
 O sistema de autenticación de Google permite a recuperación de información propia do usuario a través dunha conta de Google. Ao utilizar este sistema, pódese dispoñer da información dunha conta de usuario e gardala no noso servidor, polo que se pode utilizar para asociar permisos ou gardar outra información relacionada.
 
 
 \section{Modelo de datos}
 Neste punto exporase o modelo de datos da plataforma que se seguiu á hora da creación da base de datos. Na figura~\ref{fig:modelo_datos} pódese observar o diagrama entidade relación. Dividirase a explicación en base ás entidades.
 
-\begin{figure}[tb] 
+\begin{figure}[tbh] 
 	\begin{center}
-		\includegraphics[width=0.95\textwidth]{figures/BD/diagramaEntidadeRelacion}
+		\includegraphics[width=0.75\textwidth]{figures/BD/diagramaEntidadeRelacion}
 		\caption{Modelo de datos da plataforma Caronte.}
 		\label{fig:modelo_datos}
 	\end{center}
@@ -150,7 +160,7 @@ As columnas das que se compón este entidade son:
 
 
 \section{Servidor}
-Nesta sección describiremos as decisións tomadas no deseño do servidor.
+Nesta sección describiremos as decisións máis importantes tomadas no deseño do servidor. No primeiro punto explícanse as capas nas que se dividiu o servidor e o obxectivo de cada unha delas. Nos seguintes puntos expóñense as opcións levadas a cabo para a definición do servizo web ou a transaccionalidade, entre outras.
 
 \subsection{División en capas}
 O servidor dividiuse nas seguintes capas:
@@ -162,17 +172,17 @@ O servidor dividiuse nas seguintes capas:
 	\item Controlador: Encárgase da comunicación a través dos servizos web. Implementa a API REST que permite o acceso aos servizos.
 \end{itemize}
 
-\begin{figure}[tb] 
+\begin{figure}[tbh] 
 	\begin{center}
-		\includegraphics[width=0.95\textwidth]{figures/Clases/diagramaEntidades}
+		\includegraphics[width=0.70\textwidth]{figures/Clases/diagramaEntidades}
 		\caption{Diagrama de clases coas entidades.}
 		\label{fig:entidades}
 	\end{center}
 \end{figure}
 
-\begin{figure}[tb] 
+\begin{figure}[tbh] 
 	\begin{center}
-		\includegraphics[width=0.95\textwidth]{figures/BD/diagramaDaos}
+		\includegraphics[width=0.90\textwidth]{figures/BD/daos}
 		\caption{Diagrama de clases cos DAOs.}
 		\label{fig:daos}
 	\end{center}
@@ -197,7 +207,7 @@ Os parénteses fan referencia a variábeis dentro das chamadas, texto que non é
 
 Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos web e as súas características, tanto para as imaxes (táboa \ref{tab:APIImaxes}) coma para o resto de información (táboa \ref{tab:APIXeral}).
 
-\begin{table} [tbp]
+\begin{table} [tbh]
 	\begin{tabular}{|l|p{6cm}|p{6cm}|}
 		\hline 
 		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
@@ -211,11 +221,11 @@ Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos
 		DELETE & /eliminar/(idIm) & Elimina a imaxe indicada polo id=(idIm) \\ 
 		\hline 
 	\end{tabular}
-	\caption{Descricións da API Rest para o tratamento de imaxes}
+	\caption{Descricións da API Rest para o tratamento de imaxes.}
 	\label{tab:APIImaxes}
 \end{table}
 
-\begin{table} [tbp]
+\begin{table} [tbh]
 	\begin{tabular}{|l|p{6cm}|p{6cm}|}
 		\hline 
 		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
@@ -247,7 +257,7 @@ Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos
 		GET & /imaxe/recuperar/(listaIdImaxeCSV) & Recupera a información dunha lista de imaxes en CSV \\ 
 		\hline 
 	\end{tabular}
-	\caption{Descricións da API Rest para o tratamento da información xeral}
+	\caption{Descricións da API Rest para o tratamento da información xeral.}
 	\label{tab:APIXeral}
 \end{table}
 
@@ -259,40 +269,15 @@ Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l
 \end{lstlisting}
 
 \subsubsection{JSON}
-A continuación pódese observar un exemplo de resposta en JSON do servizo web a unha chamada para a recuperación da información dos puntos de interese dun edificio:
+Na figura~\ref{fig:json} pódese observar un exemplo de resposta en JSON do servizo web a unha chamada para a recuperación da información dos puntos de interese dun edificio.
 
-\begin{lstlisting}
-[
-	{
-		"idPuntoInterese": 6,
-		"nome": "Mona Lisa",
-		"descricion": "Pintura feita polo artista italiano Leonardo da Vinci mostrando unha muller cunha expresion introspectiva, lixeiramente sorrinte. E probabelmente o retrato mais famoso na historia da arte.",
-		"posicion": {
-			"idEdificio": 2,
-			"idPlanta": 3506,
-			"nivel": 1,
-			"latitude": 43.28966522216797,
-			"lonxitude": -8.393324851989746
-		},
-		"tempo": 10,
-		"listaIdImaxe": []
-	},
-	{
-		"idPuntoInterese": 7,
-		"nome": "A consagracion de Napoleon",
-		"descricion": "Pintura de Jacques-Louis David, pintor oficial de Napoleon Bonaparte realizada entre 1805 e 1808. O cadro ten unhas impresionantes dimensions de 629 x 979 cm.",
-		"posicion": {
-			"idEdificio": 2,
-			"idPlanta": 3506,
-			"nivel": 1,
-			"latitude": 43.289661,
-			"lonxitude": -8.393355
-		},
-		"tempo": 15,
-		"listaIdImaxe": [3,4,5,6,7,8,9,10,11,12]
-	}
-]
-\end{lstlisting}
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/json}
+		\caption{Exemplo dunha resposta do servizo web.}
+		\label{fig:json}
+	\end{center}
+\end{figure}
 
 Nela obsérvase a estrutura que caracteriza este formato de intercambio de datos. Outra das cuestión que nos permite observar é que a súa estrutura non coincide coa utilizada en base de datos, xa que as necesidades da aplicación non teñen por que coincidir coas decisións tomadas á hora de definir as táboas de base de datos. É por iso que se observa a agrupación da información sobre a localización física dos POIs nunha etiqueta chamada posición, que non coincide coa maneira de gardar eses valores en BD. A maiores tamén se inclúen os identificadores das imaxes almacenadas sobre cada POI, para simplificar a recuperación das imaxes na aplicación.
 
@@ -316,17 +301,22 @@ Para engadir lóxica ao mapa optouse por externalizar certos compoñentes coma o
 
 
 \subsection{Comunicación co servidor}
-Distinguimos as clases de acceso ao noso servidor e posíbeis traducións que hai que realizar para poder chamar.
-\todo{Clases para a tradución do JSON}
-Clases propias da aplicación que non teñen unha equivalencia exacta co modelo da base de datos, senón que se rexen pola estrutura recibida no JSON.
+Para acceder á información dispoñíbel no servidor utilízanse servizos web propios que devolven os datos en formato JSON. As clases que se utilizan para comunicar esta información non teñen equivalencia exacta cos VOs, polo que hai que facer conversións antes de enviala. Estas clases tamén se utilizan na aplicación Android.
+A comunicación co servidor realízase mediante a librería de Spring adaptada a Android. Cada chamada realízase dende unha clase distinta para non mesturar lóxica.
+No apartado de implementación amosarase unha chamada en profundidade.
+
 
 \subsection{Comunicación con Situm}
-Todo acceso realizado sobre o sistema de Situm prodúcese dende a aplicación móbil. O servidor do noso sistema non pode ter acceso ao sistema de Situm, polo que toda a información proporcionada sobre a localización que se precise no servidor debe ser enviada pola aplicación Android. Esta comunicación que se produce co sistema de Situm é en base ás credenciais que escolla o usuario, xa sexan públicas ou privadas.
+Todo acceso realizado sobre o sistema de Situm prodúcese dende a aplicación móbil. O noso servidor non pode ter acceso ao sistema de Situm, polo que toda a información proporcionada sobre a localización que se precise no servidor debe ser enviada pola aplicación Android. Esta comunicación que se produce co sistema de Situm é en base ás credenciais que escolla o usuario, xa sexan públicas ou privadas.
 No paquete gal.caronte.servizo.situm atópanse as clases que realizan as chamadas aos servidores de Situm. Cada chamada permitida a Situm realízase dende unha clase distinta, illada do resto de chamadas para non mesturar lóxica distinta.
-As chamadas realízanse mediante a librería proporcionada por Situm. No apartado de implementación amosarase unha chamada en profundidade.
+Utilízase a librería proporcionada por Situm para realizar as chamadas. No apartado de implementación amosarase unha chamada en profundidade.
 
 \subsection{Permisos necesarios}
 A inmensa maioría de aplicacións en Android precisan dunha lista concreta de permisos que son necesarios para unha correcta execución ou para obter unha experiencia completa. Neste caso o permiso que solicita a aplicación é o de localización. Non require o permiso na instalación, senón que pode concederse durante a execución da mesma. Se non recibe este permiso a aplicación non poderá funcionar correctamente, polo que é necesario que se permita a súa utilización.
 
 
-\section{Sistema de autenticación (GoogleAuth)}
+\section{Sistema de autenticación a través de Google}
+Debido á necesidade de distinguir os usuarios da aplicación entre os normais e os xestores de contido houbo que integrar un sistema de autenticación na aplicación, mais non se creou un propio.
+Por motivos de comodidade e seguridade escolleuse a opción de realizar a autenticación dos usuarios a través de contas de Google, desta maneira non é preciso gardar información privada dos usuarios quedando estes datos do lado de Google. Ao estar destinada a aplicación ao sistema operativo Android non se obriga ao usuario a ter que crear unha conta ex profeso xa que é obrigatorio o uso dunha para poder utilizar un dispositivo móbil con Android.
+Para a integración do sistema de autenticación na aplicación hai que facer uso dos servizos de Google Play tanto no servidor coma na aplicación Android. É preciso configurar a aplicación para que permita a autenticación, acción que se fai a través dun formulario onde se indica o proxecto, o nome da aplicación e o seu tipo (Android, neste caso).
+Unha autenticación exitosa require de varios pasos. O primeiro é a autenticación dende a aplicación Android, dende a cal se enviarán os datos da conta a Google para que os verifique. Se os datos son correctos devólvese información sobre a conta á aplicación, para posteriormente enviar un token de sesión ao servidor que permita identificar ao usuario. No seguinte paso, o servidor recolle ese token e o envía de novo aos servizos de Google para verificar a súa integridade. Unha vez verificada, enviará a información sobre ese usuario á aplicación Android para que poida utilizala coa conta seleccionada.

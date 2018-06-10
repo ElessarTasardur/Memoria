@@ -149,30 +149,118 @@ As probas para validar este sprint consistirán no engadido e eliminación de im
 
 
 \section{Planificación e custos iniciais}
+A continuación pódense observar tanto a planificación inicial do proxecto coma os custos asociados a esta. No terceiro punto descríbense os plans de continxencia preparados para o proxecto.
 
 \subsection{Planificación inicial}
-Nesta sección describirase a planificación completa e detallada do proxecto. O primeiro paso para realizala foi establecer o alcance do proxecto e os requisitos precisos para poder levalo a cabo. Na primeira planificación fíxose un bosquexo xeral dos pasos a seguir no proxecto, estimando unha duración do desenvolvemento contando con sete sprints dunhas tres semanas cada un.
+Nesta sección describirase a planificación completa e detallada do proxecto. O primeiro paso para realizala foi establecer o alcance do proxecto e os requisitos precisos para poder levalo a cabo. Na primeira planificación fíxose un bosquexo xeral dos pasos a seguir no proxecto, estimando unha duración do desenvolvemento contando con sete sprints dunhas tres semanas cada un. Debido ao horario dispoñíbel polo traballador, considerouse unha xornada laboral de catro horas diarias.
 
-Pódese observar o diagrama de Gantt coa planificación detallada na figura. \todo[inline]{incluír figura} Diferéncianse todos os pasos realizados no proxecto, así como o tempo adicado a cada sprint.
+Pódese observar o diagrama de Gantt coa planificación detallada na figura~\ref{fig:planificacionInicial}. Diferéncianse todos os pasos realizados no proxecto, así como o tempo adicado a cada sprint.
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/Capturas/planificacionInicial}
+		\caption{Diagrama de Gantt da planificación inicial para os sprints.}
+		\label{fig:planificacionInicial}
+	\end{center}
+\end{figure}
 
 \subsection{Custo inicial}
 Unha vez realizada a planificación das tarefas nas que se divide o proxecto pódese comezar coa análise económica dos custos asociados. Como é evidente, o custo máis alto recae sobre os recursos humanos, xa que os materiais utilizados non demandaron moita inversión.
 
 \paragraph{Recursos humanos}
-Ao ser un proxecto elaborado por un único traballador, tivo que realizar todas as funcións que normalmente recaerían sobre distintas persoas, polo que asignamos distintos valores ao seu traballo dependendo da función que realizase en cada momento.
+Ao ser un proxecto elaborado por un único traballador, tivo que realizar varias funcións que normalmente recaerían sobre distintas persoas, polo que asignamos distintos valores ao seu traballo dependendo da función que realizase en cada momento. Considérase xefe de proxecto ao titor do proxecto que realiza tarefas de supervisión e exerce de scrum master nas xuntanzas entre sprints.
+O tempo estimado para o xefe de proxecto coincide cos fitos de inicio e fin de sprint, polo que terá que actuar 8 veces.
+Na táboa ~\ref{tab:horasTraballo} pódese observar a descomposición da estimación inicial por tarefa para o analista e o programador.
 
-\todo[inline]{táboa coa estimación de gastos en persoal}
+\begin{table} [tbh]
+	\centering
+	\begin{tabular}{|l|c|c|}
+		\hline 
+		\textbf{Sprint} & \textbf{Analista} & \textbf{Programador} \\ 
+		\hline 
+		Primeiro & 14 h & 70 h \\ 
+		\hline 
+		Segundo & 11 h & 69 h \\ 
+		\hline 
+		Terceiro & 13 h & 67 h \\ 
+		\hline 
+		Cuarto & 10 h & 54 h \\ 
+		\hline 
+		Quinto & 13 h & 67 h \\ 
+		\hline 
+		Sexto & 10 h & 54 h \\ 
+		\hline 
+		Sétimo & 10 h & 54 h \\ 
+		\hline 
+	\end{tabular}
+	\caption{Horas planificadas para o traballador.}
+	\label{tab:horasTraballo}
+\end{table}
+
+Pódense observar os custos asociados aos recursos na táboa~\ref{tab:custoPersoalInicial}.
+
+\begin{table} [tbh]
+	\centering
+	\begin{tabular}{|l|c|c|c|}
+		\hline 
+		\textbf{Recurso} & \textbf{Salario (€/h)} & \textbf{Tempo (h)} & \textbf{Custo} \\ 
+		\hline 
+		Xefe de proxecto & 50 & 24 & 1200 € \\ 
+		\hline 
+		Analista & 37 & 81 & 2997 € \\ 
+		\hline 
+		Programador & 20 & 516 & 10320 € \\ 
+		\hline 
+		Formación & 0 & 40 & 0 € \\ 
+		\hline 
+		\multicolumn{3}{ |l| }{Total} & 14517 € \\ 
+		\hline 
+	\end{tabular}
+	\caption{Custos planificados en recursos humanos.}
+	\label{tab:custoPersoalInicial}
+\end{table}
 
 \paragraph{Recursos materiais}
-Podemos dividir os recursos materiais en hardware e software. Non houbo gastos referidos ao software posto que se utilizou software gratuíto na realización do proxecto, mais si que houbo gastos en canto aos recursos hardware. Houbo que realizar un desembolso polo ordenador utilizado para a programación do proxecto posto que a emulación dun terminal Android é bastante custosa e unha computadora antiga non era capaz de executalo. Tamén se inclúen nos gastos un móbil de gama media para a proba da aplicación en entornos reais. Mención aparte require a suscrición a Amazon Web Services, posto que se desfrutou dun período de proba que, non obstante, non estaría dispoñíbel unha vez a aplicación requira un maior uso de recursos por parte do servidor. Este tipo de servizos supoñen un maior custo canta máis demanda procesan, polo que en entornos reais de produción o custo aumentaría. Debido a isto fíxose unha estimación do gasto mensual.
+Podemos dividir os recursos materiais en hardware e software. Non houbo gastos referidos ao software posto que se utilizou software gratuíto na realización do proxecto, mais si que houbo gastos en canto aos recursos hardware. Houbo que realizar un desembolso polo ordenador utilizado para a programación do proxecto posto que a emulación dun terminal Android é bastante custosa e unha computadora antiga non era capaz de executalo. Tamén se inclúen nos gastos un móbil de gama media para a proba da aplicación en entornos reais. Mención aparte require a subscrición a Amazon Web Services, posto que se desfrutou dun período de proba que, non obstante, non estaría dispoñíbel unha vez a aplicación requira un maior uso de recursos por parte do servidor. Este tipo de servizos supoñen un maior custo canta máis demanda procesan, polo que en entornos reais de produción o custo aumentaría.
+Os gastos debido aos recursos materiais pódense ver na táboa~\ref{tab:custoMaterial}. Unicamente imputamos ao proxecto o custo do PC de sobremesa posto que o teléfono móbil foi utilizado para outros usos á marxe do proxecto e polo tanto, amortizado.
 
-\todo[inline]{táboa coa estimación de gastos en materiais}
+\begin{table} [tbh]
+	\centering
+	\begin{tabular}{|l|c|c|}
+		\hline 
+		\textbf{Recurso} & \textbf{Custo} & \textbf{Imputado ao proxecto} \\ 
+		\hline 
+		PC sobremesa & 860 € & 860 € \\ 
+		\hline 
+		Teléfono móbil & 440 € & 0 € \\ 
+		\hline 
+		\multicolumn{2}{ |l| }{Total} & 860 € \\ 
+		\hline 
+	\end{tabular}
+	\caption{Custos en recursos materiais.}
+	\label{tab:custoMaterial}
+\end{table}
 
 
 \paragraph{Total}
-Despois de analizar os custos en recursos humanos e materiais podemos establecer o custo total inicial. Obsérvanse todas as entradas na seguinte táboa:
+Despois de analizar os custos en recursos humanos e materiais podemos establecer o custo total inicial. Obsérvanse todas as entradas na táboa~\ref{tab:custoTotalEstimado}:
 
-\todo[inline]{táboa coa estimación de gastos totais}
+\begin{table} [tbh]
+	\centering
+	\begin{tabular}{|l|c|}
+		\hline 
+		\textbf{Tipo de recurso} & \textbf{Custo} \\ 
+		\hline 
+		Recursos humanos & 14517 € \\ 
+		\hline 
+		Recursos materiais & 860 € \\ 
+		\hline 
+		Total & 15377 € \\ 
+		\hline 
+	\end{tabular}
+	\caption{Custos totais estimados.}
+	\label{tab:custoTotalEstimado}
+\end{table}
 
 \subsection{Análise de riscos e plans de continxencia}
 Neste punto trátase a análise de todos os riscos máis importantes que se poden producir na elaboración do proxecto xunto coa posibilidade de que se produzan, para despois elaborar plans de continxencia para cada un deles no caso de que afectasen ao traballo.
@@ -181,8 +269,7 @@ Neste punto trátase a análise de todos os riscos máis importantes que se pode
 Na táboa~\ref{tab:riscos} pódense ver os riscos propios do proxecto realizado. Tivéronse en conta tanto a probabilidade de que se producisen estes erros (alta, media, baixa) coma o impacto sobre o desenvolvemento (alto, medio, baixo) para calcular a exposición ao risco (alta, media, baixa) e dese xeito poder ordenalos para atacar aqueles cunha maior exposición.
 A continuación enumeramos os riscos detectados ao inicio do proxecto:
 
-
-\begin{table} [tbp]
+\begin{table} [tbh]
 	\centering
 	\begin{tabular}{|l|c|c|c|}
 		\hline 
@@ -199,7 +286,7 @@ A continuación enumeramos os riscos detectados ao inicio do proxecto:
 		Dispoñibilidade do equipo & Media & Alta & Alta \\ 
 		\hline 
 	\end{tabular}
-	\caption{Avaliación dos riscos do proxecto}
+	\caption{Avaliación dos riscos do proxecto.}
 	\label{tab:riscos}
 \end{table}
 
@@ -225,25 +312,100 @@ Débese ter especial coidado cos riscos cunha alta exposición, polo que se ser�
 \section{Planificación e custos finais}
 
 \subsection{Planificación final}
-Despois da realización do proxecto e superados todos os problemas xurdidos durante a súa elaboración, pásase a detallar a planificación final. Pódese observar o diagrama de Gantt coa planificación final detallada na figura.
+Despois da realización do proxecto e superados todos os problemas xurdidos durante a súa elaboración, pásase a detallar a planificación final. Pódese observar o diagrama de Gantt final detallado na figura~\ref{fig:planificacionFinal}. En total, aumentouse o tempo de proxecto en 11 días laborais.
+Unha vez finalizado o sétimo e último sprint do desenvolvemento, procedeuse á realización da memoria que levou tres semanas máis de traballo grazas a que durante as iteracións foise cubrindo parte da documentación. Estas últimas semanas débense á creación de parte dos apéndices así como as seccións de planificación, probas e conclusións.
 
-\todo[inline]{incluír figura}
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/Capturas/planificacionFinal}
+		\caption{Diagrama de Gantt para os sprints despois de realizar o seguemento ao proxecto.}
+		\label{fig:planificacionFinal}
+	\end{center}
+\end{figure}
 
 \subsection{Incidencias e resolución}
 A continuación expóñense os problemas ocorridos durante o proxecto a como se resolveron, divididos por sprints:
 
 \begin{itemize}
-	\item Sprint 1: 
-	\item Sprint 2: 
-	\item Sprint 3: 
-	\item Sprint 4: 
-	\item Sprint 5: 
-	\item Sprint 6: 
-	\item Sprint 7: 
+	\item Sprint 1: A pesar de telo presente na planificación, houbo que incrementar levemente o tempo adicado a esta iteración por mor da pouca destreza do programador nun entorno novo para el como é Android e tamén pola integración da aplicación con Google Maps. A representación dos mapas de interiores proporcionados por Situm foi outro dos puntos que afectou negativamente á planificación, mentres que o tratamento da posición e a posta en marcha da SDK de Situm foi bastante sinxela polo que contrarrestou o efecto da visualización dos mapas.
+	\item Sprint 2: Esta iteración levouse a cabo no tempo estimado posto que o programador xa estaba afeito a este tipo de traballo.
+	\item Sprint 3: A pesar do crítico deste paso, non se rexistrou unha demora na súa realización.
+	\item Sprint 4: Con esta iteración non houbo ningún problema ata o momento de publicar a aplicación na tenda de Google Play, xa que houbo que reconfigurar Google Play Services por culpa do cifrado da aplicación. Non foi ata esta reconfiguración cando se puido realizar correctamente unha autenticación na aplicación descargada dende Google Play. Ao inicio descoñecíase o motivo polo cal non se permitía esta acción, o que provocou un aumento considerábel da duración do sprint.
+	\item Sprint 5: A pesar de ser a iteración con máis contido dentro da planificación, non supuxo un problema a súa implementación posto que xa se avanzara o suficiente no proxecto como para estar cómodo no novo entorno e os casos de uso realizados non eran especialmente complexos.
+	\item Sprint 6: Non houbo problemas inesperados nesta iteración.
+	\item Sprint 7: O envío e recepción de imaxes a través do dispositivo móbil foi máis problemático do inicialmente esperado. A parte do servidor foi segundo o estimado xa que se puido validar a través da ferramenta Postman mais non así a integración coa aplicación móbil.
 \end{itemize}
 
 \subsection{Custo final}
 Unha vez finalizado o proxecto, débese calcular o custo final. A única variación co custo calculado ao inicio recae sobre os recursos humanos, xa que non houbo ningún tipo de variación de prezo nos recursos hardware ou software, polo que soamente se tratará a variación por culpa dos retrasos nos sprints.
 
-\todo[inline]{incluír táboa de gastos con incremento en horas}
+\paragraph{Recursos humanos}
+A continuación indicaranse as horas de aumento con respecto á planificación tanto para o analista como para o programador. Os sprints que sufriron retrasos foron o primeiro, o cuarto e o sétimo. Na táboa~\ref{tab:horasTraballoReais} pódense ver as horas concretas.
 
+\begin{table} [tbh]
+	\centering
+	\begin{tabular}{|l|c|c|c|c|}
+		\hline 
+		\textbf{Sprint} & \textbf{Analista} & \textbf{Variación analista} & \textbf{Programador} & \textbf{Variación programador} \\ 
+		\hline 
+		Primeiro & 14 h & 0 h & 78 h & 8 h \\ 
+		\hline 
+		Segundo & 11 h & 0 h & 69 h & 0 h \\ 
+		\hline 
+		Terceiro & 13 h & 0 h & 67 h & 0 h \\ 
+		\hline 
+		Cuarto & 15 h & 5 h & 69 h & 15 h \\ 
+		\hline 
+		Quinto & 13 h & 0 h & 67 h & 0 h \\ 
+		\hline 
+		Sexto & 10 h & 0 h & 54 h & 0 h \\ 
+		\hline 
+		Sétimo & 12 h & 2 h & 68 h & 14 h \\ 
+		\hline 
+	\end{tabular}
+	\caption{Horas reais para o traballador.}
+	\label{tab:horasTraballoReais}
+\end{table}
+
+Pódense observar o custo final en recursos humanos na táboa~\ref{tab:custoPersoalFinal}.
+
+\begin{table} [tbh]
+	\centering
+	\begin{tabular}{|l|c|c|c|c|}
+		\hline 
+		\textbf{Recurso} & \textbf{Salario (€/h)} & \textbf{Tempo estimado (h)} & \textbf{Tempo real} & \textbf{Custo} \\ 
+		\hline 
+		Xefe de proxecto & 50 & 24 & 24 & 1200 € \\ 
+		\hline 
+		Analista & 37 & 81 & 88 & 3256 € \\ 
+		\hline 
+		Programador & 20 & 516 & 560 & 11200 € \\ 
+		\hline 
+		Formación & 0 & 40 & 40 & 0 € \\ 
+		\hline 
+		\multicolumn{4}{ |l| }{Total} & 15656 € \\ 
+		\hline 
+	\end{tabular}
+	\caption{Custos finais en recursos humanos.}
+	\label{tab:custoPersoalFinal}
+\end{table}
+
+\paragraph{Custos totais}
+Finalmente, súmanse os custos en recursos humanos calculados despois da finalización do desenvolvemento cos custos en recurso materiais que non se viron modificados. Na táboa~\ref{tab:custoTotal} pódese ver o cálculo do custo total do proxecto unha vez realizado.
+
+\begin{table} [tbh]
+	\centering
+	\begin{tabular}{|l|c|}
+		\hline 
+		\textbf{Tipo de recurso} & \textbf{Custo} \\ 
+		\hline 
+		Recursos humanos & 15656 € \\ 
+		\hline 
+		Recursos materiais & 860 € \\ 
+		\hline 
+		Total & 16516 € \\ 
+		\hline 
+	\end{tabular}
+	\caption{Custos totais.}
+	\label{tab:custoTotal}
+\end{table}

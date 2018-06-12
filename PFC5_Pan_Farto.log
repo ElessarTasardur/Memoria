@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.30)  11 JUN 2018 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.30)  12 JUN 2018 02:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,7 +1316,7 @@ Package epstopdf Info: Source file: <figures/udc.eps>
 to.pdf figures/udc.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
-<figures/udc-eps-converted-to.pdf, id=477, pagebox=cropbox, 891.33pt x 115.4312
+<figures/udc-eps-converted-to.pdf, id=525, pagebox=cropbox, 891.33pt x 115.4312
 4pt>
 File: figures/udc-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/udc-eps-converted-to.pdf>
@@ -1999,7 +1999,7 @@ Package galician Info: Replacing undefined sc font
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.45 ...3.1}Inicio de ciclo}{13}{subsection.4.3.1}
+l.28 ...ine {3.2.8}SQuirreL}{10}{subsection.3.2.8}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2009,67 +2009,67 @@ and I'll forget about whatever was undefined.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 45.
+(hyperref)                removing `\<let>-command' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 45.
+(hyperref)                removing `\@tempdima' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\divide' on input line 45.
+(hyperref)                removing `\divide' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 45.
+(hyperref)                removing `\@tempdima' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\multiply' on input line 45.
+(hyperref)                removing `\multiply' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 45.
+(hyperref)                removing `\@tempdima' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 45.
+(hyperref)                removing `\<def>-command' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\f@size' on input line 45.
+(hyperref)                removing `\f@size' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 45.
+(hyperref)                removing `\hbox' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 45.
+(hyperref)                removing `\<def>-command' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tf@size' on input line 45.
+(hyperref)                removing `\tf@size' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 45.
+(hyperref)                removing `\<def>-command' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sf@size' on input line 45.
+(hyperref)                removing `\sf@size' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 45.
+(hyperref)                removing `\<def>-command' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ssf@size' on input line 45.
+(hyperref)                removing `\ssf@size' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 45.
+(hyperref)                removing `\<let>-command' on input line 28.
 
 [9
 
@@ -2084,7 +2084,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.103 ...erline {7}Dese\IeC {\~n}o}{41}{chapter.7}
+l.79 ...\IeC {\'o}n Android}{32}{subsection.6.1.5}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2094,67 +2094,67 @@ and I'll forget about whatever was undefined.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 103.
+(hyperref)                removing `\<let>-command' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 103.
+(hyperref)                removing `\@tempdima' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\divide' on input line 103.
+(hyperref)                removing `\divide' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 103.
+(hyperref)                removing `\@tempdima' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\multiply' on input line 103.
+(hyperref)                removing `\multiply' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 103.
+(hyperref)                removing `\@tempdima' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 103.
+(hyperref)                removing `\<def>-command' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\f@size' on input line 103.
+(hyperref)                removing `\f@size' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 103.
+(hyperref)                removing `\hbox' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 103.
+(hyperref)                removing `\<def>-command' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tf@size' on input line 103.
+(hyperref)                removing `\tf@size' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 103.
+(hyperref)                removing `\<def>-command' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sf@size' on input line 103.
+(hyperref)                removing `\sf@size' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 103.
+(hyperref)                removing `\<def>-command' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ssf@size' on input line 103.
+(hyperref)                removing `\ssf@size' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 103.
+(hyperref)                removing `\<let>-command' on input line 79.
 
 [10]
 
@@ -2166,7 +2166,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.142 ... {9.2}Consola de Google}{61}{section.9.2}
+l.130 ...8}Implementaci\IeC {\'o}n}{59}{chapter.8}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2176,69 +2176,151 @@ and I'll forget about whatever was undefined.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 142.
+(hyperref)                removing `\<let>-command' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 142.
+(hyperref)                removing `\@tempdima' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\divide' on input line 142.
+(hyperref)                removing `\divide' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 142.
+(hyperref)                removing `\@tempdima' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\multiply' on input line 142.
+(hyperref)                removing `\multiply' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 142.
+(hyperref)                removing `\@tempdima' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 142.
+(hyperref)                removing `\<def>-command' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\f@size' on input line 142.
+(hyperref)                removing `\f@size' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 142.
+(hyperref)                removing `\hbox' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 142.
+(hyperref)                removing `\<def>-command' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tf@size' on input line 142.
+(hyperref)                removing `\tf@size' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 142.
+(hyperref)                removing `\<def>-command' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sf@size' on input line 142.
+(hyperref)                removing `\sf@size' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 142.
+(hyperref)                removing `\<def>-command' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ssf@size' on input line 142.
+(hyperref)                removing `\ssf@size' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 142.
+(hyperref)                removing `\<let>-command' on input line 130.
 
-[11])
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.07204pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Undefined control sequence.
+\MakeUppercase ...ppercaseUnsupportedInPdfStrings 
+                                                  
+l.162 ...}Dashboard de Situm}{79}{section.Alph3.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempdima' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\divide' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempdima' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\multiply' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempdima' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\f@size' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tf@size' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sf@size' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ssf@size' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 162.
+
+[12])
 \tf@toc=\write5
 \openout5 = `PFC5_Pan_Farto.toc'.
 
@@ -2324,7 +2406,85 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 129.
 
-[12] (./PFC5_Pan_Farto.lof)
+[13]
+! Undefined control sequence.
+\MakeUppercase ...ppercaseUnsupportedInPdfStrings 
+                                                  
+l.129 \cleardoublepage
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempdima' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\divide' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempdima' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\multiply' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempdima' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\f@size' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tf@size' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sf@size' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ssf@size' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 129.
+
+[14
+
+] (./PFC5_Pan_Farto.lof)
 \tf@lof=\write6
 \openout6 = `PFC5_Pan_Farto.lof'.
 
@@ -2404,8 +2564,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 139.
 
-[13
-
+[15
 
 ]
 ! Undefined control sequence.
@@ -2483,13 +2642,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 139.
 
-[14
+[16
 
 ] (./PFC5_Pan_Farto.lot
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.39 ...s dun POI.\relax }}{69}{table.caption.106}
+l.39 ...es dun POI.\relax }}{71}{table.caption.94}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2561,7 +2720,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 39.
 
-[15
+[17
 
 ])
 \tf@lot=\write7
@@ -2649,7 +2808,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 144.
 
-[16]
+[18]
 \openout2 = `capitulos/introducion.aux'.
 
  (./capitulos/introducion.tex
@@ -2691,20 +2850,24 @@ Cap\'{\i }tulo 3.
 
 
 
-] [8] [9]) [10]
+]
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [8]
+[9]) [10] [11]
 \openout2 = `capitulos/metodoloxia.aux'.
 
- (./capitulos/metodoloxia.tex
-Cap\'{\i }tulo 4.
-
-Underfull \vbox (badness 1810) has occurred while \output is active []
-
- [11
+ (./capitulos/metodoloxia.tex [12
 
 
 
 ]
-[12]
+Cap\'{\i }tulo 4.
+
+Underfull \vbox (badness 1810) has occurred while \output is active []
+
+ [13]
+[14]
 Package epstopdf Info: Source file: <figures/scrum.eps>
 (epstopdf)                    date: 2018-06-09 20:23:22
 (epstopdf)                    size: 59904 bytes
@@ -2715,7 +2878,7 @@ Package epstopdf Info: Source file: <figures/scrum.eps>
 d-to.pdf figures/scrum.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
-<figures/scrum-eps-converted-to.pdf, id=1079, pagebox=cropbox, 682.55pt x 314.1
+<figures/scrum-eps-converted-to.pdf, id=1157, pagebox=cropbox, 682.55pt x 314.1
 7375pt>
 File: figures/scrum-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/scrum-eps-converted-to.pdf>
@@ -2723,16 +2886,16 @@ Package pdftex.def Info: figures/scrum-eps-converted-to.pdf  used on input line
  49. on input line 49.
 Package pdftex.def Info: Requested size: 412.56497pt x 189.90552pt on input lin
 e 49.
- [13 <./figures/scrum-eps-converted-to.pdf>]
+ [15 <./figures/scrum-eps-converted-to.pdf>]
 Underfull \vbox (badness 2426) has occurred while \output is active []
 
- [14])
-[15] [16]
+ [16])
+[17] [18]
 \openout2 = `capitulos/analise.aux'.
 
  (./capitulos/analise.tex
 Cap\'{\i }tulo 5.
-[17
+[19
 
 
 
@@ -2750,7 +2913,7 @@ droidPantallaInicial-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidPantal
 laInicial.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf, id=1105, 
+<figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf, id=1183, 
 pagebox=cropbox, 301.125pt x 221.82875pt>
 File: figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2759,7 +2922,7 @@ Package pdftex.def Info: figures/CasosUso/UsuarioAndroidPantallaInicial-eps-con
 verted-to.pdf  used on input line 30. on input line 30.
 Package pdftex.def Info: Requested size: 206.28249pt x 151.96869pt on input lin
 e 30.
- [18 <./figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf>]
+ [20 <./figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/CasosUso/UsuarioAndroidLocalizacio
 n.eps>
 (epstopdf)                    date: 2018-05-04 13:42:48
@@ -2773,7 +2936,7 @@ droidLocalizacion-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidLocalizac
 ion.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf, id=1123, pag
+<figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf, id=1201, pag
 ebox=cropbox, 302.12875pt x 165.61874pt>
 File: figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2782,8 +2945,8 @@ Package pdftex.def Info: figures/CasosUso/UsuarioAndroidLocalizacion-eps-conver
 ted-to.pdf  used on input line 48. on input line 48.
 Package pdftex.def Info: Requested size: 206.28249pt x 113.07918pt on input lin
 e 48.
- [19 <./figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf>]
-<figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf, id=1142, pagebox=cropbox, 43
+ [21 <./figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf>]
+<figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf, id=1218, pagebox=cropbox, 43
 9.6425pt x 558.085pt>
 File: figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf Graphic file (type pdf)
 <use figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf>
@@ -2792,7 +2955,7 @@ Package pdftex.def Info: figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf  used
 Package pdftex.def Info: Requested size: 288.79422pt x 366.60857pt on input lin
 e 66.
 
-[20 <./figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf>]
+[22 <./figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf>]
 Package epstopdf Info: Source file: <figures/CasosUso/XestorContidoPoi.eps>
 (epstopdf)                    date: 2018-05-17 19:32:26
 (epstopdf)                    size: 155728 bytes
@@ -2804,7 +2967,7 @@ erted-to.pdf>
 tidoPoi-eps-converted-to.pdf figures/CasosUso/XestorContidoPoi.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf, id=1167, pagebox=cropb
+<figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf, id=1243, pagebox=cropb
 ox, 368.37625pt x 472.76625pt>
 File: figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2813,7 +2976,7 @@ Package pdftex.def Info: figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf
   used on input line 96. on input line 96.
 Package pdftex.def Info: Requested size: 247.54149pt x 317.68953pt on input lin
 e 96.
- [21] [22 <./figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf>]
+ [23] [24 <./figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/CasosUso/XestorContidoPercorrido.e
 ps>
 (epstopdf)                    date: 2018-05-17 19:32:01
@@ -2827,7 +2990,7 @@ tidoPercorrido-eps-converted-to.pdf figures/CasosUso/XestorContidoPercorrido.ep
 s>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf, id=1192, pagebo
+<figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf, id=1270, pagebo
 x=cropbox, 371.3875pt x 358.33875pt>
 File: figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2836,7 +2999,7 @@ Package pdftex.def Info: figures/CasosUso/XestorContidoPercorrido-eps-converted
 -to.pdf  used on input line 117. on input line 117.
 Package pdftex.def Info: Requested size: 247.54149pt x 238.84999pt on input lin
 e 117.
- [23 <./figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf>]
+ [25 <./figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/CasosUso/AdministradorSistema.eps>
 
 (epstopdf)                    date: 2018-05-04 13:42:25
@@ -2849,7 +3012,7 @@ converted-to.pdf>
 adorSistema-eps-converted-to.pdf figures/CasosUso/AdministradorSistema.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/AdministradorSistema-eps-converted-to.pdf, id=1212, pagebox=c
+<figures/CasosUso/AdministradorSistema-eps-converted-to.pdf, id=1290, pagebox=c
 ropbox, 254.9525pt x 262.9825pt>
 File: figures/CasosUso/AdministradorSistema-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2858,16 +3021,16 @@ Package pdftex.def Info: figures/CasosUso/AdministradorSistema-eps-converted-to
 .pdf  used on input line 138. on input line 138.
 Package pdftex.def Info: Requested size: 206.28249pt x 212.78993pt on input lin
 e 138.
- [24]) [25 <./figures/CasosUso/AdministradorSistema-eps-converted-to.pdf>]
+ [26]) [27 <./figures/CasosUso/AdministradorSistema-eps-converted-to.pdf>]
 \openout2 = `capitulos/desenvolvemento.aux'.
 
- (./capitulos/desenvolvemento.tex [26
+ (./capitulos/desenvolvemento.tex [28
 
 
 
 ]
 Cap\'{\i }tulo 6.
-[27] [28] [29] [30] [31]
+[29] [30] [31] [32] [33]
 Package epstopdf Info: Source file: <figures/Capturas/planificacionInicial.eps>
 
 (epstopdf)                    date: 2018-06-10 00:35:31
@@ -2880,7 +3043,7 @@ converted-to.pdf>
 cionInicial-eps-converted-to.pdf figures/Capturas/planificacionInicial.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/planificacionInicial-eps-converted-to.pdf, id=1303, pagebox=c
+<figures/Capturas/planificacionInicial-eps-converted-to.pdf, id=1380, pagebox=c
 ropbox, 767.86874pt x 243.91125pt>
 File: figures/Capturas/planificacionInicial-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2889,8 +3052,8 @@ Package pdftex.def Info: figures/Capturas/planificacionInicial-eps-converted-to
 .pdf  used on input line 161. on input line 161.
 Package pdftex.def Info: Requested size: 412.56497pt x 131.05135pt on input lin
 e 161.
- [32] [33 <./figures/Capturas/planificacionInicial-eps-converted-to.pdf>] [34] 
-[35]
+ [34] [35 <./figures/Capturas/planificacionInicial-eps-converted-to.pdf>] [36] 
+[37]
 Package epstopdf Info: Source file: <figures/Capturas/planificacionFinal.eps>
 (epstopdf)                    date: 2018-06-10 00:36:06
 (epstopdf)                    size: 33141 bytes
@@ -2902,7 +3065,7 @@ nverted-to.pdf>
 cionFinal-eps-converted-to.pdf figures/Capturas/planificacionFinal.eps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/planificacionFinal-eps-converted-to.pdf, id=1337, pagebox=cro
+<figures/Capturas/planificacionFinal-eps-converted-to.pdf, id=1415, pagebox=cro
 pbox, 782.925pt x 241.90375pt>
 File: figures/Capturas/planificacionFinal-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2911,15 +3074,15 @@ Package pdftex.def Info: figures/Capturas/planificacionFinal-eps-converted-to.p
 df  used on input line 320. on input line 320.
 Package pdftex.def Info: Requested size: 412.56497pt x 127.47383pt on input lin
 e 320.
- [36] [37 <./figures/Capturas/planificacionFinal-eps-converted-to.pdf>]
+ [38] [39 <./figures/Capturas/planificacionFinal-eps-converted-to.pdf>]
 Overfull \hbox (2.17612pt too wide) in paragraph at lines 347--366
  [][] 
  []
 
-) [38] [39]
+) [40] [41]
 \openout2 = `capitulos/deseno.aux'.
 
- (./capitulos/deseno.tex [40
+ (./capitulos/deseno.tex [42
 
 
 
@@ -2939,7 +3102,7 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[41]
+[43]
 Package epstopdf Info: Source file: <figures/BD/diagramaEntidadeRelacion.eps>
 (epstopdf)                    date: 2018-05-04 13:36:54
 (epstopdf)                    size: 249532 bytes
@@ -2951,7 +3114,7 @@ nverted-to.pdf>
 eRelacion-eps-converted-to.pdf figures/BD/diagramaEntidadeRelacion.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf, id=1375, pagebox=cro
+<figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf, id=1452, pagebox=cro
 pbox, 660.4675pt x 657.45625pt>
 File: figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2960,7 +3123,7 @@ Package pdftex.def Info: figures/BD/diagramaEntidadeRelacion-eps-converted-to.p
 df  used on input line 48. on input line 48.
 Package pdftex.def Info: Requested size: 309.42372pt x 308.02135pt on input lin
 e 48.
- [42] [43 <./figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf>]
+ [44] [45 <./figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf>]
 Overfull \hbox (6.33907pt too wide) in paragraph at lines 71--72
 []\OT1/lmr/m/n/10 CONTA[]USUARIO: De ti-po VAR-CHAR (string) con l^^S^^Pmi-te d
 e 100 ca-rac-te-res. Co-rresp^^Sonde-
@@ -2972,7 +3135,7 @@ Overfull \hbox (8.27225pt too wide) in paragraph at lines 90--91
 aboa. De ti-po SMA-LLINT (short).
  []
 
-[44] [45] [46] [47]
+[46] [47] [48] [49]
 Package epstopdf Info: Source file: <figures/Clases/diagramaEntidades.eps>
 (epstopdf)                    date: 2018-06-04 23:14:43
 (epstopdf)                    size: 110807 bytes
@@ -2984,7 +3147,7 @@ rted-to.pdf>
 idades-eps-converted-to.pdf figures/Clases/diagramaEntidades.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Clases/diagramaEntidades-eps-converted-to.pdf, id=1408, pagebox=cropbo
+<figures/Clases/diagramaEntidades-eps-converted-to.pdf, id=1486, pagebox=cropbo
 x, 417.56pt x 376.40625pt>
 File: figures/Clases/diagramaEntidades-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -3003,7 +3166,7 @@ Package epstopdf Info: Source file: <figures/BD/daos.eps>
 ted-to.pdf figures/BD/daos.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
-<figures/BD/daos-eps-converted-to.pdf, id=1409, pagebox=cropbox, 654.445pt x 45
+<figures/BD/daos-eps-converted-to.pdf, id=1487, pagebox=cropbox, 654.445pt x 45
 6.70625pt>
 File: figures/BD/daos-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/BD/daos-eps-converted-to.pdf>
@@ -3011,7 +3174,7 @@ Package pdftex.def Info: figures/BD/daos-eps-converted-to.pdf  used on input li
 ne 185. on input line 185.
 Package pdftex.def Info: Requested size: 371.30595pt x 259.11269pt on input lin
 e 185.
- [48] [49 <./figures/Clases/diagramaEntidades-eps-converted-to.pdf>]
+ [50] [51 <./figures/Clases/diagramaEntidades-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 215--216
 []|\OT1/lmr/m/n/10 Recupera a ima-xe in-di-ca-da po-lo
  []
@@ -3051,7 +3214,7 @@ Overfull \hbox (7.99556pt too wide) in paragraph at lines 229--260
 [][] 
  []
 
-[50 <./figures/BD/daos-eps-converted-to.pdf>]
+[52 <./figures/BD/daos-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 267
 .
 
@@ -3068,7 +3231,7 @@ Package epstopdf Info: Source file: <figures/codigo/json.eps>
 nverted-to.pdf figures/codigo/json.eps>
 (epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/json-eps-converted-to.pdf, id=1433, pagebox=cropbox, 654.445pt 
+<figures/codigo/json-eps-converted-to.pdf, id=1510, pagebox=cropbox, 654.445pt 
 x 400.49625pt>
 File: figures/codigo/json-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/json-eps-converted-to.pdf>
@@ -3076,20 +3239,20 @@ Package pdftex.def Info: figures/codigo/json-eps-converted-to.pdf  used on inpu
 t line 276. on input line 276.
 Package pdftex.def Info: Requested size: 412.56497pt x 252.47285pt on input lin
 e 276.
- [51] [52]
+ [53] [54]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 300.
 
 Underfull \vbox (badness 2671) has occurred while \output is active []
 
- [53 <./figures/codigo/json-eps-converted-to.pdf>]
+ [55 <./figures/codigo/json-eps-converted-to.pdf>]
 
-LaTeX Warning: Marginpar on page 54 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
-) [54] [55]
+) [56] [57]
 \openout2 = `capitulos/implementacion.aux'.
 
- (./capitulos/implementacion.tex [56
+ (./capitulos/implementacion.tex [58
 
 
 
@@ -3108,7 +3271,7 @@ Configuracion-eps-converted-to.pdf figures/codigo/transaccionConfiguracion.eps>
 
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/transaccionConfiguracion-eps-converted-to.pdf, id=1469, pagebox
+<figures/codigo/transaccionConfiguracion-eps-converted-to.pdf, id=1545, pagebox
 =cropbox, 505.89pt x 63.23625pt>
 File: figures/codigo/transaccionConfiguracion-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3117,7 +3280,7 @@ Package pdftex.def Info: figures/codigo/transaccionConfiguracion-eps-converted-
 to.pdf  used on input line 35. on input line 35.
 Package pdftex.def Info: Requested size: 412.56497pt x 51.57132pt on input line
  35.
-[57]
+[59]
 Package epstopdf Info: Source file: <figures/codigo/metodoTransaccional.eps>
 (epstopdf)                    date: 2018-06-10 01:12:55
 (epstopdf)                    size: 5458 bytes
@@ -3129,7 +3292,7 @@ verted-to.pdf>
 accional-eps-converted-to.pdf figures/codigo/metodoTransaccional.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/metodoTransaccional-eps-converted-to.pdf, id=1475, pagebox=crop
+<figures/codigo/metodoTransaccional-eps-converted-to.pdf, id=1552, pagebox=crop
 box, 489.83pt x 24.09pt>
 File: figures/codigo/metodoTransaccional-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3150,7 +3313,7 @@ converted-to.pdf>
 ansaccional-eps-converted-to.pdf figures/codigo/metodoNonTransaccional.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/metodoNonTransaccional-eps-converted-to.pdf, id=1477, pagebox=c
+<figures/codigo/metodoNonTransaccional-eps-converted-to.pdf, id=1554, pagebox=c
 ropbox, 245.91875pt x 25.09375pt>
 File: figures/codigo/metodoNonTransaccional-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3165,46 +3328,46 @@ Overfull \hbox (1.62883pt too wide) in paragraph at lines 80--82
 loper.android.com/studio/publish/app-
  []
 
-[58 <./figures/codigo/transaccionConfiguracion-eps-converted-to.pdf> <./figures
+[60 <./figures/codigo/transaccionConfiguracion-eps-converted-to.pdf> <./figures
 /codigo/metodoTransaccional-eps-converted-to.pdf> <./figures/codigo/metodoNonTr
-ansaccional-eps-converted-to.pdf>]) [59]
+ansaccional-eps-converted-to.pdf>]) [61]
 \openout2 = `capitulos/probas.aux'.
 
- (./capitulos/probas.tex [60
+ (./capitulos/probas.tex [62
 
 
 
 ]
 Cap\'{\i }tulo 9.
-[61]) [62]
+[63]) [64]
 \openout2 = `capitulos/conclusions.aux'.
 
  (./capitulos/conclusions.tex
 Cap\'{\i }tulo 10.
-[63
+[65
 
 
 
-]) [64]
+]) [66]
 \openout2 = `apendices/casosUso.aux'.
 
  (./apendices/casosUso.tex
 Ap\'endice A.
-) [65
+) [67
 
 
 
-] [66] [67] [68] [69] [70] [71] [72] [73] [74]
+] [68] [69] [70] [71] [72] [73] [74] [75] [76]
 \openout2 = `apendices/instalacion.aux'.
 
 
 (./apendices/instalacion.tex
 Ap\'endice B.
-[75
+[77
 
 
 
-]) [76]
+]) [78]
 \openout2 = `apendices/localizacion.aux'.
 
  (./apendices/localizacion.tex
@@ -3220,7 +3383,7 @@ o.pdf>
 -eps-converted-to.pdf figures/Capturas/dashboard.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/dashboard-eps-converted-to.pdf, id=1571, pagebox=cropbox, 144
+<figures/Capturas/dashboard-eps-converted-to.pdf, id=1649, pagebox=cropbox, 144
 5.4pt x 813.0375pt>
 File: figures/Capturas/dashboard-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/dashboard-eps-converted-to.pdf>
@@ -3228,7 +3391,7 @@ Package pdftex.def Info: figures/Capturas/dashboard-eps-converted-to.pdf  used
 on input line 12. on input line 12.
 Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
  12.
-[77
+[79
 
 
 
@@ -3244,7 +3407,7 @@ Package epstopdf Info: Source file: <figures/Capturas/edificio.eps>
 eps-converted-to.pdf figures/Capturas/edificio.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/edificio-eps-converted-to.pdf, id=1577, pagebox=cropbox, 1445
+<figures/Capturas/edificio-eps-converted-to.pdf, id=1655, pagebox=cropbox, 1445
 .4pt x 813.0375pt>
 File: figures/Capturas/edificio-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/edificio-eps-converted-to.pdf>
@@ -3252,7 +3415,7 @@ Package pdftex.def Info: figures/Capturas/edificio-eps-converted-to.pdf  used o
 n input line 25. on input line 25.
 Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
  25.
- [78 <./figures/Capturas/dashboard-eps-converted-to.pdf> <./figures/Capturas/ed
+ [80 <./figures/Capturas/dashboard-eps-converted-to.pdf> <./figures/Capturas/ed
 ificio-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Capturas/mapping_tool.eps>
 (epstopdf)                    date: 2018-06-06 23:38:35
@@ -3265,7 +3428,7 @@ d-to.pdf>
 ool-eps-converted-to.pdf figures/Capturas/mapping_tool.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=1589, pagebox=cropbox, 
+<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=1667, pagebox=cropbox, 
 813.0375pt x 1445.4pt>
 File: figures/Capturas/mapping_tool-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3285,7 +3448,7 @@ Package epstopdf Info: Source file: <figures/Capturas/poi.eps>
 onverted-to.pdf figures/Capturas/poi.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/poi-eps-converted-to.pdf, id=1591, pagebox=cropbox, 1445.4pt 
+<figures/Capturas/poi-eps-converted-to.pdf, id=1669, pagebox=cropbox, 1445.4pt 
 x 813.0375pt>
 File: figures/Capturas/poi-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/poi-eps-converted-to.pdf>
@@ -3304,7 +3467,7 @@ f>
 -converted-to.pdf figures/Capturas/rutas.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/rutas-eps-converted-to.pdf, id=1593, pagebox=cropbox, 1445.4p
+<figures/Capturas/rutas-eps-converted-to.pdf, id=1671, pagebox=cropbox, 1445.4p
 t x 813.0375pt>
 File: figures/Capturas/rutas-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/rutas-eps-converted-to.pdf>
@@ -3312,18 +3475,18 @@ Package pdftex.def Info: figures/Capturas/rutas-eps-converted-to.pdf  used on i
 nput line 61. on input line 61.
 Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
  61.
-) [79] [80 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>] [81 <./figur
+) [81] [82 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>] [83 <./figur
 es/Capturas/poi-eps-converted-to.pdf> <./figures/Capturas/rutas-eps-converted-t
 o.pdf>]
 \openout2 = `apendices/contido.aux'.
 
- (./apendices/contido.tex [82
+ (./apendices/contido.tex [84
 
 
 
 ]
 Ap\'endice D.
-) [83] [84
+) [85] [86
 
 
 ]
@@ -3342,7 +3505,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `PFC5_Pan_Farto.out' has not changed.
-(rerunfilecheck)             Checksum: EDC5ABDA103A5EE9D57472981844D4F6;8500.
+(rerunfilecheck)             Checksum: 6EAFF57F70AFB21DF414D712AEB416EC;9289.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3350,10 +3513,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 21991 strings out of 492990
- 395290 string characters out of 6136334
- 541536 words of memory out of 5000000
- 24639 multiletter control sequences out of 15000+600000
+ 22007 strings out of 492990
+ 395583 string characters out of 6136334
+ 541503 words of memory out of 5000000
+ 24651 multiletter control sequences out of 15000+600000
  63506 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,82p,1388b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3367,10 +3530,10 @@ mf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/type
 17/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmri10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 mri12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on PFC5_Pan_Farto.pdf (102 pages, 3869501 bytes).
+Output written on PFC5_Pan_Farto.pdf (106 pages, 3872757 bytes).
 PDF statistics:
- 1743 PDF objects out of 2073 (max. 8388607)
- 1558 compressed objects within 16 object streams
- 347 named destinations out of 1000 (max. 500000)
- 1059 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1822 PDF objects out of 2073 (max. 8388607)
+ 1632 compressed objects within 17 object streams
+ 351 named destinations out of 1000 (max. 500000)
+ 1155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

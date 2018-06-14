@@ -1,5 +1,5 @@
 \chapter{Deseño}
-Neste capítulo explícase a arquitectura da plataforma comezando por unha visión xeral da mesma para despois entrar en detalle no modelo de datos, o deseño do servidor e a aplicación Android.
+Neste capítulo explícase a arquitectura da plataforma comezando por unha visión xeral da mesma para despois entrar en detalle no modelo de datos, o deseño do servidor, a aplicación Android e a autenticación a través de Google.
 
 
 \section{Arquitectura xeral}
@@ -15,7 +15,7 @@ A nosa plataforma consta dos seguintes elementos conectados entre si:
 A aplicación Android precisa o servidor para a recuperación dos datos propios da plataforma e o sistema de localización en interiores para poder funcionar. O sistema de autenticación de Google está relacionado coa aplicación Android, onde comeza ese proceso, e co servidor, que realiza o último paso. Pódense observar estas conexións entre os elementos na figura~\ref{fig:arq_xeral}):
 
 
-\begin{figure}[tbh] 
+\begin{figure}[!h] 
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{figures/arqXeral}
 		\caption{Arquitectura xeral da plataforma Caronte para a guía de museos.}
@@ -192,29 +192,16 @@ O servidor dividiuse nas seguintes capas:
 \subsection{Transaccionalidade}
 Ningunha aplicación está libre de que se produza algún erro na súa execución, ben sexa por culpa de erros na implementación ou por elementos externos (caídas de conexións, erros na base de datos, etc...), polo que é preciso ter en conta estas situacións á hora de realizar modificacións sobre a base de datos para evitar a existencia de información errónea. Cando se realizan modificacións en serie sobre a base de datos que requiren da intervención de varias táboas pode ocorrer un erro xusto no medio, provocando que algunhas táboas fosen modificadas e outras non. Neste caso romperíase a integridade dos datos. Para evitar isto, búscase un sistema que permita que se realicen esas modificacións como se fosen unha soa, e no caso de que se produza un erro, que se desfagan os cambios.
 
-
-\subsection{API REST}
-A API utilizada para os servizos web é REST, polo que o formato dos datos enviados e recibidos son, na súa maioría JSON. A única excepción prodúcese no envío de imaxes. As respostas producidas polos servizos tamén serán devoltas no mesmo formato.
-A API foi dividida en dúas seccións, por unha parte a relacionada coas imaxes (envío, recepción e modificación de datos) e por outra a relacionada co resto de elementos do sistemas (POIs, edificios, percorridos).
-Todas as URLs comezan por /sw/ mais a continuación dependen da sección á cal pertenzan: se son da información xeral levarán a continuación "museo", mentres que as de tratamento de imaxes levarán "imaxe". Un exemplo de URL de cada sección:
-
-\begin{itemize}
-	\item http://direccionSW:porto/sw/museo/contas/(idUsuario)
-	\item http://direccionSW:porto/sw/imaxe/recuperar/(idEdificio)/(idPoi)/(idImaxe)
-\end{itemize}
-
-Os parénteses fan referencia a variábeis dentro das chamadas, texto que non é fixo senón que varía dependendo dos datos que queira solicitar o usuario.
-
-Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos web e as súas características, tanto para as imaxes (táboa \ref{tab:APIImaxes}) coma para o resto de información (táboa \ref{tab:APIXeral}).
-
 \begin{table} [tbh]
+	\footnotesize
+	\centering
 	\begin{tabular}{|l|p{6cm}|p{6cm}|}
 		\hline 
 		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
 		\hline 
 		GET & /recuperar/(idEd)/(idPoi)/(idIm) & Recupera a imaxe indicada polo id=(idIm) do poi con id=(idPoi) do edificio=(idEd) \\ 
 		\hline 
-		POST & /subir/(idEd)/(idPoi)/(nome)/(desc) & Envía unha imaxe con nome=(nome), descrición=(desc) para o poi con id=(idPoi) do edificio (idEd) \\ 
+		POST & /subir & Envía unha imaxe para un POI dun edificio concreto, engadindo nome e descrición \\ 
 		\hline 
 		POST & /actualizar/(idIm)/(nome)/(desc) & Actualiza a información, nome e descrición, da imaxe indicada polo id=(idIm) \\ 
 		\hline 
@@ -225,7 +212,23 @@ Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos
 	\label{tab:APIImaxes}
 \end{table}
 
-\begin{table} [tbh]
+\subsection{API REST}
+A API utilizada para os servizos web é REST, polo que o formato dos datos enviados e recibidos son, na súa maioría JSON. A única excepción prodúcese no envío de imaxes. As respostas producidas polos servizos tamén serán devoltas no mesmo formato.
+A API foi dividida en dúas seccións, por unha parte a relacionada coas imaxes (envío, recepción e modificación de datos) e por outra a relacionada co resto de elementos do sistemas (POIs, edificios, percorridos).
+Todas as URLs comezan por \emph{/sw} mais a continuación dependen da sección á cal pertenzan: se son da información xeral levarán a continuación \emph{/museo}, mentres que as de tratamento de imaxes levarán \emph{/imaxe}. Un exemplo de URL de cada sección:
+
+\begin{itemize}
+	\item http://\emph{direccionSW}:\emph{porto}/sw/museo/contas/\emph{(idUsuario)}
+	\item http://\emph{direccionSW}:\emph{porto}/sw/imaxe/recuperar/\emph{(idEdificio)}/\emph{(idPoi)}/\emph{(idImaxe)}
+\end{itemize}
+
+Os parénteses fan referencia a variábeis dentro das chamadas, texto que non é fixo senón que varía dependendo dos datos que queira solicitar o usuario.
+
+Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos web e as súas características, tanto para as imaxes (táboa \ref{tab:APIImaxes}) coma para o resto de información (táboa \ref{tab:APIXeral}).
+
+\begin{table} [!h]
+	\footnotesize
+	\centering
 	\begin{tabular}{|l|p{6cm}|p{6cm}|}
 		\hline 
 		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
@@ -261,17 +264,18 @@ Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos
 	\label{tab:APIXeral}
 \end{table}
 
-\subsubsection{Securización da API}
-Tal e como se indicou no capítulo de conceptos teóricos, os servizos REST non teñen estado, polo que non se garda información ningunha entre peticións. É por isto que en cada petición se debe enviar toda a información para que se poida procesar, o que inclúe a información de securización.
-Para a autenticación dos servizos utilizouse o sistema Basic, que consiste no envío dun usuario e contrasinal codificados en Base64. Na cabeceira da chamada REST aparecerá algo semellante ao seguinte texto:
-\begin{lstlisting}
-Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l
-\end{lstlisting}
+\subsection{Intercambio de datos}
+O intercambio de datos entre a aplicación Android e o servidor faise en formato JSON. Na figura~\ref{fig:jsonRequest} pódese ver un exemplo de solicitude de creación dun punto de interese. A devolución dos datos tamén se realiza no mesmo formato. Un exemplo disto pódese observar na figura~\ref{fig:json}, onde se expón a resposta a unha chamada para a recuperación da información dos puntos de interese dun edificio.
 
-\subsubsection{JSON}
-Na figura~\ref{fig:json} pódese observar un exemplo de resposta en JSON do servizo web a unha chamada para a recuperación da información dos puntos de interese dun edificio.
+\begin{figure}[tbh]
+	\begin{center}
+		\includegraphics[width=0.55\textwidth]{figures/codigo/jsonRequest}
+		\caption{Exemplo dunha solicitude ao servizo web.}
+		\label{fig:jsonRequest}
+	\end{center}
+\end{figure}
 
-\begin{figure}[tbh] 
+\begin{figure}[tbh]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{figures/codigo/json}
 		\caption{Exemplo dunha resposta do servizo web.}
@@ -279,7 +283,23 @@ Na figura~\ref{fig:json} pódese observar un exemplo de resposta en JSON do serv
 	\end{center}
 \end{figure}
 
-Nela obsérvase a estrutura que caracteriza este formato de intercambio de datos. Outra das cuestión que nos permite observar é que a súa estrutura non coincide coa utilizada en base de datos, xa que as necesidades da aplicación non teñen por que coincidir coas decisións tomadas á hora de definir as táboas de base de datos. É por iso que se observa a agrupación da información sobre a localización física dos POIs nunha etiqueta chamada posición, que non coincide coa maneira de gardar eses valores en BD. A maiores tamén se inclúen os identificadores das imaxes almacenadas sobre cada POI, para simplificar a recuperación das imaxes na aplicación.
+En ambas figuras obsérvase a estrutura que caracteriza este formato de intercambio de datos. Outra das cuestión que nos permite observar é que a súa estrutura non coincide coa utilizada en base de datos, xa que as necesidades da aplicación non teñen por que coincidir coas decisións tomadas á hora de definir as táboas de base de datos. É por iso que se observa a agrupación da información sobre a localización física dos POIs nunha etiqueta chamada posición, que non coincide coa maneira de gardar eses valores en BD. A maiores tamén se inclúen os identificadores das imaxes almacenadas sobre cada POI, para simplificar a recuperación das imaxes na aplicación.
+
+Para realizar a chamada ao servidor utilízase a librería spring-android-rest-template, que é o cliente para aplicacións Android de Spring que permite a realización de chamadas REST. Na sección de implementación describiranse exemplos da utilización desta librería.
+
+Na parte do servidor tamén se utiliza Spring mediante a librería spring-mvc, que se encarga de converter automaticamente as clases a formato JSON. Para isto débese incluir a dependencia de jackson-databind e indicar nas chamadas as etiquetas \lstinline{@RequestBody} e \lstinline{@ResponseBody}. Igual que para as chamadas dende Android, na sección de implementación amosarase algún exemplo desta configuración.
+
+\subsection{Securización das comunicacións}
+Tal e como se indicou no capítulo de conceptos teóricos, os servizos REST non teñen estado, polo que non se garda información ningunha entre peticións. É por isto que en cada petición se debe enviar toda a información para que se poida procesar, o que inclúe a información de securización.
+Para a autenticación dos servizos utilizouse o sistema Basic, que consiste no envío dun usuario e contrasinal codificados en Base64. Na cabeceira da chamada REST aparecerá algo semellante ao texto da figura~\ref{fig:authorization}.
+
+\begin{figure}[!h]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{figures/codigo/authorization}
+		\caption{Exemplo dunha cabeceira REST securizada.}
+		\label{fig:authorization}
+	\end{center}
+\end{figure}
 
 \section{Aplicación Android}
 Escolleuse unha única aplicación tanto para a consulta como para a edición para aproveitar a potencia que nos dá o mapa de interiores á hora de localizar os puntos desexados e marcalos directamente. Desta maneira pódense situar con precisión os puntos sobre o mapa mentres se percorre o edificio. Non obstante, para unha futura ampliación do sistema sería interesante permitir a configuración dende un cliente web para a creación de contido referente aos puntos e os percorridos, xa que dende un dispositivo móbil non se obtén a mesma comodidade á hora de inserir textos e proporcionar información.
@@ -308,6 +328,7 @@ No apartado de implementación amosarase unha chamada en profundidade.
 
 \subsection{Comunicación con Situm}
 Todo acceso realizado sobre o sistema de Situm prodúcese dende a aplicación móbil. O noso servidor non pode ter acceso ao sistema de Situm, polo que toda a información proporcionada sobre a localización que se precise no servidor debe ser enviada pola aplicación Android. Esta comunicación que se produce co sistema de Situm é en base ás credenciais que escolla o usuario, xa sexan públicas ou privadas.
+
 No paquete gal.caronte.servizo.situm atópanse as clases que realizan as chamadas aos servidores de Situm. Cada chamada permitida a Situm realízase dende unha clase distinta, illada do resto de chamadas para non mesturar lóxica distinta.
 Utilízase a librería proporcionada por Situm para realizar as chamadas. No apartado de implementación amosarase unha chamada en profundidade.
 
@@ -318,5 +339,6 @@ A inmensa maioría de aplicacións en Android precisan dunha lista concreta de p
 \section{Sistema de autenticación a través de Google}
 Debido á necesidade de distinguir os usuarios da aplicación entre os normais e os xestores de contido houbo que integrar un sistema de autenticación na aplicación, mais non se creou un propio.
 Por motivos de comodidade e seguridade escolleuse a opción de realizar a autenticación dos usuarios a través de contas de Google, desta maneira non é preciso gardar información privada dos usuarios quedando estes datos do lado de Google. Ao estar destinada a aplicación ao sistema operativo Android non se obriga ao usuario a ter que crear unha conta ex profeso xa que é obrigatorio o uso dunha para poder utilizar un dispositivo móbil con Android.
+
 Para a integración do sistema de autenticación na aplicación hai que facer uso dos servizos de Google Play tanto no servidor coma na aplicación Android. É preciso configurar a aplicación para que permita a autenticación, acción que se fai a través dun formulario onde se indica o proxecto, o nome da aplicación e o seu tipo (Android, neste caso).
 Unha autenticación exitosa require de varios pasos. O primeiro é a autenticación dende a aplicación Android, dende a cal se enviarán os datos da conta a Google para que os verifique. Se os datos son correctos devólvese información sobre a conta á aplicación, para posteriormente enviar un token de sesión ao servidor que permita identificar ao usuario. No seguinte paso, o servidor recolle ese token e o envía de novo aos servizos de Google para verificar a súa integridade. Unha vez verificada, enviará a información sobre ese usuario á aplicación Android para que poida utilizala coa conta seleccionada.

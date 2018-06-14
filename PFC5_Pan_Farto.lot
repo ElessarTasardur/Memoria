@@ -2,59 +2,59 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Caracter\IeC {\'\i }sticas One Plus 3T\relax }}{8}{table.caption.11}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Caracter\IeC {\'\i }sticas One Plus 3T}}{10}{table.3.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Horas planificadas para o traballador.\relax }}{35}{table.caption.45}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Custos planificados en recursos humanos.\relax }}{36}{table.caption.46}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Custos en recursos materiais.\relax }}{36}{table.caption.48}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Custos totais estimados.\relax }}{36}{table.caption.50}
-\contentsline {table}{\numberline {6.5}{\ignorespaces Avaliaci\IeC {\'o}n dos riscos do proxecto.\relax }}{37}{table.caption.52}
-\contentsline {table}{\numberline {6.6}{\ignorespaces Horas reais para o traballador.\relax }}{40}{table.caption.56}
-\contentsline {table}{\numberline {6.7}{\ignorespaces Custos finais en recursos humanos.\relax }}{40}{table.caption.57}
-\contentsline {table}{\numberline {6.8}{\ignorespaces Custos totais.\relax }}{41}{table.caption.59}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Horas planificadas para o traballador.}}{39}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Custos planificados en recursos humanos.}}{39}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Custos en recursos materiais.}}{40}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Custos totais estimados.}}{40}{table.6.4}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Avaliaci\IeC {\'o}n dos riscos do proxecto.}}{41}{table.6.5}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Horas reais para o traballador.}}{45}{table.6.6}
+\contentsline {table}{\numberline {6.7}{\ignorespaces Custos finais en recursos humanos.}}{45}{table.6.7}
+\contentsline {table}{\numberline {6.8}{\ignorespaces Custos totais unha vez finalizado o proxecto.}}{45}{table.6.8}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Descrici\IeC {\'o}ns da API Rest para o tratamento de imaxes.\relax }}{53}{table.caption.67}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Descrici\IeC {\'o}ns da API Rest para o tratamento da informaci\IeC {\'o}n xeral.\relax }}{54}{table.caption.68}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Descrici\IeC {\'o}ns da API Rest para o tratamento de imaxes.}}{58}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Descrici\IeC {\'o}ns da API Rest para o tratamento da informaci\IeC {\'o}n xeral.}}{59}{table.7.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Caso de uso Autenticarse.\relax }}{67}{table.caption.79}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Caso de uso Logout.\relax }}{67}{table.caption.80}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Caso de uso Recuperar contas Situm.\relax }}{68}{table.caption.81}
-\contentsline {table}{\numberline {A.4}{\ignorespaces Caso de uso Acceder mapa.\relax }}{68}{table.caption.82}
-\contentsline {table}{\numberline {A.5}{\ignorespaces Caso de uso Amosar mapa edificio.\relax }}{68}{table.caption.83}
-\contentsline {table}{\numberline {A.6}{\ignorespaces Caso de uso Cambiar piso.\relax }}{68}{table.caption.84}
-\contentsline {table}{\numberline {A.7}{\ignorespaces Caso de uso Localizaci\IeC {\'o}n no interior dun edificio.\relax }}{69}{table.caption.85}
-\contentsline {table}{\numberline {A.8}{\ignorespaces Caso de uso Amosar lista de POIs dun edificio.\relax }}{69}{table.caption.86}
-\contentsline {table}{\numberline {A.9}{\ignorespaces Caso de uso Amosar POI no mapa.\relax }}{69}{table.caption.87}
-\contentsline {table}{\numberline {A.10}{\ignorespaces Caso de uso Amosar informaci\IeC {\'o}n dun POI.\relax }}{69}{table.caption.88}
-\contentsline {table}{\numberline {A.11}{\ignorespaces Caso de uso Guiar a POI.\relax }}{70}{table.caption.89}
-\contentsline {table}{\numberline {A.12}{\ignorespaces Caso de uso Amosar lista de percorridos dun edificio.\relax }}{70}{table.caption.90}
-\contentsline {table}{\numberline {A.13}{\ignorespaces Caso de uso Amosar percorrido no mapa.\relax }}{70}{table.caption.91}
-\contentsline {table}{\numberline {A.14}{\ignorespaces Caso de uso Guiar a trav\IeC {\'e}s de percorrido.\relax }}{70}{table.caption.92}
-\contentsline {table}{\numberline {A.15}{\ignorespaces Caso de uso Amosar informaci\IeC {\'o}n dun percorrido.\relax }}{71}{table.caption.93}
-\contentsline {table}{\numberline {A.16}{\ignorespaces Caso de uso Amosar lista de imaxes dun POI.\relax }}{71}{table.caption.94}
-\contentsline {table}{\numberline {A.17}{\ignorespaces Caso de uso Amosar imaxe dun POI.\relax }}{71}{table.caption.95}
-\contentsline {table}{\numberline {A.18}{\ignorespaces Caso de uso Crear POI.\relax }}{71}{table.caption.96}
-\contentsline {table}{\numberline {A.19}{\ignorespaces Caso de uso Modificar POI.\relax }}{72}{table.caption.97}
-\contentsline {table}{\numberline {A.20}{\ignorespaces Caso de uso Eliminar POI.\relax }}{72}{table.caption.98}
-\contentsline {table}{\numberline {A.21}{\ignorespaces Caso de uso Estimar tempo POI.\relax }}{72}{table.caption.99}
-\contentsline {table}{\numberline {A.22}{\ignorespaces Caso de uso Engadir imaxe.\relax }}{72}{table.caption.100}
-\contentsline {table}{\numberline {A.23}{\ignorespaces Caso de uso Modificar datos imaxe.\relax }}{73}{table.caption.101}
-\contentsline {table}{\numberline {A.24}{\ignorespaces Caso de uso Eliminar imaxe.\relax }}{73}{table.caption.102}
-\contentsline {table}{\numberline {A.25}{\ignorespaces Caso de uso Crear percorrido.\relax }}{73}{table.caption.103}
-\contentsline {table}{\numberline {A.26}{\ignorespaces Caso de uso Modificar informaci\IeC {\'o}n percorrido.\relax }}{74}{table.caption.104}
-\contentsline {table}{\numberline {A.27}{\ignorespaces Caso de uso Eliminar percorrido.\relax }}{74}{table.caption.105}
-\contentsline {table}{\numberline {A.28}{\ignorespaces Caso de uso Estimar tempo percorrido.\relax }}{74}{table.caption.106}
-\contentsline {table}{\numberline {A.29}{\ignorespaces Caso de uso Engadir POI a percorrido.\relax }}{75}{table.caption.107}
-\contentsline {table}{\numberline {A.30}{\ignorespaces Caso de uso Eliminar POI de percorrido.\relax }}{75}{table.caption.108}
-\contentsline {table}{\numberline {A.31}{\ignorespaces Caso de uso Dar de alta un edificio.\relax }}{75}{table.caption.109}
-\contentsline {table}{\numberline {A.32}{\ignorespaces Caso de uso Dar permiso a un usuario sobre un edificio.\relax }}{76}{table.caption.110}
-\contentsline {table}{\numberline {A.33}{\ignorespaces Caso de uso Dar de alta unha conta Situm.\relax }}{76}{table.caption.111}
-\contentsline {table}{\numberline {A.34}{\ignorespaces Caso de uso Dar permiso a un usuario sobre un edificio.\relax }}{76}{table.caption.112}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Caso de uso Autenticarse.}}{75}{table.Alph1.1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Caso de uso Logout.}}{75}{table.Alph1.2}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Caso de uso Recuperar contas Situm.}}{76}{table.Alph1.3}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Caso de uso Acceder mapa.}}{76}{table.Alph1.4}
+\contentsline {table}{\numberline {A.5}{\ignorespaces Caso de uso Amosar mapa edificio.}}{76}{table.Alph1.5}
+\contentsline {table}{\numberline {A.6}{\ignorespaces Caso de uso Cambiar piso.}}{77}{table.Alph1.6}
+\contentsline {table}{\numberline {A.7}{\ignorespaces Caso de uso Localizaci\IeC {\'o}n no interior dun edificio.}}{77}{table.Alph1.7}
+\contentsline {table}{\numberline {A.8}{\ignorespaces Caso de uso Amosar lista de POIs dun edificio.}}{77}{table.Alph1.8}
+\contentsline {table}{\numberline {A.9}{\ignorespaces Caso de uso Amosar POI no mapa.}}{78}{table.Alph1.9}
+\contentsline {table}{\numberline {A.10}{\ignorespaces Caso de uso Amosar informaci\IeC {\'o}n dun POI.}}{78}{table.Alph1.10}
+\contentsline {table}{\numberline {A.11}{\ignorespaces Caso de uso Guiar a POI.}}{78}{table.Alph1.11}
+\contentsline {table}{\numberline {A.12}{\ignorespaces Caso de uso Amosar lista de percorridos dun edificio.}}{79}{table.Alph1.12}
+\contentsline {table}{\numberline {A.13}{\ignorespaces Caso de uso Amosar percorrido no mapa.}}{79}{table.Alph1.13}
+\contentsline {table}{\numberline {A.14}{\ignorespaces Caso de uso Guiar a trav\IeC {\'e}s de percorrido.}}{79}{table.Alph1.14}
+\contentsline {table}{\numberline {A.15}{\ignorespaces Caso de uso Amosar informaci\IeC {\'o}n dun percorrido.}}{80}{table.Alph1.15}
+\contentsline {table}{\numberline {A.16}{\ignorespaces Caso de uso Amosar lista de imaxes dun POI.}}{80}{table.Alph1.16}
+\contentsline {table}{\numberline {A.17}{\ignorespaces Caso de uso Amosar imaxe dun POI.}}{80}{table.Alph1.17}
+\contentsline {table}{\numberline {A.18}{\ignorespaces Caso de uso Crear POI.}}{81}{table.Alph1.18}
+\contentsline {table}{\numberline {A.19}{\ignorespaces Caso de uso Modificar POI.}}{81}{table.Alph1.19}
+\contentsline {table}{\numberline {A.20}{\ignorespaces Caso de uso Eliminar POI.}}{81}{table.Alph1.20}
+\contentsline {table}{\numberline {A.21}{\ignorespaces Caso de uso Estimar tempo POI.}}{82}{table.Alph1.21}
+\contentsline {table}{\numberline {A.22}{\ignorespaces Caso de uso Engadir imaxe.}}{82}{table.Alph1.22}
+\contentsline {table}{\numberline {A.23}{\ignorespaces Caso de uso Modificar datos imaxe.}}{82}{table.Alph1.23}
+\contentsline {table}{\numberline {A.24}{\ignorespaces Caso de uso Eliminar imaxe.}}{83}{table.Alph1.24}
+\contentsline {table}{\numberline {A.25}{\ignorespaces Caso de uso Crear percorrido.}}{83}{table.Alph1.25}
+\contentsline {table}{\numberline {A.26}{\ignorespaces Caso de uso Modificar informaci\IeC {\'o}n percorrido.}}{84}{table.Alph1.26}
+\contentsline {table}{\numberline {A.27}{\ignorespaces Caso de uso Eliminar percorrido.}}{84}{table.Alph1.27}
+\contentsline {table}{\numberline {A.28}{\ignorespaces Caso de uso Estimar tempo percorrido.}}{84}{table.Alph1.28}
+\contentsline {table}{\numberline {A.29}{\ignorespaces Caso de uso Engadir POI a percorrido.}}{85}{table.Alph1.29}
+\contentsline {table}{\numberline {A.30}{\ignorespaces Caso de uso Eliminar POI de percorrido.}}{85}{table.Alph1.30}
+\contentsline {table}{\numberline {A.31}{\ignorespaces Caso de uso Dar de alta un edificio.}}{85}{table.Alph1.31}
+\contentsline {table}{\numberline {A.32}{\ignorespaces Caso de uso Dar permiso a un usuario sobre un edificio.}}{86}{table.Alph1.32}
+\contentsline {table}{\numberline {A.33}{\ignorespaces Caso de uso Dar de alta unha conta Situm.}}{86}{table.Alph1.33}
+\contentsline {table}{\numberline {A.34}{\ignorespaces Caso de uso Dar permiso a un usuario sobre un edificio.}}{86}{table.Alph1.34}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

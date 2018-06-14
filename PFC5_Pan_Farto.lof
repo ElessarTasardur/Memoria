@@ -3,35 +3,37 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Proceso de desenvolvemento en Scrum.\relax }}{15}{figure.caption.17}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proceso de desenvolvemento en Scrum.}}{17}{figure.4.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Casos de uso do Usuario Android dentro da pantalla inicial.\relax }}{20}{figure.caption.19}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Casos de uso referentes \IeC {\'a} localizaci\IeC {\'o}n do Usuario Android.\relax }}{21}{figure.caption.21}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Casos de uso referentes \IeC {\'a} visualizaci\IeC {\'o}n de POIs e percorridos.\relax }}{22}{figure.caption.23}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Casos de uso do Xestor de contido referentes aos POIs.\relax }}{24}{figure.caption.25}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos.\relax }}{25}{figure.caption.27}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos.\relax }}{27}{figure.caption.28}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Casos de uso do Usuario Android dentro da pantalla inicial.}}{23}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Casos de uso referentes \IeC {\'a} localizaci\IeC {\'o}n do Usuario Android.}}{24}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Casos de uso referentes \IeC {\'a} visualizaci\IeC {\'o}n de POIs e percorridos.}}{25}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Casos de uso do Xestor de contido referentes aos POIs.}}{27}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos.}}{29}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Casos de uso do Xestor de contido referentes aos percorridos.}}{30}{figure.5.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagrama de Gantt da planificaci\IeC {\'o}n inicial para os sprints.\relax }}{35}{figure.caption.43}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagrama de Gantt para os sprints despois de realizar o seguemento ao proxecto.\relax }}{39}{figure.caption.54}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagrama de Gantt da planificaci\IeC {\'o}n inicial para os sprints.}}{38}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagrama de Gantt para os sprints despois de realizar o seguemento ao proxecto.}}{43}{figure.6.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Arquitectura xeral da plataforma Caronte para a gu\IeC {\'\i }a de museos.\relax }}{43}{figure.caption.60}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Modelo de datos da plataforma Caronte.\relax }}{45}{figure.caption.64}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagrama de clases coas entidades.\relax }}{51}{figure.caption.65}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Diagrama de clases cos DAOs.\relax }}{52}{figure.caption.66}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Exemplo dunha resposta do servizo web.\relax }}{55}{figure.caption.71}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Arquitectura xeral da plataforma Caronte para a gu\IeC {\'\i }a de museos.}}{48}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Modelo de datos da plataforma Caronte.}}{49}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagrama de clases coas entidades.}}{56}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Diagrama de clases cos DAOs.}}{57}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Exemplo dunha solicitude ao servizo web.}}{60}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Exemplo dunha resposta do servizo web.}}{61}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Exemplo dunha cabeceira REST securizada.}}{61}{figure.7.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade no ficheiro XML.\relax }}{60}{figure.caption.73}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo onde se modifican datos.\relax }}{60}{figure.caption.74}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo de s\IeC {\'o} lectura.\relax }}{60}{figure.caption.75}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade no ficheiro XML.}}{66}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo onde se modifican datos.}}{66}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo de s\IeC {\'o} lectura.}}{66}{figure.8.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Vista inicial do dashboard de Situm.\relax }}{80}{figure.caption.113}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Vista de modificaci\IeC {\'o}n dun edificio.\relax }}{80}{figure.caption.114}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Aplicaci\IeC {\'o}n de calibraci\IeC {\'o}n: Situm Mapping Tool.\relax }}{82}{figure.caption.115}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Proceso de creaci\IeC {\'o}n de POIs en Situm.\relax }}{83}{figure.caption.116}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Proceso de creaci\IeC {\'o}n de rutas.\relax }}{83}{figure.caption.117}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Vista inicial do dashboard de Situm.}}{90}{figure.Alph3.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Vista de modificaci\IeC {\'o}n dun edificio.}}{91}{figure.Alph3.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Aplicaci\IeC {\'o}n de calibraci\IeC {\'o}n: Situm Mapping Tool.}}{93}{figure.Alph3.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Proceso de creaci\IeC {\'o}n de POIs en Situm.}}{94}{figure.Alph3.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Proceso de creaci\IeC {\'o}n de rutas.}}{94}{figure.Alph3.5}
 \addvspace {10\p@ }

@@ -1,21 +1,25 @@
-\documentclass[1pt, a4paper, twoside, titlepage]{book}
-
+\documentclass[11pt, a4paper, twoside, titlepage]{book}
 
 % Paquetes usados
 
 \usepackage[a4paper, top=4cm, bottom=4cm, left=3.3cm, right=3.2cm]{geometry}
-\usepackage[dvips,pdftex]{graphicx}
+%\usepackage[dvips,pdftex]{graphicx}
+\usepackage[dvips]{graphicx} %%latex -> Usamos  .eps
+%\usepackage{graphicx} %%pdflatex -> Usamos .jpg/.png
 \usepackage{fancyhdr}
 \usepackage{subfigure}
 \usepackage{booktabs}
 \usepackage{url}
-\usepackage{caption}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{eurosym}
+\usepackage{colortbl}
 
-\usepackage{xcolor}   %May be necessary if you want to color links
-\definecolor{pblue}{rgb}{0.13,0.13,1}
-\definecolor{pgreen}{rgb}{0,0.5,0}
-\definecolor{pred}{rgb}{0.9,0,0}
-\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+\usepackage[draft]{todonotes}  %% CVR  draft/disable (borrador/definitivo)
+%\todo[inline]{comment}  %% CVR, para poner un comentario, [inline] es opcional
+%\listoftodos %% CVR, para mostrar todos los comentarios
+%\missingfigure{Add my picture here.}
 
 %\usepackage[latin1]{inputenc}
 \usepackage{lmodern,textcomp}
@@ -23,34 +27,61 @@
 %\usepackage[spanish]{babel}
 \usepackage[galician,activeacute]{babel}
 
-\usepackage{float}
-\usepackage{titlesec}
-\usepackage{setspace}
 
-\usepackage{multirow}
-\usepackage{tabularx}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true, %set true if you want colored links
+	linktoc=all,     %set to all if you want both sections and subsections linked
+	linkcolor=blue,  %choose some color if you want links to stand out
+}
+
+\newlist{cu}{enumerate}{1}
+\setlist[cu,1]{
+	label={\textbf{CU-\arabic*~}},
+	leftmargin=*
+	%align=left,
+	%labelsep=10mm,
+	%itemindent=4em
+}
+
+%\usepackage{xcolor}   %May be necessary if you want to color links
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+
+
+%\usepackage{float}
+%\usepackage{titlesec}
+%\usepackage{setspace}
+
+%\usepackage{multirow}
+%\usepackage{tabularx}
 
 % Código
-\usepackage{listings}
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
+%\usepackage{listings}
+%\definecolor{pblue}{rgb}{0.13,0.13,1}
+%\definecolor{pgreen}{rgb}{0,0.5,0}
+%\definecolor{pred}{rgb}{0.9,0,0}
+%\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
 
-\lstset{frame=tb,
+\lstset{
 	language=Java,
-	aboveskip=3mm,
-	belowskip=3mm,
-	showstringspaces=false,
-	columns=flexible,
-	basicstyle={\small\ttfamily},
-	numbers=none,
-	numberstyle=\tiny\color{gray},
-	keywordstyle=\color{blue},
-	commentstyle=\color{dkgreen},
-	stringstyle=\color{mauve},
+	showspaces=false,
+	showtabs=false,
 	breaklines=true,
+	showstringspaces=false,
 	breakatwhitespace=true,
-	tabsize=3
+	frame=single,
+	tabsize=2,
+	commentstyle=\color{pgreen},
+	keywordstyle=\color{pblue},
+	stringstyle=\color{pred},
+	basicstyle=\ttfamily,
+	moredelim=[is][\color{pgrey}]{$$}{$$},
+	basicstyle=\footnotesize
 }
 
 
@@ -81,10 +112,10 @@
 
 % Cabeceras capítulos alineadas a la derecha
 % \titleformat{<command>}[<shape>]{<format>}{<label>}{<sep>}{<before-code>}[<after-code>]
-\titleformat{\chapter}[display]
-  {\normalfont\Large\bfseries\raggedleft}{\chaptertitlename\ \thechapter}{20pt}{\Huge\setstretch{0.8}}
-\titleformat{\section}
-	{\normalfont\Large\bfseries}{\thesection}{1em}{}
+% \titleformat{\chapter}[display]
+%   {\normalfont\Large\bfseries\raggedleft}{\chaptertitlename\ \thechapter}{20pt}{\Huge\setstretch{0.8}}
+% \titleformat{\section}
+% 	{\normalfont\Large\bfseries}{\thesection}{1em}{}
 
 
 \begin{document}
@@ -122,7 +153,7 @@
 
 % Índice de capítulos, secciones y subsecciones
 \cleardoublepage
-%\pdfbookmark[0]{\contentsname}{toc}
+\pdfbookmark[0]{\contentsname}{toc}
 \tableofcontents
 
 % Índice de figuras
@@ -140,13 +171,17 @@
 \phantomsection \label{listoftables}
 \addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
-
 \cleardoublepage
 
 
 % Numeración normal de páxinas
 \pagenumbering{arabic}
 
+% Definimos el encabezado y pie de página
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[ER]{\leftmark}
 
 % Capítulos
 \include{capitulos/introducion}
@@ -177,11 +212,12 @@
 % Glosario de términos
 %\printglossary
 
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliografía}
+\cleardoublepage
 
 % Bibliografía
-\cleardoublepage
 \bibliographystyle{pfc-fic}
 \bibliography{biblio}
-\addcontentsline{toc}{chapter}{Bibliografía}
 
 \end{document}

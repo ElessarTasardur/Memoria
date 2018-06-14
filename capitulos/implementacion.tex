@@ -20,6 +20,80 @@ Exemplo de inxección de consulta
 
 Exemplo de execución de consulta
 
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/configuracionBD}
+		\caption{Configuración da base de datos no ficheiro XML.}
+		\label{fig:configuracionBD}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/placeholderConsultas}
+		\caption{Configuración en XML para a localización do ficheiro das consultas.}
+		\label{fig:placeholderConsultas}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/dao}
+		\caption{Clase de implementación dun DAO.}
+		\label{fig:dao}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/inxeccionDao}
+		\caption{Inxección dunha consulta nun DAO.}
+		\label{fig:inxeccionDao}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/daoRowMapper}
+		\caption{Construción dun VO dentro do DAO.}
+		\label{fig:daoRowMapper}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/daoConsulta}
+		\caption{Método de consulta dun DAO.}
+		\label{fig:daoConsulta}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/daoConsultaSQL}
+		\caption{Exemplo dunha consulta en SQL.}
+		\label{fig:daoConsultaSQL}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/daoInsert}
+		\caption{Método de inserción dun DAO.}
+		\label{fig:daoInsert}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/daoInsertSQL}
+		\caption{Exemplo dunha inserción en SQL.}
+		\label{fig:daoInsertSQL}
+	\end{center}
+\end{figure}
+
+
+
 
 
 
@@ -67,6 +141,48 @@ Para a construción dos servizos web creáronse dous controladores distintos, ta
 
 
 Exemplo de construción dos servizos web: Spring MVC
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{figures/codigo/controladorMuseo}
+		\caption{Exemplo de etiquetas sobre o servizo.}
+		\label{fig:controladorMuseo}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{figures/codigo/chamadaServizoGetSimple}
+		\caption{Exemplo de método Get do servizo.}
+		\label{fig:chamadaServizoGetSimple}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{figures/codigo/chamadaServizoGetParametro}
+		\caption{Exemplo de método Get con parámetro do servizo.}
+		\label{fig:chamadaServizoGetParametro}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{figures/codigo/chamadaServizoPost}
+		\caption{Exemplo de método Post do servizo.}
+		\label{fig:chamadaServizoPost}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{figures/codigo/chamadaServizoDelete}
+		\caption{Exemplo de método Delete do servizo.}
+		\label{fig:chamadaServizoDelete}
+	\end{center}
+\end{figure}
+
+
+
 
 
 
@@ -76,7 +192,7 @@ Tal e como se indicou no apartado de deseño de "Securización das comunicación
 
 \begin{figure}[htb] 
 	\begin{center}
-		\includegraphics[width=0.5\textwidth]{figures/codigo/configuracionAutenticacion}
+		\includegraphics[width=0.6\textwidth]{figures/codigo/configuracionAutenticacion}
 		\caption{Configuración da autenticación básica no servidor.}
 		\label{fig:configuracionAutenticacion}
 	\end{center}
@@ -105,8 +221,7 @@ Exemplo de acceso ao servizo web
 
 Exemplo de chamada a actividade e devolución do fluxo
 
-Para publicar a aplicación na Play Store
-https://developer.android.com/studio/publish/app-signing
+
 
 
 
@@ -114,13 +229,46 @@ https://developer.android.com/studio/publish/app-signing
 \section{Autenticación}
 Neste punto verase o proceso de autenticación en máis profundidade, revisando as diferentes chamadas necesarias tanto dende a aplicacion Android coma dende o servidor contra os servizos de Google para verificar a identidade do usuario.
 
+O primeiro punto a ter en conta é a configuración necesaria para permitir a autenticación dende a aplicación. Débese incluir a dependencia con \emph{'com.google.android.gms:play-services-auth:12.0.1'} no build.gradle a nivel de aplicación e incluír o ficheiro google-services.json específico de Caronte que se pode conseguir despois de dar de alta o proxecto na consola de desenvolvemento de Google. Dende esta mesma consola pódense conseguir as credenciais que permiten a conexión cos servizos de Google que utilizaremos a continuación, na conexión dende a aplicación Android e dende o servidor.
 
 
+\todo{https://console.developers.google.com/apis/credentials}
 
-https://developers.google.com/identity/sign-in/android/start-integrating
+\todo{incluir referencia a https://developers.google.com/identity/sign-in/android/start-integrating}
 
+\todo{https://developers.google.com/android/guides/client-auth}
 
-https://developers.google.com/android/guides/client-auth
+\begin{figure}[htb] 
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{figures/codigo/autenticacionGoogleInicio}
+		\caption{Código para a autenticación con Google na aplicación.}
+		\label{fig:autenticacionGoogleInicio}
+	\end{center}
+\end{figure}
 
+O primeiro paso para permitir o acceso a un usuario concreto na aplicación é a obtención das credenciais de autenticación do usuario. Para lograr isto, temos o código da figura~\ref{fig:autenticacionGoogleInicio}. Pulsando sobre o botón de login lanzarase unha actividade propia de Google que permite a autenticación dentro da aplicación cunha conta de Google.
 
-Incluír o google-services.json dentro da aplicación Android para permitir a conexión
+\begin{figure}[htb] 
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{figures/codigo/autenticacionGoogleRecepcion}
+		\caption{Código para a autenticación con Google na aplicación (2).}
+		\label{fig:autenticacionGoogleRecepcion}
+	\end{center}
+\end{figure}
+
+O seguinte paso será o tratamento da información recibida cando a actividade lanzada no punto anterior remate correctamente. Pódese ver na figura~\ref{fig:autenticacionGoogleRecepcion} o tratamento dos datos. O punto principal é o lanzamento dunha chamada ao servidor de Caronte pasando como parametro un token enviado por Google para verificar a conta.
+
+\begin{figure}[htb] 
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/codigo/autenticacionGoogleServidor}
+		\caption{Código para a autenticación con Google na aplicación (e 3).}
+		\label{fig:autenticacionGoogleServidor}
+	\end{center}
+\end{figure}
+
+Na figura~\ref{fig:autenticacionGoogleServidor} pódese ver o código do servidor co cal se verifica a conta coa que se acaba de autenticar o usuario. Utilízase a clase GoogleIdTokenVerifier para verificar o token recibido na aplicación Android. Se o token é válido, devólvese a información do usuario xunto cos seus roles á aplicación Android, se ten algún. Se é a primeira vez que o usuario accede ao sistema, gardarase a súa conta na base de datos.
+
+Para que funcione a autenticación desde unha aplicación descargada de Google Play débese incluír a chave do certificado co que se firma a aplicación na consola para desenvolvedores de Google.
+
+\todo{Para publicar a aplicación na Play Store}
+\todo{https://developer.android.com/studio/publish/app-signing}

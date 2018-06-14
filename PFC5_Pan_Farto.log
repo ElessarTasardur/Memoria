@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.5.9)  14 JUN 2018 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.30)  15 JUN 2018 00:38
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./PFC5_Pan_Farto.tex
-(PFC5_Pan_Farto.tex
+(./PFC5_Pan_Farto.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+(c:/texlive/2017/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
+(c:/texlive/2017/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,21 +24,21 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(c:/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -51,29 +53,28 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
+)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvips.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\dvips.def"
-File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -86,8 +87,8 @@ s
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
+(c:/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip52
 \subfigcapskip=\skip53
 \subfigcaptopadj=\dimen113
@@ -102,12 +103,12 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+(c:/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip56
 \subfig@bottom=\skip57
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
+(c:/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen115
 \lightrulewidth=\dimen116
 \cmidrulewidth=\dimen117
@@ -126,11 +127,11 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count98
 \@thisrulewidth=\dimen127
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count99
 \lst@gtempboxa=\box26
 \lst@token=\toks16
@@ -144,18 +145,18 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \lst@lineno=\count104
 \lst@maxwidth=\dimen131
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count105
 \lst@skipnumbers=\count106
 \lst@framebox=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(c:/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip58
 \enit@outerparindent=\dimen132
@@ -163,7 +164,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box28
 \enitdp@description=\count107
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count108
 \float@exts=\toks18
@@ -171,14 +172,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box30
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box31
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
-Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
+(c:/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen133
 \extrarowheight=\dimen134
@@ -186,50 +187,42 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip59
 \backup@length=\skip60
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count109
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \everycr=\toks21
 \minrowclearance=\skip61
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks22
 \XKV@tempa@toks=\toks23
 )
-\XKV@depth=\count110
+\XKV@depth=\count109
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -243,36 +236,36 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks24
 \pgfutil@tempdima=\dimen135
 \pgfutil@tempdimb=\dimen136
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
-x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box32
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+
+(c:/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks25
 \pgfkeys@temptoks=\toks26
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
-x"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks27
 ))
 \pgf@x=\dimen137
@@ -285,69 +278,66 @@ x"
 \pgf@yc=\dimen144
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count111
-\c@pgf@countb=\count112
-\c@pgf@countc=\count113
-\c@pgf@countd=\count114
+\c@pgf@counta=\count110
+\c@pgf@countb=\count111
+\c@pgf@countc=\count112
+\c@pgf@countd=\count113
 \t@pgf@toka=\toks28
 \t@pgf@tokb=\toks29
 \t@pgf@tokc=\toks30
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+ (c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
-ex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count115
-\pgfsyssoftpath@bigbuffer@items=\count116
+\pgfsyssoftpath@smallbuffer@items=\count114
+\pgfsyssoftpath@bigbuffer@items=\count115
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
-ex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+)) (c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen145
-\pgfmath@count=\count117
+\pgfmath@count=\count116
 \pgfmath@box=\box33
 \pgfmath@toks=\toks31
 \pgfmath@stack@operand=\toks32
 \pgfmath@stack@operation=\toks33
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
-hmetics.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count118
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count117
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen146
 \pgf@picmaxx=\dimen147
@@ -364,115 +354,110 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen158
 \pgf@zy=\dimen159
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
-ode.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen160
 \pgf@path@lasty=\dimen161
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
-tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen162
 \pgf@shorten@start@additional=\dimen163
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box34
 \pgf@hbox=\box35
 \pgf@layerbox@main=\box36
-\pgf@picture@serial@count=\count119
+\pgf@picture@serial@count=\count118
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
-de.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen164
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
-.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen165
 \pgf@pt@y=\dimen166
 \pgf@pt@temp=\dimen167
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
-x"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
-code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen168
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen169
-\pgf@sys@shading@range@num=\count120
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
+\pgf@sys@shading@range@num=\count119
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
-ex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box37
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
-de.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
-ex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box38
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
-sty"
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen170
 \pgf@nodesepend=\dimen171
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
-sty"
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+)) (c:/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen172
 \pgffor@skip=\dimen173
 \pgffor@stack=\toks34
 \pgffor@toks=\toks35
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
-code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count121
+\pgf@plot@mark@count=\count120
 \pgfplotmarksize=\dimen174
 )
 \tikz@lastx=\dimen175
@@ -485,43 +470,41 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box40
 \tikz@tempbox=\box41
 \tikz@tempbox@bg=\box42
-\tikztreelevel=\count122
-\tikznumberofchildren=\count123
-\tikznumberofcurrentchild=\count124
-\tikz@fig@count=\count125
+\tikztreelevel=\count121
+\tikznumberofchildren=\count122
+\tikznumberofcurrentchild=\count123
+\tikz@fig@count=\count124
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count126
-\pgfmatrixcurrentcolumn=\count127
-\pgf@matrix@numberofcolumns=\count128
+\pgfmatrixcurrentrow=\count125
+\pgfmatrixcurrentcolumn=\count126
+\pgf@matrix@numberofcolumns=\count127
 )
-\tikz@expandcount=\count129
+\tikz@expandcount=\count128
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytopaths.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarypositioning.code.tex"
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+) (c:/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count130
-\calc@Bcount=\count131
+\calc@Acount=\count129
+\calc@Bcount=\count130
 \calc@Adimen=\dimen181
 \calc@Bdimen=\dimen182
 \calc@Askip=\skip62
 \calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count132
+\calc@Ccount=\count131
 \calc@Cskip=\skip64
 )
-\c@@todonotes@numberoftodonotes=\count133
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+\c@@todonotes@numberoftodonotes=\count132
+) (c:/texlive/2017/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -556,7 +539,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -571,7 +554,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+(c:/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -638,19 +621,19 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks36
 \inpenc@posthook=\toks37
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+(c:/texlive/2017/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(c:/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -891,7 +874,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(c:/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -932,7 +915,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(c:/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -948,7 +931,7 @@ Now handling font encoding U ...
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+(c:/texlive/2017/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1031,44 +1014,44 @@ File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+(c:/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/06/29 3.12 The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+(c:/texlive/2017/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-galician\galician.ldf"
+(c:/texlive/2017/texmf-dist/tex/generic/babel-galician/galician.ldf
 Language: galician.ldf 2008/07/06 v4.3c Galician support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count134
+(c:/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/06/29 3.12 Babel common definitions
+
+(c:/texlive/2017/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
+)
+\babel@savecnt=\count133
 \U@D=\dimen183
 )
 \gl@quottoks=\toks38
-\gl@quotdepth=\count135
+\gl@quotdepth=\count134
 Package babel Info: Making . an active character on input line 533.
 Package babel Info: Making " an active character on input line 564.
 Package babel Info: Making < an active character on input line 656.
 Package babel Info: Making > an active character on input line 657.
 Package babel Info: Making ' an active character on input line 708.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -1103,24 +1086,24 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen184
-\Hy@linkcounter=\count136
-\Hy@pagecounter=\count137
+\Hy@linkcounter=\count135
+\Hy@pagecounter=\count136
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(c:/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count138
+\Hy@SavedSpaceFactor=\count137
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(c:/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -1130,10 +1113,10 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count139
+\c@Hy@tempcnt=\count138
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen185
-\Fld@menulength=\count140
+\Fld@menulength=\count139
 \Field@Width=\dimen186
 \Fld@charsize=\dimen187
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -1145,19 +1128,19 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count141
-\c@Item=\count142
-\c@Hfootnote=\count143
+\Hy@abspage=\count140
+\c@Item=\count141
+\c@Hfootnote=\count142
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(c:/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count144
-\c@bookmark@seq@number=\count145
+\Fld@listcount=\count143
+\c@bookmark@seq@number=\count144
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -1165,21 +1148,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip65
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 37.
-\c@cui=\count146
-\enitdp@cu=\count147
+\c@cui=\count145
+\enitdp@cu=\count146
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 98.
 
-(PFC5_Pan_Farto.aux (portada.aux) (especificacion.aux) (agradecementos.aux)
-(resumen.aux) (capitulos/introducion.aux) (capitulos/conceptos.aux)
-(capitulos/fundamentos.aux) (capitulos/metodoloxia.aux) (capitulos/analise.aux)
-(capitulos/desenvolvemento.aux) (capitulos/deseno.aux)
-(capitulos/implementacion.aux) (capitulos/probas.aux)
-(capitulos/conclusions.aux) (apendices/casosUso.aux) (apendices/instalacion.aux
-) (apendices/localizacion.aux) (apendices/contido.aux))
+(./PFC5_Pan_Farto.aux (./portada.aux) (./especificacion.aux)
+(./agradecementos.aux) (./resumen.aux) (./capitulos/introducion.aux)
+(./capitulos/conceptos.aux) (./capitulos/fundamentos.aux)
+(./capitulos/metodoloxia.aux) (./capitulos/analise.aux)
+(./capitulos/desenvolvemento.aux) (./capitulos/deseno.aux)
+(./capitulos/implementacion.aux) (./capitulos/probas.aux)
+(./capitulos/conclusions.aux) (./apendices/casosUso.aux)
+(./apendices/instalacion.aux) (./apendices/localizacion.aux)
+(./apendices/contido.aux))
 \openout1 = `PFC5_Pan_Farto.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
@@ -1197,8 +1182,7 @@ LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 121.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 121.
@@ -1206,8 +1190,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 121.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+ (c:/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1244,100 +1227,104 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count148
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+\c@lstlisting=\count147
+(c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
+\scratchcounter=\count148
 \scratchdimen=\dimen188
 \scratchbox=\box43
-\nofMPsegments=\count150
-\nofMParguments=\count151
+\nofMPsegments=\count149
+\nofMParguments=\count150
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count152
+\MPscratchCnt=\count151
 \MPscratchDim=\dimen189
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
 \everyMPtoPDFconversion=\toks40
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) (c:/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(c:/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box44
 Package hyperref Info: Link coloring ON on input line 121.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count154
 )
 LaTeX Info: Redefining \ref on input line 121.
 LaTeX Info: Redefining \pageref on input line 121.
 LaTeX Info: Redefining \nameref on input line 121.
 
-(PFC5_Pan_Farto.out) (PFC5_Pan_Farto.out)
+(./PFC5_Pan_Farto.out) (./PFC5_Pan_Farto.out)
 \@outlinefile=\write4
 \openout4 = `PFC5_Pan_Farto.out'.
 
 \openout2 = `portada.aux'.
 
- (portada.tex
+ (./portada.tex
 Package epstopdf Info: Source file: <figures/udc.eps>
-(epstopdf)                    date: 2018-05-31 10:42:59
-(epstopdf)                    size: 180423 bytes
+(epstopdf)                    date: 2016-11-09 12:32:53
+(epstopdf)                    size: 177689 bytes
 (epstopdf)             Output file: <figures/udc-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-31 10:42:59
+(epstopdf)                    date: 2018-04-30 21:42:53
 (epstopdf)                    size: 36057 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/udc-eps-converted-t
-o.pdf figures/udc.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/udc-eps-converted-
+to.pdf figures/udc.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/udc-eps-converted-to.pdf, id=538, 891.33pt x 115.43124pt>
+<figures/udc-eps-converted-to.pdf, id=541, pagebox=cropbox, 891.33pt x 115.4312
+4pt>
 File: figures/udc-eps-converted-to.pdf Graphic file (type pdf)
-
 <use figures/udc-eps-converted-to.pdf>
-Package pdftex.def Info: figures/udc-eps-converted-to.pdf used on input line 4.
-
-(pdftex.def)             Requested size: 356.52568pt x 46.17168pt.
+Package pdftex.def Info: figures/udc-eps-converted-to.pdf  used on input line 4
+. on input line 4.
+Package pdftex.def Info: Requested size: 356.52568pt x 46.17168pt on input line
+ 4.
  [1
 Non-PDF special ignored!
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/udc-eps-convert
-ed-to.pdf>]) [2
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/udc-e
+ps-converted-to.pdf>]) [2
 
 
 ]
 \openout2 = `especificacion.aux'.
 
- (especificacion.tex
+ (./especificacion.tex
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+(c:/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 4.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+(c:/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 4.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+(c:/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1428,7 +1415,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 \openout2 = `agradecementos.aux'.
 
- (agradecementos.tex
+ (./agradecementos.tex
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
@@ -1741,7 +1728,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [5]
 \openout2 = `resumen.aux'.
 
- (resumen.tex
+ (./resumen.tex
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
@@ -1973,7 +1960,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 139.
 
-[8] (PFC5_Pan_Farto.toc
+[8] (./PFC5_Pan_Farto.toc
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 2.
@@ -2236,7 +2223,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.145 ...e {9.4}Enquisa usuarios}{70}{section.9.4}
+l.145 ...e {9.4}Enquisa usuarios}{76}{section.9.4}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2472,11 +2459,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [14
 
-] (PFC5_Pan_Farto.lof
+] (./PFC5_Pan_Farto.lof
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.35 ... dashboard de Situm.}}{90}{figure.Alph3.1}
+l.30 ...}n dun VO dentro do DAO.}}{67}{figure.8.5}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2486,67 +2473,67 @@ and I'll forget about whatever was undefined.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 35.
+(hyperref)                removing `\<let>-command' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 35.
+(hyperref)                removing `\@tempdima' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\divide' on input line 35.
+(hyperref)                removing `\divide' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 35.
+(hyperref)                removing `\@tempdima' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\multiply' on input line 35.
+(hyperref)                removing `\multiply' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 35.
+(hyperref)                removing `\@tempdima' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 35.
+(hyperref)                removing `\<def>-command' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\f@size' on input line 35.
+(hyperref)                removing `\f@size' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 35.
+(hyperref)                removing `\hbox' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 35.
+(hyperref)                removing `\<def>-command' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tf@size' on input line 35.
+(hyperref)                removing `\tf@size' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 35.
+(hyperref)                removing `\<def>-command' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sf@size' on input line 35.
+(hyperref)                removing `\sf@size' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 35.
+(hyperref)                removing `\<def>-command' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ssf@size' on input line 35.
+(hyperref)                removing `\ssf@size' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 35.
+(hyperref)                removing `\<let>-command' on input line 30.
 
 [15
 
@@ -2636,11 +2623,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 170.
 
-[16] (PFC5_Pan_Farto.lot
+[16] (./PFC5_Pan_Farto.lot
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.35 ...rridos dun edificio.}}{79}{table.Alph1.12}
+l.35 ...rridos dun edificio.}}{85}{table.Alph1.12}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2804,7 +2791,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [18]
 \openout2 = `capitulos/introducion.aux'.
 
- (capitulos/introducion.tex
+ (./capitulos/introducion.tex
 Cap\'{\i }tulo 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -2817,7 +2804,7 @@ l.8
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 21.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+ (c:/texlive/2017/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
@@ -2849,7 +2836,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [4]
 \openout2 = `capitulos/conceptos.aux'.
 
- (capitulos/conceptos.tex
+ (./capitulos/conceptos.tex
 Cap\'{\i }tulo 2.
 
 Underfull \vbox (badness 7326) has occurred while \output is active []
@@ -2878,7 +2865,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [7]
 \openout2 = `capitulos/fundamentos.aux'.
 
- (capitulos/fundamentos.tex [8
+ (./capitulos/fundamentos.tex [8
 
 
 
@@ -2920,7 +2907,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [13]
 \openout2 = `capitulos/metodoloxia.aux'.
 
- (capitulos/metodoloxia.tex [14
+ (./capitulos/metodoloxia.tex [14
 
 
 
@@ -2935,22 +2922,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16]
 Package epstopdf Info: Source file: <figures/scrum.eps>
-(epstopdf)                    date: 2018-06-12 11:17:31
-(epstopdf)                    size: 60781 bytes
+(epstopdf)                    date: 2018-06-09 20:23:22
+(epstopdf)                    size: 59904 bytes
 (epstopdf)             Output file: <figures/scrum-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:31
+(epstopdf)                    date: 2018-06-09 20:26:34
 (epstopdf)                    size: 64398 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/scrum-eps-converted
--to.pdf figures/scrum.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/scrum-eps-converte
+d-to.pdf figures/scrum.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
- <figures/scrum-eps-converted-to.pdf, id=1190, 682.55pt x 314.17375pt>
+<figures/scrum-eps-converted-to.pdf, id=1250, pagebox=cropbox, 682.55pt x 314.1
+7375pt>
 File: figures/scrum-eps-converted-to.pdf Graphic file (type pdf)
-
 <use figures/scrum-eps-converted-to.pdf>
-Package pdftex.def Info: figures/scrum-eps-converted-to.pdf used on input line 
-49.
-(pdftex.def)             Requested size: 412.56497pt x 189.90552pt.
+Package pdftex.def Info: figures/scrum-eps-converted-to.pdf  used on input line
+ 49. on input line 49.
+Package pdftex.def Info: Requested size: 412.56497pt x 189.90552pt on input lin
+e 49.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2985,7 +2973,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [20]
 \openout2 = `capitulos/analise.aux'.
 
- (capitulos/analise.tex
+ (./capitulos/analise.tex
 Cap\'{\i }tulo 5.
 [21
 
@@ -2994,27 +2982,26 @@ Cap\'{\i }tulo 5.
 ]
 Package epstopdf Info: Source file: <figures/CasosUso/UsuarioAndroidPantallaIni
 cial.eps>
-(epstopdf)                    date: 2018-05-31 10:42:59
-(epstopdf)                    size: 79356 bytes
+(epstopdf)                    date: 2018-05-04 13:43:05
+(epstopdf)                    size: 78200 bytes
 (epstopdf)             Output file: <figures/CasosUso/UsuarioAndroidPantallaIni
 cial-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-31 10:42:59
+(epstopdf)                    date: 2018-05-04 13:45:06
 (epstopdf)                    size: 58371 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/CasosUso/UsuarioAnd
-roidPantallaInicial-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidPantall
-aInicial.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/CasosUso/UsuarioAn
+droidPantallaInicial-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidPantal
+laInicial.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf, id=1217, 
-301.125pt x 221.82875pt>
+<figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf, id=1277, 
+pagebox=cropbox, 301.125pt x 221.82875pt>
 File: figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf Graph
 ic file (type pdf)
-
 <use figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf>
 Package pdftex.def Info: figures/CasosUso/UsuarioAndroidPantallaInicial-eps-con
-verted-to.pdf used on input line 30.
-(pdftex.def)             Requested size: 206.28249pt x 151.96869pt.
+verted-to.pdf  used on input line 30. on input line 30.
+Package pdftex.def Info: Requested size: 206.28249pt x 151.96869pt on input lin
+e 30.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3025,27 +3012,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [22]
 Package epstopdf Info: Source file: <figures/CasosUso/UsuarioAndroidLocalizacio
 n.eps>
-(epstopdf)                    date: 2018-05-31 10:42:59
-(epstopdf)                    size: 64604 bytes
+(epstopdf)                    date: 2018-05-04 13:42:48
+(epstopdf)                    size: 63647 bytes
 (epstopdf)             Output file: <figures/CasosUso/UsuarioAndroidLocalizacio
 n-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-31 10:42:59
+(epstopdf)                    date: 2018-05-04 13:45:08
 (epstopdf)                    size: 44975 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/CasosUso/UsuarioAnd
-roidLocalizacion-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidLocalizaci
-on.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/CasosUso/UsuarioAn
+droidLocalizacion-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidLocalizac
+ion.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf, id=1228, 302
-.12875pt x 165.61874pt>
+<figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf, id=1289, pag
+ebox=cropbox, 302.12875pt x 165.61874pt>
 File: figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf Graphic 
 file (type pdf)
-
 <use figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf>
 Package pdftex.def Info: figures/CasosUso/UsuarioAndroidLocalizacion-eps-conver
-ted-to.pdf used on input line 48.
-(pdftex.def)             Requested size: 206.28249pt x 113.07918pt.
+ted-to.pdf  used on input line 48. on input line 48.
+Package pdftex.def Info: Requested size: 206.28249pt x 113.07918pt on input lin
+e 48.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3054,13 +3040,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23 <./figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf>]
-<figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf, id=1246, 439.6425pt x 558.08
-5pt>
+<figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf, id=1307, pagebox=cropbox, 43
+9.6425pt x 558.085pt>
 File: figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf Graphic file (type pdf)
- <use figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf>
-Package pdftex.def Info: figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf used 
-on input line 66.
-(pdftex.def)             Requested size: 288.79422pt x 366.60857pt.
+<use figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf>
+Package pdftex.def Info: figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf  used
+ on input line 66. on input line 66.
+Package pdftex.def Info: Requested size: 288.79422pt x 366.60857pt on input lin
+e 66.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3077,25 +3064,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [25 <./figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf>]
 Package epstopdf Info: Source file: <figures/CasosUso/XestorContidoPoi.eps>
-(epstopdf)                    date: 2018-05-31 10:42:59
-(epstopdf)                    size: 157946 bytes
+(epstopdf)                    date: 2018-05-17 19:32:26
+(epstopdf)                    size: 155728 bytes
 (epstopdf)             Output file: <figures/CasosUso/XestorContidoPoi-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2018-05-31 10:42:59
+(epstopdf)                    date: 2018-05-17 19:32:39
 (epstopdf)                    size: 131390 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/CasosUso/XestorCont
-idoPoi-eps-converted-to.pdf figures/CasosUso/XestorContidoPoi.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/CasosUso/XestorCon
+tidoPoi-eps-converted-to.pdf figures/CasosUso/XestorContidoPoi.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf, id=1282, 368.37625pt x
- 472.76625pt>
+<figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf, id=1343, pagebox=cropb
+ox, 368.37625pt x 472.76625pt>
 File: figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf Graphic file (type
  pdf)
- <use figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf>
+<use figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf>
 Package pdftex.def Info: figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf
- used on input line 96.
-(pdftex.def)             Requested size: 247.54149pt x 317.68953pt.
+  used on input line 96. on input line 96.
+Package pdftex.def Info: Requested size: 247.54149pt x 317.68953pt on input lin
+e 96.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3116,27 +3103,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [27 <./figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/CasosUso/XestorContidoPercorrido.e
 ps>
-(epstopdf)                    date: 2018-05-31 10:42:59
-(epstopdf)                    size: 129960 bytes
+(epstopdf)                    date: 2018-05-17 19:32:01
+(epstopdf)                    size: 128121 bytes
 (epstopdf)             Output file: <figures/CasosUso/XestorContidoPercorrido-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-31 10:42:59
+(epstopdf)                    date: 2018-05-17 19:32:41
 (epstopdf)                    size: 104863 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/CasosUso/XestorCont
-idoPercorrido-eps-converted-to.pdf figures/CasosUso/XestorContidoPercorrido.eps
->
+(epstopdf)             Command: <repstopdf --outfile=figures/CasosUso/XestorCon
+tidoPercorrido-eps-converted-to.pdf figures/CasosUso/XestorContidoPercorrido.ep
+s>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf, id=1307, 371.38
-75pt x 358.33875pt>
+<figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf, id=1368, pagebo
+x=cropbox, 371.3875pt x 358.33875pt>
 File: figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf Graphic fil
 e (type pdf)
-
 <use figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf>
 Package pdftex.def Info: figures/CasosUso/XestorContidoPercorrido-eps-converted
--to.pdf used on input line 117.
-(pdftex.def)             Requested size: 247.54149pt x 238.84999pt.
+-to.pdf  used on input line 117. on input line 117.
+Package pdftex.def Info: Requested size: 247.54149pt x 238.84999pt on input lin
+e 117.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3147,26 +3133,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [28]
 Package epstopdf Info: Source file: <figures/CasosUso/AdministradorSistema.eps>
 
-(epstopdf)                    date: 2018-05-31 10:42:59
-(epstopdf)                    size: 84642 bytes
+(epstopdf)                    date: 2018-05-04 13:42:25
+(epstopdf)                    size: 83414 bytes
 (epstopdf)             Output file: <figures/CasosUso/AdministradorSistema-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2018-05-31 10:42:59
+(epstopdf)                    date: 2018-05-04 13:45:14
 (epstopdf)                    size: 63702 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/CasosUso/Administra
-dorSistema-eps-converted-to.pdf figures/CasosUso/AdministradorSistema.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/CasosUso/Administr
+adorSistema-eps-converted-to.pdf figures/CasosUso/AdministradorSistema.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/CasosUso/AdministradorSistema-eps-converted-to.pdf, id=1320, 254.9525p
-t x 262.9825pt>
+<figures/CasosUso/AdministradorSistema-eps-converted-to.pdf, id=1381, pagebox=c
+ropbox, 254.9525pt x 262.9825pt>
 File: figures/CasosUso/AdministradorSistema-eps-converted-to.pdf Graphic file (
 type pdf)
-
 <use figures/CasosUso/AdministradorSistema-eps-converted-to.pdf>
 Package pdftex.def Info: figures/CasosUso/AdministradorSistema-eps-converted-to
-.pdf used on input line 138.
-(pdftex.def)             Requested size: 206.28249pt x 212.78993pt.
+.pdf  used on input line 138. on input line 138.
+Package pdftex.def Info: Requested size: 206.28249pt x 212.78993pt on input lin
+e 138.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3185,7 +3170,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `capitulos/desenvolvemento.aux'.
 
 
-(capitulos/desenvolvemento.tex
+(./capitulos/desenvolvemento.tex
 Cap\'{\i }tulo 6.
 [31
 
@@ -3236,26 +3221,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [37]
 Package epstopdf Info: Source file: <figures/Capturas/planificacionInicial.eps>
 
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 32021 bytes
+(epstopdf)                    date: 2018-06-10 00:35:31
+(epstopdf)                    size: 31533 bytes
 (epstopdf)             Output file: <figures/Capturas/planificacionInicial-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-10 00:36:50
 (epstopdf)                    size: 29880 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Capturas/planificac
-ionInicial-eps-converted-to.pdf figures/Capturas/planificacionInicial.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Capturas/planifica
+cionInicial-eps-converted-to.pdf figures/Capturas/planificacionInicial.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Capturas/planificacionInicial-eps-converted-to.pdf, id=1423, 767.86874
-pt x 243.91125pt>
+<figures/Capturas/planificacionInicial-eps-converted-to.pdf, id=1485, pagebox=c
+ropbox, 767.86874pt x 243.91125pt>
 File: figures/Capturas/planificacionInicial-eps-converted-to.pdf Graphic file (
 type pdf)
-
 <use figures/Capturas/planificacionInicial-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Capturas/planificacionInicial-eps-converted-to
-.pdf used on input line 161.
-(pdftex.def)             Requested size: 412.56497pt x 131.05135pt.
+.pdf  used on input line 161. on input line 161.
+Package pdftex.def Info: Requested size: 412.56497pt x 131.05135pt on input lin
+e 161.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3293,25 +3277,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 Package epstopdf Info: Source file: <figures/Capturas/planificacionFinal.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 33651 bytes
+(epstopdf)                    date: 2018-06-10 00:36:06
+(epstopdf)                    size: 33141 bytes
 (epstopdf)             Output file: <figures/Capturas/planificacionFinal-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-10 00:36:51
 (epstopdf)                    size: 31211 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Capturas/planificac
-ionFinal-eps-converted-to.pdf figures/Capturas/planificacionFinal.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Capturas/planifica
+cionFinal-eps-converted-to.pdf figures/Capturas/planificacionFinal.eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Capturas/planificacionFinal-eps-converted-to.pdf, id=1461, 782.925pt x
- 241.90375pt>
+<figures/Capturas/planificacionFinal-eps-converted-to.pdf, id=1524, pagebox=cro
+pbox, 782.925pt x 241.90375pt>
 File: figures/Capturas/planificacionFinal-eps-converted-to.pdf Graphic file (ty
 pe pdf)
- <use figures/Capturas/planificacionFinal-eps-converted-to.pdf>
+<use figures/Capturas/planificacionFinal-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Capturas/planificacionFinal-eps-converted-to.p
-df used on input line 327.
-(pdftex.def)             Requested size: 412.56497pt x 127.47383pt.
+df  used on input line 327. on input line 327.
+Package pdftex.def Info: Requested size: 412.56497pt x 127.47383pt on input lin
+e 327.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3336,7 +3320,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [45]
 \openout2 = `capitulos/deseno.aux'.
 
- (capitulos/deseno.tex [46
+ (./capitulos/deseno.tex [46
 
 
 
@@ -3352,7 +3336,7 @@ Type  H <return>  for immediate help.
 l.20 ...cs[width=0.65\textwidth]{figures/arqXeral}
                                                   
 I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3361,25 +3345,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [47]
 Package epstopdf Info: Source file: <figures/BD/diagramaEntidadeRelacion.eps>
-(epstopdf)                    date: 2018-05-31 10:42:59
-(epstopdf)                    size: 253006 bytes
+(epstopdf)                    date: 2018-05-04 13:36:54
+(epstopdf)                    size: 249532 bytes
 (epstopdf)             Output file: <figures/BD/diagramaEntidadeRelacion-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2018-05-31 10:42:59
+(epstopdf)                    date: 2018-05-04 13:38:00
 (epstopdf)                    size: 221696 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/BD/diagramaEntidade
-Relacion-eps-converted-to.pdf figures/BD/diagramaEntidadeRelacion.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/BD/diagramaEntidad
+eRelacion-eps-converted-to.pdf figures/BD/diagramaEntidadeRelacion.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf, id=1494, 660.4675pt 
-x 657.45625pt>
+<figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf, id=1557, pagebox=cro
+pbox, 660.4675pt x 657.45625pt>
 File: figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf Graphic file (ty
 pe pdf)
- <use figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf>
+<use figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf>
 Package pdftex.def Info: figures/BD/diagramaEntidadeRelacion-eps-converted-to.p
-df used on input line 48.
-(pdftex.def)             Requested size: 309.42372pt x 308.02135pt.
+df  used on input line 48. on input line 48.
+Package pdftex.def Info: Requested size: 309.42372pt x 308.02135pt on input lin
+e 48.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3438,43 +3422,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [55]
 Package epstopdf Info: Source file: <figures/Clases/diagramaEntidades.eps>
-(epstopdf)                    date: 2018-06-05 10:29:17
-(epstopdf)                    size: 112380 bytes
+(epstopdf)                    date: 2018-06-04 23:14:43
+(epstopdf)                    size: 110807 bytes
 (epstopdf)             Output file: <figures/Clases/diagramaEntidades-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2018-06-05 10:29:17
+(epstopdf)                    date: 2018-06-04 23:16:09
 (epstopdf)                    size: 98873 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Clases/diagramaEnti
-dades-eps-converted-to.pdf figures/Clases/diagramaEntidades.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Clases/diagramaEnt
+idades-eps-converted-to.pdf figures/Clases/diagramaEntidades.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Clases/diagramaEntidades-eps-converted-to.pdf, id=1535, 417.56pt x 376
-.40625pt>
+<figures/Clases/diagramaEntidades-eps-converted-to.pdf, id=1598, pagebox=cropbo
+x, 417.56pt x 376.40625pt>
 File: figures/Clases/diagramaEntidades-eps-converted-to.pdf Graphic file (type 
 pdf)
- <use figures/Clases/diagramaEntidades-eps-converted-to.pdf>
+<use figures/Clases/diagramaEntidades-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Clases/diagramaEntidades-eps-converted-to.pdf 
-used on input line 177.
-(pdftex.def)             Requested size: 288.79422pt x 260.34662pt.
+ used on input line 177. on input line 177.
+Package pdftex.def Info: Requested size: 288.79422pt x 260.34662pt on input lin
+e 177.
 Package epstopdf Info: Source file: <figures/BD/daos.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 352173 bytes
+(epstopdf)                    date: 2018-06-10 20:45:48
+(epstopdf)                    size: 347359 bytes
 (epstopdf)             Output file: <figures/BD/daos-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-10 20:46:01
 (epstopdf)                    size: 308526 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/BD/daos-eps-convert
-ed-to.pdf figures/BD/daos.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/BD/daos-eps-conver
+ted-to.pdf figures/BD/daos.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/BD/daos-eps-converted-to.pdf, id=1536, 654.445pt x 456.70625pt>
+<figures/BD/daos-eps-converted-to.pdf, id=1599, pagebox=cropbox, 654.445pt x 45
+6.70625pt>
 File: figures/BD/daos-eps-converted-to.pdf Graphic file (type pdf)
-
 <use figures/BD/daos-eps-converted-to.pdf>
-Package pdftex.def Info: figures/BD/daos-eps-converted-to.pdf used on input lin
+Package pdftex.def Info: figures/BD/daos-eps-converted-to.pdf  used on input li
+ne 185. on input line 185.
+Package pdftex.def Info: Requested size: 371.30595pt x 259.11269pt on input lin
 e 185.
-(pdftex.def)             Requested size: 371.30595pt x 259.11269pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3516,43 +3500,42 @@ Overfull \hbox (4.87749pt too wide) in paragraph at lines 232--263
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <figures/codigo/jsonRequest.eps>
-(epstopdf)                    date: 2018-06-14 10:48:56
-(epstopdf)                    size: 8781 bytes
+(epstopdf)                    date: 2018-06-14 01:15:05
+(epstopdf)                    size: 8607 bytes
 (epstopdf)             Output file: <figures/codigo/jsonRequest-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-06-14 10:48:56
+(epstopdf)                    date: 2018-06-14 01:18:53
 (epstopdf)                    size: 8654 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/codigo/jsonRequest-
-eps-converted-to.pdf figures/codigo/jsonRequest.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/jsonRequest
+-eps-converted-to.pdf figures/codigo/jsonRequest.eps>
 (epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/codigo/jsonRequest-eps-converted-to.pdf, id=1555, 264.99pt x 159.59625
-pt>
+<figures/codigo/jsonRequest-eps-converted-to.pdf, id=1619, pagebox=cropbox, 264
+.99pt x 159.59625pt>
 File: figures/codigo/jsonRequest-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/codigo/jsonRequest-eps-converted-to.pdf>
-Package pdftex.def Info: figures/codigo/jsonRequest-eps-converted-to.pdf used o
-n input line 272.
-(pdftex.def)             Requested size: 226.91199pt x 136.66318pt.
+<use figures/codigo/jsonRequest-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/jsonRequest-eps-converted-to.pdf  used 
+on input line 272. on input line 272.
+Package pdftex.def Info: Requested size: 226.91199pt x 136.66318pt on input lin
+e 272.
 Package epstopdf Info: Source file: <figures/codigo/json.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 29331 bytes
+(epstopdf)                    date: 2018-06-10 01:12:24
+(epstopdf)                    size: 28879 bytes
 (epstopdf)             Output file: <figures/codigo/json-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-10 01:19:02
 (epstopdf)                    size: 30113 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/codigo/json-eps-con
-verted-to.pdf figures/codigo/json.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/json-eps-co
+nverted-to.pdf figures/codigo/json.eps>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/codigo/json-eps-converted-to.pdf, id=1556, 654.445pt x 400.49625pt>
+<figures/codigo/json-eps-converted-to.pdf, id=1620, pagebox=cropbox, 654.445pt 
+x 400.49625pt>
 File: figures/codigo/json-eps-converted-to.pdf Graphic file (type pdf)
-
 <use figures/codigo/json-eps-converted-to.pdf>
-Package pdftex.def Info: figures/codigo/json-eps-converted-to.pdf used on input
- line 280.
-(pdftex.def)             Requested size: 412.56497pt x 252.47285pt.
-
+Package pdftex.def Info: figures/codigo/json-eps-converted-to.pdf  used on inpu
+t line 280. on input line 280.
+Package pdftex.def Info: Requested size: 412.56497pt x 252.47285pt on input lin
+e 280.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3568,25 +3551,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [59]
 Package epstopdf Info: Source file: <figures/codigo/authorization.eps>
-(epstopdf)                    date: 2018-06-14 10:48:56
-(epstopdf)                    size: 4523 bytes
+(epstopdf)                    date: 2018-06-14 00:35:16
+(epstopdf)                    size: 4406 bytes
 (epstopdf)             Output file: <figures/codigo/authorization-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-06-14 10:48:56
+(epstopdf)                    date: 2018-06-14 00:37:15
 (epstopdf)                    size: 4411 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/codigo/authorizatio
-n-eps-converted-to.pdf figures/codigo/authorization.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/authorizati
+on-eps-converted-to.pdf figures/codigo/authorization.eps>
 (epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/codigo/authorization-eps-converted-to.pdf, id=1567, 283.0575pt x 20.07
-5pt>
+<figures/codigo/authorization-eps-converted-to.pdf, id=1631, pagebox=cropbox, 2
+83.0575pt x 20.075pt>
 File: figures/codigo/authorization-eps-converted-to.pdf Graphic file (type pdf)
 
- <use figures/codigo/authorization-eps-converted-to.pdf>
-Package pdftex.def Info: figures/codigo/authorization-eps-converted-to.pdf used
- on input line 298.
-(pdftex.def)             Requested size: 247.54149pt x 17.55667pt.
+<use figures/codigo/authorization-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/authorization-eps-converted-to.pdf  use
+d on input line 298. on input line 298.
+Package pdftex.def Info: Requested size: 247.54149pt x 17.55667pt on input line
+ 298.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3618,14 +3601,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62])
+[62]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63]
+[63])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3635,77 +3618,372 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [64]
 \openout2 = `capitulos/implementacion.aux'.
 
- (capitulos/implementacion.tex
+ (./capitulos/implementacion.tex
 Cap\'{\i }tulo 8.
 [65
 
 
 
 ]
+Package epstopdf Info: Source file: <figures/codigo/configuracionBD.eps>
+(epstopdf)                    date: 2018-06-15 00:29:49
+(epstopdf)                    size: 9473 bytes
+(epstopdf)             Output file: <figures/codigo/configuracionBD-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:24
+(epstopdf)                    size: 9080 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/configuraci
+onBD-eps-converted-to.pdf figures/codigo/configuracionBD.eps>
+(epstopdf)             \includegraphics on input line 25.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/configuracionBD-eps-converted-to.pdf, id=1668, pagebox=cropbox,
+ 399.4925pt x 88.33pt>
+File: figures/codigo/configuracionBD-eps-converted-to.pdf Graphic file (type pd
+f)
+<use figures/codigo/configuracionBD-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/configuracionBD-eps-converted-to.pdf  u
+sed on input line 25. on input line 25.
+Package pdftex.def Info: Requested size: 412.56497pt x 91.22485pt on input line
+ 25.
+Package epstopdf Info: Source file: <figures/codigo/placeholderConsultas.eps>
+(epstopdf)                    date: 2018-06-15 00:31:47
+(epstopdf)                    size: 4990 bytes
+(epstopdf)             Output file: <figures/codigo/placeholderConsultas-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:26
+(epstopdf)                    size: 4867 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/placeholder
+Consultas-eps-converted-to.pdf figures/codigo/placeholderConsultas.eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/placeholderConsultas-eps-converted-to.pdf, id=1669, pagebox=cro
+pbox, 388.45125pt x 18.0675pt>
+File: figures/codigo/placeholderConsultas-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figures/codigo/placeholderConsultas-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/placeholderConsultas-eps-converted-to.p
+df  used on input line 33. on input line 33.
+Package pdftex.def Info: Requested size: 412.56497pt x 19.18948pt on input line
+ 33.
+Package epstopdf Info: Source file: <figures/codigo/dao.eps>
+(epstopdf)                    date: 2018-06-15 00:30:06
+(epstopdf)                    size: 4607 bytes
+(epstopdf)             Output file: <figures/codigo/dao-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:27
+(epstopdf)                    size: 4544 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/dao-eps-con
+verted-to.pdf figures/codigo/dao.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/dao-eps-converted-to.pdf, id=1670, pagebox=cropbox, 309.155pt x
+ 28.105pt>
+File: figures/codigo/dao-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/codigo/dao-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/dao-eps-converted-to.pdf  used on input
+ line 41. on input line 41.
+Package pdftex.def Info: Requested size: 412.56497pt x 37.5091pt on input line 
+41.
+Package epstopdf Info: Source file: <figures/codigo/inxeccionDao.eps>
+(epstopdf)                    date: 2018-06-15 00:31:33
+(epstopdf)                    size: 7134 bytes
+(epstopdf)             Output file: <figures/codigo/inxeccionDao-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:28
+(epstopdf)                    size: 7244 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/inxeccionDa
+o-eps-converted-to.pdf figures/codigo/inxeccionDao.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/inxeccionDao-eps-converted-to.pdf, id=1671, pagebox=cropbox, 25
+9.97125pt x 60.225pt>
+File: figures/codigo/inxeccionDao-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/codigo/inxeccionDao-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/inxeccionDao-eps-converted-to.pdf  used
+ on input line 49. on input line 49.
+Package pdftex.def Info: Requested size: 412.56497pt x 95.57532pt on input line
+ 49.
+Package epstopdf Info: Source file: <figures/codigo/daoRowMapper.eps>
+(epstopdf)                    date: 2018-06-15 00:31:20
+(epstopdf)                    size: 14663 bytes
+(epstopdf)             Output file: <figures/codigo/daoRowMapper-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:30
+(epstopdf)                    size: 14125 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/daoRowMappe
+r-eps-converted-to.pdf figures/codigo/daoRowMapper.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/daoRowMapper-eps-converted-to.pdf, id=1672, pagebox=cropbox, 47
+0.75874pt x 152.57pt>
+File: figures/codigo/daoRowMapper-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/codigo/daoRowMapper-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/daoRowMapper-eps-converted-to.pdf  used
+ on input line 57. on input line 57.
+Package pdftex.def Info: Requested size: 412.56497pt x 133.71027pt on input lin
+e 57.
+Package epstopdf Info: Source file: <figures/codigo/daoConsulta.eps>
+(epstopdf)                    date: 2018-06-15 00:30:18
+(epstopdf)                    size: 10465 bytes
+(epstopdf)             Output file: <figures/codigo/daoConsulta-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:31
+(epstopdf)                    size: 9997 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/daoConsulta
+-eps-converted-to.pdf figures/codigo/daoConsulta.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/daoConsulta-eps-converted-to.pdf, id=1673, pagebox=cropbox, 608
+.2725pt x 66.2475pt>
+File: figures/codigo/daoConsulta-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/codigo/daoConsulta-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/daoConsulta-eps-converted-to.pdf  used 
+on input line 65. on input line 65.
+Package pdftex.def Info: Requested size: 412.56497pt x 44.93347pt on input line
+ 65.
+Package epstopdf Info: Source file: <figures/codigo/daoConsultaSQL.eps>
+(epstopdf)                    date: 2018-06-15 00:30:33
+(epstopdf)                    size: 7562 bytes
+(epstopdf)             Output file: <figures/codigo/daoConsultaSQL-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:33
+(epstopdf)                    size: 7014 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/daoConsulta
+SQL-eps-converted-to.pdf figures/codigo/daoConsultaSQL.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/daoConsultaSQL-eps-converted-to.pdf, id=1674, pagebox=cropbox, 
+475.7775pt x 58.2175pt>
+File: figures/codigo/daoConsultaSQL-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figures/codigo/daoConsultaSQL-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/daoConsultaSQL-eps-converted-to.pdf  us
+ed on input line 73. on input line 73.
+Package pdftex.def Info: Requested size: 412.56497pt x 50.48535pt on input line
+ 73.
+Package epstopdf Info: Source file: <figures/codigo/daoInsert.eps>
+(epstopdf)                    date: 2018-06-15 00:30:49
+(epstopdf)                    size: 14647 bytes
+(epstopdf)             Output file: <figures/codigo/daoInsert-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2018-06-15 00:38:34
+(epstopdf)                    size: 14149 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/daoInsert-e
+ps-converted-to.pdf figures/codigo/daoInsert.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/daoInsert-eps-converted-to.pdf, id=1675, pagebox=cropbox, 681.5
+4625pt x 97.36375pt>
+File: figures/codigo/daoInsert-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/codigo/daoInsert-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/daoInsert-eps-converted-to.pdf  used on
+ input line 81. on input line 81.
+Package pdftex.def Info: Requested size: 412.56497pt x 58.93866pt on input line
+ 81.
+Package epstopdf Info: Source file: <figures/codigo/daoInsertSQL.eps>
+(epstopdf)                    date: 2018-06-15 00:31:02
+(epstopdf)                    size: 6701 bytes
+(epstopdf)             Output file: <figures/codigo/daoInsertSQL-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:36
+(epstopdf)                    size: 6396 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/daoInsertSQ
+L-eps-converted-to.pdf figures/codigo/daoInsertSQL.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/daoInsertSQL-eps-converted-to.pdf, id=1676, pagebox=cropbox, 55
+1.05875pt x 24.09pt>
+File: figures/codigo/daoInsertSQL-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/codigo/daoInsertSQL-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/daoInsertSQL-eps-converted-to.pdf  used
+ on input line 89. on input line 89.
+Package pdftex.def Info: Requested size: 412.56497pt x 18.0362pt on input line 
+89.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66 <./figures/codigo/configuracionBD-eps-converted-to.pdf> <./figures/codigo/p
+laceholderConsultas-eps-converted-to.pdf> <./figures/codigo/dao-eps-converted-t
+o.pdf>]
 Package epstopdf Info: Source file: <figures/codigo/transaccionConfiguracion.ep
 s>
-(epstopdf)                    date: 2018-06-12 11:17:31
-(epstopdf)                    size: 8453 bytes
+(epstopdf)                    date: 2018-06-10 01:13:11
+(epstopdf)                    size: 8283 bytes
 (epstopdf)             Output file: <figures/codigo/transaccionConfiguracion-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:31
+(epstopdf)                    date: 2018-06-10 01:19:04
 (epstopdf)                    size: 8306 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/codigo/transaccionC
-onfiguracion-eps-converted-to.pdf figures/codigo/transaccionConfiguracion.eps>
-(epstopdf)             \includegraphics on input line 37.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/transaccion
+Configuracion-eps-converted-to.pdf figures/codigo/transaccionConfiguracion.eps>
 
-<figures/codigo/transaccionConfiguracion-eps-converted-to.pdf, id=1604, 505.89p
-t x 63.23625pt>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/transaccionConfiguracion-eps-converted-to.pdf, id=1691, pagebox
+=cropbox, 505.89pt x 63.23625pt>
 File: figures/codigo/transaccionConfiguracion-eps-converted-to.pdf Graphic file
  (type pdf)
-
 <use figures/codigo/transaccionConfiguracion-eps-converted-to.pdf>
 Package pdftex.def Info: figures/codigo/transaccionConfiguracion-eps-converted-
-to.pdf used on input line 37.
-(pdftex.def)             Requested size: 412.56497pt x 51.57132pt.
+to.pdf  used on input line 111. on input line 111.
+Package pdftex.def Info: Requested size: 412.56497pt x 51.57132pt on input line
+ 111.
 Package epstopdf Info: Source file: <figures/codigo/metodoTransaccional.eps>
-(epstopdf)                    date: 2018-06-12 11:17:31
-(epstopdf)                    size: 5589 bytes
+(epstopdf)                    date: 2018-06-10 01:12:55
+(epstopdf)                    size: 5458 bytes
 (epstopdf)             Output file: <figures/codigo/metodoTransaccional-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:31
+(epstopdf)                    date: 2018-06-10 01:19:05
 (epstopdf)                    size: 5226 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/codigo/metodoTransa
-ccional-eps-converted-to.pdf figures/codigo/metodoTransaccional.eps>
-(epstopdf)             \includegraphics on input line 48.
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/metodoTrans
+accional-eps-converted-to.pdf figures/codigo/metodoTransaccional.eps>
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/codigo/metodoTransaccional-eps-converted-to.pdf, id=1606, 489.83pt x 2
-4.09pt>
+<figures/codigo/metodoTransaccional-eps-converted-to.pdf, id=1693, pagebox=crop
+box, 489.83pt x 24.09pt>
 File: figures/codigo/metodoTransaccional-eps-converted-to.pdf Graphic file (typ
 e pdf)
- <use figures/codigo/metodoTransaccional-eps-converted-to.pdf>
+<use figures/codigo/metodoTransaccional-eps-converted-to.pdf>
 Package pdftex.def Info: figures/codigo/metodoTransaccional-eps-converted-to.pd
-f used on input line 48.
-(pdftex.def)             Requested size: 412.56497pt x 20.29057pt.
+f  used on input line 122. on input line 122.
+Package pdftex.def Info: Requested size: 412.56497pt x 20.29057pt on input line
+ 122.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67 <./figures/codigo/inxeccionDao-eps-converted-to.pdf> <./figures/codigo/daoR
+owMapper-eps-converted-to.pdf> <./figures/codigo/daoConsulta-eps-converted-to.p
+df>]
 Package epstopdf Info: Source file: <figures/codigo/metodoNonTransaccional.eps>
 
-(epstopdf)                    date: 2018-06-12 11:17:31
-(epstopdf)                    size: 5091 bytes
+(epstopdf)                    date: 2018-06-10 01:12:41
+(epstopdf)                    size: 4967 bytes
 (epstopdf)             Output file: <figures/codigo/metodoNonTransaccional-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2018-06-14 17:35:50
+(epstopdf)                    date: 2018-06-14 22:28:01
 (epstopdf)                    size: 4820 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/codigo/metodoNonTra
-nsaccional-eps-converted-to.pdf figures/codigo/metodoNonTransaccional.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/metodoNonTr
+ansaccional-eps-converted-to.pdf figures/codigo/metodoNonTransaccional.eps>
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/codigo/metodoNonTransaccional-eps-converted-to.pdf, id=1608, 245.91875
-pt x 25.09375pt>
+<figures/codigo/metodoNonTransaccional-eps-converted-to.pdf, id=1708, pagebox=c
+ropbox, 245.91875pt x 25.09375pt>
 File: figures/codigo/metodoNonTransaccional-eps-converted-to.pdf Graphic file (
 type pdf)
-
 <use figures/codigo/metodoNonTransaccional-eps-converted-to.pdf>
 Package pdftex.def Info: figures/codigo/metodoNonTransaccional-eps-converted-to
-.pdf used on input line 58.
-(pdftex.def)             Requested size: 206.28249pt x 21.04987pt.
+.pdf  used on input line 132. on input line 132.
+Package pdftex.def Info: Requested size: 206.28249pt x 21.04987pt on input line
+ 132.
+Package epstopdf Info: Source file: <figures/codigo/controladorMuseo.eps>
+(epstopdf)                    date: 2018-06-15 00:19:32
+(epstopdf)                    size: 6389 bytes
+(epstopdf)             Output file: <figures/codigo/controladorMuseo-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:38:37
+(epstopdf)                    size: 6258 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/controlador
+Museo-eps-converted-to.pdf figures/codigo/controladorMuseo.eps>
+(epstopdf)             \includegraphics on input line 146.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/controladorMuseo-eps-converted-to.pdf, id=1709, pagebox=cropbox
+, 331.2375pt x 60.225pt>
+File: figures/codigo/controladorMuseo-eps-converted-to.pdf Graphic file (type p
+df)
+<use figures/codigo/controladorMuseo-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/controladorMuseo-eps-converted-to.pdf  
+used on input line 146. on input line 146.
+Package pdftex.def Info: Requested size: 206.28249pt x 37.50543pt on input line
+ 146.
+Package epstopdf Info: Source file: <figures/codigo/chamadaServizoGetSimple.eps
+>
+(epstopdf)                    date: 2018-06-15 00:12:47
+(epstopdf)                    size: 9727 bytes
+(epstopdf)             Output file: <figures/codigo/chamadaServizoGetSimple-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:16:38
+(epstopdf)                    size: 9628 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/chamadaServ
+izoGetSimple-eps-converted-to.pdf figures/codigo/chamadaServizoGetSimple.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/chamadaServizoGetSimple-eps-converted-to.pdf, id=1710, pagebox=
+cropbox, 464.73625pt x 109.40875pt>
+File: figures/codigo/chamadaServizoGetSimple-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use figures/codigo/chamadaServizoGetSimple-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/chamadaServizoGetSimple-eps-converted-t
+o.pdf  used on input line 154. on input line 154.
+Package pdftex.def Info: Requested size: 206.28249pt x 48.56235pt on input line
+ 154.
+Package epstopdf Info: Source file: <figures/codigo/chamadaServizoGetParametro.
+eps>
+(epstopdf)                    date: 2018-06-15 00:12:34
+(epstopdf)                    size: 13255 bytes
+(epstopdf)             Output file: <figures/codigo/chamadaServizoGetParametro-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:16:39
+(epstopdf)                    size: 12936 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/chamadaServ
+izoGetParametro-eps-converted-to.pdf figures/codigo/chamadaServizoGetParametro.
+eps>
+(epstopdf)             \includegraphics on input line 162.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/chamadaServizoGetParametro-eps-converted-to.pdf, id=1711, pageb
+ox=cropbox, 605.26125pt x 106.3975pt>
+File: figures/codigo/chamadaServizoGetParametro-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use figures/codigo/chamadaServizoGetParametro-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/chamadaServizoGetParametro-eps-converte
+d-to.pdf  used on input line 162. on input line 162.
+Package pdftex.def Info: Requested size: 206.28249pt x 36.26233pt on input line
+ 162.
+Package epstopdf Info: Source file: <figures/codigo/chamadaServizoPost.eps>
+(epstopdf)                    date: 2018-06-15 00:12:58
+(epstopdf)                    size: 25781 bytes
+(epstopdf)             Output file: <figures/codigo/chamadaServizoPost-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:16:41
+(epstopdf)                    size: 25355 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/chamadaServ
+izoPost-eps-converted-to.pdf figures/codigo/chamadaServizoPost.eps>
+(epstopdf)             \includegraphics on input line 170.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/chamadaServizoPost-eps-converted-to.pdf, id=1712, pagebox=cropb
+ox, 635.37375pt x 210.7875pt>
+File: figures/codigo/chamadaServizoPost-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use figures/codigo/chamadaServizoPost-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/chamadaServizoPost-eps-converted-to.pdf
+  used on input line 170. on input line 170.
+Package pdftex.def Info: Requested size: 206.28249pt x 68.43436pt on input line
+ 170.
+Package epstopdf Info: Source file: <figures/codigo/chamadaServizoDelete.eps>
+(epstopdf)                    date: 2018-06-15 00:12:21
+(epstopdf)                    size: 13101 bytes
+(epstopdf)             Output file: <figures/codigo/chamadaServizoDelete-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2018-06-15 00:16:42
+(epstopdf)                    size: 13138 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/chamadaServ
+izoDelete-eps-converted-to.pdf figures/codigo/chamadaServizoDelete.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/chamadaServizoDelete-eps-converted-to.pdf, id=1713, pagebox=cro
+pbox, 499.8675pt x 144.54pt>
+File: figures/codigo/chamadaServizoDelete-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figures/codigo/chamadaServizoDelete-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/chamadaServizoDelete-eps-converted-to.p
+df  used on input line 178. on input line 178.
+Package pdftex.def Info: Requested size: 206.28249pt x 59.64774pt on input line
+ 178.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3713,20 +3991,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66 <./figures/codigo/transaccionConfiguracion-eps-converted-to.pdf>]
-
-! LaTeX Error: File `figures/codigo/configuracionAutenticacion' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 ...figures/codigo/configuracionAutenticacion}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[68 <./figures/codigo/daoConsultaSQL-eps-converted-to.pdf> <./figures/codigo/da
+oInsert-eps-converted-to.pdf> <./figures/codigo/daoInsertSQL-eps-converted-to.p
+df>]
+Package epstopdf Info: Source file: <figures/codigo/configuracionAutenticacion.
+eps>
+(epstopdf)                    date: 2018-06-14 22:39:22
+(epstopdf)                    size: 14482 bytes
+(epstopdf)             Output file: <figures/codigo/configuracionAutenticacion-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-14 22:39:47
+(epstopdf)                    size: 14362 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/configuraci
+onAutenticacion-eps-converted-to.pdf figures/codigo/configuracionAutenticacion.
+eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/configuracionAutenticacion-eps-converted-to.pdf, id=1730, pageb
+ox=cropbox, 292.09125pt x 276.03125pt>
+File: figures/codigo/configuracionAutenticacion-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use figures/codigo/configuracionAutenticacion-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/configuracionAutenticacion-eps-converte
+d-to.pdf  used on input line 195. on input line 195.
+Package pdftex.def Info: Requested size: 247.54149pt x 233.9369pt on input line
+ 195.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3734,26 +4023,222 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67 <./figures/codigo/metodoTransaccional-eps-converted-to.pdf> <./figures/codi
-go/metodoNonTransaccional-eps-converted-to.pdf>]
-Overfull \hbox (41.55157pt too wide) in paragraph at lines 108--110
-[]\OT1/lmr/m/n/10.95 Para pu-bli-car a apli-ca-cion na Play Sto-re https://dev
-eloper.android.com/studio/publish/app-
+[69 <./figures/codigo/transaccionConfiguracion-eps-converted-to.pdf> <./figures
+/codigo/metodoTransaccional-eps-converted-to.pdf> <./figures/codigo/metodoNonTr
+ansaccional-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70 <./figures/codigo/controladorMuseo-eps-converted-to.pdf> <./figures/codigo/
+chamadaServizoGetSimple-eps-converted-to.pdf> <./figures/codigo/chamadaServizoG
+etParametro-eps-converted-to.pdf>]
+Overfull \hbox (9.26987pt too wide) in paragraph at lines 232--233
+\OT1/lmr/m/n/10.95 ca-ci^^Son den-de a apli-ca-ci^^Son. D^^Sebe-se in-cluir a d
+e-pen-den-cia con \OT1/lmr/m/it/10.95 'com.google.android.gms:play-
+ []
+
+
+Overfull \hbox (164.49155pt too wide) in paragraph at lines 235--235
+[][][][]\OT1/lmr/m/n/10.95 https://console.developers.google.com/apis/credentia
+ls  
+ []
+
+
+Overfull \hbox (164.49155pt too wide) in paragraph at lines 235--235
+[][][][]\OT1/lmr/m/n/10.95 https://console.developers.google.com/apis/credentia
+ls  
+ []
+
+
+Overfull \hbox (164.49155pt too wide) in paragraph at lines 235--235
+[][][][]\OT1/lmr/m/n/10.95 https://console.developers.google.com/apis/credentia
+ls  
+ []
+
+
+Overfull \hbox (164.49155pt too wide) in paragraph at lines 235--235
+[][][][]\OT1/lmr/m/n/10.95 https://console.developers.google.com/apis/credentia
+ls  
+ []
+
+
+Overfull \hbox (116.88962pt too wide) in paragraph at lines 237--237
+\OT1/lmr/m/n/10.95 https://developers.google.com/identity/sign- 
+ []
+
+
+Overfull \hbox (116.88962pt too wide) in paragraph at lines 237--237
+\OT1/lmr/m/n/10.95 https://developers.google.com/identity/sign- 
+ []
+
+
+Overfull \hbox (116.88962pt too wide) in paragraph at lines 237--237
+\OT1/lmr/m/n/10.95 https://developers.google.com/identity/sign- 
+ []
+
+
+Overfull \hbox (116.88962pt too wide) in paragraph at lines 237--237
+\OT1/lmr/m/n/10.95 https://developers.google.com/identity/sign- 
+ []
+
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+
+Overfull \hbox (158.89452pt too wide) in paragraph at lines 239--239
+[][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/android/guides/client-
+ 
+ []
+
+
+Overfull \hbox (158.89452pt too wide) in paragraph at lines 239--239
+[][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/android/guides/client-
+ 
+ []
+
+
+Overfull \hbox (158.89452pt too wide) in paragraph at lines 239--239
+[][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/android/guides/client-
+ 
+ []
+
+
+Overfull \hbox (158.89452pt too wide) in paragraph at lines 239--239
+[][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/android/guides/client-
+ 
+ []
+
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+Package epstopdf Info: Source file: <figures/codigo/autenticacionGoogleInicio.e
+ps>
+(epstopdf)                    date: 2018-06-14 23:57:19
+(epstopdf)                    size: 25116 bytes
+(epstopdf)             Output file: <figures/codigo/autenticacionGoogleInicio-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-14 23:58:23
+(epstopdf)                    size: 25510 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/autenticaci
+onGoogleInicio-eps-converted-to.pdf figures/codigo/autenticacionGoogleInicio.ep
+s>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/autenticacionGoogleInicio-eps-converted-to.pdf, id=1758, pagebo
+x=cropbox, 521.95pt x 219.82124pt>
+File: figures/codigo/autenticacionGoogleInicio-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use figures/codigo/autenticacionGoogleInicio-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/autenticacionGoogleInicio-eps-converted
+-to.pdf  used on input line 243. on input line 243.
+Package pdftex.def Info: Requested size: 371.30595pt x 156.3794pt on input line
+ 243.
+Package epstopdf Info: Source file: <figures/codigo/autenticacionGoogleRecepcio
+n.eps>
+(epstopdf)                    date: 2018-06-14 23:57:35
+(epstopdf)                    size: 31415 bytes
+(epstopdf)             Output file: <figures/codigo/autenticacionGoogleRecepcio
+n-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-14 23:58:25
+(epstopdf)                    size: 31774 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/autenticaci
+onGoogleRecepcion-eps-converted-to.pdf figures/codigo/autenticacionGoogleRecepc
+ion.eps>
+(epstopdf)             \includegraphics on input line 253.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/autenticacionGoogleRecepcion-eps-converted-to.pdf, id=1760, pag
+ebox=cropbox, 490.83376pt x 364.36125pt>
+File: figures/codigo/autenticacionGoogleRecepcion-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use figures/codigo/autenticacionGoogleRecepcion-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/autenticacionGoogleRecepcion-eps-conver
+ted-to.pdf  used on input line 253. on input line 253.
+Package pdftex.def Info: Requested size: 371.30595pt x 275.63869pt on input lin
+e 253.
+Package epstopdf Info: Source file: <figures/codigo/autenticacionGoogleServidor
+.eps>
+(epstopdf)                    date: 2018-06-14 23:57:49
+(epstopdf)                    size: 41329 bytes
+(epstopdf)             Output file: <figures/codigo/autenticacionGoogleServidor
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-14 23:58:26
+(epstopdf)                    size: 40579 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/codigo/autenticaci
+onGoogleServidor-eps-converted-to.pdf figures/codigo/autenticacionGoogleServido
+r.eps>
+(epstopdf)             \includegraphics on input line 263.
+Package epstopdf Info: Output file is already uptodate.
+<figures/codigo/autenticacionGoogleServidor-eps-converted-to.pdf, id=1762, page
+box=cropbox, 701.62125pt x 472.76625pt>
+File: figures/codigo/autenticacionGoogleServidor-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use figures/codigo/autenticacionGoogleServidor-eps-converted-to.pdf>
+Package pdftex.def Info: figures/codigo/autenticacionGoogleServidor-eps-convert
+ed-to.pdf  used on input line 263. on input line 263.
+Package pdftex.def Info: Requested size: 412.56497pt x 277.99908pt on input lin
+e 263.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./figures/codigo/chamadaServizoPost-eps-converted-to.pdf> <./figures/codig
+o/chamadaServizoDelete-eps-converted-to.pdf>]
+Overfull \hbox (150.37726pt too wide) in paragraph at lines 274--274
+[][][][]\OT1/lmr/m/n/10.95 https://developer.android.com/studio/publish/app- 
+ []
+
+
+Overfull \hbox (150.37726pt too wide) in paragraph at lines 274--274
+[][][][]\OT1/lmr/m/n/10.95 https://developer.android.com/studio/publish/app- 
+ []
+
+
+Overfull \hbox (150.37726pt too wide) in paragraph at lines 274--274
+[][][][]\OT1/lmr/m/n/10.95 https://developer.android.com/studio/publish/app- 
+ []
+
+
+Overfull \hbox (150.37726pt too wide) in paragraph at lines 274--274
+[][][][]\OT1/lmr/m/n/10.95 https://developer.android.com/studio/publish/app- 
  []
 
 )
 
+LaTeX Warning: Marginpar on page 72 moved.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68]
+[72 <./figures/codigo/configuracionAutenticacion-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73 <./figures/codigo/autenticacionGoogleInicio-eps-converted-to.pdf> <./figure
+s/codigo/autenticacionGoogleRecepcion-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74 <./figures/codigo/autenticacionGoogleServidor-eps-converted-to.pdf>]
 \openout2 = `capitulos/probas.aux'.
 
- (capitulos/probas.tex
+
+(./capitulos/probas.tex
 Cap\'{\i }tulo 9.
-[69
+[75
 
 
 
@@ -3764,12 +4249,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70]
+[76]
 \openout2 = `capitulos/conclusions.aux'.
 
- (capitulos/conclusions.tex
+ (./capitulos/conclusions.tex
 Cap\'{\i }tulo 10.
-[71
+[77
 
 
 
@@ -3780,44 +4265,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[73]
-\openout2 = `apendices/casosUso.aux'.
-
- (apendices/casosUso.tex [74
-
-
-
-]
-Ap\'endice A.
-) [75]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[76]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[77]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[78]
+[78])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3825,20 +4273,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [79]
+\openout2 = `apendices/casosUso.aux'.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+ (./apendices/casosUso.tex [80
 
-[80]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[81]
+]
+Ap\'endice A.
+) [81]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3874,11 +4317,53 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [86]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92]
 \openout2 = `apendices/instalacion.aux'.
 
- (apendices/instalacion.tex
+ (./apendices/instalacion.tex
 Ap\'endice B.
-[87
+[93
 
 
 
@@ -3889,57 +4374,57 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[88]
+[94]
 \openout2 = `apendices/localizacion.aux'.
 
- (apendices/localizacion.tex
+ (./apendices/localizacion.tex
 Ap\'endice C.
 Package epstopdf Info: Source file: <figures/Capturas/dashboard.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 861816 bytes
+(epstopdf)                    date: 2018-06-06 23:18:01
+(epstopdf)                    size: 850115 bytes
 (epstopdf)             Output file: <figures/Capturas/dashboard-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-06 23:20:55
 (epstopdf)                    size: 699868 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Capturas/dashboard-
-eps-converted-to.pdf figures/Capturas/dashboard.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Capturas/dashboard
+-eps-converted-to.pdf figures/Capturas/dashboard.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Capturas/dashboard-eps-converted-to.pdf, id=1720, 1445.4pt x 813.0375p
-t>
+<figures/Capturas/dashboard-eps-converted-to.pdf, id=1892, pagebox=cropbox, 144
+5.4pt x 813.0375pt>
 File: figures/Capturas/dashboard-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/Capturas/dashboard-eps-converted-to.pdf>
-Package pdftex.def Info: figures/Capturas/dashboard-eps-converted-to.pdf used o
-n input line 12.
-(pdftex.def)             Requested size: 268.1647pt x 150.84378pt.
+<use figures/Capturas/dashboard-eps-converted-to.pdf>
+Package pdftex.def Info: figures/Capturas/dashboard-eps-converted-to.pdf  used 
+on input line 12. on input line 12.
+Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
+ 12.
 
 Underfull \vbox (badness 7308) has occurred while \output is active []
 
- [89
+ [95
 
 
 
 ]
 Package epstopdf Info: Source file: <figures/Capturas/edificio.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 568443 bytes
+(epstopdf)                    date: 2018-06-06 23:23:02
+(epstopdf)                    size: 560707 bytes
 (epstopdf)             Output file: <figures/Capturas/edificio-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-06 23:48:23
 (epstopdf)                    size: 331554 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Capturas/edificio-e
-ps-converted-to.pdf figures/Capturas/edificio.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Capturas/edificio-
+eps-converted-to.pdf figures/Capturas/edificio.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Capturas/edificio-eps-converted-to.pdf, id=1727, 1445.4pt x 813.0375pt
->
+<figures/Capturas/edificio-eps-converted-to.pdf, id=1900, pagebox=cropbox, 1445
+.4pt x 813.0375pt>
 File: figures/Capturas/edificio-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/Capturas/edificio-eps-converted-to.pdf>
-Package pdftex.def Info: figures/Capturas/edificio-eps-converted-to.pdf used on
- input line 25.
-(pdftex.def)             Requested size: 268.1647pt x 150.84378pt.
+<use figures/Capturas/edificio-eps-converted-to.pdf>
+Package pdftex.def Info: figures/Capturas/edificio-eps-converted-to.pdf  used o
+n input line 25. on input line 25.
+Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
+ 25.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3947,46 +4432,46 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[90 <./figures/Capturas/dashboard-eps-converted-to.pdf>]
+[96 <./figures/Capturas/dashboard-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Capturas/mapping_tool.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 576323 bytes
+(epstopdf)                    date: 2018-06-06 23:38:35
+(epstopdf)                    size: 568482 bytes
 (epstopdf)             Output file: <figures/Capturas/mapping_tool-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-06 23:48:25
 (epstopdf)                    size: 319937 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Capturas/mapping_to
-ol-eps-converted-to.pdf figures/Capturas/mapping_tool.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Capturas/mapping_t
+ool-eps-converted-to.pdf figures/Capturas/mapping_tool.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=1736, 813.0375pt x 1445
-.4pt>
+<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=1909, pagebox=cropbox, 
+813.0375pt x 1445.4pt>
 File: figures/Capturas/mapping_tool-eps-converted-to.pdf Graphic file (type pdf
 )
- <use figures/Capturas/mapping_tool-eps-converted-to.pdf>
-Package pdftex.def Info: figures/Capturas/mapping_tool-eps-converted-to.pdf use
-d on input line 38.
-(pdftex.def)             Requested size: 268.1647pt x 476.71883pt.
+<use figures/Capturas/mapping_tool-eps-converted-to.pdf>
+Package pdftex.def Info: figures/Capturas/mapping_tool-eps-converted-to.pdf  us
+ed on input line 38. on input line 38.
+Package pdftex.def Info: Requested size: 268.1647pt x 476.71883pt on input line
+ 38.
 Package epstopdf Info: Source file: <figures/Capturas/poi.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 493067 bytes
+(epstopdf)                    date: 2018-06-06 23:42:26
+(epstopdf)                    size: 486350 bytes
 (epstopdf)             Output file: <figures/Capturas/poi-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-06 23:48:27
 (epstopdf)                    size: 366881 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Capturas/poi-eps-co
-nverted-to.pdf figures/Capturas/poi.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Capturas/poi-eps-c
+onverted-to.pdf figures/Capturas/poi.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Capturas/poi-eps-converted-to.pdf, id=1738, 1445.4pt x 813.0375pt>
+<figures/Capturas/poi-eps-converted-to.pdf, id=1911, pagebox=cropbox, 1445.4pt 
+x 813.0375pt>
 File: figures/Capturas/poi-eps-converted-to.pdf Graphic file (type pdf)
-
 <use figures/Capturas/poi-eps-converted-to.pdf>
-Package pdftex.def Info: figures/Capturas/poi-eps-converted-to.pdf used on inpu
-t line 50.
-(pdftex.def)             Requested size: 268.1647pt x 150.84378pt.
+Package pdftex.def Info: figures/Capturas/poi-eps-converted-to.pdf  used on inp
+ut line 50. on input line 50.
+Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
+ 50.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3997,26 +4482,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[91 <./figures/Capturas/edificio-eps-converted-to.pdf>]
+[97 <./figures/Capturas/edificio-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Capturas/rutas.eps>
-(epstopdf)                    date: 2018-06-12 11:17:30
-(epstopdf)                    size: 584720 bytes
+(epstopdf)                    date: 2018-06-06 23:46:05
+(epstopdf)                    size: 576764 bytes
 (epstopdf)             Output file: <figures/Capturas/rutas-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-06-12 11:17:30
+(epstopdf)                    date: 2018-06-06 23:48:29
 (epstopdf)                    size: 378814 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/Capturas/rutas-eps-
-converted-to.pdf figures/Capturas/rutas.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/Capturas/rutas-eps
+-converted-to.pdf figures/Capturas/rutas.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/Capturas/rutas-eps-converted-to.pdf, id=1747, 1445.4pt x 813.0375pt>
+<figures/Capturas/rutas-eps-converted-to.pdf, id=1920, pagebox=cropbox, 1445.4p
+t x 813.0375pt>
 File: figures/Capturas/rutas-eps-converted-to.pdf Graphic file (type pdf)
-
 <use figures/Capturas/rutas-eps-converted-to.pdf>
-Package pdftex.def Info: figures/Capturas/rutas-eps-converted-to.pdf used on in
-put line 61.
-(pdftex.def)             Requested size: 268.1647pt x 150.84378pt.
+Package pdftex.def Info: figures/Capturas/rutas-eps-converted-to.pdf  used on i
+nput line 61. on input line 61.
+Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
+ 61.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4024,48 +4509,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92]
+[98]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[93 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>]
+[99 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[94 <./figures/Capturas/poi-eps-converted-to.pdf> <./figures/Capturas/rutas-eps
--converted-to.pdf>]
+[100 <./figures/Capturas/poi-eps-converted-to.pdf> <./figures/Capturas/rutas-ep
+s-converted-to.pdf>]
 \openout2 = `apendices/contido.aux'.
 
- (apendices/contido.tex
+ (./apendices/contido.tex
 Ap\'endice D.
-) [95
+) [101
 
 
 
-] [96
+] [102
 
 
 ]
 No file PFC5_Pan_Farto.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
-(PFC5_Pan_Farto.aux (portada.aux) (especificacion.aux) (agradecementos.aux)
-(resumen.aux) (capitulos/introducion.aux) (capitulos/conceptos.aux)
-(capitulos/fundamentos.aux) (capitulos/metodoloxia.aux) (capitulos/analise.aux)
-(capitulos/desenvolvemento.aux) (capitulos/deseno.aux)
-(capitulos/implementacion.aux) (capitulos/probas.aux)
-(capitulos/conclusions.aux) (apendices/casosUso.aux) (apendices/instalacion.aux
-) (apendices/localizacion.aux) (apendices/contido.aux))
+(./PFC5_Pan_Farto.aux (./portada.aux) (./especificacion.aux)
+(./agradecementos.aux) (./resumen.aux) (./capitulos/introducion.aux)
+(./capitulos/conceptos.aux) (./capitulos/fundamentos.aux)
+(./capitulos/metodoloxia.aux) (./capitulos/analise.aux)
+(./capitulos/desenvolvemento.aux) (./capitulos/deseno.aux)
+(./capitulos/implementacion.aux) (./capitulos/probas.aux)
+(./capitulos/conclusions.aux) (./apendices/casosUso.aux)
+(./apendices/instalacion.aux) (./apendices/localizacion.aux)
+(./apendices/contido.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `PFC5_Pan_Farto.out' has not changed.
-(rerunfilecheck)             Checksum: D1F667C917231BC09FCED856F8D249BA;9719.
+(rerunfilecheck)             Checksum: 58F2984674E94A80565C7381BC12DBB1;9586.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4073,27 +4560,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 21105 strings out of 493323
- 379253 string characters out of 3139070
- 532202 words of memory out of 3000000
- 23703 multiletter control sequences out of 15000+200000
- 79938 words of font info for 52 fonts, out of 3000000 for 9000
+ 21254 strings out of 492990
+ 385788 string characters out of 6136334
+ 537869 words of memory out of 5000000
+ 23831 multiletter control sequences out of 15000+600000
+ 79938 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,82p,1388b,1135s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/lm/lm-rmsc.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.
-pfb>
-Output written on PFC5_Pan_Farto.pdf (116 pages, 4136474 bytes).
+ 62i,13n,82p,1388b,1135s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2017/te
+xmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvi
+ps/lm/lm-rmsc.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb>
+<c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/lm/lmbx9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc1
+0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2
+017/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2017/texmf-dist/font
+s/type1/public/lm/lmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lm
+ri10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on PFC5_Pan_Farto.pdf (122 pages, 4172551 bytes).
 PDF statistics:
- 1898 PDF objects out of 2073 (max. 8388607)
- 367 named destinations out of 1000 (max. 500000)
- 1197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2079 PDF objects out of 2487 (max. 8388607)
+ 1830 compressed objects within 19 object streams
+ 396 named destinations out of 1000 (max. 500000)
+ 1287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

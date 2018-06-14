@@ -341,4 +341,7 @@ Debido á necesidade de distinguir os usuarios da aplicación entre os normais e
 Por motivos de comodidade e seguridade escolleuse a opción de realizar a autenticación dos usuarios a través de contas de Google, desta maneira non é preciso gardar información privada dos usuarios quedando estes datos do lado de Google. Ao estar destinada a aplicación ao sistema operativo Android non se obriga ao usuario a ter que crear unha conta ex profeso xa que é obrigatorio o uso dunha para poder utilizar un dispositivo móbil con Android.
 
 Para a integración do sistema de autenticación na aplicación hai que facer uso dos servizos de Google Play tanto no servidor coma na aplicación Android. É preciso configurar a aplicación para que permita a autenticación, acción que se fai a través dun formulario onde se indica o proxecto, o nome da aplicación e o seu tipo (Android, neste caso).
+
+\todo{diagrama de secuencia}
+
 Unha autenticación exitosa require de varios pasos. O primeiro é a autenticación dende a aplicación Android, dende a cal se enviarán os datos da conta a Google para que os verifique. Se os datos son correctos devólvese información sobre a conta á aplicación, para posteriormente enviar un token de sesión ao servidor que permita identificar ao usuario. No seguinte paso, o servidor recolle ese token e o envía de novo aos servizos de Google para verificar a súa integridade. Unha vez verificada, enviará a información sobre ese usuario á aplicación Android para que poida utilizala coa conta seleccionada.

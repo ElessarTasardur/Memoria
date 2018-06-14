@@ -1,10 +1,11 @@
 \chapter{Implementación}
 
-Neste capítulo se comentarán os aspectos máis relevantes da implementación da nosa plataforma.
+Neste capítulo se comentarán os aspectos máis relevantes da implementación da nosa plataforma, ben sexa polo uso de librerías externas ou porque requiriron un desenvolvemento especial. Farase mención a detalles do servidor, da aplicación Android así como da autenticación a través de Google.
 
 
 \section{Servidor}
-Nesta sección vanse tratar todos os detalles de implementación propios do servidor, dende o acceso á base de datos ata a construción dos servizos web. En todo o servidor utilizouse a ferramenta de Spring para configurar a transaccionalidade, a inxección de dependencias, ou a creación dos servizos web.
+Nesta sección vanse tratar todos os detalles de implementación propios do servidor, dende o acceso á base de datos ata a construción dos servizos web. En todo o servidor utilizouse a ferramenta de Spring para configurar a transaccionalidade, a inxección de dependencias ou a creación dos servizos web.
+
 A autenticación con Google terá a súa propia sección ao final do capítulo.
 
 
@@ -70,15 +71,18 @@ Exemplo de construción dos servizos web: Spring MVC
 
 
 
+\subsection{Autorización nos servizos}
+Tal e como se indicou no apartado de deseño de "Securización das comunicacións", implementouse un sistema de autenticación básica sobre os servizos web, de tal maneira que non se permite a chamada a eses servizos se non se inclúe na cabeceira un token para a autenticación. Este token constrúese mediante a codificación en Base64 dun nome de usuario e contrasinal que son comúns ás chamadas. A configuración desta securización realízase no ficheiro web.xml, onde se inclúe o código da figura~\ref{fig:configuracionAutenticacion}.
 
+\begin{figure}[htb] 
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{figures/codigo/configuracionAutenticacion}
+		\caption{Configuración da autenticación básica no servidor.}
+		\label{fig:configuracionAutenticacion}
+	\end{center}
+\end{figure}
 
-
-
-
-
-
-
-
+Como se pode observar na figura, securízanse as chamadas GET, DELETE, POST e PUT, que son as básicas nos servizos REST. Calquera chamada que non teña o token de autenticación correcto será rexeitada sen entrar no servizo.
 
 
 \section{Aplicación Android}

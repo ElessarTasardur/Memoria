@@ -24,8 +24,9 @@
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Exemplo dunha cabeceira REST securizada.}}{61}{figure.7.7}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade no ficheiro XML.}}{66}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo onde se modifican datos.}}{66}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo de s\IeC {\'o} lectura.}}{66}{figure.8.3}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo onde se modifican datos.}}{67}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo de s\IeC {\'o} lectura.}}{67}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Configuraci\IeC {\'o}n da autenticaci\IeC {\'o}n b\IeC {\'a}sica no servidor.}}{67}{figure.8.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

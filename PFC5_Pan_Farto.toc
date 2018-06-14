@@ -118,7 +118,7 @@
 \contentsline {section}{\numberline {7.3}Servidor}{55}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Divisi\IeC {\'o}n en capas}{55}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Transaccionalidade}{56}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}API REST}{57}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.3}API REST}{58}{subsection.7.3.3}
 \contentsline {subsection}{\numberline {7.3.4}Intercambio de datos}{58}{subsection.7.3.4}
 \contentsline {subsection}{\numberline {7.3.5}Securizaci\IeC {\'o}n das comunicaci\IeC {\'o}ns}{60}{subsection.7.3.5}
 \contentsline {section}{\numberline {7.4}Aplicaci\IeC {\'o}n Android}{60}{section.7.4}
@@ -130,13 +130,14 @@
 \contentsline {chapter}{\numberline {8}Implementaci\IeC {\'o}n}{65}{chapter.8}
 \contentsline {section}{\numberline {8.1}Servidor}{65}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Acceso \IeC {\'a} base de datos}{65}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Construci\IeC {\'o}n dos servizos web}{65}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Transaccionalidade}{65}{subsection.8.1.3}
-\contentsline {section}{\numberline {8.2}Aplicaci\IeC {\'o}n Android}{66}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Solicitude de permisos}{66}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Acceso a Situm}{67}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Acceso ao servidor}{67}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Autenticaci\IeC {\'o}n}{67}{section.8.3}
+\contentsline {subsection}{\numberline {8.1.2}Transaccionalidade}{66}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Construci\IeC {\'o}n dos servizos web}{67}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Autorizaci\IeC {\'o}n nos servizos}{67}{subsection.8.1.4}
+\contentsline {section}{\numberline {8.2}Aplicaci\IeC {\'o}n Android}{68}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Solicitude de permisos}{68}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Acceso a Situm}{68}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Acceso ao servidor}{68}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Autenticaci\IeC {\'o}n}{68}{section.8.3}
 \contentsline {chapter}{\numberline {9}Probas}{69}{chapter.9}
 \contentsline {section}{\numberline {9.1}Probas de validaci\IeC {\'o}n de cada sprint}{69}{section.9.1}
 \contentsline {section}{\numberline {9.2}Consola de Google}{70}{section.9.2}

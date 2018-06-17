@@ -86,12 +86,12 @@
 \BOOKMARK [2][-]{subsection.7.3.3}{API REST}{section.7.3}% 86
 \BOOKMARK [2][-]{subsection.7.3.4}{Intercambio de datos}{section.7.3}% 87
 \BOOKMARK [2][-]{subsection.7.3.5}{Securizaci\363n das comunicaci\363ns}{section.7.3}% 88
-\BOOKMARK [1][-]{section.7.4}{Aplicaci\363n Android}{chapter.7}% 89
-\BOOKMARK [2][-]{subsection.7.4.1}{Actividades}{section.7.4}% 90
-\BOOKMARK [2][-]{subsection.7.4.2}{Comunicaci\363n co servidor}{section.7.4}% 91
-\BOOKMARK [2][-]{subsection.7.4.3}{Comunicaci\363n con Situm}{section.7.4}% 92
-\BOOKMARK [2][-]{subsection.7.4.4}{Permisos necesarios}{section.7.4}% 93
-\BOOKMARK [1][-]{section.7.5}{Sistema de autenticaci\363n a trav\351s de Google}{chapter.7}% 94
+\BOOKMARK [1][-]{section.7.4}{Sistema de autenticaci\363n a trav\351s de Google}{chapter.7}% 89
+\BOOKMARK [1][-]{section.7.5}{Aplicaci\363n Android}{chapter.7}% 90
+\BOOKMARK [2][-]{subsection.7.5.1}{Actividades}{section.7.5}% 91
+\BOOKMARK [2][-]{subsection.7.5.2}{Comunicaci\363n co servidor}{section.7.5}% 92
+\BOOKMARK [2][-]{subsection.7.5.3}{Comunicaci\363n con Situm}{section.7.5}% 93
+\BOOKMARK [2][-]{subsection.7.5.4}{Permisos necesarios}{section.7.5}% 94
 \BOOKMARK [0][-]{chapter.8}{Implementaci\363n}{}% 95
 \BOOKMARK [1][-]{section.8.1}{Servidor}{chapter.8}% 96
 \BOOKMARK [2][-]{subsection.8.1.1}{Acceso \341 base de datos}{section.8.1}% 97

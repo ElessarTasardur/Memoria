@@ -17,7 +17,7 @@ A aplicación Android precisa o servidor para a recuperación dos datos propios 
 
 \begin{figure}[!h] 
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{figures/arqXeral}
+		\includegraphics[width=0.65\textwidth]{figures/diagrama/arquitecturaGlobalSistema}
 		\caption{Arquitectura xeral da plataforma Caronte para a guía de museos.}
 		\label{fig:arq_xeral}
 	\end{center}
@@ -162,8 +162,16 @@ As columnas das que se compón este entidade son:
 \section{Servidor}
 Nesta sección describiremos as decisións máis importantes tomadas no deseño do servidor. No primeiro punto explícanse as capas nas que se dividiu o servidor e o obxectivo de cada unha delas. Nos seguintes puntos expóñense as opcións levadas a cabo para a definición do servizo web ou a transaccionalidade, entre outras.
 
+\begin{figure}[tbh] 
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{figures/Clases/diagramaEntidades}
+		\caption{Diagrama de clases coas entidades.}
+		\label{fig:entidades}
+	\end{center}
+\end{figure}
+
 \subsection{División en capas}
-O servidor dividiuse nas seguintes capas:
+O servidor divídese nunha serie de capas que se diferencian no obxectivo que perseguen. Na figura~\ref{fig:arq_xeral} pódense ver dentro do servidor e como interactúan entre elas. As capas do servidor son as seguintes:
 
 \begin{itemize}
 	\item Entidade: A representación da información recuperada da base de datos faise mediante certas clases denominadas entidades. Non teñen lóxica, só se utilizan para o almacenamento de datos. Poden utilizarse en todas as capas do servidor. Pódense observar na figura ~\ref{fig:entidades}.
@@ -172,13 +180,7 @@ O servidor dividiuse nas seguintes capas:
 	\item Controlador: Encárgase da comunicación a través dos servizos web. Implementa a API REST que permite o acceso aos servizos.
 \end{itemize}
 
-\begin{figure}[tbh] 
-	\begin{center}
-		\includegraphics[width=0.70\textwidth]{figures/Clases/diagramaEntidades}
-		\caption{Diagrama de clases coas entidades.}
-		\label{fig:entidades}
-	\end{center}
-\end{figure}
+
 
 \begin{figure}[tbh] 
 	\begin{center}
@@ -214,7 +216,8 @@ Ningunha aplicación está libre de que se produza algún erro na súa execució
 
 \subsection{API REST}
 A API utilizada para os servizos web é REST, polo que o formato dos datos enviados e recibidos son, na súa maioría JSON. A única excepción prodúcese no envío de imaxes. As respostas producidas polos servizos tamén serán devoltas no mesmo formato.
-A API foi dividida en dúas seccións, por unha parte a relacionada coas imaxes (envío, recepción e modificación de datos) e por outra a relacionada co resto de elementos do sistemas (POIs, edificios, percorridos).
+A API foi dividida en dúas seccións, por unha parte a relacionada coas imaxes (envío, recepción e modificación de datos) e por outra a relacionada co resto de elementos do sistemas (POIs, edificios, percorridos). O tratamento de imaxes é un servizo que é susceptíbel de ser modificado para levalo a cabo por outro métodos xa que pode ter un alto consumo de datos. Desta maneira limítase o impacto que tería unha modificación neste aspecto dentro dos nosos servizos se se queren utilizar cachés propias para imaxes.
+
 Todas as URLs comezan por \emph{/sw} mais a continuación dependen da sección á cal pertenzan: se son da información xeral levarán a continuación \emph{/museo}, mentres que as de tratamento de imaxes levarán \emph{/imaxe}. Un exemplo de URL de cada sección:
 
 \begin{itemize}
@@ -283,7 +286,7 @@ O intercambio de datos entre a aplicación Android e o servidor faise en formato
 	\end{center}
 \end{figure}
 
-En ambas figuras obsérvase a estrutura que caracteriza este formato de intercambio de datos. Outra das cuestión que nos permite observar é que a súa estrutura non coincide coa utilizada en base de datos, xa que as necesidades da aplicación non teñen por que coincidir coas decisións tomadas á hora de definir as táboas de base de datos. É por iso que se observa a agrupación da información sobre a localización física dos POIs nunha etiqueta chamada posición, que non coincide coa maneira de gardar eses valores en BD. A maiores tamén se inclúen os identificadores das imaxes almacenadas sobre cada POI, para simplificar a recuperación das imaxes na aplicación.
+En ambas figuras obsérvase a estrutura que caracteriza este formato de intercambio de datos. Outra das cuestións que nos permite observar é que a súa estrutura non coincide coa utilizada en base de datos, xa que as necesidades da aplicación non teñen por que coincidir coas decisións tomadas á hora de definir as táboas de base de datos. É por iso que se observa a agrupación da información sobre a localización física dos POIs nunha etiqueta chamada posición, que non coincide coa maneira de gardar eses valores en BD. A maiores tamén se inclúen os identificadores das imaxes almacenadas sobre cada POI, para simplificar a recuperación das imaxes na aplicación.
 
 Para realizar a chamada ao servidor utilízase a librería spring-android-rest-template, que é o cliente para aplicacións Android de Spring que permite a realización de chamadas REST. Na sección de implementación describiranse exemplos da utilización desta librería.
 
@@ -301,47 +304,87 @@ Para a autenticación dos servizos utilizouse o sistema Basic, que consiste no e
 	\end{center}
 \end{figure}
 
+
+\section{Sistema de autenticación a través de Google}
+Debido á necesidade de distinguir os usuarios da aplicación entre os normais e os xestores de contido houbo que integrar un sistema de autenticación na aplicación, mais non se creou un propio.
+Por motivos de comodidade e seguridade escolleuse a opción de realizar a autenticación dos usuarios a través de contas de Google, desta maneira non é preciso gardar información privada dos usuarios quedando estes datos do lado de Google. Ao estar destinada a aplicación ao sistema operativo Android non se obriga ao usuario a ter que crear unha conta ex profeso xa que é obrigatorio o uso dunha para poder utilizar un dispositivo móbil con Android.
+
+\begin{figure}[!h]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{figures/diagrama/secuenciaAutenticacionGoogle}
+		\caption{Diagrama de secuencia da autenticación a través de Google.}
+		\label{fig:secuenciaAutenticacionGoogle}
+	\end{center}
+\end{figure}
+
+Para a integración do sistema de autenticación na aplicación hai que facer uso dos servizos de Google Play tanto no servidor coma na aplicación Android. É preciso configurar a aplicación para que permita a autenticación, acción que se fai a través dun formulario onde se indica o proxecto, o nome da aplicación e o seu tipo (Android, neste caso).
+
+No diagrama da figura~\ref{fig:secuenciaAutenticacionGoogle} pode observarse o proceso de autenticación que se explica a continuación. Unha autenticación exitosa require de varios pasos. O primeiro é a autenticación dende a aplicación Android, dende a cal se enviarán os datos da conta a Google para que os verifique. Se os datos son correctos devólvese información sobre a conta á aplicación, para posteriormente enviar un token de sesión ao servidor que permita identificar ao usuario. No seguinte paso, o servidor recolle ese token e o envía de novo aos servizos de Google para verificar a súa integridade. Unha vez verificada, enviará a información sobre os roles dos que ese usuario dispón á aplicación Android para que poida utilizala coa conta seleccionada.
+
+Os roles resultantes da autenticación a través da conta de Google poden permitir a modificación da información en certos edificios se ese usuario exerce como xestor de contido; noutro caso, actuará coma un usuario anónimo máis. Este rol de xestor de contido amosará un novo botón no mapa que permitirá ter acceso ao modo de edición, no que se mostrarán os botóns de creación e modificación de POIs e percorridos. Tamén dependen do usuario as contas de Situm dispoñíbeis, xa que é posíbel que algunha desas contas sexan privadas en vez de públicas e se outorguen permisos individualmente.
+
 \section{Aplicación Android}
 Escolleuse unha única aplicación tanto para a consulta como para a edición para aproveitar a potencia que nos dá o mapa de interiores á hora de localizar os puntos desexados e marcalos directamente. Desta maneira pódense situar con precisión os puntos sobre o mapa mentres se percorre o edificio. Non obstante, para unha futura ampliación do sistema sería interesante permitir a configuración dende un cliente web para a creación de contido referente aos puntos e os percorridos, xa que dende un dispositivo móbil non se obtén a mesma comodidade á hora de inserir textos e proporcionar información.
+
+Procurouse realizar un deseño moi visual mediante a utilización de moitos botóns con imaxes na actividade do mapa para un mellor aproveitamento do espazo e un estilo máis clásico no resto de actividades que resultase menos rechamante pero máis cómodo. As cores principais da aplicación son o azul escuro sobre fondos brancos e maxenta coma cor secundaria.
+
+A estrutura de paquetes da aplicación é moi simple, separando as clases en cinco paquetes principais con base \emph{gal.caronte}:
+
+\begin{itemize}
+	\item activity: Neste paquete inclúense todas as actividades utilizadas na aplicación e que se explican no seguinte punto.
+	\item custom: Obxectos propios da aplicación que se utilizan para transmitir datos entre actividades ou almacenar información recuperada do servidor. Estas últimas clases están almacenadas no paquete interno \emph{sw}.
+	\item servizo: As clases nas que se producen as conexións contra o servidor ou contra Situm atópanse neste paquete.
+	\item util: Clases de utilidades para tratar cadeas de texto, solicitar permisos ou outro tipo de accións que poden ser comúns en diversas clases.
+	\item view: Elementos da vista que poderían utilizarse en varias actividades, coma o selector de POIs e percorridos.
+\end{itemize}
 
 \subsection{Actividades}
 Unha das primeiras decisións á hora de crear unha aplicación Android débese tomar sobre a utilización ou non de fragmentos. Apostouse por unha aplicación que utilizase varias actividades cunha única excepción, o fragmento onde se mostra o mapa de Google Maps. Esta decisión adoptouse debido á maior complexidade que adquire o código co tratamento de fragmentos e o pouco proveito que se lles sacaría nesta aplicación.
 
 A aplicación non ten un gran número de actividades debido a que case toda a lóxica recae sobre a actividade que contén o mapa e que supón o centro de toda actividade realizada na aplicación. A continuación describimos cada unha das actividades creadas.
 
-A actividade inicial permite a autenticación a través de Google e a selección da conta de Situm utilizada que permitirá o acceso a certos edificios. As contas dispoñíbeis estarán restrinxidas en base á conta coa que se autentique o usuario, polo que non sempre se verán as mesmas. Hai algunhas que son públicas polo que estarán dispoñíbeis para todos os usuarios da aplicación.
-
-A actividade na que se sitúa o mapa, como xa comentamos, é a principal, e ten por nome MapaActivity. É a actividade na que o usuario pasará máis tempo e onde se require amosar maior información, polo que tamén é a máis complexa. A maioría das accións levadas a cabo sobre a aplicación se realizarán sobre esta actividade. O fragmento de Google Maps que amosa o noso mapa modificado atópase nesta actividade.
-
-Creáronse unha serie de actividades dirixidas a amosar certa información dos puntos de interese e percorridos dos edificios cunha estrutura semellante: DetallePoiActivity e DetallePercorridoActivity. Nelas obsérvanse os datos propios deses elementos, permitindo a súa modificación e borrado nos xa existentes, e tamén a súa creación no caso de non existir previamente se o usuario ten permisos para realizar esas accións.
-
-Para engadir lóxica ao mapa optouse por externalizar certos compoñentes coma o selector de piso e os spinners de selección para os puntos de interese e os percorridos e non sobrecargar a actividade.
-
 \todo{Preciso varias capturas e realizar unha navegación entre elas}
+
+A actividade inicial permite a autenticación a través de Google e a selección da conta de Situm utilizada que permitirá o acceso a certos edificios. As contas dispoñíbeis estarán restrinxidas en base á conta coa que se autentique o usuario, polo que non sempre se verán as mesmas. Hai algunhas que son públicas polo que estarán dispoñíbeis para todos os usuarios da aplicación. Se o usuario se autentica a través de Google pode dispoñer de permisos de xestor de contidos dentro dalgún edificio, polo que disporá de máis opcións no resto de actividades.
+
+\todo{https://developers.google.com/maps/documentation/android-sdk/signup}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{figures/codigo/chaveGoogleMaps}
+		\caption{Chave para o acceso a Google Maps.}
+		\label{fig:chaveGoogleMaps}
+	\end{center}
+\end{figure}
+
+A actividade na que se sitúa o mapa, como xa comentamos, é a principal, e ten por nome MapaActivity. O fragmento de Google Maps que amosa o noso mapa modificado atópase nesta actividade. Para poder utilizar Google Maps na aplicación houbo que activar unha chave na consola de Google Cloud e incluíla no \emph{AndroidManifest}. Esta chave pódese observar na figura~\ref{fig:chaveGoogleMaps}. É a pantalla na que o usuario pasará máis tempo e onde se require amosar maior información, polo que tamén é a máis complexa. A maioría das accións levadas a cabo sobre a aplicación se realizarán sobre esta actividade, como a de visualizar puntos de interese e percorridos. Se o usuario dispón de permisos de xestor de contidos dentro dun edificio, habilitarase o botón de edición que lle permitirá crear, modificar e eliminar puntos de interese e percorridos a través de novos botóns na barra principal da aplicación.
+
+Creáronse unha serie de actividades dirixidas a amosar certa información dos puntos de interese e percorridos dos edificios cunha estrutura semellante: DetallePoiActivity e DetallePercorridoActivity. Nelas obsérvanse os datos propios deses elementos, permitindo a súa modificación e borrado nos xa existentes, e tamén a súa creación no caso de non existir previamente se o usuario ten permisos para realizar esas accións (xestor de contido).
+
+Dende a actividade DetallePoiActivity pódense visualizar imaxes dentro dos POIs se dispoñen delas, así coma subir novas imaxes se o usuario é xestor de contido. Pódense sacar novas fotos a través da cámara ou subir imaxes dende a galería do dispositivo.
+
+Para engadir lóxica ao mapa optouse por externalizar certos compoñentes coma o selector de piso e os spinners de selección para os puntos de interese e os percorridos para desta maneira non sobrecargar a actividade.
+
+Nalgunhas das actividades utilizáronse menús contextuais para ofrecer certas opcións ao usuario. A adición ou eliminación dos puntos de interese dentro dun percorrido, a escolla entre cámara e galería á hora de subir imaxes ou a selección da imaxe a visualizar son casos nos que se optou por esta opción posto que esas accións eran demasiado complexas para poder realizalas nun único paso.
 
 
 \subsection{Comunicación co servidor}
-Para acceder á información dispoñíbel no servidor utilízanse servizos web propios que devolven os datos en formato JSON. As clases que se utilizan para comunicar esta información non teñen equivalencia exacta cos VOs, polo que hai que facer conversións antes de enviala. Estas clases tamén se utilizan na aplicación Android.
-A comunicación co servidor realízase mediante a librería de Spring adaptada a Android. Cada chamada realízase dende unha clase distinta para non mesturar lóxica.
-No apartado de implementación amosarase unha chamada en profundidade.
+Para acceder á información dispoñíbel no servidor utilízanse servizos web propios que devolven os datos en formato JSON. As clases que se utilizan para comunicar esta información non teñen equivalencia exacta cos VOs, polo que hai que facer conversións antes de enviala e despois de recibila. Estas clases tamén se utilizan na aplicación Android.
+
+A comunicación co servidor realízase mediante a librería de Spring adaptada a Android: spring-android-rest-template. Cada chamada realízase dende unha clase distinta para identificar mellor que fai cada unha delas. No apartado de implementación amosarase a creación destas chamadas.
+
+Tal e como se comentou no apartado de "Securización das comunicacións", as chamadas precisan do envío dun token que permita o acceso aos servizos. Na sección de implementación poderá observarse como se engaden estes datos á cabeceira da solicitude.
 
 
 \subsection{Comunicación con Situm}
 Todo acceso realizado sobre o sistema de Situm prodúcese dende a aplicación móbil. O noso servidor non pode ter acceso ao sistema de Situm, polo que toda a información proporcionada sobre a localización que se precise no servidor debe ser enviada pola aplicación Android. Esta comunicación que se produce co sistema de Situm é en base ás credenciais que escolla o usuario, xa sexan públicas ou privadas.
 
-No paquete gal.caronte.servizo.situm atópanse as clases que realizan as chamadas aos servidores de Situm. Cada chamada permitida a Situm realízase dende unha clase distinta, illada do resto de chamadas para non mesturar lóxica distinta.
-Utilízase a librería proporcionada por Situm para realizar as chamadas. No apartado de implementación amosarase unha chamada en profundidade.
+No paquete gal.caronte.servizo.situm atópanse as clases que realizan as chamadas aos servidores de Situm. Cada chamada permitida a Situm realízase dende unha clase distinta, igual que se fixo coas comunicacións co servidor propio, para desta maneira identificar mellor que se fai dentro de cada unha delas.
+
+Utilízase a librería proporcionada por Situm para realizar as chamadas. O acceso a esta librería indícase no ficheiro \emph{build.gradle} onde se fai referencia á dependencia \emph{es.situm:situm-sdk:2.9.0@aar}. No apartado de implementación explicarase a realización das solicitudes a Situm.
 
 \subsection{Permisos necesarios}
-A inmensa maioría de aplicacións en Android precisan dunha lista concreta de permisos que son necesarios para unha correcta execución ou para obter unha experiencia completa. Neste caso o permiso que solicita a aplicación é o de localización. Non require o permiso na instalación, senón que pode concederse durante a execución da mesma. Se non recibe este permiso a aplicación non poderá funcionar correctamente, polo que é necesario que se permita a súa utilización.
+A inmensa maioría de aplicacións en Android precisan dunha lista concreta de permisos que son necesarios para unha correcta execución ou para obter unha experiencia completa. Actualmente non se require a aceptación dos permisos na instalación, senón que poden concederse individualmente durante a execución da mesma.
 
+Débense distinguir entre os permisos para os que fan falla unha aprobación explícita dos que van implícitos na execución. O caso do permiso sobre internet é un do segundo tipo, xa que ao estar tan estendido o seu uso, nas novas versións de Android non é preciso a súa aprobación.
 
-\section{Sistema de autenticación a través de Google}
-Debido á necesidade de distinguir os usuarios da aplicación entre os normais e os xestores de contido houbo que integrar un sistema de autenticación na aplicación, mais non se creou un propio.
-Por motivos de comodidade e seguridade escolleuse a opción de realizar a autenticación dos usuarios a través de contas de Google, desta maneira non é preciso gardar información privada dos usuarios quedando estes datos do lado de Google. Ao estar destinada a aplicación ao sistema operativo Android non se obriga ao usuario a ter que crear unha conta ex profeso xa que é obrigatorio o uso dunha para poder utilizar un dispositivo móbil con Android.
-
-Para a integración do sistema de autenticación na aplicación hai que facer uso dos servizos de Google Play tanto no servidor coma na aplicación Android. É preciso configurar a aplicación para que permita a autenticación, acción que se fai a través dun formulario onde se indica o proxecto, o nome da aplicación e o seu tipo (Android, neste caso).
-
-\todo{diagrama de secuencia}
-
-Unha autenticación exitosa require de varios pasos. O primeiro é a autenticación dende a aplicación Android, dende a cal se enviarán os datos da conta a Google para que os verifique. Se os datos son correctos devólvese información sobre a conta á aplicación, para posteriormente enviar un token de sesión ao servidor que permita identificar ao usuario. No seguinte paso, o servidor recolle ese token e o envía de novo aos servizos de Google para verificar a súa integridade. Unha vez verificada, enviará a información sobre ese usuario á aplicación Android para que poida utilizala coa conta seleccionada.
+A continuación describiranse os motivos polos que se solicitan cada un dos permisos da aplicación. O permiso \emph{ACCESS\_FINE\_LOCATION} requírese para un posicionamento axustado na utilización do mapa, polo que se non se acepta non se podería utilizar correctamente a aplicación. Os outros tres permisos solicítanse se se quere facer uso das imaxes dentro da aplicación, xa sexa para sacar fotos de POIs (\emph{CAMERA}), para acceder ás imaxes da galería do dispositivo (\emph{READ\_INTERNAL\_STORAGE}) ou para visualizar algunha imaxe dun POI (\emph{WRITE\_EXTERNAL\_STORAGE}, para gardala temporalmente).

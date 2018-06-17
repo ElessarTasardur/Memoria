@@ -16,42 +16,51 @@
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Diagrama de Gantt para os sprints despois de realizar o seguemento ao proxecto.}}{43}{figure.6.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Arquitectura xeral da plataforma Caronte para a gu\IeC {\'\i }a de museos.}}{48}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Modelo de datos da plataforma Caronte.}}{49}{figure.7.2}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Modelo de datos da plataforma Caronte.}}{50}{figure.7.2}
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Diagrama de clases coas entidades.}}{56}{figure.7.3}
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Diagrama de clases cos DAOs.}}{57}{figure.7.4}
 \contentsline {figure}{\numberline {7.5}{\ignorespaces Exemplo dunha solicitude ao servizo web.}}{60}{figure.7.5}
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Exemplo dunha resposta do servizo web.}}{61}{figure.7.6}
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Exemplo dunha cabeceira REST securizada.}}{61}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Diagrama de secuencia da autenticaci\IeC {\'o}n a trav\IeC {\'e}s de Google.}}{62}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Chave para o acceso a Google Maps.}}{65}{figure.7.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Configuraci\IeC {\'o}n da base de datos no ficheiro XML.}}{66}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Configuraci\IeC {\'o}n en XML para a localizaci\IeC {\'o}n do ficheiro das consultas.}}{66}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Clase de implementaci\IeC {\'o}n dun DAO.}}{66}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Inxecci\IeC {\'o}n dunha consulta nun DAO.}}{67}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Construci\IeC {\'o}n dun VO dentro do DAO.}}{67}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces M\IeC {\'e}todo de consulta dun DAO.}}{67}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Exemplo dunha consulta en SQL.}}{68}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces M\IeC {\'e}todo de inserci\IeC {\'o}n dun DAO.}}{68}{figure.8.8}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Exemplo dunha inserci\IeC {\'o}n en SQL.}}{68}{figure.8.9}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade no ficheiro XML.}}{69}{figure.8.10}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo onde se modifican datos.}}{69}{figure.8.11}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo de s\IeC {\'o} lectura.}}{69}{figure.8.12}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Exemplo de etiquetas sobre o servizo.}}{70}{figure.8.13}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Exemplo de m\IeC {\'e}todo Get do servizo.}}{70}{figure.8.14}
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Exemplo de m\IeC {\'e}todo Get con par\IeC {\'a}metro do servizo.}}{70}{figure.8.15}
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Exemplo de m\IeC {\'e}todo Post do servizo.}}{71}{figure.8.16}
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Exemplo de m\IeC {\'e}todo Delete do servizo.}}{71}{figure.8.17}
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Configuraci\IeC {\'o}n da autenticaci\IeC {\'o}n b\IeC {\'a}sica no servidor.}}{72}{figure.8.18}
-\contentsline {figure}{\numberline {8.19}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n.}}{73}{figure.8.19}
-\contentsline {figure}{\numberline {8.20}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (2).}}{73}{figure.8.20}
-\contentsline {figure}{\numberline {8.21}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (e 3).}}{74}{figure.8.21}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Configuraci\IeC {\'o}n da base de datos no ficheiro XML.}}{70}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Clase de implementaci\IeC {\'o}n dun DAO.}}{70}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Inxecci\IeC {\'o}n dunha consulta nun DAO.}}{71}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces M\IeC {\'e}todo de consulta dun DAO.}}{71}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Construci\IeC {\'o}n dun VO dentro do DAO.}}{71}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Exemplo dunha consulta en SQL.}}{72}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces M\IeC {\'e}todo de inserci\IeC {\'o}n dun DAO.}}{72}{figure.8.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade no ficheiro XML.}}{73}{figure.8.8}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo onde se modifican datos.}}{73}{figure.8.9}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Configuraci\IeC {\'o}n da transaccionalidade dun m\IeC {\'e}todo de s\IeC {\'o} lectura.}}{73}{figure.8.10}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Exemplo de etiquetas sobre o servizo.}}{74}{figure.8.11}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Exemplo de m\IeC {\'e}todo Get con par\IeC {\'a}metro do servizo.}}{74}{figure.8.12}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Exemplo de m\IeC {\'e}todo Post do servizo.}}{74}{figure.8.13}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Exemplo de m\IeC {\'e}todo Delete do servizo.}}{75}{figure.8.14}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Configuraci\IeC {\'o}n da autenticaci\IeC {\'o}n b\IeC {\'a}sica no servidor.}}{76}{figure.8.15}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Permisos necesarios na aplicaci\IeC {\'o}n Android.}}{76}{figure.8.16}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Comprobaci\IeC {\'o}n e solicitude de permisos necesarios na aplicaci\IeC {\'o}n Android.}}{77}{figure.8.17}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Inicializaci\IeC {\'o}n do SDK de Situm.}}{78}{figure.8.18}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Creaci\IeC {\'o}n do location manager de Situm.}}{78}{figure.8.19}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Activaci\IeC {\'o}n do posicionamento de Situm.}}{79}{figure.8.20}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Chamada para a recuperaci\IeC {\'o}n dos niveis dun edificio en Situm.}}{80}{figure.8.21}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Construci\IeC {\'o}n dunha clase de acceso ao servidor de Caronte.}}{80}{figure.8.22}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces M\IeC {\'e}todo para a realizaci\IeC {\'o}n dunha chamada ao servidor de Caronte.}}{81}{figure.8.23}
+\contentsline {figure}{\numberline {8.24}{\ignorespaces M\IeC {\'e}todo para o tratamento de datos devoltos por unha chamada ao servidor de Caronte.}}{82}{figure.8.24}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n.}}{83}{figure.8.25}
+\contentsline {figure}{\numberline {8.26}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (2).}}{84}{figure.8.26}
+\contentsline {figure}{\numberline {8.27}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (e 3).}}{85}{figure.8.27}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Pantalla coas incidencias na consola de Google Play.}}{88}{figure.9.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Vista inicial do dashboard de Situm.}}{96}{figure.Alph3.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Vista de modificaci\IeC {\'o}n dun edificio.}}{97}{figure.Alph3.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Aplicaci\IeC {\'o}n de calibraci\IeC {\'o}n: Situm Mapping Tool.}}{99}{figure.Alph3.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Proceso de creaci\IeC {\'o}n de POIs en Situm.}}{100}{figure.Alph3.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Proceso de creaci\IeC {\'o}n de rutas.}}{100}{figure.Alph3.5}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Vista inicial do dashboard de Situm.}}{112}{figure.Alph3.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Vista de modificaci\IeC {\'o}n dun edificio.}}{113}{figure.Alph3.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Aplicaci\IeC {\'o}n de calibraci\IeC {\'o}n: Situm Mapping Tool.}}{115}{figure.Alph3.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Proceso de creaci\IeC {\'o}n de POIs en Situm.}}{116}{figure.Alph3.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Proceso de creaci\IeC {\'o}n de rutas.}}{116}{figure.Alph3.5}
 \addvspace {10\p@ }

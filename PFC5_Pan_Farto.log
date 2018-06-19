@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.30)  19 JUN 2018 02:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.30)  19 JUN 2018 03:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2547,7 +2547,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.62 ...mazon Web Services.}}{112}{figure.Alph2.3}
+l.62 ...mazon Web Services.}}{114}{figure.Alph2.3}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2787,7 +2787,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.34 ...\IeC {\'o}n dun POI.}}{98}{table.Alph1.10}
+l.34 ...IeC {\'o}n dun POI.}}{100}{table.Alph1.10}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4732,60 +4732,53 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[89])
+[89]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[90]
+[90])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91]
 \openout2 = `capitulos/conclusions.aux'.
 
- (./capitulos/conclusions.tex
-Cap\'{\i }tulo 10.
-[91
+ (./capitulos/conclusions.tex [92
 
 
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[92])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
+Cap\'{\i }tulo 10.
 [93]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[95]
 \openout2 = `apendices/casosUso.aux'.
 
- (./apendices/casosUso.tex [94
+ (./apendices/casosUso.tex [96
 
 
 
 ]
 Ap\'endice A.
-) [95]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[96]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[97]
+) [97]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -4849,11 +4842,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [106]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108]
 \openout2 = `apendices/instalacion.aux'.
 
  (./apendices/instalacion.tex
 Ap\'endice B.
-[107
+[109
 
 
 
@@ -4864,7 +4871,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[108]
+[110]
 Package epstopdf Info: Source file: <figures/capturas/AWSCrear.eps>
 (epstopdf)                    date: 2018-06-19 00:35:32
 (epstopdf)                    size: 21184 bytes
@@ -4876,7 +4883,7 @@ Package epstopdf Info: Source file: <figures/capturas/AWSCrear.eps>
 eps-converted-to.pdf figures/capturas/AWSCrear.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
-<figures/capturas/AWSCrear-eps-converted-to.pdf, id=2134, pagebox=cropbox, 316.
+<figures/capturas/AWSCrear-eps-converted-to.pdf, id=2142, pagebox=cropbox, 316.
 18124pt x 436.63126pt>
 File: figures/capturas/AWSCrear-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/capturas/AWSCrear-eps-converted-to.pdf>
@@ -4899,7 +4906,7 @@ o.pdf>
 -eps-converted-to.pdf figures/capturas/AWSImaxes.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<figures/capturas/AWSImaxes-eps-converted-to.pdf, id=2136, pagebox=cropbox, 725
+<figures/capturas/AWSImaxes-eps-converted-to.pdf, id=2144, pagebox=cropbox, 725
 .71124pt x 553.06625pt>
 File: figures/capturas/AWSImaxes-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/capturas/AWSImaxes-eps-converted-to.pdf>
@@ -4916,7 +4923,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[109]
+[111]
 Package epstopdf Info: Source file: <figures/capturas/AWSBD.eps>
 (epstopdf)                    date: 2018-06-19 00:33:00
 (epstopdf)                    size: 70458 bytes
@@ -4928,7 +4935,7 @@ f>
 -converted-to.pdf figures/capturas/AWSBD.eps>
 (epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
-<figures/capturas/AWSBD-eps-converted-to.pdf, id=2143, pagebox=cropbox, 573.141
+<figures/capturas/AWSBD-eps-converted-to.pdf, id=2152, pagebox=cropbox, 573.141
 25pt x 472.76625pt>
 File: figures/capturas/AWSBD-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/capturas/AWSBD-eps-converted-to.pdf>
@@ -4975,7 +4982,7 @@ f>
 -converted-to.pdf figures/capturas/putty.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
-<figures/capturas/putty-eps-converted-to.pdf, id=2144, pagebox=cropbox, 356.331
+<figures/capturas/putty-eps-converted-to.pdf, id=2153, pagebox=cropbox, 356.331
 25pt x 353.32pt>
 File: figures/capturas/putty-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/capturas/putty-eps-converted-to.pdf>
@@ -4992,7 +4999,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[110 <./figures/capturas/AWSCrear-eps-converted-to.pdf>]
+[112 <./figures/capturas/AWSCrear-eps-converted-to.pdf>]
 Overfull \hbox (20.8639pt too wide) in paragraph at lines 109--110
 []\OT1/lmr/m/n/10.95 Configurar ac-ce-so ^^Sa ima-xe in-di-can-do co-mo host-na
 -me no-me[]usuario@nome[]dns[]publico
@@ -5004,7 +5011,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[111 <./figures/capturas/AWSImaxes-eps-converted-to.pdf>]
+[113 <./figures/capturas/AWSImaxes-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/capturas/tomcatUsers.eps>
 (epstopdf)                    date: 2018-06-19 00:36:47
 (epstopdf)                    size: 6051 bytes
@@ -5016,7 +5023,7 @@ Package epstopdf Info: Source file: <figures/capturas/tomcatUsers.eps>
 rs-eps-converted-to.pdf figures/capturas/tomcatUsers.eps>
 (epstopdf)             \includegraphics on input line 126.
 Package epstopdf Info: Output file is already uptodate.
-<figures/capturas/tomcatUsers-eps-converted-to.pdf, id=2164, pagebox=cropbox, 4
+<figures/capturas/tomcatUsers-eps-converted-to.pdf, id=2172, pagebox=cropbox, 4
 38.63875pt x 49.18375pt>
 File: figures/capturas/tomcatUsers-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -5035,7 +5042,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[112 <./figures/capturas/AWSBD-eps-converted-to.pdf>]
+[114 <./figures/capturas/AWSBD-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/capturas/tomcatXestor.eps>
 (epstopdf)                    date: 2018-06-19 00:39:51
 (epstopdf)                    size: 48516 bytes
@@ -5047,7 +5054,7 @@ d-to.pdf>
 tor-eps-converted-to.pdf figures/capturas/tomcatXestor.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-<figures/capturas/tomcatXestor-eps-converted-to.pdf, id=2177, pagebox=cropbox, 
+<figures/capturas/tomcatXestor-eps-converted-to.pdf, id=2186, pagebox=cropbox, 
 726.715pt x 610.28pt>
 File: figures/capturas/tomcatXestor-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5066,7 +5073,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[113 <./figures/capturas/putty-eps-converted-to.pdf> <./figures/capturas/tomcat
+[115 <./figures/capturas/putty-eps-converted-to.pdf> <./figures/capturas/tomcat
 Users-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5074,7 +5081,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[114 <./figures/capturas/tomcatXestor-eps-converted-to.pdf>]
+[116 <./figures/capturas/tomcatXestor-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/android/capturaInicio.eps>
 (epstopdf)                    date: 2018-06-19 02:34:48
 (epstopdf)                    size: 264524 bytes
@@ -5086,7 +5093,7 @@ d-to.pdf>
 cio-eps-converted-to.pdf figures/android/capturaInicio.eps>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/capturaInicio-eps-converted-to.pdf, id=2204, pagebox=cropbox, 
+<figures/android/capturaInicio-eps-converted-to.pdf, id=2212, pagebox=cropbox, 
 1632.0975pt x 1445.4pt>
 File: figures/android/capturaInicio-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5102,7 +5109,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[115 <./figures/android/capturaInicio-eps-converted-to.pdf>]
+[117 <./figures/android/capturaInicio-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/android/mapaEdificio.eps>
 (epstopdf)                    date: 2018-06-19 02:35:49
 (epstopdf)                    size: 617924 bytes
@@ -5114,7 +5121,7 @@ Package epstopdf Info: Source file: <figures/android/mapaEdificio.eps>
 io-eps-converted-to.pdf figures/android/mapaEdificio.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaEdificio-eps-converted-to.pdf, id=2222, pagebox=cropbox, 1
+<figures/android/mapaEdificio-eps-converted-to.pdf, id=2231, pagebox=cropbox, 1
 632.0975pt x 1445.4pt>
 File: figures/android/mapaEdificio-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -5134,7 +5141,7 @@ Package epstopdf Info: Source file: <figures/android/mapaSelector.eps>
 or-eps-converted-to.pdf figures/android/mapaSelector.eps>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaSelector-eps-converted-to.pdf, id=2225, pagebox=cropbox, 1
+<figures/android/mapaSelector-eps-converted-to.pdf, id=2234, pagebox=cropbox, 1
 629.08624pt x 1445.4pt>
 File: figures/android/mapaSelector-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -5150,7 +5157,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[116 <./figures/android/mapaEdificio-eps-converted-to.pdf>]
+[118 <./figures/android/mapaEdificio-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/android/detallePoiPercorrido.eps>
 (epstopdf)                    date: 2018-06-19 02:35:00
 (epstopdf)                    size: 307578 bytes
@@ -5162,7 +5169,7 @@ onverted-to.pdf>
 Percorrido-eps-converted-to.pdf figures/android/detallePoiPercorrido.eps>
 (epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/detallePoiPercorrido-eps-converted-to.pdf, id=2235, pagebox=cr
+<figures/android/detallePoiPercorrido-eps-converted-to.pdf, id=2244, pagebox=cr
 opbox, 1632.0975pt x 1445.4pt>
 File: figures/android/detallePoiPercorrido-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5181,7 +5188,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[117 <./figures/android/mapaSelector-eps-converted-to.pdf>]
+[119 <./figures/android/mapaSelector-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/android/mapaXestorEdicion.eps>
 (epstopdf)                    date: 2018-06-19 02:37:08
 (epstopdf)                    size: 699663 bytes
@@ -5193,7 +5200,7 @@ erted-to.pdf>
 Edicion-eps-converted-to.pdf figures/android/mapaXestorEdicion.eps>
 (epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaXestorEdicion-eps-converted-to.pdf, id=2245, pagebox=cropb
+<figures/android/mapaXestorEdicion-eps-converted-to.pdf, id=2253, pagebox=cropb
 ox, 1635.10875pt x 1445.4pt>
 File: figures/android/mapaXestorEdicion-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5217,7 +5224,7 @@ Package epstopdf Info: Source file: <figures/android/mapaCrearPoi.eps>
 oi-eps-converted-to.pdf figures/android/mapaCrearPoi.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaCrearPoi-eps-converted-to.pdf, id=2247, pagebox=cropbox, 1
+<figures/android/mapaCrearPoi-eps-converted-to.pdf, id=2255, pagebox=cropbox, 1
 632.0975pt x 1445.4pt>
 File: figures/android/mapaCrearPoi-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -5235,7 +5242,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[118 <./figures/android/detallePoiPercorrido-eps-converted-to.pdf>]
+[120 <./figures/android/detallePoiPercorrido-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/android/mapaEngadirImaxe.eps>
 (epstopdf)                    date: 2018-06-19 02:36:18
 (epstopdf)                    size: 321412 bytes
@@ -5247,7 +5254,7 @@ rted-to.pdf>
 rImaxe-eps-converted-to.pdf figures/android/mapaEngadirImaxe.eps>
 (epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaEngadirImaxe-eps-converted-to.pdf, id=2257, pagebox=cropbo
+<figures/android/mapaEngadirImaxe-eps-converted-to.pdf, id=2265, pagebox=cropbo
 x, 1629.08624pt x 1445.4pt>
 File: figures/android/mapaEngadirImaxe-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5271,7 +5278,7 @@ nverted-to.pdf>
 ercorrido-eps-converted-to.pdf figures/android/mapaCrearPercorrido.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaCrearPercorrido-eps-converted-to.pdf, id=2259, pagebox=cro
+<figures/android/mapaCrearPercorrido-eps-converted-to.pdf, id=2267, pagebox=cro
 pbox, 1632.0975pt x 1445.4pt>
 File: figures/android/mapaCrearPercorrido-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -5289,7 +5296,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[119 <./figures/android/mapaXestorEdicion-eps-converted-to.pdf>]
+[121 <./figures/android/mapaXestorEdicion-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/android/mapaEngadirPoiPercorrido.e
 ps>
 (epstopdf)                    date: 2018-06-19 02:36:33
@@ -5303,7 +5310,7 @@ rPoiPercorrido-eps-converted-to.pdf figures/android/mapaEngadirPoiPercorrido.ep
 s>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf, id=2271, pagebo
+<figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf, id=2279, pagebo
 x=cropbox, 2445.135pt x 1445.4pt>
 File: figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -5329,7 +5336,7 @@ arPoiPercorrido-eps-converted-to.pdf figures/android/mapaEliminarPoiPercorrido.
 eps>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
-<figures/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf, id=2273, pageb
+<figures/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf, id=2281, pageb
 ox=cropbox, 813.0375pt x 1445.4pt>
 File: figures/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -5348,14 +5355,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[120 <./figures/android/mapaCrearPoi-eps-converted-to.pdf>]
+[122 <./figures/android/mapaCrearPoi-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[121 <./figures/android/mapaEngadirImaxe-eps-converted-to.pdf> <./figures/andro
+[123 <./figures/android/mapaEngadirImaxe-eps-converted-to.pdf> <./figures/andro
 id/mapaCrearPercorrido-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5363,7 +5370,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[122 <./figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf> <./figur
+[124 <./figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf> <./figur
 es/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf>]
 \openout2 = `apendices/localizacion.aux'.
 
@@ -5381,7 +5388,7 @@ o.pdf>
 -eps-converted-to.pdf figures/Capturas/dashboard.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/dashboard-eps-converted-to.pdf, id=2305, pagebox=cropbox, 144
+<figures/Capturas/dashboard-eps-converted-to.pdf, id=2314, pagebox=cropbox, 144
 5.4pt x 813.0375pt>
 File: figures/Capturas/dashboard-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/dashboard-eps-converted-to.pdf>
@@ -5392,7 +5399,7 @@ Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
 
 Underfull \vbox (badness 7308) has occurred while \output is active []
 
- [123
+ [125
 
 
 
@@ -5408,7 +5415,7 @@ Package epstopdf Info: Source file: <figures/Capturas/edificio.eps>
 eps-converted-to.pdf figures/Capturas/edificio.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/edificio-eps-converted-to.pdf, id=2312, pagebox=cropbox, 1445
+<figures/Capturas/edificio-eps-converted-to.pdf, id=2320, pagebox=cropbox, 1445
 .4pt x 813.0375pt>
 File: figures/Capturas/edificio-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/edificio-eps-converted-to.pdf>
@@ -5423,7 +5430,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[124 <./figures/Capturas/dashboard-eps-converted-to.pdf>]
+[126 <./figures/Capturas/dashboard-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Capturas/mapping_tool.eps>
 (epstopdf)                    date: 2018-06-06 23:38:35
 (epstopdf)                    size: 568482 bytes
@@ -5435,7 +5442,7 @@ d-to.pdf>
 ool-eps-converted-to.pdf figures/Capturas/mapping_tool.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=2321, pagebox=cropbox, 
+<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=2329, pagebox=cropbox, 
 813.0375pt x 1445.4pt>
 File: figures/Capturas/mapping_tool-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5455,7 +5462,7 @@ Package epstopdf Info: Source file: <figures/Capturas/poi.eps>
 onverted-to.pdf figures/Capturas/poi.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/poi-eps-converted-to.pdf, id=2323, pagebox=cropbox, 1445.4pt 
+<figures/Capturas/poi-eps-converted-to.pdf, id=2331, pagebox=cropbox, 1445.4pt 
 x 813.0375pt>
 File: figures/Capturas/poi-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/poi-eps-converted-to.pdf>
@@ -5473,7 +5480,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[125 <./figures/Capturas/edificio-eps-converted-to.pdf>]
+[127 <./figures/Capturas/edificio-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Capturas/rutas.eps>
 (epstopdf)                    date: 2018-06-06 23:46:05
 (epstopdf)                    size: 576764 bytes
@@ -5485,7 +5492,7 @@ f>
 -converted-to.pdf figures/Capturas/rutas.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/rutas-eps-converted-to.pdf, id=2332, pagebox=cropbox, 1445.4p
+<figures/Capturas/rutas-eps-converted-to.pdf, id=2340, pagebox=cropbox, 1445.4p
 t x 813.0375pt>
 File: figures/Capturas/rutas-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/rutas-eps-converted-to.pdf>
@@ -5500,31 +5507,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[126]
+[128]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[127 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>]
+[129 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[128 <./figures/Capturas/poi-eps-converted-to.pdf> <./figures/Capturas/rutas-ep
+[130 <./figures/Capturas/poi-eps-converted-to.pdf> <./figures/Capturas/rutas-ep
 s-converted-to.pdf>]
 \openout2 = `apendices/contido.aux'.
 
  (./apendices/contido.tex
 Ap\'endice D.
-) [129
+) [131
 
 
 
-] [130
+] [132
 
 
 ]
@@ -5551,9 +5558,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 21573 strings out of 492990
- 395636 string characters out of 6136334
- 538290 words of memory out of 5000000
+ 21575 strings out of 492990
+ 395652 string characters out of 6136334
+ 538296 words of memory out of 5000000
  24028 multiletter control sequences out of 15000+600000
  84469 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5572,10 +5579,10 @@ mr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive
 onts/type1/public/lm/lmri12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
 lm/lmri8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/te
 xlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on PFC5_Pan_Farto.pdf (152 pages, 10072045 bytes).
+Output written on PFC5_Pan_Farto.pdf (154 pages, 10073385 bytes).
 PDF statistics:
- 2522 PDF objects out of 2984 (max. 8388607)
- 2180 compressed objects within 22 object streams
- 485 named destinations out of 1000 (max. 500000)
+ 2531 PDF objects out of 2984 (max. 8388607)
+ 2187 compressed objects within 22 object streams
+ 487 named destinations out of 1000 (max. 500000)
  1433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -125,7 +125,7 @@
 \contentsline {section}{\numberline {7.5}Aplicaci\IeC {\'o}n Android}{63}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Actividades}{64}{subsection.7.5.1}
 \contentsline {subsection}{\numberline {7.5.2}Comunicaci\IeC {\'o}n co servidor}{66}{subsection.7.5.2}
-\contentsline {subsection}{\numberline {7.5.3}Comunicaci\IeC {\'o}n con Situm}{67}{subsection.7.5.3}
+\contentsline {subsection}{\numberline {7.5.3}Comunicaci\IeC {\'o}n con Situm}{66}{subsection.7.5.3}
 \contentsline {subsection}{\numberline {7.5.4}Permisos necesarios}{67}{subsection.7.5.4}
 \contentsline {chapter}{\numberline {8}Implementaci\IeC {\'o}n}{69}{chapter.8}
 \contentsline {section}{\numberline {8.1}Servidor}{69}{section.8.1}
@@ -136,8 +136,8 @@
 \contentsline {section}{\numberline {8.2}Aplicaci\IeC {\'o}n Android}{75}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Solicitude de permisos}{75}{subsection.8.2.1}
 \contentsline {subsection}{\numberline {8.2.2}Acceso a Situm}{77}{subsection.8.2.2}
-\contentsline {subsubsection}{Configuraci\IeC {\'o}n da localizaci\IeC {\'o}n}{77}{section*.50}
-\contentsline {subsubsection}{Acceso aos servizos de Situm}{79}{section*.51}
+\contentsline {subsubsection}{Configuraci\IeC {\'o}n da localizaci\IeC {\'o}n}{77}{section*.49}
+\contentsline {subsubsection}{Acceso aos servizos de Situm}{79}{section*.50}
 \contentsline {subsection}{\numberline {8.2.3}Acceso ao servidor}{80}{subsection.8.2.3}
 \contentsline {section}{\numberline {8.3}Autenticaci\IeC {\'o}n}{82}{section.8.3}
 \contentsline {chapter}{\numberline {9}Probas}{87}{chapter.9}
@@ -158,22 +158,22 @@
 \contentsline {subsection}{\numberline {B.2.2}Aplicaci\IeC {\'o}n Android: Caronte}{111}{subsection.Alph2.2.2}
 \contentsline {section}{\numberline {B.3}Manuais de usuario}{111}{section.Alph2.3}
 \contentsline {subsection}{\numberline {B.3.1}Administrador do sistema}{111}{subsection.Alph2.3.1}
-\contentsline {subsubsection}{Creaci\IeC {\'o}n da imaxe en AWS}{111}{section*.57}
-\contentsline {subsubsection}{Base de datos}{112}{section*.58}
-\contentsline {subsubsection}{Conexi\IeC {\'o}n coa imaxe}{112}{section*.59}
-\contentsline {subsubsection}{Instalaci\IeC {\'o}n contedor de servlets}{114}{section*.61}
-\contentsline {subsubsection}{Despregue dos servizos}{115}{section*.62}
-\contentsline {subsubsection}{Mantemento}{116}{section*.63}
+\contentsline {subsubsection}{Creaci\IeC {\'o}n da imaxe en AWS}{111}{section*.56}
+\contentsline {subsubsection}{Base de datos}{112}{section*.57}
+\contentsline {subsubsection}{Conexi\IeC {\'o}n coa imaxe}{112}{section*.58}
+\contentsline {subsubsection}{Instalaci\IeC {\'o}n contedor de servlets}{114}{section*.60}
+\contentsline {subsubsection}{Despregue dos servizos}{115}{section*.61}
+\contentsline {subsubsection}{Mantemento}{116}{section*.62}
 \contentsline {subsection}{\numberline {B.3.2}Aplicaci\IeC {\'o}n Caronte para usuarios Android}{117}{subsection.Alph2.3.2}
-\contentsline {subsubsection}{Inicio}{118}{section*.64}
+\contentsline {subsubsection}{Inicio}{118}{section*.63}
 \contentsline {subsection}{\numberline {B.3.3}Mapa}{118}{subsection.Alph2.3.3}
 \contentsline {subsection}{\numberline {B.3.4}Pantallas de detalle}{119}{subsection.Alph2.3.4}
 \contentsline {subsection}{\numberline {B.3.5}Aplicaci\IeC {\'o}n Caronte para xestores de contidos}{120}{subsection.Alph2.3.5}
-\contentsline {subsubsection}{Activaci\IeC {\'o}n do modo edici\IeC {\'o}n}{120}{section*.65}
-\contentsline {subsubsection}{Creaci\IeC {\'o}n de POI}{121}{section*.66}
-\contentsline {subsubsection}{Engadir imaxe a POI}{121}{section*.67}
-\contentsline {subsubsection}{Creaci\IeC {\'o}n de percorrido}{121}{section*.68}
-\contentsline {subsubsection}{Engadir ou eliminar POIs nun percorrido xa existente}{122}{section*.69}
+\contentsline {subsubsection}{Activaci\IeC {\'o}n do modo edici\IeC {\'o}n}{120}{section*.64}
+\contentsline {subsubsection}{Creaci\IeC {\'o}n de POI}{121}{section*.65}
+\contentsline {subsubsection}{Engadir imaxe a POI}{121}{section*.66}
+\contentsline {subsubsection}{Creaci\IeC {\'o}n de percorrido}{121}{section*.67}
+\contentsline {subsubsection}{Engadir ou eliminar POIs nun percorrido xa existente}{122}{section*.68}
 \contentsline {chapter}{\numberline {C}Localizaci\IeC {\'o}n en interiores de Situm}{125}{appendix.Alph3}
 \contentsline {section}{\numberline {C.1}Nova conta en Situm}{125}{section.Alph3.1}
 \contentsline {section}{\numberline {C.2}Dashboard de Situm}{125}{section.Alph3.2}
@@ -182,3 +182,4 @@
 \contentsline {section}{\numberline {C.5}Punto de interese Situm}{127}{section.Alph3.5}
 \contentsline {section}{\numberline {C.6}Definici\IeC {\'o}n de rutas}{128}{section.Alph3.6}
 \contentsline {chapter}{\numberline {D}Contido do DVD adxunto}{131}{appendix.Alph4}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{133}{appendix.Alph4}

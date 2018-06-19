@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.30)  18 JUN 2018 01:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.30)  19 JUN 2018 02:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,7 +1291,7 @@ Package epstopdf Info: Source file: <figures/udc.eps>
 to.pdf figures/udc.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
-<figures/udc-eps-converted-to.pdf, id=541, pagebox=cropbox, 891.33pt x 115.4312
+<figures/udc-eps-converted-to.pdf, id=549, pagebox=cropbox, 891.33pt x 115.4312
 4pt>
 File: figures/udc-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/udc-eps-converted-to.pdf>
@@ -2547,7 +2547,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
-l.63 ...Situm Mapping Tool.}}{115}{figure.Alph3.3}
+l.62 ...mazon Web Services.}}{112}{figure.Alph2.3}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2557,67 +2557,67 @@ and I'll forget about whatever was undefined.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 63.
+(hyperref)                removing `\<let>-command' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 63.
+(hyperref)                removing `\@tempdima' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\divide' on input line 63.
+(hyperref)                removing `\divide' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 63.
+(hyperref)                removing `\@tempdima' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\multiply' on input line 63.
+(hyperref)                removing `\multiply' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempdima' on input line 63.
+(hyperref)                removing `\@tempdima' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 63.
+(hyperref)                removing `\<def>-command' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\f@size' on input line 63.
+(hyperref)                removing `\f@size' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 63.
+(hyperref)                removing `\hbox' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 63.
+(hyperref)                removing `\<def>-command' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tf@size' on input line 63.
+(hyperref)                removing `\tf@size' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 63.
+(hyperref)                removing `\<def>-command' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sf@size' on input line 63.
+(hyperref)                removing `\sf@size' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 63.
+(hyperref)                removing `\<def>-command' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ssf@size' on input line 63.
+(hyperref)                removing `\ssf@size' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 63.
+(hyperref)                removing `\<let>-command' on input line 62.
 
 [16])
 \tf@lof=\write6
@@ -3087,7 +3087,7 @@ Package epstopdf Info: Source file: <figures/scrum.eps>
 d-to.pdf figures/scrum.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
-<figures/scrum-eps-converted-to.pdf, id=1290, pagebox=cropbox, 682.55pt x 314.1
+<figures/scrum-eps-converted-to.pdf, id=1351, pagebox=cropbox, 682.55pt x 314.1
 7375pt>
 File: figures/scrum-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/scrum-eps-converted-to.pdf>
@@ -3149,7 +3149,7 @@ droidPantallaInicial-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidPantal
 laInicial.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf, id=1318, 
+<figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf, id=1378, 
 pagebox=cropbox, 301.125pt x 221.82875pt>
 File: figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -3179,7 +3179,7 @@ droidLocalizacion-eps-converted-to.pdf figures/CasosUso/UsuarioAndroidLocalizac
 ion.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf, id=1329, pag
+<figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf, id=1389, pag
 ebox=cropbox, 302.12875pt x 165.61874pt>
 File: figures/CasosUso/UsuarioAndroidLocalizacion-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3196,7 +3196,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23 <./figures/CasosUso/UsuarioAndroidPantallaInicial-eps-converted-to.pdf>]
-<figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf, id=1346, pagebox=cropbox, 43
+<figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf, id=1406, pagebox=cropbox, 43
 9.6425pt x 558.085pt>
 File: figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf Graphic file (type pdf)
 <use figures/CasosUso/UsuarioAndroidPOIPercorrido.pdf>
@@ -3230,7 +3230,7 @@ erted-to.pdf>
 tidoPoi-eps-converted-to.pdf figures/CasosUso/XestorContidoPoi.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf, id=1382, pagebox=cropb
+<figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf, id=1443, pagebox=cropb
 ox, 368.37625pt x 472.76625pt>
 File: figures/CasosUso/XestorContidoPoi-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3270,7 +3270,7 @@ tidoPercorrido-eps-converted-to.pdf figures/CasosUso/XestorContidoPercorrido.ep
 s>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf, id=1408, pagebo
+<figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf, id=1469, pagebo
 x=cropbox, 371.3875pt x 358.33875pt>
 File: figures/CasosUso/XestorContidoPercorrido-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -3299,7 +3299,7 @@ converted-to.pdf>
 adorSistema-eps-converted-to.pdf figures/CasosUso/AdministradorSistema.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-<figures/CasosUso/AdministradorSistema-eps-converted-to.pdf, id=1422, pagebox=c
+<figures/CasosUso/AdministradorSistema-eps-converted-to.pdf, id=1482, pagebox=c
 ropbox, 254.9525pt x 262.9825pt>
 File: figures/CasosUso/AdministradorSistema-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3387,7 +3387,7 @@ converted-to.pdf>
 cionInicial-eps-converted-to.pdf figures/Capturas/planificacionInicial.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/planificacionInicial-eps-converted-to.pdf, id=1525, pagebox=c
+<figures/Capturas/planificacionInicial-eps-converted-to.pdf, id=1585, pagebox=c
 ropbox, 767.86874pt x 243.91125pt>
 File: figures/Capturas/planificacionInicial-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3443,7 +3443,7 @@ nverted-to.pdf>
 cionFinal-eps-converted-to.pdf figures/Capturas/planificacionFinal.eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/planificacionFinal-eps-converted-to.pdf, id=1563, pagebox=cro
+<figures/Capturas/planificacionFinal-eps-converted-to.pdf, id=1623, pagebox=cro
 pbox, 782.925pt x 241.90375pt>
 File: figures/Capturas/planificacionFinal-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3495,7 +3495,7 @@ uraGlobalSistema-eps-converted-to.pdf figures/diagrama/arquitecturaGlobalSistem
 a.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-<figures/diagrama/arquitecturaGlobalSistema-eps-converted-to.pdf, id=1590, page
+<figures/diagrama/arquitecturaGlobalSistema-eps-converted-to.pdf, id=1651, page
 box=cropbox, 352.31625pt x 338.26375pt>
 File: figures/diagrama/arquitecturaGlobalSistema-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3526,7 +3526,7 @@ nverted-to.pdf>
 eRelacion-eps-converted-to.pdf figures/BD/diagramaEntidadeRelacion.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf, id=1608, pagebox=cro
+<figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf, id=1669, pagebox=cro
 pbox, 660.4675pt x 657.45625pt>
 File: figures/BD/diagramaEntidadeRelacion-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3589,7 +3589,7 @@ rted-to.pdf>
 idades-eps-converted-to.pdf figures/Clases/diagramaEntidades.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Clases/diagramaEntidades-eps-converted-to.pdf, id=1639, pagebox=cropbo
+<figures/Clases/diagramaEntidades-eps-converted-to.pdf, id=1699, pagebox=cropbo
 x, 417.56pt x 376.40625pt>
 File: figures/Clases/diagramaEntidades-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -3623,7 +3623,7 @@ Package epstopdf Info: Source file: <figures/BD/daos.eps>
 ted-to.pdf figures/BD/daos.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
-<figures/BD/daos-eps-converted-to.pdf, id=1654, pagebox=cropbox, 654.445pt x 45
+<figures/BD/daos-eps-converted-to.pdf, id=1714, pagebox=cropbox, 654.445pt x 45
 6.70625pt>
 File: figures/BD/daos-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/BD/daos-eps-converted-to.pdf>
@@ -3682,7 +3682,7 @@ o.pdf>
 -eps-converted-to.pdf figures/codigo/jsonRequest.eps>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/jsonRequest-eps-converted-to.pdf, id=1675, pagebox=cropbox, 264
+<figures/codigo/jsonRequest-eps-converted-to.pdf, id=1735, pagebox=cropbox, 264
 .99pt x 159.59625pt>
 File: figures/codigo/jsonRequest-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/jsonRequest-eps-converted-to.pdf>
@@ -3700,7 +3700,7 @@ Package epstopdf Info: Source file: <figures/codigo/json.eps>
 nverted-to.pdf figures/codigo/json.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/json-eps-converted-to.pdf, id=1676, pagebox=cropbox, 654.445pt 
+<figures/codigo/json-eps-converted-to.pdf, id=1736, pagebox=cropbox, 654.445pt 
 x 400.49625pt>
 File: figures/codigo/json-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/json-eps-converted-to.pdf>
@@ -3727,7 +3727,7 @@ Package epstopdf Info: Source file: <figures/codigo/authorization.eps>
 on-eps-converted-to.pdf figures/codigo/authorization.eps>
 (epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/authorization-eps-converted-to.pdf, id=1685, pagebox=cropbox, 2
+<figures/codigo/authorization-eps-converted-to.pdf, id=1746, pagebox=cropbox, 2
 83.0575pt x 20.075pt>
 File: figures/codigo/authorization-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3758,7 +3758,7 @@ AutenticacionGoogle-eps-converted-to.pdf figures/diagrama/secuenciaAutenticacio
 nGoogle.eps>
 (epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
-<figures/diagrama/secuenciaAutenticacionGoogle-eps-converted-to.pdf, id=1696, p
+<figures/diagrama/secuenciaAutenticacionGoogle-eps-converted-to.pdf, id=1757, p
 agebox=cropbox, 608.2725pt x 277.035pt>
 File: figures/diagrama/secuenciaAutenticacionGoogle-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3785,25 +3785,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 346.
 
-Overfull \hbox (199.34784pt too wide) in paragraph at lines 350--350
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 367
+.
+ (c:/texlive/2017/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (199.34784pt too wide) in paragraph at lines 371--371
 [][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/maps/documentation/and
 roid- 
  []
 
 
-Overfull \hbox (199.34784pt too wide) in paragraph at lines 350--350
+Overfull \hbox (199.34784pt too wide) in paragraph at lines 371--371
 [][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/maps/documentation/and
 roid- 
  []
 
 
-Overfull \hbox (199.34784pt too wide) in paragraph at lines 350--350
+Overfull \hbox (199.34784pt too wide) in paragraph at lines 371--371
 [][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/maps/documentation/and
 roid- 
  []
 
 
-Overfull \hbox (199.34784pt too wide) in paragraph at lines 350--350
+Overfull \hbox (199.34784pt too wide) in paragraph at lines 371--371
 [][][][]\OT1/lmr/m/n/10.95 https://developers.google.com/maps/documentation/and
 roid- 
  []
@@ -3817,55 +3829,44 @@ ed-to.pdf>
 (epstopdf)                    size: 7251 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/codigo/chaveGoogle
 Maps-eps-converted-to.pdf figures/codigo/chaveGoogleMaps.eps>
-(epstopdf)             \includegraphics on input line 353.
+(epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/chaveGoogleMaps-eps-converted-to.pdf, id=1718, pagebox=cropbox,
+<figures/codigo/chaveGoogleMaps-eps-converted-to.pdf, id=1787, pagebox=cropbox,
  271.0125pt x 57.21375pt>
 File: figures/codigo/chaveGoogleMaps-eps-converted-to.pdf Graphic file (type pd
 f)
 <use figures/codigo/chaveGoogleMaps-eps-converted-to.pdf>
 Package pdftex.def Info: figures/codigo/chaveGoogleMaps-eps-converted-to.pdf  u
-sed on input line 353. on input line 353.
+sed on input line 374. on input line 374.
 Package pdftex.def Info: Requested size: 247.54149pt x 52.261pt on input line 3
-53.
+74.
+[65
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[64]
+ <./figures/codigo/chaveGoogleMaps-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[65 <./figures/codigo/chaveGoogleMaps-eps-converted-to.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
+ Make it at least 14.45186pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [66])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
+ Make it at least 14.45186pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [67]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.45186pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68]
 \openout2 = `capitulos/implementacion.aux'.
 
- (./capitulos/implementacion.tex [68
-
-
-
-]
+ (./capitulos/implementacion.tex
 Cap\'{\i }tulo 8.
 Package epstopdf Info: Source file: <figures/codigo/configuracionBD.eps>
 (epstopdf)                    date: 2018-06-15 19:47:42
@@ -3878,7 +3879,7 @@ ed-to.pdf>
 onBD-eps-converted-to.pdf figures/codigo/configuracionBD.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/configuracionBD-eps-converted-to.pdf, id=1746, pagebox=cropbox,
+<figures/codigo/configuracionBD-eps-converted-to.pdf, id=1813, pagebox=cropbox,
  534.99875pt x 150.5625pt>
 File: figures/codigo/configuracionBD-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3887,7 +3888,11 @@ Package pdftex.def Info: figures/codigo/configuracionBD-eps-converted-to.pdf  u
 sed on input line 17. on input line 17.
 Package pdftex.def Info: Requested size: 350.68274pt x 98.6961pt on input line 
 17.
-[69]
+[69
+
+
+
+]
 Package epstopdf Info: Source file: <figures/codigo/dao.eps>
 (epstopdf)                    date: 2018-06-15 00:30:06
 (epstopdf)                    size: 4607 bytes
@@ -3898,7 +3903,7 @@ Package epstopdf Info: Source file: <figures/codigo/dao.eps>
 verted-to.pdf figures/codigo/dao.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/dao-eps-converted-to.pdf, id=1753, pagebox=cropbox, 309.155pt x
+<figures/codigo/dao-eps-converted-to.pdf, id=1820, pagebox=cropbox, 309.155pt x
  28.105pt>
 File: figures/codigo/dao-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/dao-eps-converted-to.pdf>
@@ -3917,7 +3922,7 @@ to.pdf>
 o-eps-converted-to.pdf figures/codigo/inxeccionDao.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/inxeccionDao-eps-converted-to.pdf, id=1755, pagebox=cropbox, 25
+<figures/codigo/inxeccionDao-eps-converted-to.pdf, id=1822, pagebox=cropbox, 25
 9.97125pt x 60.225pt>
 File: figures/codigo/inxeccionDao-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/inxeccionDao-eps-converted-to.pdf>
@@ -3945,7 +3950,7 @@ o.pdf>
 -eps-converted-to.pdf figures/codigo/daoConsulta.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/daoConsulta-eps-converted-to.pdf, id=1768, pagebox=cropbox, 608
+<figures/codigo/daoConsulta-eps-converted-to.pdf, id=1835, pagebox=cropbox, 608
 .2725pt x 66.2475pt>
 File: figures/codigo/daoConsulta-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/daoConsulta-eps-converted-to.pdf>
@@ -3964,7 +3969,7 @@ to.pdf>
 r-eps-converted-to.pdf figures/codigo/daoRowMapper.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/daoRowMapper-eps-converted-to.pdf, id=1771, pagebox=cropbox, 47
+<figures/codigo/daoRowMapper-eps-converted-to.pdf, id=1838, pagebox=cropbox, 47
 0.75874pt x 152.57pt>
 File: figures/codigo/daoRowMapper-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/daoRowMapper-eps-converted-to.pdf>
@@ -3993,7 +3998,7 @@ d-to.pdf>
 SQL-eps-converted-to.pdf figures/codigo/daoConsultaSQL.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/daoConsultaSQL-eps-converted-to.pdf, id=1787, pagebox=cropbox, 
+<figures/codigo/daoConsultaSQL-eps-converted-to.pdf, id=1854, pagebox=cropbox, 
 475.7775pt x 58.2175pt>
 File: figures/codigo/daoConsultaSQL-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4013,7 +4018,7 @@ pdf>
 ps-converted-to.pdf figures/codigo/daoInsert.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/daoInsert-eps-converted-to.pdf, id=1789, pagebox=cropbox, 681.5
+<figures/codigo/daoInsert-eps-converted-to.pdf, id=1856, pagebox=cropbox, 681.5
 4625pt x 97.36375pt>
 File: figures/codigo/daoInsert-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/daoInsert-eps-converted-to.pdf>
@@ -4034,7 +4039,7 @@ Configuracion-eps-converted-to.pdf figures/codigo/transaccionConfiguracion.eps>
 
 (epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/transaccionConfiguracion-eps-converted-to.pdf, id=1791, pagebox
+<figures/codigo/transaccionConfiguracion-eps-converted-to.pdf, id=1858, pagebox
 =cropbox, 505.89pt x 63.23625pt>
 File: figures/codigo/transaccionConfiguracion-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -4063,7 +4068,7 @@ verted-to.pdf>
 accional-eps-converted-to.pdf figures/codigo/metodoTransaccional.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/metodoTransaccional-eps-converted-to.pdf, id=1803, pagebox=crop
+<figures/codigo/metodoTransaccional-eps-converted-to.pdf, id=1871, pagebox=crop
 box, 489.83pt x 24.09pt>
 File: figures/codigo/metodoTransaccional-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -4084,7 +4089,7 @@ converted-to.pdf>
 ansaccional-eps-converted-to.pdf figures/codigo/metodoNonTransaccional.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/metodoNonTransaccional-eps-converted-to.pdf, id=1805, pagebox=c
+<figures/codigo/metodoNonTransaccional-eps-converted-to.pdf, id=1873, pagebox=c
 ropbox, 245.91875pt x 25.09375pt>
 File: figures/codigo/metodoNonTransaccional-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -4104,7 +4109,7 @@ ted-to.pdf>
 Museo-eps-converted-to.pdf figures/codigo/controladorMuseo.eps>
 (epstopdf)             \includegraphics on input line 126.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/controladorMuseo-eps-converted-to.pdf, id=1806, pagebox=cropbox
+<figures/codigo/controladorMuseo-eps-converted-to.pdf, id=1874, pagebox=cropbox
 , 329.23pt x 39.14626pt>
 File: figures/codigo/controladorMuseo-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4126,7 +4131,7 @@ izoGetParametro-eps-converted-to.pdf figures/codigo/chamadaServizoGetParametro.
 eps>
 (epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/chamadaServizoGetParametro-eps-converted-to.pdf, id=1808, pageb
+<figures/codigo/chamadaServizoGetParametro-eps-converted-to.pdf, id=1876, pageb
 ox=cropbox, 485.815pt x 72.27pt>
 File: figures/codigo/chamadaServizoGetParametro-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4156,7 +4161,7 @@ erted-to.pdf>
 izoPost-eps-converted-to.pdf figures/codigo/chamadaServizoPost.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/chamadaServizoPost-eps-converted-to.pdf, id=1823, pagebox=cropb
+<figures/codigo/chamadaServizoPost-eps-converted-to.pdf, id=1891, pagebox=cropb
 ox, 635.37375pt x 119.44624pt>
 File: figures/codigo/chamadaServizoPost-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -4176,7 +4181,7 @@ nverted-to.pdf>
 izoDelete-eps-converted-to.pdf figures/codigo/chamadaServizoDelete.eps>
 (epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/chamadaServizoDelete-eps-converted-to.pdf, id=1825, pagebox=cro
+<figures/codigo/chamadaServizoDelete-eps-converted-to.pdf, id=1893, pagebox=cro
 pbox, 349.305pt x 63.23625pt>
 File: figures/codigo/chamadaServizoDelete-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4208,7 +4213,7 @@ onAutenticacion-eps-converted-to.pdf figures/codigo/configuracionAutenticacion.
 eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/configuracionAutenticacion-eps-converted-to.pdf, id=1841, pageb
+<figures/codigo/configuracionAutenticacion-eps-converted-to.pdf, id=1909, pageb
 ox=cropbox, 292.09125pt x 276.03125pt>
 File: figures/codigo/configuracionAutenticacion-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4236,7 +4241,7 @@ df>
 s-converted-to.pdf figures/codigo/permisos.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/permisos-eps-converted-to.pdf, id=1852, pagebox=cropbox, 409.53
+<figures/codigo/permisos-eps-converted-to.pdf, id=1919, pagebox=cropbox, 409.53
 pt x 70.2625pt>
 File: figures/codigo/permisos-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/permisos-eps-converted-to.pdf>
@@ -4255,7 +4260,7 @@ erted-to.pdf>
 ermisos-eps-converted-to.pdf figures/codigo/solicitudePermisos.eps>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/solicitudePermisos-eps-converted-to.pdf, id=1853, pagebox=cropb
+<figures/codigo/solicitudePermisos-eps-converted-to.pdf, id=1920, pagebox=cropb
 ox, 566.115pt x 221.82875pt>
 File: figures/codigo/solicitudePermisos-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -4307,7 +4312,7 @@ o.pdf>
 -eps-converted-to.pdf figures/codigo/situmInicio.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/situmInicio-eps-converted-to.pdf, id=1865, pagebox=cropbox, 352
+<figures/codigo/situmInicio-eps-converted-to.pdf, id=1932, pagebox=cropbox, 352
 .31625pt x 40.15pt>
 File: figures/codigo/situmInicio-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/codigo/situmInicio-eps-converted-to.pdf>
@@ -4326,7 +4331,7 @@ nverted-to.pdf>
 onManager-eps-converted-to.pdf figures/codigo/situmLocationManager.eps>
 (epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/situmLocationManager-eps-converted-to.pdf, id=1867, pagebox=cro
+<figures/codigo/situmLocationManager-eps-converted-to.pdf, id=1934, pagebox=cro
 pbox, 391.4625pt x 219.82124pt>
 File: figures/codigo/situmLocationManager-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4353,7 +4358,7 @@ verted-to.pdf>
 onamento-eps-converted-to.pdf figures/codigo/situmPosicionamento.eps>
 (epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/situmPosicionamento-eps-converted-to.pdf, id=1878, pagebox=crop
+<figures/codigo/situmPosicionamento-eps-converted-to.pdf, id=1945, pagebox=crop
 box, 424.58624pt x 41.15375pt>
 File: figures/codigo/situmPosicionamento-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -4382,7 +4387,7 @@ verted-to.pdf>
 oChamada-eps-converted-to.pdf figures/codigo/situmExemploChamada.eps>
 (epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/situmExemploChamada-eps-converted-to.pdf, id=1890, pagebox=crop
+<figures/codigo/situmExemploChamada-eps-converted-to.pdf, id=1957, pagebox=crop
 box, 557.08125pt x 234.8775pt>
 File: figures/codigo/situmExemploChamada-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -4412,7 +4417,7 @@ idorDefinicion-eps-converted-to.pdf figures/codigo/chamadaServidorDefinicion.ep
 s>
 (epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/chamadaServidorDefinicion-eps-converted-to.pdf, id=1900, pagebo
+<figures/codigo/chamadaServidorDefinicion-eps-converted-to.pdf, id=1967, pagebo
 x=cropbox, 450.68375pt x 18.0675pt>
 File: figures/codigo/chamadaServidorDefinicion-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4434,7 +4439,7 @@ idorBackground-eps-converted-to.pdf figures/codigo/chamadaServidorBackground.ep
 s>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/chamadaServidorBackground-eps-converted-to.pdf, id=1902, pagebo
+<figures/codigo/chamadaServidorBackground-eps-converted-to.pdf, id=1969, pagebo
 x=cropbox, 575.14874pt x 243.91125pt>
 File: figures/codigo/chamadaServidorBackground-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4463,7 +4468,7 @@ verted-to.pdf>
 idorPost-eps-converted-to.pdf figures/codigo/chamadaServidorPost.eps>
 (epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/chamadaServidorPost-eps-converted-to.pdf, id=1914, pagebox=crop
+<figures/codigo/chamadaServidorPost-eps-converted-to.pdf, id=1981, pagebox=crop
 box, 354.32375pt x 56.21pt>
 File: figures/codigo/chamadaServidorPost-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -4575,7 +4580,7 @@ onGoogleInicio-eps-converted-to.pdf figures/codigo/autenticacionGoogleInicio.ep
 s>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/autenticacionGoogleInicio-eps-converted-to.pdf, id=1923, pagebo
+<figures/codigo/autenticacionGoogleInicio-eps-converted-to.pdf, id=1991, pagebo
 x=cropbox, 521.95pt x 219.82124pt>
 File: figures/codigo/autenticacionGoogleInicio-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4597,7 +4602,7 @@ onGoogleRecepcion-eps-converted-to.pdf figures/codigo/autenticacionGoogleRecepc
 ion.eps>
 (epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/autenticacionGoogleRecepcion-eps-converted-to.pdf, id=1925, pag
+<figures/codigo/autenticacionGoogleRecepcion-eps-converted-to.pdf, id=1993, pag
 ebox=cropbox, 490.83376pt x 364.36125pt>
 File: figures/codigo/autenticacionGoogleRecepcion-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -4626,7 +4631,7 @@ onGoogleServidor-eps-converted-to.pdf figures/codigo/autenticacionGoogleServido
 r.eps>
 (epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
-<figures/codigo/autenticacionGoogleServidor-eps-converted-to.pdf, id=1937, page
+<figures/codigo/autenticacionGoogleServidor-eps-converted-to.pdf, id=2005, page
 box=cropbox, 701.62125pt x 472.76625pt>
 File: figures/codigo/autenticacionGoogleServidor-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -4701,7 +4706,7 @@ Package epstopdf Info: Source file: <figures/capturas/consolaGoogleBloqueos.eps
 ogleBloqueos-eps-converted-to.pdf figures/capturas/consolaGoogleBloqueos.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<figures/capturas/consolaGoogleBloqueos-eps-converted-to.pdf, id=1966, pagebox=
+<figures/capturas/consolaGoogleBloqueos-eps-converted-to.pdf, id=2034, pagebox=
 cropbox, 728.7225pt x 603.25375pt>
 File: figures/capturas/consolaGoogleBloqueos-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4859,7 +4864,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[108])
+[108]
+Package epstopdf Info: Source file: <figures/capturas/AWSCrear.eps>
+(epstopdf)                    date: 2018-06-19 00:35:32
+(epstopdf)                    size: 21184 bytes
+(epstopdf)             Output file: <figures/capturas/AWSCrear-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2018-06-19 00:37:51
+(epstopdf)                    size: 19684 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/capturas/AWSCrear-
+eps-converted-to.pdf figures/capturas/AWSCrear.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+<figures/capturas/AWSCrear-eps-converted-to.pdf, id=2134, pagebox=cropbox, 316.
+18124pt x 436.63126pt>
+File: figures/capturas/AWSCrear-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/capturas/AWSCrear-eps-converted-to.pdf>
+Package pdftex.def Info: figures/capturas/AWSCrear-eps-converted-to.pdf  used o
+n input line 60. on input line 60.
+Package pdftex.def Info: Requested size: 206.28249pt x 284.87294pt on input lin
+e 60.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <figures/capturas/AWSImaxes.eps>
+(epstopdf)                    date: 2018-06-19 00:35:55
+(epstopdf)                    size: 67037 bytes
+(epstopdf)             Output file: <figures/capturas/AWSImaxes-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2018-06-19 00:37:53
+(epstopdf)                    size: 61732 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/capturas/AWSImaxes
+-eps-converted-to.pdf figures/capturas/AWSImaxes.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+<figures/capturas/AWSImaxes-eps-converted-to.pdf, id=2136, pagebox=cropbox, 725
+.71124pt x 553.06625pt>
+File: figures/capturas/AWSImaxes-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/capturas/AWSImaxes-eps-converted-to.pdf>
+Package pdftex.def Info: figures/capturas/AWSImaxes-eps-converted-to.pdf  used 
+on input line 71. on input line 71.
+Package pdftex.def Info: Requested size: 371.30595pt x 282.97992pt on input lin
+e 71.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -4867,13 +4917,458 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [109]
+Package epstopdf Info: Source file: <figures/capturas/AWSBD.eps>
+(epstopdf)                    date: 2018-06-19 00:33:00
+(epstopdf)                    size: 70458 bytes
+(epstopdf)             Output file: <figures/capturas/AWSBD-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2018-06-19 00:37:55
+(epstopdf)                    size: 84373 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/capturas/AWSBD-eps
+-converted-to.pdf figures/capturas/AWSBD.eps>
+(epstopdf)             \includegraphics on input line 82.
+Package epstopdf Info: Output file is already uptodate.
+<figures/capturas/AWSBD-eps-converted-to.pdf, id=2143, pagebox=cropbox, 573.141
+25pt x 472.76625pt>
+File: figures/capturas/AWSBD-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/capturas/AWSBD-eps-converted-to.pdf>
+Package pdftex.def Info: figures/capturas/AWSBD-eps-converted-to.pdf  used on i
+nput line 82. on input line 82.
+Package pdftex.def Info: Requested size: 309.42372pt x 255.23947pt on input lin
+e 82.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (238.90463pt too wide) in paragraph at lines 91--91
+[][][][]\OT1/lmr/m/n/10.95 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
+putty.html  
+ []
+
+
+Overfull \hbox (238.90463pt too wide) in paragraph at lines 91--91
+[][][][]\OT1/lmr/m/n/10.95 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
+putty.html  
+ []
+
+
+Overfull \hbox (238.90463pt too wide) in paragraph at lines 91--91
+[][][][]\OT1/lmr/m/n/10.95 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
+putty.html  
+ []
+
+
+Overfull \hbox (238.90463pt too wide) in paragraph at lines 91--91
+[][][][]\OT1/lmr/m/n/10.95 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
+putty.html  
+ []
+
+Package epstopdf Info: Source file: <figures/capturas/putty.eps>
+(epstopdf)                    date: 2018-06-19 00:36:19
+(epstopdf)                    size: 25884 bytes
+(epstopdf)             Output file: <figures/capturas/putty-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2018-06-19 00:37:57
+(epstopdf)                    size: 24451 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/capturas/putty-eps
+-converted-to.pdf figures/capturas/putty.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+<figures/capturas/putty-eps-converted-to.pdf, id=2144, pagebox=cropbox, 356.331
+25pt x 353.32pt>
+File: figures/capturas/putty-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/capturas/putty-eps-converted-to.pdf>
+Package pdftex.def Info: figures/capturas/putty-eps-converted-to.pdf  used on i
+nput line 95. on input line 95.
+Package pdftex.def Info: Requested size: 247.54149pt x 245.44617pt on input lin
+e 95.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[110 <./figures/capturas/AWSCrear-eps-converted-to.pdf>]
+Overfull \hbox (20.8639pt too wide) in paragraph at lines 109--110
+[]\OT1/lmr/m/n/10.95 Configurar ac-ce-so ^^Sa ima-xe in-di-can-do co-mo host-na
+-me no-me[]usuario@nome[]dns[]publico
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[111 <./figures/capturas/AWSImaxes-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/capturas/tomcatUsers.eps>
+(epstopdf)                    date: 2018-06-19 00:36:47
+(epstopdf)                    size: 6051 bytes
+(epstopdf)             Output file: <figures/capturas/tomcatUsers-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-06-19 00:37:58
+(epstopdf)                    size: 5733 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/capturas/tomcatUse
+rs-eps-converted-to.pdf figures/capturas/tomcatUsers.eps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
+<figures/capturas/tomcatUsers-eps-converted-to.pdf, id=2164, pagebox=cropbox, 4
+38.63875pt x 49.18375pt>
+File: figures/capturas/tomcatUsers-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/capturas/tomcatUsers-eps-converted-to.pdf>
+Package pdftex.def Info: figures/capturas/tomcatUsers-eps-converted-to.pdf  use
+d on input line 126. on input line 126.
+Package pdftex.def Info: Requested size: 330.05322pt x 37.00928pt on input line
+ 126.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[112 <./figures/capturas/AWSBD-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/capturas/tomcatXestor.eps>
+(epstopdf)                    date: 2018-06-19 00:39:51
+(epstopdf)                    size: 48516 bytes
+(epstopdf)             Output file: <figures/capturas/tomcatXestor-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2018-06-19 00:40:54
+(epstopdf)                    size: 289305 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/capturas/tomcatXes
+tor-eps-converted-to.pdf figures/capturas/tomcatXestor.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+<figures/capturas/tomcatXestor-eps-converted-to.pdf, id=2177, pagebox=cropbox, 
+726.715pt x 610.28pt>
+File: figures/capturas/tomcatXestor-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figures/capturas/tomcatXestor-eps-converted-to.pdf>
+Package pdftex.def Info: figures/capturas/tomcatXestor-eps-converted-to.pdf  us
+ed on input line 143. on input line 143.
+Package pdftex.def Info: Requested size: 371.30595pt x 311.82533pt on input lin
+e 143.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[113 <./figures/capturas/putty-eps-converted-to.pdf> <./figures/capturas/tomcat
+Users-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[114 <./figures/capturas/tomcatXestor-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/android/capturaInicio.eps>
+(epstopdf)                    date: 2018-06-19 02:34:48
+(epstopdf)                    size: 264524 bytes
+(epstopdf)             Output file: <figures/android/capturaInicio-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:12
+(epstopdf)                    size: 282801 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/capturaIni
+cio-eps-converted-to.pdf figures/android/capturaInicio.eps>
+(epstopdf)             \includegraphics on input line 183.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/capturaInicio-eps-converted-to.pdf, id=2204, pagebox=cropbox, 
+1632.0975pt x 1445.4pt>
+File: figures/android/capturaInicio-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figures/android/capturaInicio-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/capturaInicio-eps-converted-to.pdf  us
+ed on input line 183. on input line 183.
+Package pdftex.def Info: Requested size: 206.28249pt x 182.68156pt on input lin
+e 183.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[115 <./figures/android/capturaInicio-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/android/mapaEdificio.eps>
+(epstopdf)                    date: 2018-06-19 02:35:49
+(epstopdf)                    size: 617924 bytes
+(epstopdf)             Output file: <figures/android/mapaEdificio-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:14
+(epstopdf)                    size: 559310 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaEdific
+io-eps-converted-to.pdf figures/android/mapaEdificio.eps>
+(epstopdf)             \includegraphics on input line 194.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaEdificio-eps-converted-to.pdf, id=2222, pagebox=cropbox, 1
+632.0975pt x 1445.4pt>
+File: figures/android/mapaEdificio-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/android/mapaEdificio-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaEdificio-eps-converted-to.pdf  use
+d on input line 194. on input line 194.
+Package pdftex.def Info: Requested size: 206.28249pt x 182.68156pt on input lin
+e 194.
+Package epstopdf Info: Source file: <figures/android/mapaSelector.eps>
+(epstopdf)                    date: 2018-06-19 02:36:50
+(epstopdf)                    size: 793204 bytes
+(epstopdf)             Output file: <figures/android/mapaSelector-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:16
+(epstopdf)                    size: 739050 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaSelect
+or-eps-converted-to.pdf figures/android/mapaSelector.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaSelector-eps-converted-to.pdf, id=2225, pagebox=cropbox, 1
+629.08624pt x 1445.4pt>
+File: figures/android/mapaSelector-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/android/mapaSelector-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaSelector-eps-converted-to.pdf  use
+d on input line 206. on input line 206.
+Package pdftex.def Info: Requested size: 206.28249pt x 183.01239pt on input lin
+e 206.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116 <./figures/android/mapaEdificio-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/android/detallePoiPercorrido.eps>
+(epstopdf)                    date: 2018-06-19 02:35:00
+(epstopdf)                    size: 307578 bytes
+(epstopdf)             Output file: <figures/android/detallePoiPercorrido-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:18
+(epstopdf)                    size: 312332 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/detallePoi
+Percorrido-eps-converted-to.pdf figures/android/detallePoiPercorrido.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/detallePoiPercorrido-eps-converted-to.pdf, id=2235, pagebox=cr
+opbox, 1632.0975pt x 1445.4pt>
+File: figures/android/detallePoiPercorrido-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use figures/android/detallePoiPercorrido-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/detallePoiPercorrido-eps-converted-to.
+pdf  used on input line 216. on input line 216.
+Package pdftex.def Info: Requested size: 206.28249pt x 182.68156pt on input lin
+e 216.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[117 <./figures/android/mapaSelector-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/android/mapaXestorEdicion.eps>
+(epstopdf)                    date: 2018-06-19 02:37:08
+(epstopdf)                    size: 699663 bytes
+(epstopdf)             Output file: <figures/android/mapaXestorEdicion-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:20
+(epstopdf)                    size: 649896 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaXestor
+Edicion-eps-converted-to.pdf figures/android/mapaXestorEdicion.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaXestorEdicion-eps-converted-to.pdf, id=2245, pagebox=cropb
+ox, 1635.10875pt x 1445.4pt>
+File: figures/android/mapaXestorEdicion-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use figures/android/mapaXestorEdicion-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaXestorEdicion-eps-converted-to.pdf
+  used on input line 231. on input line 231.
+Package pdftex.def Info: Requested size: 206.28249pt x 182.32867pt on input lin
+e 231.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <figures/android/mapaCrearPoi.eps>
+(epstopdf)                    date: 2018-06-19 02:35:33
+(epstopdf)                    size: 395487 bytes
+(epstopdf)             Output file: <figures/android/mapaCrearPoi-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:22
+(epstopdf)                    size: 387226 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaCrearP
+oi-eps-converted-to.pdf figures/android/mapaCrearPoi.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaCrearPoi-eps-converted-to.pdf, id=2247, pagebox=cropbox, 1
+632.0975pt x 1445.4pt>
+File: figures/android/mapaCrearPoi-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/android/mapaCrearPoi-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaCrearPoi-eps-converted-to.pdf  use
+d on input line 242. on input line 242.
+Package pdftex.def Info: Requested size: 206.28249pt x 182.68156pt on input lin
+e 242.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[118 <./figures/android/detallePoiPercorrido-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/android/mapaEngadirImaxe.eps>
+(epstopdf)                    date: 2018-06-19 02:36:18
+(epstopdf)                    size: 321412 bytes
+(epstopdf)             Output file: <figures/android/mapaEngadirImaxe-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:24
+(epstopdf)                    size: 314534 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaEngadi
+rImaxe-eps-converted-to.pdf figures/android/mapaEngadirImaxe.eps>
+(epstopdf)             \includegraphics on input line 253.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaEngadirImaxe-eps-converted-to.pdf, id=2257, pagebox=cropbo
+x, 1629.08624pt x 1445.4pt>
+File: figures/android/mapaEngadirImaxe-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use figures/android/mapaEngadirImaxe-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaEngadirImaxe-eps-converted-to.pdf 
+ used on input line 253. on input line 253.
+Package pdftex.def Info: Requested size: 206.28249pt x 183.01239pt on input lin
+e 253.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <figures/android/mapaCrearPercorrido.eps>
+(epstopdf)                    date: 2018-06-19 02:35:16
+(epstopdf)                    size: 603251 bytes
+(epstopdf)             Output file: <figures/android/mapaCrearPercorrido-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:25
+(epstopdf)                    size: 576375 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaCrearP
+ercorrido-eps-converted-to.pdf figures/android/mapaCrearPercorrido.eps>
+(epstopdf)             \includegraphics on input line 264.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaCrearPercorrido-eps-converted-to.pdf, id=2259, pagebox=cro
+pbox, 1632.0975pt x 1445.4pt>
+File: figures/android/mapaCrearPercorrido-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figures/android/mapaCrearPercorrido-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaCrearPercorrido-eps-converted-to.p
+df  used on input line 264. on input line 264.
+Package pdftex.def Info: Requested size: 206.28249pt x 182.68156pt on input lin
+e 264.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[119 <./figures/android/mapaXestorEdicion-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/android/mapaEngadirPoiPercorrido.e
+ps>
+(epstopdf)                    date: 2018-06-19 02:36:33
+(epstopdf)                    size: 1092605 bytes
+(epstopdf)             Output file: <figures/android/mapaEngadirPoiPercorrido-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:27
+(epstopdf)                    size: 1010977 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaEngadi
+rPoiPercorrido-eps-converted-to.pdf figures/android/mapaEngadirPoiPercorrido.ep
+s>
+(epstopdf)             \includegraphics on input line 275.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf, id=2271, pagebo
+x=cropbox, 2445.135pt x 1445.4pt>
+File: figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaEngadirPoiPercorrido-eps-converted
+-to.pdf  used on input line 275. on input line 275.
+Package pdftex.def Info: Requested size: 247.54149pt x 146.31287pt on input lin
+e 275.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <figures/android/mapaEliminarPoiPercorrido.
+eps>
+(epstopdf)                    date: 2018-06-19 02:36:02
+(epstopdf)                    size: 496164 bytes
+(epstopdf)             Output file: <figures/android/mapaEliminarPoiPercorrido-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-19 02:38:29
+(epstopdf)                    size: 251433 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/android/mapaElimin
+arPoiPercorrido-eps-converted-to.pdf figures/android/mapaEliminarPoiPercorrido.
+eps>
+(epstopdf)             \includegraphics on input line 286.
+Package epstopdf Info: Output file is already uptodate.
+<figures/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf, id=2273, pageb
+ox=cropbox, 813.0375pt x 1445.4pt>
+File: figures/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use figures/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf>
+Package pdftex.def Info: figures/android/mapaEliminarPoiPercorrido-eps-converte
+d-to.pdf  used on input line 286. on input line 286.
+Package pdftex.def Info: Requested size: 123.77074pt x 220.02068pt on input lin
+e 286.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[120 <./figures/android/mapaCrearPoi-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[121 <./figures/android/mapaEngadirImaxe-eps-converted-to.pdf> <./figures/andro
+id/mapaCrearPercorrido-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[122 <./figures/android/mapaEngadirPoiPercorrido-eps-converted-to.pdf> <./figur
+es/android/mapaEliminarPoiPercorrido-eps-converted-to.pdf>]
 \openout2 = `apendices/localizacion.aux'.
 
- (./apendices/localizacion.tex [110
 
-
-
-]
+(./apendices/localizacion.tex
 Ap\'endice C.
 Package epstopdf Info: Source file: <figures/Capturas/dashboard.eps>
 (epstopdf)                    date: 2018-06-06 23:18:01
@@ -4886,7 +5381,7 @@ o.pdf>
 -eps-converted-to.pdf figures/Capturas/dashboard.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/dashboard-eps-converted-to.pdf, id=2076, pagebox=cropbox, 144
+<figures/Capturas/dashboard-eps-converted-to.pdf, id=2305, pagebox=cropbox, 144
 5.4pt x 813.0375pt>
 File: figures/Capturas/dashboard-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/dashboard-eps-converted-to.pdf>
@@ -4897,7 +5392,11 @@ Package pdftex.def Info: Requested size: 268.1647pt x 150.84378pt on input line
 
 Underfull \vbox (badness 7308) has occurred while \output is active []
 
- [111]
+ [123
+
+
+
+]
 Package epstopdf Info: Source file: <figures/Capturas/edificio.eps>
 (epstopdf)                    date: 2018-06-06 23:23:02
 (epstopdf)                    size: 560707 bytes
@@ -4909,7 +5408,7 @@ Package epstopdf Info: Source file: <figures/Capturas/edificio.eps>
 eps-converted-to.pdf figures/Capturas/edificio.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/edificio-eps-converted-to.pdf, id=2083, pagebox=cropbox, 1445
+<figures/Capturas/edificio-eps-converted-to.pdf, id=2312, pagebox=cropbox, 1445
 .4pt x 813.0375pt>
 File: figures/Capturas/edificio-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/edificio-eps-converted-to.pdf>
@@ -4924,7 +5423,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[112 <./figures/Capturas/dashboard-eps-converted-to.pdf>]
+[124 <./figures/Capturas/dashboard-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Capturas/mapping_tool.eps>
 (epstopdf)                    date: 2018-06-06 23:38:35
 (epstopdf)                    size: 568482 bytes
@@ -4936,7 +5435,7 @@ d-to.pdf>
 ool-eps-converted-to.pdf figures/Capturas/mapping_tool.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=2092, pagebox=cropbox, 
+<figures/Capturas/mapping_tool-eps-converted-to.pdf, id=2321, pagebox=cropbox, 
 813.0375pt x 1445.4pt>
 File: figures/Capturas/mapping_tool-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4956,7 +5455,7 @@ Package epstopdf Info: Source file: <figures/Capturas/poi.eps>
 onverted-to.pdf figures/Capturas/poi.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/poi-eps-converted-to.pdf, id=2094, pagebox=cropbox, 1445.4pt 
+<figures/Capturas/poi-eps-converted-to.pdf, id=2323, pagebox=cropbox, 1445.4pt 
 x 813.0375pt>
 File: figures/Capturas/poi-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/poi-eps-converted-to.pdf>
@@ -4974,7 +5473,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[113 <./figures/Capturas/edificio-eps-converted-to.pdf>]
+[125 <./figures/Capturas/edificio-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/Capturas/rutas.eps>
 (epstopdf)                    date: 2018-06-06 23:46:05
 (epstopdf)                    size: 576764 bytes
@@ -4986,7 +5485,7 @@ f>
 -converted-to.pdf figures/Capturas/rutas.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Capturas/rutas-eps-converted-to.pdf, id=2103, pagebox=cropbox, 1445.4p
+<figures/Capturas/rutas-eps-converted-to.pdf, id=2332, pagebox=cropbox, 1445.4p
 t x 813.0375pt>
 File: figures/Capturas/rutas-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Capturas/rutas-eps-converted-to.pdf>
@@ -5001,31 +5500,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[114]
+[126]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[115 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>]
+[127 <./figures/Capturas/mapping_tool-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[116 <./figures/Capturas/poi-eps-converted-to.pdf> <./figures/Capturas/rutas-ep
+[128 <./figures/Capturas/poi-eps-converted-to.pdf> <./figures/Capturas/rutas-ep
 s-converted-to.pdf>]
 \openout2 = `apendices/contido.aux'.
 
  (./apendices/contido.tex
 Ap\'endice D.
-) [117
+) [129
 
 
 
-] [118
+] [130
 
 
 ]
@@ -5044,7 +5543,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `PFC5_Pan_Farto.out' has not changed.
-(rerunfilecheck)             Checksum: F8A3E611EAA7157E839428C5668ABDE9;9586.
+(rerunfilecheck)             Checksum: 0A5B6A927368252A776B0DC506D9967E;9723.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -5052,27 +5551,31 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 21330 strings out of 492990
- 388988 string characters out of 6136334
- 536672 words of memory out of 5000000
- 23869 multiletter control sequences out of 15000+600000
- 79938 words of font info for 52 fonts, out of 8000000 for 9000
+ 21573 strings out of 492990
+ 395636 string characters out of 6136334
+ 538290 words of memory out of 5000000
+ 24028 multiletter control sequences out of 15000+600000
+ 84469 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,78p,1388b,1135s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2017/te
-xmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvi
-ps/lm/lm-rmsc.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb>
-<c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2017/t
-exmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/lm/lmbx9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc1
-0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2
-017/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2017/texmf-dist/font
-s/type1/public/lm/lmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lm
-ri10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on PFC5_Pan_Farto.pdf (140 pages, 4477309 bytes).
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2017
+/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{c:/texlive/2017/texmf-dist/fonts/en
+c/dvips/lm/lm-rm.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}<c:/texlive/2017/tex
+mf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2017/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx8.
+pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx9.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2017/texmf-dist/font
+s/type1/public/lm/lmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/l
+mr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2017/texmf-dist/f
+onts/type1/public/lm/lmri12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+lm/lmri8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/te
+xlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on PFC5_Pan_Farto.pdf (152 pages, 10072045 bytes).
 PDF statistics:
- 2268 PDF objects out of 2487 (max. 8388607)
- 1975 compressed objects within 20 object streams
- 423 named destinations out of 1000 (max. 500000)
- 1337 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2522 PDF objects out of 2984 (max. 8388607)
+ 2180 compressed objects within 22 object streams
+ 485 named destinations out of 1000 (max. 500000)
+ 1433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

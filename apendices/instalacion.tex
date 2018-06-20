@@ -46,13 +46,7 @@ A instalación da aplicación pode levarse a cabo a través da tenda oficial de 
 
 Non hai ningún tipo de necesidade a maiores no momento da instalación, xa que a petición de permisos necesarios para o funcionamento da aplicación solicítanse dinamicamente na súa execución.
 
-\section{Manual de usuario do servidor Caronte}
-A continuación exporemos os pasos a realizar para a configuración do noso servidor que nos permitirá a execución dos nosos servizos.
-
-\subsection{Creación da imaxe en AWS}
-O primeiro paso para poñer en funcionamento o sistema foi crear unha conta de usuario dentro de Amazon Web Services. Se non se require unha gran potencia de cálculo, disponse dun período de proba de 1 ano durante o cal é posíbel utilizar os servizos sen pagar sempre e cando non se supere un límite que en condicións normais non se pasaría. O formulario de creación de conta pódese ver na figura~\ref{fig:AWSCrear}.
-
-\begin{figure}[h]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/capturas/AWSCrear}
 		\caption{Pantalla de creación de conta en Amazon Web Services.}
@@ -60,10 +54,13 @@ O primeiro paso para poñer en funcionamento o sistema foi crear unha conta de u
 	\end{center}
 \end{figure}
 
+\section{Manual de usuario do servidor Caronte}
+A continuación exporemos os pasos a realizar para a configuración do noso servidor que nos permitirá a execución dos nosos servizos.
 
-Unha vez se crea a conta, tense acceso a múltiples servizos dentro da consola de xestión. O segundo paso sería crear unha imaxe dunha distribución Linux onde despois poder despregar o noso servizo web, como se pode ver na figura~\ref{fig:AWSImaxes}. Hai unha gran cantidade de opcións para escoller, non unicamente distribucións Linux, senón tamén imaxes de sistemas Windows. 
+\subsection{Creación da imaxe en AWS}
+O primeiro paso para poñer en funcionamento o sistema foi crear unha conta de usuario dentro de Amazon Web Services. Se non se require unha gran potencia de cálculo, disponse dun período de proba de 1 ano durante o cal é posíbel utilizar os servizos sen pagar sempre e cando non se supere un límite que en condicións normais non se pasaría. O formulario de creación de conta pódese ver na figura~\ref{fig:AWSCrear}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{figures/capturas/AWSImaxes}
 		\caption{Pantalla para a selección de imaxe en Amazon Web Services.}
@@ -71,10 +68,10 @@ Unha vez se crea a conta, tense acceso a múltiples servizos dentro da consola d
 	\end{center}
 \end{figure}
 
-\subsection{Base de datos}
-Outro paso imprescindíbel para iniciar o noso sistema é a base de datos. Amazon Web Services dispón dunha gran variedade de xestores de bases de datos entre os cales elixir, como se pode ver na imaxe~\ref{fig:AWSBD}. No noso caso, escolleuse un motor PostgreSQL.
 
-\begin{figure}[h]
+Unha vez se crea a conta, tense acceso a múltiples servizos dentro da consola de xestión. O segundo paso sería crear unha imaxe dunha distribución Linux onde despois poder despregar o noso servizo web, como se pode ver na figura~\ref{fig:AWSImaxes}. Hai unha gran cantidade de opcións para escoller, non unicamente distribucións Linux, senón tamén imaxes de sistemas Windows. 
+
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{figures/capturas/AWSBD}
 		\caption{Pantalla para a selección da base de datos en Amazon Web Services.}
@@ -82,9 +79,13 @@ Outro paso imprescindíbel para iniciar o noso sistema é a base de datos. Amazo
 	\end{center}
 \end{figure}
 
+\subsection{Base de datos}
+Outro paso imprescindíbel para iniciar o noso sistema é a base de datos. Amazon Web Services dispón dunha gran variedade de xestores de bases de datos entre os cales elixir, como se pode ver na imaxe~\ref{fig:AWSBD}. No noso caso, escolleuse un motor PostgreSQL.
+
+
+
 \subsection{Conexión coa imaxe}
 Cando se teña instalada a imaxe, debemos configurar a conexión con ela. Optouse por realizar estas conexións dende o PuTTY, un cliente telnet para Windows. A configuración da conexión coa nosa instancia de Linux está perfectamente detallada no manual de Amazon Web Services \cite{manualAWSPutty}, mais indicaremos os puntos principais para levar a cabo unha conexión exitosa:
-
 
 \begin{figure}[h]
 	\begin{center}
@@ -103,10 +104,12 @@ Cando se teña instalada a imaxe, debemos configurar a conexión con ela. Optous
 	\item Converter a chave privada con PuTTYgen.
 	\item Iniciar PuTTY.
 	\item Configurar acceso á imaxe indicando como hostname nome\_usuario@nome\_dns\_publico e porto 22.
-	\item No panel de Category -> Connection -> Auth, seleccionar a chave privada xerada por PuTTYgen.
+	\item No panel de Category - Connection - Auth, seleccionar a chave privada xerada por PuTTYgen.
 	\item Gardar a configuración.
 	\item Lanzar a conexión.
 \end{itemize}
+
+Na figura~\ref{fig:putty} pódese observar a pantalla do PuTTY coa configuración de conexión.
 
 \subsection{Instalación contedor de servlets}
 Dende a nosa imaxe Linux poderemos instalar todo tipo de paquetes mediante o comando \emph{apt-get install}. Para a instalación do contedor de servlets, optouse polo Apache Tomcat na súa versión 8. Para iniciar a instalación, execútase a seguinte sentencia:
@@ -115,8 +118,6 @@ Dende a nosa imaxe Linux poderemos instalar todo tipo de paquetes mediante o com
 sudo apt-get install tomcat8 tomcat8-docs tomcat8-admin
 \end{lstlisting}
 
-Unha vez rematada a instalación, debemos modificar o ficheiro tomcat-users.xml para restrinxir o acceso ao usuario co rol que se indica na figura~\ref{fig:tomcatUsers}.
-
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{figures/capturas/tomcatUsers}
@@ -124,6 +125,8 @@ Unha vez rematada a instalación, debemos modificar o ficheiro tomcat-users.xml 
 		\label{fig:tomcatUsers}
 	\end{center}
 \end{figure}
+
+Unha vez rematada a instalación, debemos modificar o ficheiro tomcat-users.xml para restrinxir o acceso ao usuario co rol que se indica na figura~\ref{fig:tomcatUsers}.
 
 Por último, reiniciamos o servidor:
 
@@ -218,6 +221,27 @@ Os botóns da barra de ferramentas serven para visualizar o spinner cos percorri
 \subsection{Pantallas de detalle}
 Pulsando sobre o botón que aparece á dereita dos spinners accederemos ás pantallas que se poden observar na captura~\ref{fig:detallePoiPercorrido}. Nestas actividades amósase a información gardada sobre os elementos. Na pantalla de detalles para os puntos de interese tamén se poden visualizar imaxes, se dispoñen delas. Habería que pinchar sobre o botón Ver imaxe e seleccionar a imaxe desexada de entre todas as que aparezan no menú contextual.
 
+\subsection{Guiado a POI}
+Cando o usuario se atopa dentro do edificio do cal está consulta a información e selecciona un punto de interese é posíbel solicitar á aplicación a navegación ata o lugar onde se atopa ese POI. Para realizar isto débese pinchar sobre o botón de Iniciar guiado. A continuación o sistema amosará unha varias liñas azuis formando un camiño que guía ao usuario dende a súa posición ata onde se atope o punto de interese, tal e como se observa na figura~\ref{fig:guiadoPOI}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.25\textwidth]{figures/android/guiadoPOI}
+		\caption{Guiado do usuario a un punto de interese.}
+		\label{fig:guiadoPOI}
+	\end{center}
+\end{figure}
+
+\subsection{Guiado a percorrido}
+Tamén é posíbel o guiado do usuario a través dun percorrido, estendendo a funcionalidade do punto anterior. Ao igual que acontecía co POI, cando se selecciona un percorrido aparece o botón de Iniciar guiado, co cal se pode avanzar so seguinte punto grazas ao sistema de navegación proporcionado por Situm. O camiño entre POIs que se está a realizar márcase cunha liña de puntos e o percorrido xa realizado, de cor gris. Na figura~\ref{fig:guiadoPercorrido} pódese observar esta funcionalidade.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.25\textwidth]{figures/android/guiadoPercorrido}
+		\caption{Guiado do usuario a través dun percorrido.}
+		\label{fig:guiadoPercorrido}
+	\end{center}
+\end{figure}
 
 \section{Manual de usuario da aplicación Caronte para editar contidos}
 Todo o indicado na subsección anterior é aplicábel ao xestor de contidos, máis estes usuarios poden realizar máis accións ca un usuario normal. Todos os xestores de contido teñen que autenticarse cunha conta de Google e que esa conta teña permisos sobre o edificio no que se queira engadir contido. A pantalla de inicio é igual que os usuarios normais e tamén o mapa a primeira vista, mais isto cambiará en canto accedamos a un edificio sobre o cal o usuario dispoña de permisos de xestor de contido. A continuación indicaranse cales son as accións que pode realizar e como levalas a cabo.
@@ -244,16 +268,16 @@ O primeiro paso para levar a cabo calquera tipo de acción como xestor de contid
 \subsection{Creación de POI}
 Pulsando sobre o novo icono que aparece máis á esquerda pódese crear un novo punto de interese. Haberá que situalo no mapa e despois introducir toda a información referente a el, como se pode ver na figura~\ref{fig:mapaCrearPoi}. Se en vez de crear un POI se desexa modificar a súa información poderíase acceder á pantalla de detalle, cambiar os datos desexados e pulsar sobre o botón gardar. Se o que se desexa é eliminalo, débese pulsar sobre o botón Eliminar.
 
-\begin{figure}[h]
+\subsection{Engadir imaxe a POI}
+Dende a pantalla de detalle dun POI pódense engadir imaxes pulsando sobre o botón de Subir imaxe. A aplicación ofrece dúas opcións para seleccionar a imaxe: sacar unha novo foto coa cámara ou escoller unha imaxe na galería do teléfono móbil. Estas opcións pódense ver na figura~\ref{fig:mapaEngadirImaxe}.
+
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/mapaEngadirImaxe}
 		\caption{Captura do detalle dun POI ao que se pode engadir imaxes (esquerda) e captura do menú de selección da orixe da imaxe (dereita).}
 		\label{fig:mapaEngadirImaxe}
 	\end{center}
 \end{figure}
-
-\subsection{Engadir imaxe a POI}
-Dende a pantalla de detalle dun POI pódense engadir imaxes pulsando sobre o botón de Subir imaxe. A aplicación ofrece dúas opcións para seleccionar a imaxe: sacar unha novo foto coa cámara ou escoller unha imaxe na galería do teléfono móbil. Estas opcións pódense ver na figura~\ref{fig:mapaEngadirImaxe}.
 
 \begin{figure}[h]
 	\begin{center}
@@ -266,7 +290,10 @@ Dende a pantalla de detalle dun POI pódense engadir imaxes pulsando sobre o bot
 \subsection{Creación de percorrido}
 Pulsando sobre a segunda icona de edición pódese crear un percorrido. Débense seleccionar os puntos de interese que se desexan engadir por orde. Unha vez se teñan todos seleccionados, pulsar sobre o tic na parte superior dereita e introducir toda a información referente a el, como se pode ver na figura~\ref{fig:mapaCrearPercorrido}. Se se desexa modificar a información dun percorrido poderíase acceder á pantalla de detalle, cambiar os datos desexados e pulsar sobre o botón gardar. Se o que se desexa é eliminalo, débese pulsar sobre o botón Eliminar.
 
-\begin{figure}[h]
+\subsection{Engadir ou eliminar POIs nun percorrido xa existente}
+Pódense engadir puntos de interese a un percorrido xa existente dende a pantalla principal. Bastaría con seleccionar o percorrido desexado e pulsar sobre o botón cun símbolo ``+'' para que salte a opción de engadir un novo POI ao inicio ou na fin do percorrido. Se se quere inserir un novo POI no medio do percorrido débese seleccionar a liña que une os puntos que se quere separar e a continuación, indicar o novo POI. Estas accións pódense ver na figura~\ref{fig:mapaEngadirPoiPercorrido}.
+
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{figures/android/mapaEngadirPoiPercorrido}
 		\caption{Capturas onde se pode ver un percorrido modificábel (esquerda), menú contextual despois de seleccionar o POI desexado para escoller a súa posición (centro) e POIs consecutivos entre os que se quere inserir un novo POI (dereita).}
@@ -274,8 +301,7 @@ Pulsando sobre a segunda icona de edición pódese crear un percorrido. Débense
 	\end{center}
 \end{figure}
 
-\subsection{Engadir ou eliminar POIs nun percorrido xa existente}
-Pódense engadir puntos de interese a un percorrido xa existente dende a pantalla principal. Bastaría con seleccionar o percorrido desexado e pulsar sobre o botón cun símbolo ``+'' para que salte a opción de engadir un novo POI ao inicio ou na fin do percorrido. Se se quere inserir un novo POI no medio do percorrido débese seleccionar a liña que une os puntos que se quere separar e a continuación, indicar o novo POI. Estas accións pódense ver na figura~\ref{fig:mapaEngadirPoiPercorrido}.
+Se pola contra o que se quere é quitar un punto de interese dun percorrido, debemos pinchar sobre o marcador do punto desexado e seleccionar a opción Eliminar como se pode ver na figura~\ref{fig:mapaEliminarPoiPercorrido}.
 
 \begin{figure}[h]
 	\begin{center}
@@ -284,6 +310,4 @@ Pódense engadir puntos de interese a un percorrido xa existente dende a pantall
 		\label{fig:mapaEliminarPoiPercorrido}
 	\end{center}
 \end{figure}
-
-Se pola contra o que se quere é quitar un punto de interese dun percorrido, debemos pinchar sobre o marcador do punto desexado e seleccionar a opción Eliminar como se pode ver na figura~\ref{fig:mapaEliminarPoiPercorrido}.
 

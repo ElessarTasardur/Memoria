@@ -2,7 +2,7 @@
 
 Neste apéndice detallaranse as principais fases para a instalación e posta a punto do noso sistema Caronte.
 En primeiro lugar, indicaranse os requisitos do sistema. A continuación, os pasos para a súa instalación e despregue, tanto do servidor como da aplicación Android.
-Por último, remataremos co manual do usuario e unha guía rápida de funcionamento.
+Por último, remataremos co manual do usuario e unha guía rápida de funcionamento para os tres roles que se distinguen no sistema: administrador, xestor de contido e usuario final.
 
 \section{Requisitos}
 A continuación expóñense os requisitos necesarios para a instalación do noso sistema, tanto os servizos web coa base de datos, coma a aplicación móbil.
@@ -32,6 +32,7 @@ Para poder instalar e utilizar a aplicación, requírese un dispositivo móbil q
 \end{itemize}
 
 \section{Instalación}
+A continuación describiremos os pasos principais requiridos para a instalación tanto do servidor Caronte coma da aplicación Android.
 
 \subsection{Servidor Caronte}
 Para o despregue do noso servidor, tivemos que crear unha conta en Amazon Web Services mais valería calquera outra plataforma de computación na nube na cal aloxar o noso servidor.
@@ -45,14 +46,10 @@ A instalación da aplicación pode levarse a cabo a través da tenda oficial de 
 
 Non hai ningún tipo de necesidade a maiores no momento da instalación, xa que a petición de permisos necesarios para o funcionamento da aplicación solicítanse dinamicamente na súa execución.
 
-\section{Manuais de usuario}
-Nesta sección comentaranse os manuais de usuario para os tres actores do sistema Caronte:
-administrador, xestor de contidos e usuario Android.
-
-\subsection{Administrador do sistema}
+\section{Manual de usuario do servidor Caronte}
 A continuación exporemos os pasos a realizar para a configuración do noso servidor que nos permitirá a execución dos nosos servizos.
 
-\subsubsection{Creación da imaxe en AWS}
+\subsection{Creación da imaxe en AWS}
 O primeiro paso para poñer en funcionamento o sistema foi crear unha conta de usuario dentro de Amazon Web Services. Se non se require unha gran potencia de cálculo, disponse dun período de proba de 1 ano durante o cal é posíbel utilizar os servizos sen pagar sempre e cando non se supere un límite que en condicións normais non se pasaría. O formulario de creación de conta pódese ver na figura~\ref{fig:AWSCrear}.
 
 \begin{figure}[h]
@@ -74,7 +71,7 @@ Unha vez se crea a conta, tense acceso a múltiples servizos dentro da consola d
 	\end{center}
 \end{figure}
 
-\subsubsection{Base de datos}
+\subsection{Base de datos}
 Outro paso imprescindíbel para iniciar o noso sistema é a base de datos. Amazon Web Services dispón dunha gran variedade de xestores de bases de datos entre os cales elixir, como se pode ver na imaxe~\ref{fig:AWSBD}. No noso caso, escolleuse un motor PostgreSQL.
 
 \begin{figure}[h]
@@ -85,10 +82,9 @@ Outro paso imprescindíbel para iniciar o noso sistema é a base de datos. Amazo
 	\end{center}
 \end{figure}
 
-\subsubsection{Conexión coa imaxe}
-Cando se teña instalada a imaxe, debemos configurar a conexión con ela. Optouse por realizar estas conexións dende o PuTTY, un cliente telnet para Windows. A configuración da conexión coa nosa instancia de Linux está perfectamente detallada no manual de Amazon Web Services, mais indicaremos os puntos principais para levar a cabo unha conexión exitosa:
+\subsection{Conexión coa imaxe}
+Cando se teña instalada a imaxe, debemos configurar a conexión con ela. Optouse por realizar estas conexións dende o PuTTY, un cliente telnet para Windows. A configuración da conexión coa nosa instancia de Linux está perfectamente detallada no manual de Amazon Web Services \cite{manualAWSPutty}, mais indicaremos os puntos principais para levar a cabo unha conexión exitosa:
 
-\todo{https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html}
 
 \begin{figure}[h]
 	\begin{center}
@@ -112,7 +108,7 @@ Cando se teña instalada a imaxe, debemos configurar a conexión con ela. Optous
 	\item Lanzar a conexión.
 \end{itemize}
 
-\subsubsection{Instalación contedor de servlets}
+\subsection{Instalación contedor de servlets}
 Dende a nosa imaxe Linux poderemos instalar todo tipo de paquetes mediante o comando \emph{apt-get install}. Para a instalación do contedor de servlets, optouse polo Apache Tomcat na súa versión 8. Para iniciar a instalación, execútase a seguinte sentencia:
 
 \begin{lstlisting}
@@ -135,7 +131,7 @@ Por último, reiniciamos o servidor:
 sudo systemctl restart tomcat8
 \end{lstlisting}
 
-\subsubsection{Despregue dos servizos}
+\subsection{Despregue dos servizos}
 Dende á dirección direccionImaxe:8080/manager/html pódese acceder á páxina de xestión de aplicación do Tomcat grazas ao usuario con rol manager-gui e ao contrasinal indicados en tomcat-users. Nela pódense despregar, parar ou replegar aplicacións web. Dende está ventá será dende onde subamos a nosa aplicación empaquetada en formato \emph{.war}, como se ve na imaxe~\ref{fig:tomcatXestor}. Unha vez despregada poderemos acceder aos nosos servizos.
 
 \begin{figure}[h]
@@ -147,7 +143,7 @@ Dende á dirección direccionImaxe:8080/manager/html pódese acceder á páxina 
 \end{figure}
 
 
-\subsubsection{Mantemento}
+\subsection{Mantemento}
 O administrador do sistema terá que realizar tarefas de mantemento que consistirán, basicamente, en dar de alta novos edificios en base de datos, así coma asignar contas de Situm a usuarios concretos e proporcionar o rol de xestor de contido a certos usuarios. Estas accións realízanse dende un xestor de base de datos, como pode ser o SQuirreL. Para coñecer os identificadores dos usuarios, os edificios e as contas de Situm, débese acceder ás súas táboas.
 
 Consulta e inserción de edificios:
@@ -175,24 +171,24 @@ INSERT INTO MUSEO.USUARIO_EDIFICIO (ID_USUARIO, ID_EDIFICIO, ADMINISTRADOR) VALU
 \end{lstlisting}
 
 
-\subsection{Aplicación Caronte para usuarios Android}
+\section{Manual de usuario da aplicación Caronte}
 Nesta sección explícase o funcionamento da aplicación para os usuarios sen rol de xestor de contido (que se verá no seguinte punto). Utilizaranse capturas de pantalla para unha mellor comprensión.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/capturaInicio}
-		\caption{Pantalla de inicio.}
+		\caption{Pantalla de inicio previa ao login (esquerda) e posterior (dereita).}
 		\label{fig:capturaInicio}
 	\end{center}
 \end{figure}
 
-\subsubsection{Inicio}
+\subsection{Inicio}
 É a primeira pantalla que verá un usuario que abra a aplicación. É unha vista moi sinxela que só se compón de dous botóns (autenticación con Google e acceso ao mapa) e un spinner para seleccionar a conta de Situm coa que conectarnos (ver primeira captura da figura~\ref{fig:capturaInicio}). O botón superior permite autenticarse cunha conta de Google, o que permitirá acceder a contas de Situm que teñamos asociadas en base de datos ao noso usuario, a maiores das que están marcadas como públicas. Cando un usuario está autenticado, aparece un novo botón que permite facer logout (ver segunda captura da figura~\ref{fig:capturaInicio}). Pulsando sobre o botón ACCEDER pasaremos á seguinte pantalla, que é a principal, a do mapa.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/mapaEdificio}
-		\caption{Pantalla de mapa sen edificio, e con edificio activo.}
+		\caption{Pantalla de mapa sen edificio activo (esquerda), e con edificio activo (dereita).}
 		\label{fig:mapaEdificio}
 	\end{center}
 \end{figure}
@@ -204,7 +200,7 @@ Esta é a pantalla con máis información dispoñíbel da aplicación e polo tan
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/mapaSelector}
-		\caption{Pantalla onde se amosan os selectores de POIs e percorridos.}
+		\caption{Pantalla onde se amosan os selectores de POIs (esquerda) e percorridos (dereita).}
 		\label{fig:mapaSelector}
 	\end{center}
 \end{figure}
@@ -214,7 +210,7 @@ Os botóns da barra de ferramentas serven para visualizar o spinner cos percorri
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/detallePoiPercorrido}
-		\caption{Pantallas de detalle de POIs e percorridos.}
+		\caption{Pantallas de detalle de POIs (esquerda) e percorridos (dereita).}
 		\label{fig:detallePoiPercorrido}
 	\end{center}
 \end{figure}
@@ -223,67 +219,67 @@ Os botóns da barra de ferramentas serven para visualizar o spinner cos percorri
 Pulsando sobre o botón que aparece á dereita dos spinners accederemos ás pantallas que se poden observar na captura~\ref{fig:detallePoiPercorrido}. Nestas actividades amósase a información gardada sobre os elementos. Na pantalla de detalles para os puntos de interese tamén se poden visualizar imaxes, se dispoñen delas. Habería que pinchar sobre o botón Ver imaxe e seleccionar a imaxe desexada de entre todas as que aparezan no menú contextual.
 
 
-\subsection{Aplicación Caronte para xestores de contidos}
+\section{Manual de usuario da aplicación Caronte para editar contidos}
 Todo o indicado na subsección anterior é aplicábel ao xestor de contidos, máis estes usuarios poden realizar máis accións ca un usuario normal. Todos os xestores de contido teñen que autenticarse cunha conta de Google e que esa conta teña permisos sobre o edificio no que se queira engadir contido. A pantalla de inicio é igual que os usuarios normais e tamén o mapa a primeira vista, mais isto cambiará en canto accedamos a un edificio sobre o cal o usuario dispoña de permisos de xestor de contido. A continuación indicaranse cales son as accións que pode realizar e como levalas a cabo.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.5\textwidth]{figures/android/mapaXestorEdicion}
+		\includegraphics[width=0.25\textwidth]{figures/android/mapaXestorEdicion}
 		\caption{Pantalla onde se amosan os botóns de creación de POIs e percorridos.}
 		\label{fig:mapaXestorEdicion}
 	\end{center}
 \end{figure}
 
-\subsubsection{Activación do modo edición}
+\subsection{Activación do modo edición}
 O primeiro paso para levar a cabo calquera tipo de acción como xestor de contido é a activación do modo edición dentro dun edificio. Cando se ten seleccionado un edificio sobre o que se ten permisos de xestor de contido, aparecerá na esquina inferior dereita un botón cun debuxo de lapis. Pinchando sobre el, aparecerán dous novos botóns na barra de ferramentas á esquerda dos xa visíbeis. Estes dous novos botóns serven para engadir POIs e crear novos percorridos, respectivamente. Pódense ver estes botóns na figura~\ref{fig:mapaXestorEdicion}.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/mapaCrearPoi}
-		\caption{Capturas onde se pode ver a creación dun POI.}
+		\caption{Capturas do proceso de creación dun POI, localización (esquerda) e inserción de detalles (dereita).}
 		\label{fig:mapaCrearPoi}
 	\end{center}
 \end{figure}
 
-\subsubsection{Creación de POI}
+\subsection{Creación de POI}
 Pulsando sobre o novo icono que aparece máis á esquerda pódese crear un novo punto de interese. Haberá que situalo no mapa e despois introducir toda a información referente a el, como se pode ver na figura~\ref{fig:mapaCrearPoi}. Se en vez de crear un POI se desexa modificar a súa información poderíase acceder á pantalla de detalle, cambiar os datos desexados e pulsar sobre o botón gardar. Se o que se desexa é eliminalo, débese pulsar sobre o botón Eliminar.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/mapaEngadirImaxe}
-		\caption{Capturas onde se pode ver como engadir unha imaxe a un POI.}
+		\caption{Captura do detalle dun POI ao que se pode engadir imaxes (esquerda) e captura do menú de selección da orixe da imaxe (dereita).}
 		\label{fig:mapaEngadirImaxe}
 	\end{center}
 \end{figure}
 
-\subsubsection{Engadir imaxe a POI}
+\subsection{Engadir imaxe a POI}
 Dende a pantalla de detalle dun POI pódense engadir imaxes pulsando sobre o botón de Subir imaxe. A aplicación ofrece dúas opcións para seleccionar a imaxe: sacar unha novo foto coa cámara ou escoller unha imaxe na galería do teléfono móbil. Estas opcións pódense ver na figura~\ref{fig:mapaEngadirImaxe}.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{figures/android/mapaCrearPercorrido}
-		\caption{Capturas onde se pode ver a creación dun percorrido.}
+		\caption{Capturas onde se pode ver a creación dun percorrido: selección de POIs (esquerda) e inserción de datos (dereita).}
 		\label{fig:mapaCrearPercorrido}
 	\end{center}
 \end{figure}
 
-\subsubsection{Creación de percorrido}
+\subsection{Creación de percorrido}
 Pulsando sobre a segunda icona de edición pódese crear un percorrido. Débense seleccionar os puntos de interese que se desexan engadir por orde. Unha vez se teñan todos seleccionados, pulsar sobre o tic na parte superior dereita e introducir toda a información referente a el, como se pode ver na figura~\ref{fig:mapaCrearPercorrido}. Se se desexa modificar a información dun percorrido poderíase acceder á pantalla de detalle, cambiar os datos desexados e pulsar sobre o botón gardar. Se o que se desexa é eliminalo, débese pulsar sobre o botón Eliminar.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{figures/android/mapaEngadirPoiPercorrido}
-		\caption{Capturas onde se pode ver a adición dun POI a un percorrido.}
+		\includegraphics[width=0.7\textwidth]{figures/android/mapaEngadirPoiPercorrido}
+		\caption{Capturas onde se pode ver un percorrido modificábel (esquerda), menú contextual despois de seleccionar o POI desexado para escoller a súa posición (centro) e POIs consecutivos entre os que se quere inserir un novo POI (dereita).}
 		\label{fig:mapaEngadirPoiPercorrido}
 	\end{center}
 \end{figure}
 
-\subsubsection{Engadir ou eliminar POIs nun percorrido xa existente}
-Pódense engadir puntos de interese a un percorrido xa existente dende a pantalla principal. Bastaría con seleccionar o percorrido desexado e pulsar sobre o botón cun símbolo '+' para que salte a opción de engadir un novo POI ao inicio ou na fin do percorrido. Se se quere inserir un novo POI no medio do percorrido débese seleccionar a liña que une os puntos que se quere separar e a continuación, indicar o novo POI. Estas accións pódense ver na figura~\ref{fig:mapaEngadirPoiPercorrido}.
+\subsection{Engadir ou eliminar POIs nun percorrido xa existente}
+Pódense engadir puntos de interese a un percorrido xa existente dende a pantalla principal. Bastaría con seleccionar o percorrido desexado e pulsar sobre o botón cun símbolo ``+'' para que salte a opción de engadir un novo POI ao inicio ou na fin do percorrido. Se se quere inserir un novo POI no medio do percorrido débese seleccionar a liña que une os puntos que se quere separar e a continuación, indicar o novo POI. Estas accións pódense ver na figura~\ref{fig:mapaEngadirPoiPercorrido}.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.3\textwidth]{figures/android/mapaEliminarPoiPercorrido}
+		\includegraphics[width=0.25\textwidth]{figures/android/mapaEliminarPoiPercorrido}
 		\caption{Captura onde se pode ver a eliminación dun POI dun percorrido.}
 		\label{fig:mapaEliminarPoiPercorrido}
 	\end{center}

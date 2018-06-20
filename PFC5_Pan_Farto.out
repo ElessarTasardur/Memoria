@@ -119,18 +119,29 @@
 \BOOKMARK [1][-]{section.Alph2.2}{Instalaci\363n}{appendix.Alph2}% 119
 \BOOKMARK [2][-]{subsection.Alph2.2.1}{Servidor Caronte}{section.Alph2.2}% 120
 \BOOKMARK [2][-]{subsection.Alph2.2.2}{Aplicaci\363n Android: Caronte}{section.Alph2.2}% 121
-\BOOKMARK [1][-]{section.Alph2.3}{Manuais de usuario}{appendix.Alph2}% 122
-\BOOKMARK [2][-]{subsection.Alph2.3.1}{Administrador do sistema}{section.Alph2.3}% 123
-\BOOKMARK [2][-]{subsection.Alph2.3.2}{Aplicaci\363n Caronte para usuarios Android}{section.Alph2.3}% 124
-\BOOKMARK [2][-]{subsection.Alph2.3.3}{Mapa}{section.Alph2.3}% 125
-\BOOKMARK [2][-]{subsection.Alph2.3.4}{Pantallas de detalle}{section.Alph2.3}% 126
-\BOOKMARK [2][-]{subsection.Alph2.3.5}{Aplicaci\363n Caronte para xestores de contidos}{section.Alph2.3}% 127
-\BOOKMARK [0][-]{appendix.Alph3}{Localizaci\363n en interiores de Situm}{}% 128
-\BOOKMARK [1][-]{section.Alph3.1}{Nova conta en Situm}{appendix.Alph3}% 129
-\BOOKMARK [1][-]{section.Alph3.2}{Dashboard de Situm}{appendix.Alph3}% 130
-\BOOKMARK [1][-]{section.Alph3.3}{Editar edificios en Situm}{appendix.Alph3}% 131
-\BOOKMARK [1][-]{section.Alph3.4}{Calibraci\363n de cada planta}{appendix.Alph3}% 132
-\BOOKMARK [1][-]{section.Alph3.5}{Punto de interese Situm}{appendix.Alph3}% 133
-\BOOKMARK [1][-]{section.Alph3.6}{Definici\363n de rutas}{appendix.Alph3}% 134
-\BOOKMARK [0][-]{appendix.Alph4}{Contido do DVD adxunto}{}% 135
-\BOOKMARK [0][-]{appendix.Alph4}{Bibliograf\355a}{}% 136
+\BOOKMARK [1][-]{section.Alph2.3}{Manual de usuario do servidor Caronte}{appendix.Alph2}% 122
+\BOOKMARK [2][-]{subsection.Alph2.3.1}{Creaci\363n da imaxe en AWS}{section.Alph2.3}% 123
+\BOOKMARK [2][-]{subsection.Alph2.3.2}{Base de datos}{section.Alph2.3}% 124
+\BOOKMARK [2][-]{subsection.Alph2.3.3}{Conexi\363n coa imaxe}{section.Alph2.3}% 125
+\BOOKMARK [2][-]{subsection.Alph2.3.4}{Instalaci\363n contedor de servlets}{section.Alph2.3}% 126
+\BOOKMARK [2][-]{subsection.Alph2.3.5}{Despregue dos servizos}{section.Alph2.3}% 127
+\BOOKMARK [2][-]{subsection.Alph2.3.6}{Mantemento}{section.Alph2.3}% 128
+\BOOKMARK [1][-]{section.Alph2.4}{Manual de usuario da aplicaci\363n Caronte}{appendix.Alph2}% 129
+\BOOKMARK [2][-]{subsection.Alph2.4.1}{Inicio}{section.Alph2.4}% 130
+\BOOKMARK [2][-]{subsection.Alph2.4.2}{Mapa}{section.Alph2.4}% 131
+\BOOKMARK [2][-]{subsection.Alph2.4.3}{Pantallas de detalle}{section.Alph2.4}% 132
+\BOOKMARK [1][-]{section.Alph2.5}{Manual de usuario da aplicaci\363n Caronte para editar contidos}{appendix.Alph2}% 133
+\BOOKMARK [2][-]{subsection.Alph2.5.1}{Activaci\363n do modo edici\363n}{section.Alph2.5}% 134
+\BOOKMARK [2][-]{subsection.Alph2.5.2}{Creaci\363n de POI}{section.Alph2.5}% 135
+\BOOKMARK [2][-]{subsection.Alph2.5.3}{Engadir imaxe a POI}{section.Alph2.5}% 136
+\BOOKMARK [2][-]{subsection.Alph2.5.4}{Creaci\363n de percorrido}{section.Alph2.5}% 137
+\BOOKMARK [2][-]{subsection.Alph2.5.5}{Engadir ou eliminar POIs nun percorrido xa existente}{section.Alph2.5}% 138
+\BOOKMARK [0][-]{appendix.Alph3}{Localizaci\363n en interiores de Situm}{}% 139
+\BOOKMARK [1][-]{section.Alph3.1}{Nova conta en Situm}{appendix.Alph3}% 140
+\BOOKMARK [1][-]{section.Alph3.2}{Dashboard de Situm}{appendix.Alph3}% 141
+\BOOKMARK [1][-]{section.Alph3.3}{Editar edificios en Situm}{appendix.Alph3}% 142
+\BOOKMARK [1][-]{section.Alph3.4}{Calibraci\363n de cada planta}{appendix.Alph3}% 143
+\BOOKMARK [1][-]{section.Alph3.5}{Punto de interese Situm}{appendix.Alph3}% 144
+\BOOKMARK [1][-]{section.Alph3.6}{Definici\363n de rutas}{appendix.Alph3}% 145
+\BOOKMARK [0][-]{appendix.Alph4}{Contido do DVD adxunto}{}% 146
+\BOOKMARK [0][-]{appendix.Alph4}{Bibliograf\355a}{}% 147

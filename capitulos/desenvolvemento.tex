@@ -69,7 +69,7 @@ Ao final deste sprint teremos por primeira vez unha visión xeral do que proporc
 A proba para validar as tarefas implementadas consistirá na utilización da aplicación nun edificio configurado en Situm con información sobre puntos de interese e percorridos no noso sistema.
 
 \subsection{Sprint 4: Autenticación de usuarios}
-Neste sprint tratarase a autenticación dos usuarios a través dos servizos de Google. Almacenaremos estes usuarios autenticados para establecer permisos nos distintos edificios. Tamén se permitirá a selección de contas de Situm, polo que debemos proporcionar unha lista coas contas dispoñíbeis sexan públicas ou estean asociadas ao usuario autenticado.
+Neste sprint tratarase a autenticación dos usuarios a través dos servizos de Google \cite{googleSignIn}. Almacenaremos estes usuarios autenticados para establecer permisos nos distintos edificios. Tamén se permitirá a selección de contas de Situm, polo que debemos proporcionar unha lista coas contas dispoñíbeis sexan públicas ou estean asociadas ao usuario autenticado.
 
 A continuación veremos unha relación cos casos de uso nos que se traballou neste sprint:
 
@@ -224,7 +224,7 @@ Pódense observar os custos asociados aos recursos na táboa~\ref{tab:custoPerso
 
 \paragraph{Recursos materiais}
 Podemos dividir os recursos materiais en hardware e software. Non houbo gastos referidos ao software posto que se utilizou software gratuíto na realización do proxecto, mais si que houbo gastos en canto aos recursos hardware. Houbo que realizar un desembolso polo ordenador utilizado para a programación do proxecto posto que a emulación dun terminal Android é bastante custosa e unha computadora antiga non era capaz de executalo. Tamén se inclúen nos gastos un móbil de gama media para a proba da aplicación en entornos reais. Mención aparte require a subscrición a Amazon Web Services, posto que se desfrutou dun período de proba que, non obstante, non estaría dispoñíbel unha vez a aplicación requira un maior uso de recursos por parte do servidor. Este tipo de servizos supoñen un maior custo canta máis demanda procesan, polo que en entornos reais de produción o custo aumentaría.
-Os gastos debido aos recursos materiais pódense ver na táboa~\ref{tab:custoMaterial}. Unicamente imputamos ao proxecto o custo do PC de sobremesa posto que o teléfono móbil foi utilizado para outros usos á marxe do proxecto e polo tanto, amortizado.
+Os gastos debido aos recursos materiais pódense ver na táboa~\ref{tab:custoMaterial}. Non imputamos ao proxecto o custo do PC de sobremesa nin do teléfono móbil pois ambos foron utilizados para outros usos á marxe do proxecto e polo tanto, amortizados.
 
 \begin{table} [tbh]
 	\footnotesize
@@ -233,11 +233,11 @@ Os gastos debido aos recursos materiais pódense ver na táboa~\ref{tab:custoMat
 		\hline 
 		\textbf{Recurso} & \textbf{Custo} & \textbf{Imputado ao proxecto} \\ 
 		\hline 
-		PC sobremesa & 860 € & 860 € \\ 
+		PC sobremesa & 860 € & 0 € \\ 
 		\hline 
 		Teléfono móbil & 440 € & 0 € \\ 
 		\hline 
-		\multicolumn{2}{ |l| }{Total} & 860 € \\ 
+		\multicolumn{2}{ |l| }{Total} & 0 € \\ 
 		\hline 
 	\end{tabular}
 	\caption{Custos en recursos materiais.}
@@ -257,9 +257,9 @@ Despois de analizar os custos en recursos humanos e materiais podemos establecer
 		\hline 
 		Recursos humanos & 14517 € \\ 
 		\hline 
-		Recursos materiais & 860 € \\ 
+		Recursos materiais & 0 € \\ 
 		\hline 
-		Total & 15377 € \\ 
+		Total & 14517 € \\ 
 		\hline 
 	\end{tabular}
 	\caption{Custos totais estimados.}
@@ -337,7 +337,7 @@ A continuación expóñense os problemas ocorridos durante o proxecto a como se 
 	\item Sprint 1: A pesar de telo presente na planificación, houbo que incrementar levemente o tempo adicado a esta iteración por mor da pouca destreza do programador nun entorno novo para el como é Android e tamén pola integración da aplicación con Google Maps. A representación dos mapas de interiores proporcionados por Situm foi outro dos puntos que afectou negativamente á planificación, mentres que o tratamento da posición e a posta en marcha da SDK de Situm foi bastante sinxela polo que contrarrestou o efecto da visualización dos mapas.
 	\item Sprint 2: Esta iteración levouse a cabo no tempo estimado posto que o programador xa estaba afeito a este tipo de traballo.
 	\item Sprint 3: A pesar do crítico deste paso, non se rexistrou unha demora na súa realización.
-	\item Sprint 4: Con esta iteración non houbo ningún problema ata o momento de publicar a aplicación na tenda de Google Play, xa que houbo que reconfigurar Google Play Services por culpa do cifrado da aplicación. Non foi ata esta reconfiguración cando se puido realizar correctamente unha autenticación na aplicación descargada dende Google Play. Ao inicio descoñecíase o motivo polo cal non se permitía esta acción, o que provocou un aumento considerábel da duración do sprint.
+	\item Sprint 4: Con esta iteración non houbo ningún problema ata o momento de publicar a aplicación na tenda de Google Play \cite{googlePlayStore}, xa que houbo que reconfigurar Google Play Services por culpa do cifrado da aplicación. Non foi ata esta reconfiguración cando se puido realizar correctamente unha autenticación na aplicación descargada dende Google Play. Ao inicio descoñecíase o motivo polo cal non se permitía esta acción, o que provocou un aumento considerábel da duración do sprint.
 	\item Sprint 5: A pesar de ser a iteración con máis contido dentro da planificación, non supuxo un problema a súa implementación posto que xa se avanzara o suficiente no proxecto como para estar cómodo no novo entorno e os casos de uso realizados non eran especialmente complexos.
 	\item Sprint 6: Non houbo problemas inesperados nesta iteración.
 	\item Sprint 7: O envío e recepción de imaxes a través do dispositivo móbil foi máis problemático do inicialmente esperado. A parte do servidor foi segundo o estimado xa que se puido validar a través da ferramenta Postman mais non así a integración coa aplicación móbil.
@@ -412,9 +412,9 @@ Finalmente, súmanse os custos en recursos humanos calculados despois da finaliz
 		\hline 
 		Recursos humanos & 15656 € \\ 
 		\hline 
-		Recursos materiais & 860 € \\ 
+		Recursos materiais & 0 € \\ 
 		\hline 
-		Total & 16516 € \\ 
+		Total & 15656 € \\ 
 		\hline 
 	\end{tabular}
 	\caption{Custos totais unha vez finalizado o proxecto.}

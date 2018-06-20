@@ -23,7 +23,8 @@
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Exemplo dunha resposta do servizo web.}}{61}{figure.7.6}
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Exemplo dunha cabeceira REST securizada.}}{61}{figure.7.7}
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Diagrama de secuencia da autenticaci\IeC {\'o}n a trav\IeC {\'e}s de Google.}}{62}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Chave para o acceso a Google Maps.}}{65}{figure.7.9}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Diagrama de fluxo da aplicaci\IeC {\'o}n dende a pantalla de login ao resto de vistas.}}{64}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Chave para o acceso a Google Maps.}}{66}{figure.7.10}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Configuraci\IeC {\'o}n da base de datos no ficheiro XML.}}{70}{figure.8.1}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces Clase de implementaci\IeC {\'o}n dun DAO.}}{70}{figure.8.2}
@@ -39,44 +40,44 @@
 \contentsline {figure}{\numberline {8.12}{\ignorespaces Exemplo de m\IeC {\'e}todo Get con par\IeC {\'a}metro do servizo.}}{74}{figure.8.12}
 \contentsline {figure}{\numberline {8.13}{\ignorespaces Exemplo de m\IeC {\'e}todo Post do servizo.}}{74}{figure.8.13}
 \contentsline {figure}{\numberline {8.14}{\ignorespaces Exemplo de m\IeC {\'e}todo Delete do servizo.}}{75}{figure.8.14}
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Configuraci\IeC {\'o}n da autenticaci\IeC {\'o}n b\IeC {\'a}sica no servidor.}}{76}{figure.8.15}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Configuraci\IeC {\'o}n da autenticaci\IeC {\'o}n b\IeC {\'a}sica no servidor.}}{75}{figure.8.15}
 \contentsline {figure}{\numberline {8.16}{\ignorespaces Permisos necesarios na aplicaci\IeC {\'o}n Android.}}{76}{figure.8.16}
 \contentsline {figure}{\numberline {8.17}{\ignorespaces Comprobaci\IeC {\'o}n e solicitude de permisos necesarios na aplicaci\IeC {\'o}n Android.}}{77}{figure.8.17}
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Inicializaci\IeC {\'o}n do SDK de Situm.}}{78}{figure.8.18}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Inicializaci\IeC {\'o}n do SDK de Situm.}}{77}{figure.8.18}
 \contentsline {figure}{\numberline {8.19}{\ignorespaces Creaci\IeC {\'o}n do location manager de Situm.}}{78}{figure.8.19}
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Activaci\IeC {\'o}n do posicionamento de Situm.}}{79}{figure.8.20}
-\contentsline {figure}{\numberline {8.21}{\ignorespaces Chamada para a recuperaci\IeC {\'o}n dos niveis dun edificio en Situm.}}{80}{figure.8.21}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Activaci\IeC {\'o}n do posicionamento de Situm.}}{78}{figure.8.20}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Chamada para a recuperaci\IeC {\'o}n dos niveis dun edificio en Situm.}}{79}{figure.8.21}
 \contentsline {figure}{\numberline {8.22}{\ignorespaces Construci\IeC {\'o}n dunha clase de acceso ao servidor de Caronte.}}{80}{figure.8.22}
 \contentsline {figure}{\numberline {8.23}{\ignorespaces M\IeC {\'e}todo para a realizaci\IeC {\'o}n dunha chamada ao servidor de Caronte.}}{81}{figure.8.23}
-\contentsline {figure}{\numberline {8.24}{\ignorespaces M\IeC {\'e}todo para o tratamento de datos devoltos por unha chamada ao servidor de Caronte.}}{82}{figure.8.24}
-\contentsline {figure}{\numberline {8.25}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n.}}{83}{figure.8.25}
-\contentsline {figure}{\numberline {8.26}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (2).}}{84}{figure.8.26}
-\contentsline {figure}{\numberline {8.27}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (e 3).}}{85}{figure.8.27}
+\contentsline {figure}{\numberline {8.24}{\ignorespaces M\IeC {\'e}todo para o tratamento de datos devoltos por unha chamada ao servidor de Caronte.}}{81}{figure.8.24}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n.}}{82}{figure.8.25}
+\contentsline {figure}{\numberline {8.26}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (2).}}{83}{figure.8.26}
+\contentsline {figure}{\numberline {8.27}{\ignorespaces C\IeC {\'o}digo para a autenticaci\IeC {\'o}n con Google na aplicaci\IeC {\'o}n (e 3).}}{84}{figure.8.27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Pantalla coas incidencias na consola de Google Play.}}{88}{figure.9.1}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Pantalla coas incidencias na consola de Google Play.}}{86}{figure.9.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Pantalla de creaci\IeC {\'o}n de conta en Amazon Web Services.}}{112}{figure.Alph2.1}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Pantalla para a selecci\IeC {\'o}n de imaxe en Amazon Web Services.}}{113}{figure.Alph2.2}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Pantalla para a selecci\IeC {\'o}n da base de datos en Amazon Web Services.}}{114}{figure.Alph2.3}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Configuraci\IeC {\'o}n da conexi\IeC {\'o}n con PuTTY.}}{115}{figure.Alph2.4}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Configuraci\IeC {\'o}n do ficheiro tomcat-users.xml.}}{115}{figure.Alph2.5}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces P\IeC {\'a}xina de xesti\IeC {\'o}n das aplicaci\IeC {\'o}ns do Tomcat.}}{116}{figure.Alph2.6}
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Pantalla de inicio.}}{117}{figure.Alph2.7}
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Pantalla de mapa sen edificio, e con edificio activo.}}{118}{figure.Alph2.8}
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Pantalla onde se amosan os selectores de POIs e percorridos.}}{119}{figure.Alph2.9}
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Pantallas de detalle de POIs e percorridos.}}{120}{figure.Alph2.10}
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Pantalla onde se amosan os bot\IeC {\'o}ns de creaci\IeC {\'o}n de POIs e percorridos.}}{121}{figure.Alph2.11}
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Capturas onde se pode ver a creaci\IeC {\'o}n dun POI.}}{122}{figure.Alph2.12}
-\contentsline {figure}{\numberline {B.13}{\ignorespaces Capturas onde se pode ver como engadir unha imaxe a un POI.}}{123}{figure.Alph2.13}
-\contentsline {figure}{\numberline {B.14}{\ignorespaces Capturas onde se pode ver a creaci\IeC {\'o}n dun percorrido.}}{123}{figure.Alph2.14}
-\contentsline {figure}{\numberline {B.15}{\ignorespaces Capturas onde se pode ver a adici\IeC {\'o}n dun POI a un percorrido.}}{124}{figure.Alph2.15}
-\contentsline {figure}{\numberline {B.16}{\ignorespaces Captura onde se pode ver a eliminaci\IeC {\'o}n dun POI dun percorrido.}}{124}{figure.Alph2.16}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Pantalla de creaci\IeC {\'o}n de conta en Amazon Web Services.}}{110}{figure.Alph2.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Pantalla para a selecci\IeC {\'o}n de imaxe en Amazon Web Services.}}{111}{figure.Alph2.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Pantalla para a selecci\IeC {\'o}n da base de datos en Amazon Web Services.}}{112}{figure.Alph2.3}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Configuraci\IeC {\'o}n da conexi\IeC {\'o}n con PuTTY.}}{113}{figure.Alph2.4}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Configuraci\IeC {\'o}n do ficheiro tomcat-users.xml.}}{113}{figure.Alph2.5}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces P\IeC {\'a}xina de xesti\IeC {\'o}n das aplicaci\IeC {\'o}ns do Tomcat.}}{114}{figure.Alph2.6}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Pantalla de inicio previa ao login (esquerda) e posterior (dereita).}}{115}{figure.Alph2.7}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Pantalla de mapa sen edificio activo (esquerda), e con edificio activo (dereita).}}{116}{figure.Alph2.8}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Pantalla onde se amosan os selectores de POIs (esquerda) e percorridos (dereita).}}{117}{figure.Alph2.9}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Pantallas de detalle de POIs (esquerda) e percorridos (dereita).}}{118}{figure.Alph2.10}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Pantalla onde se amosan os bot\IeC {\'o}ns de creaci\IeC {\'o}n de POIs e percorridos.}}{119}{figure.Alph2.11}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Capturas do proceso de creaci\IeC {\'o}n dun POI, localizaci\IeC {\'o}n (esquerda) e inserci\IeC {\'o}n de detalles (dereita).}}{120}{figure.Alph2.12}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Captura do detalle dun POI ao que se pode engadir imaxes (esquerda) e captura do men\IeC {\'u} de selecci\IeC {\'o}n da orixe da imaxe (dereita).}}{121}{figure.Alph2.13}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces Capturas onde se pode ver a creaci\IeC {\'o}n dun percorrido: selecci\IeC {\'o}n de POIs (esquerda) e inserci\IeC {\'o}n de datos (dereita).}}{121}{figure.Alph2.14}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces Capturas onde se pode ver un percorrido modific\IeC {\'a}bel (esquerda), men\IeC {\'u} contextual despois de seleccionar o POI desexado para escoller a s\IeC {\'u}a posici\IeC {\'o}n (centro) e POIs consecutivos entre os que se quere inserir un novo POI (dereita).}}{122}{figure.Alph2.15}
+\contentsline {figure}{\numberline {B.16}{\ignorespaces Captura onde se pode ver a eliminaci\IeC {\'o}n dun POI dun percorrido.}}{122}{figure.Alph2.16}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Vista inicial do dashboard de Situm.}}{126}{figure.Alph3.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Vista de modificaci\IeC {\'o}n dun edificio.}}{127}{figure.Alph3.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Aplicaci\IeC {\'o}n de calibraci\IeC {\'o}n: Situm Mapping Tool.}}{129}{figure.Alph3.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Proceso de creaci\IeC {\'o}n de POIs en Situm.}}{130}{figure.Alph3.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Proceso de creaci\IeC {\'o}n de rutas.}}{130}{figure.Alph3.5}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Vista inicial do dashboard de Situm.}}{124}{figure.Alph3.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Vista de modificaci\IeC {\'o}n dun edificio.}}{125}{figure.Alph3.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Aplicaci\IeC {\'o}n de calibraci\IeC {\'o}n: Situm Mapping Tool.}}{125}{figure.Alph3.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Proceso de creaci\IeC {\'o}n de POIs en Situm.}}{126}{figure.Alph3.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Proceso de creaci\IeC {\'o}n de rutas.}}{127}{figure.Alph3.5}
 \addvspace {10\p@ }

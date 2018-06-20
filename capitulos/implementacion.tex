@@ -10,7 +10,7 @@ A autenticación con Google terá a súa propia sección ao final do capítulo.
 
 
 \subsection{Acceso á base de datos}
-Para o acceso á base de datos utilizouse directamente JDBC sen facer uso de ningunha ferramenta de mapeo obxecto-relacional como pode ser Hibernate. Escolleuse esta opción por ser un sistema sen moita complexidade á hora de gardar ou eliminar rexistros en base de datos e cun número de táboas non moi alto. En sistemas pequenos non se aproveitan os beneficios que poden ter estas ferramentas e desta maneira afórrase a súa configuración.
+Para o acceso á base de datos utilizouse directamente JDBC sen facer uso de ningunha ferramenta de mapeo obxecto-relacional como pode ser Hibernate \cite{hibernate}. Escolleuse esta opción por ser un sistema sen moita complexidade á hora de gardar ou eliminar rexistros en base de datos e cun número de táboas non moi alto. En sistemas pequenos non se aproveitan os beneficios que poden ter estas ferramentas e desta maneira afórrase a súa configuración.
 
 \begin{figure}[tbh] 
 	\begin{center}
@@ -86,7 +86,8 @@ Por último, amosar como se levaría a cabo unha sentencia de inserción ou modi
 \subsection{Transaccionalidade}
 A xestión transaccionalidade impleméntase na capa Manager utilizando o framework Spring, grazas á súa librería spring-tx. A súa configuración e utilización é moi sinxela, tal e como se pode observar nos exemplos. No primeiro amósase a configuración que require nos ficheiros XML de Spring. Para indicar a transaccionalidade, utilizaremos etiquetas que permitan identificar o tipo de transacción que queremos que se aplique en cada método público do manager. Non todos os métodos provocan escrituras en base de datos, polo que non será necesario indicar o tipo de transaccionalidade que provoca desfacer cambios en todos eles. O resto marcaranse como de só lectura para non sobrecargar innecesariamente o sistema.
 
-Na figura~\ref{fig:transaccionConfiguracion} pódese observar a configuración da transaccionalidade nos ficheiros XML.
+Nas figuras~\ref{fig:transaccionConfiguracion}, \ref{fig:metodoTransaccional} e \ref{fig:metodoNonTransaccional} pódese ver como se configuran as transaccións no sistema.
+
 
 \begin{figure}[tbh] 
 	\begin{center}
@@ -96,9 +97,6 @@ Na figura~\ref{fig:transaccionConfiguracion} pódese observar a configuración d
 	\end{center}
 \end{figure}
 
-
-Na figura~\ref{fig:metodoTransaccional} pódese observar a configuración da transaccionalidade sobre un método no que se modifican datos.
-
 \begin{figure}[tbh] 
 	\begin{center}
 		\includegraphics[width=1\textwidth]{figures/codigo/metodoTransaccional}
@@ -106,8 +104,6 @@ Na figura~\ref{fig:metodoTransaccional} pódese observar a configuración da tra
 		\label{fig:metodoTransaccional}
 	\end{center}
 \end{figure}
-
-Na figura~\ref{fig:metodoNonTransaccional} pódese observar a configuración da transaccionalidade sobre un método de só lectura.
 
 \begin{figure}[tbh] 
 	\begin{center}
@@ -180,7 +176,7 @@ Como se pode observar na figura, securízanse as chamadas GET, DELETE, POST e PU
 Nesta sección trataranse os aspectos máis importantes da implementación na aplicación Android.
 
 \subsection{Solicitude de permisos}
-A aplicación Android require de certos permisos para o seu correcto funcionamento. Actualmente non é preciso aceptar o uso destes permisos na propia instalación do APK, senón que se permite a solicitude individual dentro da aplicación, cando se precisan por primeira vez. Os permisos solicitados pola aplicación débense indicar no AndroidManifest.xml e pódense ver na figura~\ref{fig:permisos}.
+A aplicación Android require de certos permisos para o seu correcto funcionamento. Actualmente non é preciso aceptar o uso destes permisos na propia instalación do APK, senón que se permite a solicitude individual dentro da aplicación, cando se precisan por primeira vez \cite{androidSolicitudePermisos}. Os permisos solicitados pola aplicación débense indicar no AndroidManifest.xml e pódense ver na figura~\ref{fig:permisos}.
 
 \begin{figure}[htb] 
 	\begin{center}
@@ -202,10 +198,9 @@ Non faría falla indicar a solicitude do permiso para o acceso a internet nas ve
 
 Antes da realización de calquera acción que requira permisos especiais é obrigatorio comprobar se a aplicación ten acceso a ese permiso, xa que o usuario pode revocalo en calquera momento. No caso de que non o teña, aparecerá un diálogo na pantalla que pregunte ao usuario se desexa permitir esa acción. Se acepta, continuará a execución sen problema, se non o acepta e o permiso era imprescindíbel, a aplicación deixará de funcionar. A comprobación e solicitude dos permisos realízanse mediante chamadas específicas proporcionadas polas propias librerías de Android, polo que apenas require esforzo por parte do programador. Un exemplo de código pódese ver na figura~\ref{fig:solicitudePermisos}.
 
-\todo{https://developer.android.com/training/permissions/requesting?hl=es-419}
 
 \subsection{Acceso a Situm}
-Neste punto revisarase a configuración dos servizos de Situm e por outra parte, a solicitude de información sobre os edificios.
+Neste punto revisarase a configuración dos servizos de Situm \cite{situmGuiaRapida} e por outra parte, a solicitude de información sobre os edificios.
 
 \subsubsection{Configuración da localización}
 O primeiro paso para configurar o acceso a Situm é engadir a dependencia coa súa librería tal e como se indicou na sección de deseño. Unha vez se ten esa dependencia, pódese facer uso de certas clases e métodos para poder acceder aos servizos de Situm.
@@ -306,14 +301,8 @@ Para poder facer uso dos datos recibidos, existe outro método nestas clases de 
 \section{Autenticación}
 Neste punto verase o proceso de autenticación en máis profundidade, revisando as diferentes chamadas necesarias tanto dende a aplicacion Android coma dende o servidor contra os servizos de Google para verificar a identidade do usuario.
 
-O primeiro punto a ter en conta é a configuración necesaria para permitir a autenticación dende a aplicación. Débese incluír a dependencia con \emph{'com.google.android.gms:play-services-auth:12.0.1'} no build.gradle a nivel de aplicación e incluír o ficheiro google-services.json específico de Caronte que se pode conseguir despois de dar de alta o proxecto na consola de desenvolvemento de Google. Dende esta mesma consola pódense conseguir as credenciais que permiten a conexión cos servizos de Google que utilizaremos a continuación, na conexión dende a aplicación Android e dende o servidor.
+O primeiro punto a ter en conta é a configuración necesaria para permitir a autenticación dende a aplicación. Débese incluír a dependencia con \emph{'com.google.android.gms:play-services-auth:12.0.1'} no build.gradle a nivel de aplicación e incluír o ficheiro google-services.json específico de Caronte que se pode conseguir despois de dar de alta o proxecto na consola de desenvolvemento de Google \cite{consolaDesenvolvedorGoogle}. Dende esta mesma consola pódense conseguir as credenciais que permiten a conexión cos servizos de Google que utilizaremos a continuación, na conexión dende a aplicación Android e dende o servidor.
 
-
-\todo{https://console.developers.google.com/apis/credentials}
-
-\todo{incluir referencia a https://developers.google.com/identity/sign-in/android/start-integrating}
-
-\todo{https://developers.google.com/android/guides/client-auth}
 
 \begin{figure}[htb] 
 	\begin{center}
@@ -345,7 +334,4 @@ O seguinte paso será o tratamento da información recibida cando a actividade l
 
 Na figura~\ref{fig:autenticacionGoogleServidor} pódese ver o código do servidor co cal se verifica a conta coa que se acaba de autenticar o usuario. Utilízase a clase GoogleIdTokenVerifier para verificar o token recibido na aplicación Android. Se o token é válido, devólvese a información do usuario xunto cos seus roles á aplicación Android, se ten algún. Se é a primeira vez que o usuario accede ao sistema, gardarase a súa conta na base de datos.
 
-Para que funcione a autenticación desde unha aplicación descargada de Google Play débese incluír a chave do certificado co que se firma a aplicación na consola para desenvolvedores de Google.
-
-\todo{Para publicar a aplicación na Play Store}
-\todo{https://developer.android.com/studio/publish/app-signing}
+Para que funcione a autenticación desde unha aplicación descargada de Google Play débese incluír a chave do certificado co que se firma a aplicación \cite{firmaAplicacion} na consola para desenvolvedores de Google.

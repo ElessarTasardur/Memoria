@@ -197,7 +197,7 @@ Ningunha aplicación está libre de que se produza algún erro na súa execució
 \begin{table} [tbh]
 	\footnotesize
 	\centering
-	\begin{tabular}{|l|p{6cm}|p{6cm}|}
+	\begin{tabular}{|l|p{5cm}|p{7cm}|}
 		\hline 
 		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
 		\hline 
@@ -232,7 +232,7 @@ Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos
 \begin{table} [!h]
 	\footnotesize
 	\centering
-	\begin{tabular}{|l|p{6cm}|p{6cm}|}
+	\begin{tabular}{|l|p{5cm}|p{7cm}|}
 		\hline 
 		\textbf{Método}	& \textbf{Dirección} & \textbf{Descrición} \\ 
 		\hline 
@@ -260,7 +260,7 @@ Nas táboas poden observarse todas as chamadas dispoñíbeis dentro dos servizos
 		\hline 
 		DELETE & /poi/eliminar/(idPoi) & Elimina un POI con id=(idPoi). Devolve un valor indicando o éxito \\ 
 		\hline 
-		GET & /imaxe/recuperar/(listaIdImaxeCSV) & Recupera a información dunha lista de imaxes en CSV \\ 
+		GET & /imaxe/recuperar/(IdImaxeCSV) & Recupera a información dunha lista de imaxes en CSV \\ 
 		\hline 
 	\end{tabular}
 	\caption{Descricións da API Rest para o tratamento da información xeral.}
@@ -288,9 +288,9 @@ O intercambio de datos entre a aplicación Android e o servidor faise en formato
 
 En ambas figuras obsérvase a estrutura que caracteriza este formato de intercambio de datos. Outra das cuestións que nos permite observar é que a súa estrutura non coincide coa utilizada en base de datos, xa que as necesidades da aplicación non teñen por que coincidir coas decisións tomadas á hora de definir as táboas de base de datos. É por iso que se observa a agrupación da información sobre a localización física dos POIs nunha etiqueta chamada posición, que non coincide coa maneira de gardar eses valores en BD. A maiores tamén se inclúen os identificadores das imaxes almacenadas sobre cada POI, para simplificar a recuperación das imaxes na aplicación.
 
-Para realizar a chamada ao servidor utilízase a librería spring-android-rest-template, que é o cliente para aplicacións Android de Spring que permite a realización de chamadas REST. Na sección de implementación describiranse exemplos da utilización desta librería.
+Para realizar a chamada ao servidor utilízase a librería spring-android-rest-template, que é o cliente para aplicacións Android de Spring \cite{springAndroid} que permite a realización de chamadas REST. Na sección de implementación describiranse exemplos da utilización desta librería.
 
-Na parte do servidor tamén se utiliza Spring mediante a librería spring-mvc, que se encarga de converter automaticamente as clases a formato JSON. Para isto débese incluir a dependencia de jackson-databind e indicar nas chamadas as etiquetas \lstinline{@RequestBody} e \lstinline{@ResponseBody}. Igual que para as chamadas dende Android, na sección de implementación amosarase algún exemplo desta configuración.
+Na parte do servidor tamén se utiliza Spring \cite{spring} mediante a librería spring-mvc, que se encarga de converter automaticamente as clases a formato JSON. Para isto débese incluir a dependencia de jackson-databind e indicar nas chamadas as etiquetas \lstinline{@RequestBody} e \lstinline{@ResponseBody}. Igual que para as chamadas dende Android, na sección de implementación amosarase algún exemplo desta configuración.
 
 \subsection{Securización das comunicacións}
 Tal e como se indicou no capítulo de conceptos teóricos, os servizos REST non teñen estado, polo que non se garda información ningunha entre peticións. É por isto que en cada petición se debe enviar toda a información para que se poida procesar, o que inclúe a información de securización.
@@ -328,6 +328,14 @@ Escolleuse unha única aplicación tanto para a consulta como para a edición pa
 
 Procurouse realizar un deseño moi visual mediante a utilización de moitos botóns con imaxes na actividade do mapa para un mellor aproveitamento do espazo e un estilo máis clásico no resto de actividades que resultase menos rechamante pero máis cómodo. As cores principais da aplicación son o azul escuro sobre fondos brancos e maxenta coma cor secundaria.
 
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{figures/Capturas/fluxoAplicacion}
+		\caption{Diagrama de fluxo da aplicación dende a pantalla de login ao resto de vistas.}
+		\label{fig:fluxoAplicacion}
+	\end{center}
+\end{figure}
+
 A estrutura de paquetes da aplicación é moi simple, separando as clases en cinco paquetes principais con base \emph{gal.caronte}:
 
 \begin{itemize}
@@ -343,15 +351,9 @@ Unha das primeiras decisións á hora de crear unha aplicación Android débese 
 
 A aplicación non ten un gran número de actividades debido a que case toda a lóxica recae sobre a actividade que contén o mapa e que supón o centro de toda actividade realizada na aplicación. A continuación describimos cada unha das actividades creadas.
 
-\todo{Preciso varias capturas e realizar unha navegación entre elas}
-
 A actividade inicial permite a autenticación a través de Google e a selección da conta de Situm utilizada que permitirá o acceso a certos edificios. As contas dispoñíbeis estarán restrinxidas en base á conta coa que se autentique o usuario, polo que non sempre se verán as mesmas. Hai algunhas que son públicas polo que estarán dispoñíbeis para todos os usuarios da aplicación. Se o usuario se autentica a través de Google pode dispoñer de permisos de xestor de contidos dentro dalgún edificio, polo que disporá de máis opcións no resto de actividades.
 
-\textit{The \LaTeX\ Companion}
-\cite{latexcompanion}
 
-
-\todo{https://developers.google.com/maps/documentation/android-sdk/signup}
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{figures/codigo/chaveGoogleMaps}
@@ -360,7 +362,7 @@ A actividade inicial permite a autenticación a través de Google e a selección
 	\end{center}
 \end{figure}
 
-A actividade na que se sitúa o mapa, como xa comentamos, é a principal, e ten por nome MapaActivity. O fragmento de Google Maps que amosa o noso mapa modificado atópase nesta actividade. Para poder utilizar Google Maps na aplicación houbo que activar unha chave na consola de Google Cloud e incluíla no \emph{AndroidManifest}. Esta chave pódese observar na figura~\ref{fig:chaveGoogleMaps}. É a pantalla na que o usuario pasará máis tempo e onde se require amosar maior información, polo que tamén é a máis complexa. A maioría das accións levadas a cabo sobre a aplicación se realizarán sobre esta actividade, como a de visualizar puntos de interese e percorridos. Se o usuario dispón de permisos de xestor de contidos dentro dun edificio, habilitarase o botón de edición que lle permitirá crear, modificar e eliminar puntos de interese e percorridos a través de novos botóns na barra principal da aplicación.
+A actividade na que se sitúa o mapa, como xa comentamos, é a principal, e ten por nome MapaActivity. O fragmento de Google Maps que amosa o noso mapa modificado atópase nesta actividade. Para poder utilizar Google Maps na aplicación houbo que activar unha chave na consola de Google Cloud \cite{chaveGoogleMaps} e incluíla no \emph{AndroidManifest}. Esta chave pódese observar na figura~\ref{fig:chaveGoogleMaps}. É a pantalla na que o usuario pasará máis tempo e onde se require amosar maior información, polo que tamén é a máis complexa. A maioría das accións levadas a cabo sobre a aplicación se realizarán sobre esta actividade, como a de visualizar puntos de interese e percorridos. Se o usuario dispón de permisos de xestor de contidos dentro dun edificio, habilitarase o botón de edición que lle permitirá crear, modificar e eliminar puntos de interese e percorridos a través de novos botóns na barra principal da aplicación.
 
 Creáronse unha serie de actividades dirixidas a amosar certa información dos puntos de interese e percorridos dos edificios cunha estrutura semellante: DetallePoiActivity e DetallePercorridoActivity. Nelas obsérvanse os datos propios deses elementos, permitindo a súa modificación e borrado nos xa existentes, e tamén a súa creación no caso de non existir previamente se o usuario ten permisos para realizar esas accións (xestor de contido).
 
@@ -384,7 +386,7 @@ Todo acceso realizado sobre o sistema de Situm prodúcese dende a aplicación m�
 
 No paquete gal.caronte.servizo.situm atópanse as clases que realizan as chamadas aos servidores de Situm. Cada chamada permitida a Situm realízase dende unha clase distinta, igual que se fixo coas comunicacións co servidor propio, para desta maneira identificar mellor que se fai dentro de cada unha delas.
 
-Utilízase a librería proporcionada por Situm para realizar as chamadas. O acceso a esta librería indícase no ficheiro \emph{build.gradle} onde se fai referencia á dependencia \emph{es.situm:situm-sdk:2.9.0@aar}. No apartado de implementación explicarase a realización das solicitudes a Situm.
+Utilízase a librería proporcionada por Situm para realizar as chamadas \cite{situmDevelopers}. O acceso a esta librería indícase no ficheiro \emph{build.gradle} onde se fai referencia á dependencia \emph{es.situm:situm-sdk:2.9.0@aar}. No apartado de implementación explicarase a realización das solicitudes a Situm.
 
 \subsection{Permisos necesarios}
 A inmensa maioría de aplicacións en Android precisan dunha lista concreta de permisos que son necesarios para unha correcta execución ou para obter unha experiencia completa. Actualmente non se require a aceptación dos permisos na instalación, senón que poden concederse individualmente durante a execución da mesma.

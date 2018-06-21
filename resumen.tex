@@ -1,15 +1,15 @@
 \chapter*{Resumo}
 
-Poucos elementos tecnolóxicos entraron máis rápido na vida cotiá da xente que os teléfonos móbiles intelixentes, conseguindo facerse indispensábeis nun curto espazo de tempo. Son moitas as aplicacións que teñen no día a día das persoas, chegando a substituír por completo os elementos máis tradicionais cos que se levaban a cabo anteriormente. Entre estas aplicacións encóntrase a xeolocalización. Grazas a tecnoloxías coma o GPS (Global Positioning System) é posíbel situar un dispositivo en calquera punto do planeta cunha pequena marxe de erro, permitindo non só a localización dun elemento senón a indicación de rutas entre dous puntos.
+Neste proxecto desenvolvemos o sistema Caronte para o guiado no interior dos museos. A plataforma consta de tres módulos: un servidor de datos, un servidor para localización en interiores e unha aplicación Android na que se mostra toda a información. O intercambio de datos está securizada e realízase a través de servizos REST en formato JSON.
 
-Un dos principais problemas dos sistemas coma o GPS é a imposibilidade de seren utilizados en interiores. A localización en interiores presenta outro problema e é a precisión que se require para un correcto funcionamento, pois o erro asumíbel do GPS en exterior non sería viábel para os espazos interiores.
+O servidor almacena nunha base de datos relacional (PostgresSQL) a posición e a información relevante dos puntos de interese (POIs). Tamén almacena os percorridos de interese e os datos dos usuarios con privilexios. Está despregado na nube, concretamente en Amazon Web Servizes (AWS), aínda que valería calquera outra plataforma. 
 
-Nos últimos anos están aparecendo diversos sistemas de localización en interiores mediante a utilización de teléfonos móbiles intelixentes, algúns con gran precisión. Poderíanse describir como “sistemas GPS de interiores”. Non usan os sinais fornecidos polos satélites GPS, senón que utilizan outro tipo de sinais accesíbeis dende o teléfono móbil. Grazas a esta capacidade de localización en interiores é posíbel tamén a navegación.
+Unha funcionalidade única do noso sistema é a localización en interiores. Empregamos a infraestrutura de Situm Technologies que ten unha precisión de ata 2 metros. A partir da posición coñecemos se o usuario está preto dun POI e calculamos a ruta para ir a un POI ou seguir un percorrido. Tamén nos permite saber os tempos e os percorridos reais das visitas.
 
-A cantidade de información que pode haber ao redor dunha obra de arte pode ser abrumadora: dende as técnicas utilizadas para a creación dunha escultura, como o contexto histórico do artista ou o movemento artístico ao que pertence unha pintura. Cos métodos tradicionais, non sería posíbel mostrar toda a información dispoñíbel sobre unha obra nos museos.
+A aplicación Android está dispoñíbel en Google Play e ten dous propósitos. En primeiro lugar, pódese instalar de forma anónima e cando está preto do museo mostra a información almacenada: POIs, percorridos, tempos estimados de visita e desprazamentos, imaxes, etc. En segundo lugar, os usuarios con permisos poden crear e editar os contidos dende a propia aplicación, o que facilita a xeolocalización e a captura de imaxes.
 
-O tempo dispoñíbel á hora de percorrer un museo de gran tamaño adoita ser un problema para os visitantes. Hai veces nas que o visitante desexa é admirar as obras de certos artistas ou movementos artísticos, o cal pode ser complicado se non posúe moita información.
+Como resultado final podemos destacar a boa aceptación da aplicación e a ausencia de problemas durante as probas. A plataforma creada é fácil de despregar e manter, robusta e moi escalábel. Ao estar na nube os recursos adáptanse ao uso que se fai deles. 
 
 \section*{Palabras clave}
 
-Android, Localización en interiores, Situm Technologies, Guiado en museos.
+Guiado en museos; Localización en interiores; Situm Technologies; Android.

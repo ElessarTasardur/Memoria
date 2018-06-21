@@ -10,11 +10,11 @@ A autenticación con Google terá a súa propia sección ao final do capítulo.
 
 
 \subsection{Acceso á base de datos}
-Para o acceso á base de datos utilizouse directamente JDBC sen facer uso de ningunha ferramenta de mapeo obxecto-relacional como pode ser Hibernate \cite{hibernate}. Escolleuse esta opción por ser un sistema sen moita complexidade á hora de gardar ou eliminar rexistros en base de datos e cun número de táboas non moi alto. En sistemas pequenos non se aproveitan os beneficios que poden ter estas ferramentas e desta maneira afórrase a súa configuración.
+Para o acceso á base de datos utilizouse directamente JDBC sen facer uso de ningunha ferramenta de mapeo obxecto-relacional como pode ser Hibernate \cite{hibernate} \cite{hibernateLibro}. Escolleuse esta opción por ser un sistema sen moita complexidade á hora de gardar ou eliminar rexistros en base de datos e cun número de táboas non moi alto. En sistemas pequenos non se aproveitan os beneficios que poden ter estas ferramentas e desta maneira afórrase a súa configuración.
 
 \begin{figure}[tbh] 
 	\begin{center}
-		\includegraphics[width=0.85\textwidth]{figures/codigo/configuracionBD}
+		\includegraphics[width=1\textwidth]{figures/codigo/configuracionBD}
 		\caption{Configuración da base de datos no ficheiro XML.}
 		\label{fig:configuracionBD}
 	\end{center}
@@ -180,7 +180,7 @@ A aplicación Android require de certos permisos para o seu correcto funcionamen
 
 \begin{figure}[htb] 
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{figures/codigo/permisos}
+		\includegraphics[width=0.8\textwidth]{figures/codigo/permisos}
 		\caption{Permisos necesarios na aplicación Android.}
 		\label{fig:permisos}
 	\end{center}
@@ -217,7 +217,7 @@ Para inicializar o SDK de Situm débese realizar unha chamada específica dentro
 
 \begin{figure}[htb] 
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{figures/codigo/situmLocationManager}
+		\includegraphics[width=0.8\textwidth]{figures/codigo/situmLocationManager}
 		\caption{Creación do location manager de Situm.}
 		\label{fig:situmLocationManager}
 	\end{center}
@@ -227,7 +227,7 @@ Unha vez inicializado, o seguinte paso sería a activación da localización en 
 
 \begin{figure}[htb] 
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{figures/codigo/situmPosicionamento}
+		\includegraphics[width=0.9\textwidth]{figures/codigo/situmPosicionamento}
 		\caption{Activación do posicionamento de Situm.}
 		\label{fig:situmPosicionamento}
 	\end{center}
@@ -247,7 +247,7 @@ Aínda que a maioría dos datos dos que ten que facer uso a aplicación proveñe
 
 \begin{figure}[htb] 
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{figures/codigo/situmExemploChamada}
+		\includegraphics[width=1\textwidth]{figures/codigo/situmExemploChamada}
 		\caption{Chamada para a recuperación dos niveis dun edificio en Situm.}
 		\label{fig:situmExemploChamada}
 	\end{center}
@@ -265,7 +265,7 @@ As chamadas ao servidor propio son distintas na súa realización. Débese indic
 
 \begin{figure}[htb] 
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{figures/codigo/chamadaServidorDefinicion}
+		\includegraphics[width=0.9\textwidth]{figures/codigo/chamadaServidorDefinicion}
 		\caption{Construción dunha clase de acceso ao servidor de Caronte.}
 		\label{fig:chamadaServidorDefinicion}
 	\end{center}
@@ -306,7 +306,7 @@ O primeiro punto a ter en conta é a configuración necesaria para permitir a au
 
 \begin{figure}[htb] 
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{figures/codigo/autenticacionGoogleInicio}
+		\includegraphics[width=1\textwidth]{figures/codigo/autenticacionGoogleInicio}
 		\caption{Código para a autenticación con Google na aplicación.}
 		\label{fig:autenticacionGoogleInicio}
 	\end{center}
